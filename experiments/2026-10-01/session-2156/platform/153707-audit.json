@@ -1,0 +1,30 @@
+{
+  "status": "TimeLimitExceeded",
+  "displayScore": 0,
+  "submitTime": "2026-10-01T15:36:42.000Z",
+  "source_sha256": "79549c5bc0151c940d72ee776cdc571f78edf4ab9740fd0a3f6d0d1fb870bd5e",
+  "cases": {},
+  "logs": [
+    {
+      "key": "a5d69dc8739b561845f55d2e2a62051b899f90b8",
+      "status": "TimeLimitExceeded",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=623ff558-ccd2-4e9a-9276-98a676ba78f4 tc=1\n[run-triton-dist] per-rank logs: /opt/oj-cache/run-logs/20261001_161144_tc1_1476790\nW1001 16:11:45.777000 1476837 torch/distributed/run.py:851] \nW1001 16:11:45.777000 1476837 torch/distributed/run.py:851] *****************************************\nW1001 16:11:45.777000 1476837 torch/distributed/run.py:851] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. \nW1001 16:11:45.777000 1476837 torch/distributed/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.12 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n",
+      "omittedLength": 0
+    }
+  ],
+  "sid": 153707,
+  "checked_at": "2026-10-02T00:16:36.051209",
+  "zero_cases": [],
+  "low_cases": [],
+  "full_ac_audit": false,
+  "net": -10,
+  "first_terminal_observed_at": "2026-10-02T00:16:36.051209",
+  "submitted_source_match": true,
+  "wall_since_submit_s": 2394.429329,
+  "visible_log_time_markers": [
+    {
+      "case": 1,
+      "per_rank_directory_stamp": "20261001_161144"
+    }
+  ]
+}

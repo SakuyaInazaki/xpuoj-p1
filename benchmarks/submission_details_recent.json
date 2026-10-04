@@ -1,0 +1,9155 @@
+{
+  "114007": {
+    "id": 114007,
+    "status": "Accepted",
+    "displayScore": 43.83,
+    "timeUsed": 145178,
+    "memoryUsed": 2309576,
+    "cases": {
+      "5": {
+        "tk": 13.034,
+        "tb": 12.626,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 10.99,
+        "tb": 5.024,
+        "score": 31,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.53,
+        "tb": 7.198,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.398,
+        "tb": 28.969,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 11.108,
+        "tb": 5.65,
+        "score": 33,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.389,
+        "tb": 10.262,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.586,
+        "tb": 6.95,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 10.63,
+        "tb": 7.482,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 9.242,
+        "tb": 8.152,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.613,
+        "tb": 6.732,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.845,
+        "tb": 18.087,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 9.813,
+        "tb": 8.387,
+        "score": 46,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114009": {
+    "id": 114009,
+    "status": "Accepted",
+    "displayScore": 45.25,
+    "timeUsed": 140948,
+    "memoryUsed": 2333880,
+    "cases": {
+      "6": {
+        "tk": 8.728,
+        "tb": 7.447,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 9.13,
+        "tb": 8.4,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 12.479,
+        "tb": 7.032,
+        "score": 36,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.012,
+        "tb": 5.588,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 17.122,
+        "tb": 17.885,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.91,
+        "tb": 28.688,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.926,
+        "tb": 4.985,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 12.457,
+        "tb": 6.868,
+        "score": 35,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.606,
+        "tb": 6.564,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.773,
+        "tb": 10.118,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 9.384,
+        "tb": 8.123,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.421,
+        "tb": 12.511,
+        "score": 50,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114010": {
+    "id": 114010,
+    "status": "Accepted",
+    "displayScore": 44.25,
+    "timeUsed": 146881,
+    "memoryUsed": 2320200,
+    "cases": {
+      "11": {
+        "tk": 4.997,
+        "tb": 5.604,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.755,
+        "tb": 7.45,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.834,
+        "tb": 7.002,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 10.535,
+        "tb": 8.123,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.655,
+        "tb": 6.569,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 16.534,
+        "tb": 6.814,
+        "score": 29,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 9.051,
+        "tb": 5.026,
+        "score": 35,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.711,
+        "tb": 28.725,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 13.147,
+        "tb": 12.534,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 9.689,
+        "tb": 8.86,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.942,
+        "tb": 10.188,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 17.031,
+        "tb": 17.912,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114011": {
+    "id": 114011,
+    "status": "Accepted",
+    "displayScore": 43.58,
+    "timeUsed": 153310,
+    "memoryUsed": 2353928,
+    "cases": {
+      "4": {
+        "tk": 15.699,
+        "tb": 4.99,
+        "score": 24,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 16.352,
+        "tb": 7.023,
+        "score": 30,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.852,
+        "tb": 8.154,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.971,
+        "tb": 6.104,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.855,
+        "tb": 18.054,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.203,
+        "tb": 28.899,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 8.484,
+        "tb": 6.722,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 13.722,
+        "tb": 12.584,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 10.266,
+        "tb": 7.483,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 12.085,
+        "tb": 7.229,
+        "score": 37,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 10.221,
+        "tb": 8.409,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.6,
+        "tb": 10.294,
+        "score": 44,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114014": {
+    "id": 114014,
+    "status": "Accepted",
+    "displayScore": 45.25,
+    "timeUsed": 141919,
+    "memoryUsed": 2310492,
+    "cases": {
+      "1": {
+        "tk": 17.234,
+        "tb": 18.062,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 9.818,
+        "tb": 8.392,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.135,
+        "tb": 6.974,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.849,
+        "tb": 7.192,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.885,
+        "tb": 12.666,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.657,
+        "tb": 5.078,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 13.598,
+        "tb": 8.148,
+        "score": 37,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 26.232,
+        "tb": 28.922,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.177,
+        "tb": 5.646,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 10.518,
+        "tb": 7.551,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 8.641,
+        "tb": 6.697,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.175,
+        "tb": 10.371,
+        "score": 45,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114015": {
+    "id": 114015,
+    "status": "Accepted",
+    "displayScore": 48.25,
+    "timeUsed": 127028,
+    "memoryUsed": 3554504,
+    "cases": {
+      "5": {
+        "tk": 12.166,
+        "tb": 12.701,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.31,
+        "tb": 6.726,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.516,
+        "tb": 28.908,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.152,
+        "tb": 8.165,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.182,
+        "tb": 6.968,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.975,
+        "tb": 8.484,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.994,
+        "tb": 5.046,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.329,
+        "tb": 10.206,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.614,
+        "tb": 5.683,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.501,
+        "tb": 17.996,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.658,
+        "tb": 7.19,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.631,
+        "tb": 7.605,
+        "score": 44,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114017": {
+    "id": 114017,
+    "status": "Accepted",
+    "displayScore": 48.33,
+    "timeUsed": 126003,
+    "memoryUsed": 3579520,
+    "cases": {
+      "8": {
+        "tk": 10.094,
+        "tb": 7.107,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.717,
+        "tb": 18.436,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.676,
+        "tb": 12.617,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.631,
+        "tb": 5.571,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.091,
+        "tb": 10.151,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.204,
+        "tb": 8.15,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.033,
+        "tb": 7.525,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.482,
+        "tb": 6.627,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.796,
+        "tb": 6.861,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.199,
+        "tb": 28.84,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.203,
+        "tb": 4.981,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.877,
+        "tb": 8.416,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114019": {
+    "id": 114019,
+    "status": "Accepted",
+    "displayScore": 48.58,
+    "timeUsed": 126718,
+    "memoryUsed": 3563052,
+    "cases": {
+      "8": {
+        "tk": 9.93,
+        "tb": 7.177,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.207,
+        "tb": 6.959,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.162,
+        "tb": 8.144,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.658,
+        "tb": 10.388,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.308,
+        "tb": 8.65,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.411,
+        "tb": 7.629,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.741,
+        "tb": 18.121,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.891,
+        "tb": 4.981,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.446,
+        "tb": 28.864,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.333,
+        "tb": 6.812,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.612,
+        "tb": 5.669,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.019,
+        "tb": 12.715,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114020": {
+    "id": 114020,
+    "status": "Accepted",
+    "displayScore": 44.58,
+    "timeUsed": 170913,
+    "memoryUsed": 3536308,
+    "cases": {
+      "9": {
+        "tk": 7.745,
+        "tb": 8.398,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.822,
+        "tb": 7.138,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 26.407,
+        "tb": 13.767,
+        "score": 34,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.693,
+        "tb": 18.101,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 11.061,
+        "tb": 7.635,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 41.02,
+        "tb": 10.277,
+        "score": 20,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.876,
+        "tb": 6.977,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.782,
+        "tb": 28.827,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.313,
+        "tb": 6.711,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.417,
+        "tb": 5.099,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.149,
+        "tb": 8.17,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.628,
+        "tb": 5.671,
+        "score": 55,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114022": {
+    "id": 114022,
+    "status": "Accepted",
+    "displayScore": 47.58,
+    "timeUsed": 143319,
+    "memoryUsed": 3576708,
+    "cases": {
+      "10": {
+        "tk": 7.485,
+        "tb": 6.694,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 42.015,
+        "tb": 30.269,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.658,
+        "tb": 8.405,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.611,
+        "tb": 5.636,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.197,
+        "tb": 6.99,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.04,
+        "tb": 10.269,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.674,
+        "tb": 12.643,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.79,
+        "tb": 7.212,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.777,
+        "tb": 18.16,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.521,
+        "tb": 5.026,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.404,
+        "tb": 7.594,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.147,
+        "tb": 8.155,
+        "score": 53,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114024": {
+    "id": 114024,
+    "status": "Accepted",
+    "displayScore": 47.25,
+    "timeUsed": 130764,
+    "memoryUsed": 2340048,
+    "cases": {
+      "7": {
+        "tk": 11.754,
+        "tb": 10.292,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 8.775,
+        "tb": 5.059,
+        "score": 36,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.843,
+        "tb": 8.207,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 10.255,
+        "tb": 6.962,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.01,
+        "tb": 7.209,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.183,
+        "tb": 8.518,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.957,
+        "tb": 28.784,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.564,
+        "tb": 7.652,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.466,
+        "tb": 18.088,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.976,
+        "tb": 5.697,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.997,
+        "tb": 6.707,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.984,
+        "tb": 12.635,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114025": {
+    "id": 114025,
+    "status": "Accepted",
+    "displayScore": 43.58,
+    "timeUsed": 161178,
+    "memoryUsed": 2313012,
+    "cases": {
+      "2": {
+        "tk": 37.831,
+        "tb": 28.926,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 11.277,
+        "tb": 7.155,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 10.373,
+        "tb": 8.444,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.642,
+        "tb": 8.181,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 13.574,
+        "tb": 12.634,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 10.317,
+        "tb": 7.564,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.988,
+        "tb": 5.65,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.62,
+        "tb": 6.674,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 14.403,
+        "tb": 6.926,
+        "score": 32,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 22.602,
+        "tb": 18.069,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.759,
+        "tb": 5.113,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.792,
+        "tb": 10.251,
+        "score": 46,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114027": {
+    "id": 114027,
+    "status": "Accepted",
+    "displayScore": 46.5,
+    "timeUsed": 135068,
+    "memoryUsed": 2336752,
+    "cases": {
+      "10": {
+        "tk": 7.203,
+        "tb": 6.592,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.289,
+        "tb": 29.033,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.703,
+        "tb": 6.867,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.836,
+        "tb": 8.121,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.765,
+        "tb": 18.499,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.234,
+        "tb": 4.878,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 6.68,
+        "tb": 5.64,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.809,
+        "tb": 12.527,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 10.271,
+        "tb": 9.712,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.884,
+        "tb": 8.24,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.282,
+        "tb": 7.01,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.112,
+        "tb": 10.176,
+        "score": 45,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114033": {
+    "id": 114033,
+    "status": "Accepted",
+    "displayScore": 47.75,
+    "timeUsed": 129428,
+    "memoryUsed": 2339620,
+    "cases": {
+      "5": {
+        "tk": 14.893,
+        "tb": 12.57,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.098,
+        "tb": 17.942,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.194,
+        "tb": 6.557,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.985,
+        "tb": 5.578,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.749,
+        "tb": 4.884,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.182,
+        "tb": 7.102,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.521,
+        "tb": 8.839,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.212,
+        "tb": 8.416,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.493,
+        "tb": 6.888,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.953,
+        "tb": 8.138,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.94,
+        "tb": 10.139,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.208,
+        "tb": 28.858,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114039": {
+    "id": 114039,
+    "status": "Accepted",
+    "displayScore": 46.33,
+    "timeUsed": 136280,
+    "memoryUsed": 2339420,
+    "cases": {
+      "1": {
+        "tk": 16.747,
+        "tb": 18.047,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 8.53,
+        "tb": 6.698,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.744,
+        "tb": 5.082,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.038,
+        "tb": 7.013,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.832,
+        "tb": 10.258,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.469,
+        "tb": 8.472,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 13.254,
+        "tb": 12.899,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.846,
+        "tb": 8.16,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 12.268,
+        "tb": 7.179,
+        "score": 36,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.635,
+        "tb": 7.72,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 6.175,
+        "tb": 5.667,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 26.742,
+        "tb": 28.862,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114040": {
+    "id": 114040,
+    "status": "Accepted",
+    "displayScore": 46.92,
+    "timeUsed": 136567,
+    "memoryUsed": 2326324,
+    "cases": {
+      "3": {
+        "tk": 8.364,
+        "tb": 6.955,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.715,
+        "tb": 10.281,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 28.296,
+        "tb": 31.575,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.574,
+        "tb": 12.655,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.986,
+        "tb": 7.187,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.003,
+        "tb": 5.67,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.827,
+        "tb": 8.169,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.162,
+        "tb": 8.506,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.032,
+        "tb": 6.748,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.619,
+        "tb": 7.595,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.628,
+        "tb": 18.474,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 11.361,
+        "tb": 5.01,
+        "score": 30,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114059": {
+    "id": 114059,
+    "status": "WrongAnswer",
+    "displayScore": 0,
+    "timeUsed": 36605662,
+    "memoryUsed": 1508016,
+    "cases": {
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114061": {
+    "id": 114061,
+    "status": "Accepted",
+    "displayScore": 48,
+    "timeUsed": 132447,
+    "memoryUsed": 3610420,
+    "cases": {
+      "4": {
+        "tk": 7.099,
+        "tb": 4.947,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.948,
+        "tb": 12.61,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.18,
+        "tb": 8.116,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.287,
+        "tb": 6.827,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.728,
+        "tb": 10.083,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 11.405,
+        "tb": 7.576,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.632,
+        "tb": 5.608,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.999,
+        "tb": 6.585,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 30.612,
+        "tb": 28.663,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.735,
+        "tb": 8.322,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.356,
+        "tb": 7.017,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.466,
+        "tb": 17.984,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114062": {
+    "id": 114062,
+    "status": "WrongAnswer",
+    "displayScore": 0,
+    "timeUsed": 78014212,
+    "memoryUsed": 3374876,
+    "cases": {
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114067": {
+    "id": 114067,
+    "status": "Accepted",
+    "displayScore": 48.92,
+    "timeUsed": 123931,
+    "memoryUsed": 3620644,
+    "cases": {
+      "12": {
+        "tk": 7.18,
+        "tb": 8.158,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.943,
+        "tb": 6.613,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.518,
+        "tb": 28.595,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.777,
+        "tb": 17.911,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.635,
+        "tb": 5.586,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.015,
+        "tb": 13.611,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.388,
+        "tb": 8.317,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.367,
+        "tb": 7.417,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.838,
+        "tb": 6.96,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.881,
+        "tb": 10.149,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.952,
+        "tb": 4.962,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.437,
+        "tb": 6.955,
+        "score": 45,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114068": {
+    "id": 114068,
+    "status": "Accepted",
+    "displayScore": 49.25,
+    "timeUsed": 124907,
+    "memoryUsed": 3608916,
+    "cases": {
+      "5": {
+        "tk": 12.006,
+        "tb": 12.666,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.17,
+        "tb": 8.187,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.624,
+        "tb": 5.656,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.712,
+        "tb": 6.777,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.832,
+        "tb": 18.07,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.046,
+        "tb": 5.017,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.95,
+        "tb": 7.046,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.747,
+        "tb": 7.56,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.544,
+        "tb": 10.274,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.937,
+        "tb": 7.193,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.669,
+        "tb": 8.386,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.67,
+        "tb": 28.93,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114071": {
+    "id": 114071,
+    "status": "Accepted",
+    "displayScore": 41.83,
+    "timeUsed": 179221,
+    "memoryUsed": 2408300,
+    "cases": {
+      "1": {
+        "tk": 17.041,
+        "tb": 18.097,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 15.02,
+        "tb": 12.608,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 38.294,
+        "tb": 10.284,
+        "score": 21,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 11.993,
+        "tb": 7.026,
+        "score": 36,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 9.814,
+        "tb": 8.145,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.018,
+        "tb": 6.726,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 27.918,
+        "tb": 28.801,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 20.416,
+        "tb": 7.202,
+        "score": 26,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.799,
+        "tb": 7.622,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.91,
+        "tb": 8.391,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.747,
+        "tb": 5.001,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 7.251,
+        "tb": 5.66,
+        "score": 43,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114073": {
+    "id": 114073,
+    "status": "Accepted",
+    "displayScore": 47.33,
+    "timeUsed": 131930,
+    "memoryUsed": 2356396,
+    "cases": {
+      "5": {
+        "tk": 12.635,
+        "tb": 12.607,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.267,
+        "tb": 8.165,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.989,
+        "tb": 5.663,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.155,
+        "tb": 6.733,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.513,
+        "tb": 18.094,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.78,
+        "tb": 4.986,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.424,
+        "tb": 7.025,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.621,
+        "tb": 7.484,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.117,
+        "tb": 12.709,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.295,
+        "tb": 7.204,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 10.467,
+        "tb": 8.381,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.667,
+        "tb": 28.817,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114074": {
+    "id": 114074,
+    "status": "Accepted",
+    "displayScore": 49.08,
+    "timeUsed": 125909,
+    "memoryUsed": 3623932,
+    "cases": {
+      "11": {
+        "tk": 4.621,
+        "tb": 5.659,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.055,
+        "tb": 5.09,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.284,
+        "tb": 18.023,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 11.762,
+        "tb": 7.25,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.753,
+        "tb": 8.412,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.899,
+        "tb": 7.614,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.835,
+        "tb": 7.02,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.148,
+        "tb": 8.15,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.492,
+        "tb": 6.712,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.505,
+        "tb": 10.224,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.812,
+        "tb": 13.411,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.743,
+        "tb": 28.8,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114077": {
+    "id": 114077,
+    "status": "WrongAnswer",
+    "displayScore": 29.83,
+    "timeUsed": 78264792,
+    "memoryUsed": 3597756,
+    "cases": {
+      "5": {
+        "tk": 12.414,
+        "tb": 12.32,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 7.342,
+        "tb": 8.534,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 7.158,
+        "tb": 7.715,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 8.73,
+        "tb": 8.214,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 4.605,
+        "tb": 6.028,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.042,
+        "tb": 6.133,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.643,
+        "tb": 7.833,
+        "score": 47,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114082": {
+    "id": 114082,
+    "status": "Accepted",
+    "displayScore": 50.92,
+    "timeUsed": 150403,
+    "memoryUsed": 3605072,
+    "cases": {
+      "8": {
+        "tk": 9.671,
+        "tb": 7.005,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.926,
+        "tb": 7.331,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.137,
+        "tb": 12.602,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 30.449,
+        "tb": 91.044,
+        "score": 74,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.296,
+        "tb": 10.108,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.848,
+        "tb": 6.86,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.178,
+        "tb": 8.215,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.074,
+        "tb": 4.955,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.611,
+        "tb": 8.48,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 39.968,
+        "tb": 29.512,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.602,
+        "tb": 7.504,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.643,
+        "tb": 5.577,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114088": {
+    "id": 114088,
+    "status": "Accepted",
+    "displayScore": 45.08,
+    "timeUsed": 156857,
+    "memoryUsed": 2365476,
+    "cases": {
+      "9": {
+        "tk": 8.012,
+        "tb": 8.316,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.095,
+        "tb": 7.464,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.838,
+        "tb": 17.992,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.309,
+        "tb": 6.861,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 7.079,
+        "tb": 5.613,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.227,
+        "tb": 10.133,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 10.357,
+        "tb": 8.122,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.955,
+        "tb": 14.085,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.286,
+        "tb": 28.761,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 36.287,
+        "tb": 7.098,
+        "score": 16,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.743,
+        "tb": 4.935,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.669,
+        "tb": 6.593,
+        "score": 46,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114090": {
+    "id": 114090,
+    "status": "Accepted",
+    "displayScore": 41.17,
+    "timeUsed": 187475,
+    "memoryUsed": 3614552,
+    "cases": {
+      "4": {
+        "tk": 10.965,
+        "tb": 5.634,
+        "score": 33,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.116,
+        "tb": 8.322,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.249,
+        "tb": 6.844,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 9.916,
+        "tb": 5.612,
+        "score": 36,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.428,
+        "tb": 7.101,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.344,
+        "tb": 6.588,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.307,
+        "tb": 10.524,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.104,
+        "tb": 19.158,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 33.416,
+        "tb": 13.831,
+        "score": 29,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 15.585,
+        "tb": 8.498,
+        "score": 35,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 33.029,
+        "tb": 7.947,
+        "score": 19,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.016,
+        "tb": 28.903,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114093": {
+    "id": 114093,
+    "status": "Accepted",
+    "displayScore": 45.83,
+    "timeUsed": 143905,
+    "memoryUsed": 2348544,
+    "cases": {
+      "6": {
+        "tk": 14.477,
+        "tb": 7.539,
+        "score": 34,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 24.079,
+        "tb": 12.715,
+        "score": 34,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.752,
+        "tb": 8.179,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.954,
+        "tb": 5.663,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.144,
+        "tb": 10.274,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.025,
+        "tb": 7.211,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.037,
+        "tb": 6.76,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.044,
+        "tb": 18.098,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.241,
+        "tb": 6.944,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.601,
+        "tb": 28.873,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.168,
+        "tb": 4.988,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 9.383,
+        "tb": 8.388,
+        "score": 47,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114095": {
+    "id": 114095,
+    "status": "WrongAnswer",
+    "displayScore": 0,
+    "timeUsed": 42268430,
+    "memoryUsed": 1999076,
+    "cases": {
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114100": {
+    "id": 114100,
+    "status": "Accepted",
+    "displayScore": 49,
+    "timeUsed": 129635,
+    "memoryUsed": 2339948,
+    "cases": {
+      "8": {
+        "tk": 11.225,
+        "tb": 7.171,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.684,
+        "tb": 12.591,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.246,
+        "tb": 7.524,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.284,
+        "tb": 6.8,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 8.341,
+        "tb": 5.692,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.05,
+        "tb": 7.603,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.987,
+        "tb": 8.386,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.715,
+        "tb": 28.913,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.547,
+        "tb": 30.43,
+        "score": 64,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.173,
+        "tb": 10.24,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.541,
+        "tb": 7.033,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.842,
+        "tb": 8.171,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114101": {
+    "id": 114101,
+    "status": "Accepted",
+    "displayScore": 46.25,
+    "timeUsed": 133998,
+    "memoryUsed": 3197416,
+    "cases": {
+      "12": {
+        "tk": 8.297,
+        "tb": 8.117,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.793,
+        "tb": 10.134,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.055,
+        "tb": 6.854,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.034,
+        "tb": 17.89,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 14.392,
+        "tb": 7.39,
+        "score": 33,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.614,
+        "tb": 28.774,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.202,
+        "tb": 8.405,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.073,
+        "tb": 7.008,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.905,
+        "tb": 5.617,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.945,
+        "tb": 4.9,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.855,
+        "tb": 12.555,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.833,
+        "tb": 6.59,
+        "score": 45,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114107": {
+    "id": 114107,
+    "status": "Accepted",
+    "displayScore": 45.92,
+    "timeUsed": 135971,
+    "memoryUsed": 2359608,
+    "cases": {
+      "2": {
+        "tk": 23.839,
+        "tb": 28.811,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.171,
+        "tb": 8.423,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.859,
+        "tb": 10.275,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 9.221,
+        "tb": 8.211,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.646,
+        "tb": 12.631,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 9.521,
+        "tb": 5.677,
+        "score": 37,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.296,
+        "tb": 5.076,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.96,
+        "tb": 18.59,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.834,
+        "tb": 7.079,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.097,
+        "tb": 7.208,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.614,
+        "tb": 7.574,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.913,
+        "tb": 6.744,
+        "score": 46,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114109": {
+    "id": 114109,
+    "status": "Accepted",
+    "displayScore": 47.42,
+    "timeUsed": 129738,
+    "memoryUsed": 2391536,
+    "cases": {
+      "9": {
+        "tk": 8.225,
+        "tb": 8.382,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.586,
+        "tb": 7.473,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.005,
+        "tb": 5.597,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.568,
+        "tb": 7.001,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.367,
+        "tb": 4.929,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.375,
+        "tb": 12.709,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.791,
+        "tb": 10.072,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.876,
+        "tb": 8.137,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 9.012,
+        "tb": 6.551,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.163,
+        "tb": 6.811,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.326,
+        "tb": 30.19,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.444,
+        "tb": 17.877,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114111": {
+    "id": 114111,
+    "status": "Accepted",
+    "displayScore": 46.33,
+    "timeUsed": 136959,
+    "memoryUsed": 2387280,
+    "cases": {
+      "3": {
+        "tk": 8.58,
+        "tb": 6.829,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 18.533,
+        "tb": 17.916,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.539,
+        "tb": 7.537,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.447,
+        "tb": 6.588,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.417,
+        "tb": 12.515,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.004,
+        "tb": 5.593,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 13.516,
+        "tb": 10.114,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.737,
+        "tb": 4.946,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.497,
+        "tb": 28.676,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 9.028,
+        "tb": 8.15,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 9.455,
+        "tb": 8.332,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 12.206,
+        "tb": 7.493,
+        "score": 38,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114113": {
+    "id": 114113,
+    "status": "Accepted",
+    "displayScore": 47.33,
+    "timeUsed": 131075,
+    "memoryUsed": 2341356,
+    "cases": {
+      "9": {
+        "tk": 10.131,
+        "tb": 8.505,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.649,
+        "tb": 7.187,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.437,
+        "tb": 5.053,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.454,
+        "tb": 12.616,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.143,
+        "tb": 28.895,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.357,
+        "tb": 6.743,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.6,
+        "tb": 10.276,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.311,
+        "tb": 6.985,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.996,
+        "tb": 5.682,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 17.453,
+        "tb": 18.091,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.682,
+        "tb": 7.54,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.862,
+        "tb": 8.183,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114114": {
+    "id": 114114,
+    "status": "WrongAnswer",
+    "displayScore": 0,
+    "timeUsed": 41543097,
+    "memoryUsed": 2022528,
+    "cases": {
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114115": {
+    "id": 114115,
+    "status": "WrongAnswer",
+    "displayScore": 36,
+    "timeUsed": 5648210,
+    "memoryUsed": 3647672,
+    "cases": {
+      "10": {
+        "tk": 6.269,
+        "tb": 6.613,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 6.293,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 10.887,
+        "tb": 7.168,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.098,
+        "tb": 7.828,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 4.926,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 23.966,
+        "tb": 28.714,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.323,
+        "tb": 6.854,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.605,
+        "tb": 7.696,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.957,
+        "tb": 10.335,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.153,
+        "tb": 17.949,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 7.682,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 14.141,
+        "tb": 12.283,
+        "score": 46,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114119": {
+    "id": 114119,
+    "status": "WrongAnswer",
+    "displayScore": 36.83,
+    "timeUsed": 5648775,
+    "memoryUsed": 3638112,
+    "cases": {
+      "11": {
+        "tk": 0.0,
+        "tb": 6.278,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 11.521,
+        "tb": 10.429,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 7.643,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 11.761,
+        "tb": 7.22,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.691,
+        "tb": 28.854,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.968,
+        "tb": 6.719,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.65,
+        "tb": 7.813,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.726,
+        "tb": 12.346,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 4.998,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 16.172,
+        "tb": 18.086,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.947,
+        "tb": 6.95,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.433,
+        "tb": 7.826,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114122": {
+    "id": 114122,
+    "status": "WrongAnswer",
+    "displayScore": 34.75,
+    "timeUsed": 5692436,
+    "memoryUsed": 3603332,
+    "cases": {
+      "9": {
+        "tk": 7.145,
+        "tb": 7.702,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 5.063,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 6.223,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 8.516,
+        "tb": 6.944,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.109,
+        "tb": 10.383,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 8.421,
+        "tb": 6.53,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.043,
+        "tb": 28.851,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.898,
+        "tb": 7.088,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 17.828,
+        "tb": 18.261,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 13.44,
+        "tb": 12.274,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 10.091,
+        "tb": 7.742,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 7.583,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114126": {
+    "id": 114126,
+    "status": "WrongAnswer",
+    "displayScore": 34.75,
+    "timeUsed": 5645180,
+    "memoryUsed": 2369000,
+    "cases": {
+      "3": {
+        "tk": 8.105,
+        "tb": 6.918,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 16.313,
+        "tb": 18.062,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 13.133,
+        "tb": 31.175,
+        "score": 70,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.072,
+        "tb": 6.663,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 45.052,
+        "tb": 7.789,
+        "score": 14,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.657,
+        "tb": 7.542,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.77,
+        "tb": 10.203,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.65,
+        "tb": 8.388,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 25.499,
+        "tb": 28.76,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114128": {
+    "id": 114128,
+    "status": "WrongAnswer",
+    "displayScore": 40.83,
+    "timeUsed": 80128680,
+    "memoryUsed": 3595440,
+    "cases": {
+      "4": {
+        "tk": 5.062,
+        "tb": 5.679,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.966,
+        "tb": 12.302,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.877,
+        "tb": 7.137,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 11.342,
+        "tb": 6.938,
+        "score": 37,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.121,
+        "tb": 7.68,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 18.58,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 29.226,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 10.091,
+        "tb": 7.582,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.641,
+        "tb": 10.131,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.609,
+        "tb": 5.657,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.418,
+        "tb": 8.354,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.636,
+        "tb": 7.821,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114132": {
+    "id": 114132,
+    "status": "Accepted",
+    "displayScore": 48.25,
+    "timeUsed": 125781,
+    "memoryUsed": 2366676,
+    "cases": {
+      "10": {
+        "tk": 5.926,
+        "tb": 6.568,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.145,
+        "tb": 10.193,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.352,
+        "tb": 6.838,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.961,
+        "tb": 17.998,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.216,
+        "tb": 7.065,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.987,
+        "tb": 7.362,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.315,
+        "tb": 28.931,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.104,
+        "tb": 8.253,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.75,
+        "tb": 4.917,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.573,
+        "tb": 12.688,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.865,
+        "tb": 8.128,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 7.587,
+        "tb": 5.66,
+        "score": 42,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114134": {
+    "id": 114134,
+    "status": "Accepted",
+    "displayScore": 49.92,
+    "timeUsed": 120820,
+    "memoryUsed": 2335424,
+    "cases": {
+      "3": {
+        "tk": 9.137,
+        "tb": 6.957,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.062,
+        "tb": 8.401,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.833,
+        "tb": 8.152,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.663,
+        "tb": 7.24,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.119,
+        "tb": 21.308,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.986,
+        "tb": 5.675,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.957,
+        "tb": 7.503,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.74,
+        "tb": 5.052,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.918,
+        "tb": 6.71,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.872,
+        "tb": 28.835,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.472,
+        "tb": 12.596,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.061,
+        "tb": 10.258,
+        "score": 45,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114137": {
+    "id": 114137,
+    "status": "Accepted",
+    "displayScore": 48.67,
+    "timeUsed": 124808,
+    "memoryUsed": 2360892,
+    "cases": {
+      "12": {
+        "tk": 7.866,
+        "tb": 8.138,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.063,
+        "tb": 5.59,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.77,
+        "tb": 4.919,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.373,
+        "tb": 6.932,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.233,
+        "tb": 8.277,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.958,
+        "tb": 28.817,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.481,
+        "tb": 17.917,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.899,
+        "tb": 12.562,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.184,
+        "tb": 7.067,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.241,
+        "tb": 7.405,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.824,
+        "tb": 10.182,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.916,
+        "tb": 6.648,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114141": {
+    "id": 114141,
+    "status": "Accepted",
+    "displayScore": 43.75,
+    "timeUsed": 150207,
+    "memoryUsed": 2344012,
+    "cases": {
+      "4": {
+        "tk": 11.574,
+        "tb": 4.871,
+        "score": 29,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.175,
+        "tb": 8.288,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.459,
+        "tb": 8.073,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 10.912,
+        "tb": 5.563,
+        "score": 33,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.38,
+        "tb": 7.096,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.73,
+        "tb": 6.601,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.464,
+        "tb": 10.151,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.307,
+        "tb": 20.133,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 13.193,
+        "tb": 12.536,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 17.041,
+        "tb": 8.116,
+        "score": 32,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.852,
+        "tb": 7.895,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.12,
+        "tb": 28.714,
+        "score": 53,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114145": {
+    "id": 114145,
+    "status": "Accepted",
+    "displayScore": 42.42,
+    "timeUsed": 154913,
+    "memoryUsed": 2337928,
+    "cases": {
+      "4": {
+        "tk": 12.304,
+        "tb": 5.021,
+        "score": 28,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 9.977,
+        "tb": 8.423,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.104,
+        "tb": 6.956,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 14.334,
+        "tb": 5.659,
+        "score": 28,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.595,
+        "tb": 7.221,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.083,
+        "tb": 6.821,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.5,
+        "tb": 10.264,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.253,
+        "tb": 18.143,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 13.068,
+        "tb": 12.636,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 16.251,
+        "tb": 8.174,
+        "score": 33,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.709,
+        "tb": 7.54,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.735,
+        "tb": 28.782,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114147": {
+    "id": 114147,
+    "status": "WrongAnswer",
+    "displayScore": 36.08,
+    "timeUsed": 5706791,
+    "memoryUsed": 3610708,
+    "cases": {
+      "10": {
+        "tk": 6.07,
+        "tb": 6.76,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 7.085,
+        "tb": 7.777,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.216,
+        "tb": 10.355,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 10.897,
+        "tb": 6.958,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.776,
+        "tb": 7.646,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.009,
+        "tb": 7.602,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.687,
+        "tb": 28.859,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.72,
+        "tb": 12.406,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.677,
+        "tb": 18.024,
+        "score": 53,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114150": {
+    "id": 114150,
+    "status": "Accepted",
+    "displayScore": 46.5,
+    "timeUsed": 134540,
+    "memoryUsed": 3605612,
+    "cases": {
+      "11": {
+        "tk": 7.534,
+        "tb": 5.641,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.071,
+        "tb": 17.885,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.372,
+        "tb": 7.374,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 12.508,
+        "tb": 8.194,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.897,
+        "tb": 7.151,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.893,
+        "tb": 6.59,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.296,
+        "tb": 8.209,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.254,
+        "tb": 6.838,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 9.287,
+        "tb": 4.913,
+        "score": 34,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.774,
+        "tb": 10.193,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.679,
+        "tb": 38.038,
+        "score": 60,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.975,
+        "tb": 12.559,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114152": {
+    "id": 114152,
+    "status": "Accepted",
+    "displayScore": 44.08,
+    "timeUsed": 160863,
+    "memoryUsed": 3259020,
+    "cases": {
+      "7": {
+        "tk": 12.486,
+        "tb": 10.143,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 13.455,
+        "tb": 12.689,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 9.153,
+        "tb": 8.361,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.051,
+        "tb": 6.617,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 42.8,
+        "tb": 29.645,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.411,
+        "tb": 7.053,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.741,
+        "tb": 4.936,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.83,
+        "tb": 7.444,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 23.778,
+        "tb": 17.935,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 10.325,
+        "tb": 5.581,
+        "score": 35,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.978,
+        "tb": 6.896,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.855,
+        "tb": 8.181,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114154": {
+    "id": 114154,
+    "status": "Accepted",
+    "displayScore": 46.83,
+    "timeUsed": 129608,
+    "memoryUsed": 2364532,
+    "cases": {
+      "12": {
+        "tk": 9.336,
+        "tb": 8.125,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 7.31,
+        "tb": 5.567,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.86,
+        "tb": 4.942,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.939,
+        "tb": 6.81,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 9.829,
+        "tb": 8.257,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.893,
+        "tb": 28.72,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.274,
+        "tb": 17.992,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.949,
+        "tb": 12.564,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.073,
+        "tb": 6.929,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.814,
+        "tb": 7.431,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.625,
+        "tb": 10.143,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.706,
+        "tb": 6.664,
+        "score": 49,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114155": {
+    "id": 114155,
+    "status": "Accepted",
+    "displayScore": 48.92,
+    "timeUsed": 121849,
+    "memoryUsed": 2368640,
+    "cases": {
+      "2": {
+        "tk": 23.823,
+        "tb": 28.623,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.956,
+        "tb": 7.003,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.371,
+        "tb": 10.147,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.529,
+        "tb": 4.891,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.922,
+        "tb": 6.573,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.603,
+        "tb": 6.87,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.94,
+        "tb": 12.608,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.151,
+        "tb": 8.258,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.556,
+        "tb": 8.126,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.502,
+        "tb": 7.463,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.985,
+        "tb": 5.593,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.511,
+        "tb": 17.867,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114158": {
+    "id": 114158,
+    "status": "WrongAnswer",
+    "displayScore": 0,
+    "timeUsed": 41669937,
+    "memoryUsed": 2011132,
+    "cases": {
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114160": {
+    "id": 114160,
+    "status": "WrongAnswer",
+    "displayScore": 0,
+    "timeUsed": 42107083,
+    "memoryUsed": 2009536,
+    "cases": {
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114161": {
+    "id": 114161,
+    "status": "WrongAnswer",
+    "displayScore": 0,
+    "timeUsed": 41330668,
+    "memoryUsed": 2008044,
+    "cases": {
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114164": {
+    "id": 114164,
+    "status": "Accepted",
+    "displayScore": 47.33,
+    "timeUsed": 130323,
+    "memoryUsed": 2379800,
+    "cases": {
+      "10": {
+        "tk": 6.224,
+        "tb": 6.625,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.861,
+        "tb": 8.135,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.045,
+        "tb": 7.331,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.406,
+        "tb": 7.094,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 15.753,
+        "tb": 12.571,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.083,
+        "tb": 28.755,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.567,
+        "tb": 6.899,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 7.096,
+        "tb": 5.609,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.84,
+        "tb": 4.957,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.033,
+        "tb": 10.116,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.0,
+        "tb": 18.213,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.415,
+        "tb": 8.315,
+        "score": 49,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114166": {
+    "id": 114166,
+    "status": "Accepted",
+    "displayScore": 42.75,
+    "timeUsed": 161436,
+    "memoryUsed": 3461880,
+    "cases": {
+      "4": {
+        "tk": 10.746,
+        "tb": 4.948,
+        "score": 31,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 8.068,
+        "tb": 6.879,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 11.304,
+        "tb": 6.106,
+        "score": 35,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 14.733,
+        "tb": 24.909,
+        "score": 62,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 14.131,
+        "tb": 10.127,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 14.753,
+        "tb": 8.121,
+        "score": 35,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 26.658,
+        "tb": 28.789,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 13.799,
+        "tb": 6.879,
+        "score": 33,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.867,
+        "tb": 8.276,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 10.052,
+        "tb": 7.295,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 11.584,
+        "tb": 7.067,
+        "score": 37,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.741,
+        "tb": 18.865,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114168": {
+    "id": 114168,
+    "status": "Accepted",
+    "displayScore": 43.67,
+    "timeUsed": 146758,
+    "memoryUsed": 2377384,
+    "cases": {
+      "11": {
+        "tk": 8.994,
+        "tb": 5.598,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.902,
+        "tb": 8.253,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 10.576,
+        "tb": 4.943,
+        "score": 31,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 13.851,
+        "tb": 12.544,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.02,
+        "tb": 6.57,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.269,
+        "tb": 6.828,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.298,
+        "tb": 7.098,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.33,
+        "tb": 28.877,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 15.718,
+        "tb": 8.114,
+        "score": 34,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.542,
+        "tb": 7.419,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.087,
+        "tb": 10.137,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.171,
+        "tb": 17.907,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114174": {
+    "id": 114174,
+    "status": "WrongAnswer",
+    "displayScore": 45.58,
+    "timeUsed": 92654491,
+    "memoryUsed": 3620908,
+    "cases": {
+      "12": {
+        "tk": 7.13,
+        "tb": 7.651,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.242,
+        "tb": 43.956,
+        "score": 82,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.639,
+        "tb": 7.536,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.276,
+        "tb": 10.074,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 29.083,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 9.881,
+        "tb": 12.372,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 18.036,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 8.388,
+        "tb": 6.938,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 4.799,
+        "tb": 6.679,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.603,
+        "tb": 5.645,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.051,
+        "tb": 5.713,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 5.485,
+        "tb": 7.788,
+        "score": 58,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114177": {
+    "id": 114177,
+    "status": "Accepted",
+    "displayScore": 47.5,
+    "timeUsed": 133924,
+    "memoryUsed": 2361612,
+    "cases": {
+      "9": {
+        "tk": 8.563,
+        "tb": 8.383,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.628,
+        "tb": 7.191,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.972,
+        "tb": 6.736,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.711,
+        "tb": 10.235,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.622,
+        "tb": 23.182,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 6.531,
+        "tb": 5.649,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.66,
+        "tb": 6.007,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.152,
+        "tb": 7.709,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.584,
+        "tb": 6.953,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.165,
+        "tb": 12.705,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 26.689,
+        "tb": 31.016,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.647,
+        "tb": 8.202,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114180": {
+    "id": 114180,
+    "status": "WrongAnswer",
+    "displayScore": 41.5,
+    "timeUsed": 3793375,
+    "memoryUsed": 3266532,
+    "cases": {
+      "3": {
+        "tk": 8.299,
+        "tb": 6.899,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.129,
+        "tb": 7.507,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.748,
+        "tb": 4.951,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.189,
+        "tb": 8.363,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 26.871,
+        "tb": 28.838,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.063,
+        "tb": 6.567,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 17.608,
+        "tb": 17.916,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.277,
+        "tb": 12.698,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.251,
+        "tb": 7.676,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 5.001,
+        "tb": 6.077,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114183": {
+    "id": 114183,
+    "status": "Accepted",
+    "displayScore": 48.5,
+    "timeUsed": 126312,
+    "memoryUsed": 2381792,
+    "cases": {
+      "9": {
+        "tk": 7.116,
+        "tb": 8.297,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 13.559,
+        "tb": 10.107,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.698,
+        "tb": 12.593,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.761,
+        "tb": 4.86,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.0,
+        "tb": 5.602,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.277,
+        "tb": 6.881,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.044,
+        "tb": 28.748,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 11.31,
+        "tb": 7.076,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 17.461,
+        "tb": 17.884,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.804,
+        "tb": 7.433,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.54,
+        "tb": 6.578,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.742,
+        "tb": 8.13,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114192": {
+    "id": 114192,
+    "status": "WrongAnswer",
+    "displayScore": 36.08,
+    "timeUsed": 5650172,
+    "memoryUsed": 3622476,
+    "cases": {
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 8.523,
+        "tb": 7.358,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.554,
+        "tb": 6.72,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.102,
+        "tb": 6.835,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 11.12,
+        "tb": 7.5,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.58,
+        "tb": 28.716,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.084,
+        "tb": 7.697,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.303,
+        "tb": 17.875,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.885,
+        "tb": 10.327,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.428,
+        "tb": 12.531,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114197": {
+    "id": 114197,
+    "status": "WrongAnswer",
+    "displayScore": 35.75,
+    "timeUsed": 5648360,
+    "memoryUsed": 3655672,
+    "cases": {
+      "2": {
+        "tk": 26.977,
+        "tb": 28.768,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "10": {
+        "tk": 6.069,
+        "tb": 6.793,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.648,
+        "tb": 7.571,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.946,
+        "tb": 7.58,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.885,
+        "tb": 10.392,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.606,
+        "tb": 12.269,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.587,
+        "tb": 6.972,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.782,
+        "tb": 7.8,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 17.033,
+        "tb": 18.109,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114199": {
+    "id": 114199,
+    "status": "Accepted",
+    "displayScore": 47,
+    "timeUsed": 130456,
+    "memoryUsed": 3617708,
+    "cases": {
+      "8": {
+        "tk": 9.939,
+        "tb": 7.178,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.745,
+        "tb": 28.893,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.468,
+        "tb": 10.322,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.251,
+        "tb": 12.631,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 10.683,
+        "tb": 8.187,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.813,
+        "tb": 7.518,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 8.412,
+        "tb": 5.022,
+        "score": 37,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.315,
+        "tb": 6.718,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 6.653,
+        "tb": 5.655,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.035,
+        "tb": 6.954,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.677,
+        "tb": 8.415,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.465,
+        "tb": 18.042,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114205": {
+    "id": 114205,
+    "status": "WrongAnswer",
+    "displayScore": 36.42,
+    "timeUsed": 5947707,
+    "memoryUsed": 3631832,
+    "cases": {
+      "5": {
+        "tk": 11.644,
+        "tb": 12.263,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.058,
+        "tb": 6.816,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.047,
+        "tb": 10.404,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 6.599,
+        "tb": 7.812,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.614,
+        "tb": 28.724,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.514,
+        "tb": 6.956,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 16.262,
+        "tb": 18.067,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.109,
+        "tb": 7.606,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 8.802,
+        "tb": 7.595,
+        "score": 46,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114209": {
+    "id": 114209,
+    "status": "Accepted",
+    "displayScore": 45,
+    "timeUsed": 147775,
+    "memoryUsed": 3351396,
+    "cases": {
+      "3": {
+        "tk": 8.738,
+        "tb": 6.928,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 8.324,
+        "tb": 6.71,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 10.749,
+        "tb": 8.149,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 30.644,
+        "tb": 28.901,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 14.881,
+        "tb": 12.699,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 10.136,
+        "tb": 8.43,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.973,
+        "tb": 5.67,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 13.596,
+        "tb": 10.278,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 10.984,
+        "tb": 7.752,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.973,
+        "tb": 5.014,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 17.527,
+        "tb": 18.297,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.25,
+        "tb": 7.209,
+        "score": 41,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114210": {
+    "id": 114210,
+    "status": "WrongAnswer",
+    "displayScore": 31,
+    "timeUsed": 93551459,
+    "memoryUsed": 3627280,
+    "cases": {
+      "9": {
+        "tk": 6.717,
+        "tb": 8.347,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.039,
+        "tb": 6.263,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.084,
+        "tb": 8.229,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 8.574,
+        "tb": 8.164,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 4.6,
+        "tb": 6.01,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 7.127,
+        "tb": 7.617,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.843,
+        "tb": 12.145,
+        "score": 50,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114214": {
+    "id": 114214,
+    "status": "Accepted",
+    "displayScore": 48.75,
+    "timeUsed": 128314,
+    "memoryUsed": 3621476,
+    "cases": {
+      "4": {
+        "tk": 5.026,
+        "tb": 4.889,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.636,
+        "tb": 10.115,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.023,
+        "tb": 7.613,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.059,
+        "tb": 12.485,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.509,
+        "tb": 8.244,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.425,
+        "tb": 7.568,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.118,
+        "tb": 8.137,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.602,
+        "tb": 5.593,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 18.115,
+        "tb": 17.921,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.885,
+        "tb": 6.55,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.991,
+        "tb": 6.975,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 27.925,
+        "tb": 28.891,
+        "score": 50,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114220": {
+    "id": 114220,
+    "status": "WrongAnswer",
+    "displayScore": 39.33,
+    "timeUsed": 42367712,
+    "memoryUsed": 3327204,
+    "cases": {
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 8.236,
+        "tb": 8.372,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.919,
+        "tb": 10.322,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.749,
+        "tb": 5.995,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.39,
+        "tb": 6.538,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.308,
+        "tb": 6.862,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.352,
+        "tb": 7.199,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.178,
+        "tb": 8.023,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.315,
+        "tb": 5.601,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.236,
+        "tb": 12.659,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.024,
+        "tb": 7.676,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114222": {
+    "id": 114222,
+    "status": "Accepted",
+    "displayScore": 43.25,
+    "timeUsed": 147525,
+    "memoryUsed": 2357556,
+    "cases": {
+      "12": {
+        "tk": 11.434,
+        "tb": 8.118,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 10.376,
+        "tb": 5.012,
+        "score": 32,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.811,
+        "tb": 6.623,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.557,
+        "tb": 7.152,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.14,
+        "tb": 10.168,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.66,
+        "tb": 7.382,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.522,
+        "tb": 18.717,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 10.81,
+        "tb": 5.576,
+        "score": 34,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.826,
+        "tb": 12.563,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.502,
+        "tb": 28.83,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 10.678,
+        "tb": 6.838,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 10.209,
+        "tb": 8.264,
+        "score": 44,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114224": {
+    "id": 114224,
+    "status": "Accepted",
+    "displayScore": 45.67,
+    "timeUsed": 174137,
+    "memoryUsed": 3552068,
+    "cases": {
+      "11": {
+        "tk": 5.28,
+        "tb": 5.613,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 13.14,
+        "tb": 10.116,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 9.043,
+        "tb": 8.816,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 31.918,
+        "tb": 28.763,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 10.113,
+        "tb": 22.552,
+        "score": 69,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.298,
+        "tb": 7.587,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.548,
+        "tb": 12.614,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.079,
+        "tb": 8.148,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.929,
+        "tb": 7.046,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 19.096,
+        "tb": 17.941,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 37.491,
+        "tb": 4.965,
+        "score": 11,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.202,
+        "tb": 6.564,
+        "score": 47,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114228": {
+    "id": 114228,
+    "status": "Accepted",
+    "displayScore": 45.33,
+    "timeUsed": 143515,
+    "memoryUsed": 3571636,
+    "cases": {
+      "7": {
+        "tk": 13.461,
+        "tb": 10.266,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 18.978,
+        "tb": 18.069,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.826,
+        "tb": 8.188,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.46,
+        "tb": 5.005,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 10.518,
+        "tb": 7.716,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.857,
+        "tb": 12.595,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.161,
+        "tb": 6.932,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 6.369,
+        "tb": 5.68,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.07,
+        "tb": 7.188,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 10.35,
+        "tb": 8.428,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 8.228,
+        "tb": 6.73,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 29.237,
+        "tb": 28.9,
+        "score": 49,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114229": {
+    "id": 114229,
+    "status": "Accepted",
+    "displayScore": 45.42,
+    "timeUsed": 145737,
+    "memoryUsed": 3549640,
+    "cases": {
+      "2": {
+        "tk": 34.308,
+        "tb": 28.935,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 7.86,
+        "tb": 5.666,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.844,
+        "tb": 8.142,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 18.136,
+        "tb": 18.033,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.32,
+        "tb": 7.2,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 8.192,
+        "tb": 6.678,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.45,
+        "tb": 7.453,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.498,
+        "tb": 5.015,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.223,
+        "tb": 8.403,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.156,
+        "tb": 10.27,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.635,
+        "tb": 7.476,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 14.115,
+        "tb": 13.55,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114231": {
+    "id": 114231,
+    "status": "Accepted",
+    "displayScore": 39.75,
+    "timeUsed": 188557,
+    "memoryUsed": 2362904,
+    "cases": {
+      "9": {
+        "tk": 11.927,
+        "tb": 8.81,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 14.342,
+        "tb": 8.568,
+        "score": 37,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 29.153,
+        "tb": 29.459,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 20.798,
+        "tb": 17.564,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 11.853,
+        "tb": 8.155,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 16.984,
+        "tb": 6.061,
+        "score": 26,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 16.841,
+        "tb": 10.715,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 15.129,
+        "tb": 7.487,
+        "score": 33,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 14.821,
+        "tb": 7.203,
+        "score": 32,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.813,
+        "tb": 5.917,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.603,
+        "tb": 7.426,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 19.293,
+        "tb": 17.864,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114233": {
+    "id": 114233,
+    "status": "Accepted",
+    "displayScore": 45.33,
+    "timeUsed": 145937,
+    "memoryUsed": 2363400,
+    "cases": {
+      "2": {
+        "tk": 33.29,
+        "tb": 28.805,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.219,
+        "tb": 7.034,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 9.747,
+        "tb": 8.104,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.182,
+        "tb": 8.304,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 10.233,
+        "tb": 7.345,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.903,
+        "tb": 6.565,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.593,
+        "tb": 13.476,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.633,
+        "tb": 6.836,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.013,
+        "tb": 5.867,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 17.611,
+        "tb": 18.367,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 6.844,
+        "tb": 5.609,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.669,
+        "tb": 10.244,
+        "score": 44,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114246": {
+    "id": 114246,
+    "status": "Accepted",
+    "displayScore": 49.42,
+    "timeUsed": 120495,
+    "memoryUsed": 3223372,
+    "cases": {
+      "1": {
+        "tk": 16.056,
+        "tb": 18.1,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.443,
+        "tb": 28.979,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.534,
+        "tb": 7.127,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.975,
+        "tb": 12.639,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.779,
+        "tb": 8.399,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.759,
+        "tb": 7.483,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.047,
+        "tb": 6.751,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.749,
+        "tb": 4.975,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.792,
+        "tb": 7.154,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.96,
+        "tb": 5.678,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.837,
+        "tb": 8.146,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.564,
+        "tb": 10.286,
+        "score": 47,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114248": {
+    "id": 114248,
+    "status": "Accepted",
+    "displayScore": 47,
+    "timeUsed": 134026,
+    "memoryUsed": 2373804,
+    "cases": {
+      "9": {
+        "tk": 8.333,
+        "tb": 8.418,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.237,
+        "tb": 7.501,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 10.12,
+        "tb": 6.981,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 17.919,
+        "tb": 8.147,
+        "score": 31,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.839,
+        "tb": 7.261,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.354,
+        "tb": 5.064,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.03,
+        "tb": 17.985,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.78,
+        "tb": 5.646,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.917,
+        "tb": 6.708,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.507,
+        "tb": 10.246,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.364,
+        "tb": 28.836,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.626,
+        "tb": 12.665,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114258": {
+    "id": 114258,
+    "status": "Accepted",
+    "displayScore": 48.58,
+    "timeUsed": 126735,
+    "memoryUsed": 2358904,
+    "cases": {
+      "1": {
+        "tk": 15.991,
+        "tb": 18.147,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.842,
+        "tb": 28.835,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.096,
+        "tb": 6.962,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.842,
+        "tb": 12.613,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.198,
+        "tb": 8.43,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.359,
+        "tb": 7.552,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.055,
+        "tb": 8.013,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.739,
+        "tb": 5.08,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.997,
+        "tb": 7.19,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.804,
+        "tb": 5.67,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 9.126,
+        "tb": 8.186,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.686,
+        "tb": 10.344,
+        "score": 46,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114259": {
+    "id": 114259,
+    "status": "Accepted",
+    "displayScore": 49.33,
+    "timeUsed": 129408,
+    "memoryUsed": 2369112,
+    "cases": {
+      "1": {
+        "tk": 16.216,
+        "tb": 33.384,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 26.865,
+        "tb": 28.87,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.364,
+        "tb": 6.995,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.733,
+        "tb": 12.602,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.673,
+        "tb": 8.423,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.083,
+        "tb": 7.517,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.005,
+        "tb": 6.714,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.835,
+        "tb": 5.013,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.898,
+        "tb": 7.18,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.985,
+        "tb": 5.671,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 9.704,
+        "tb": 8.172,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 13.047,
+        "tb": 10.248,
+        "score": 43,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114260": {
+    "id": 114260,
+    "status": "Accepted",
+    "displayScore": 48.33,
+    "timeUsed": 127079,
+    "memoryUsed": 2363884,
+    "cases": {
+      "8": {
+        "tk": 10.072,
+        "tb": 7.037,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.766,
+        "tb": 4.905,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 13.752,
+        "tb": 10.159,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.83,
+        "tb": 7.447,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.838,
+        "tb": 8.113,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.935,
+        "tb": 19.13,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.951,
+        "tb": 7.393,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 6.083,
+        "tb": 5.685,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.918,
+        "tb": 6.656,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.626,
+        "tb": 28.787,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.873,
+        "tb": 8.387,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.435,
+        "tb": 12.573,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114285": {
+    "id": 114285,
+    "status": "TimeLimitExceeded",
+    "displayScore": 0,
+    "timeUsed": 474443939,
+    "memoryUsed": 2156820,
+    "cases": {
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "TimeLimitExceeded"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114297": {
+    "id": 114297,
+    "status": "WrongAnswer",
+    "displayScore": 37.58,
+    "timeUsed": 3811510,
+    "memoryUsed": 2363512,
+    "cases": {
+      "5": {
+        "tk": 11.348,
+        "tb": 12.617,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 5.759,
+        "tb": 4.9,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.99,
+        "tb": 6.11,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 9.959,
+        "tb": 7.674,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 47.249,
+        "tb": 10.11,
+        "score": 17,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.542,
+        "tb": 6.845,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.707,
+        "tb": 17.94,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.66,
+        "tb": 28.797,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.044,
+        "tb": 6.975,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.186,
+        "tb": 7.457,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114299": {
+    "id": 114299,
+    "status": "Accepted",
+    "displayScore": 47.08,
+    "timeUsed": 130385,
+    "memoryUsed": 2353780,
+    "cases": {
+      "4": {
+        "tk": 6.83,
+        "tb": 4.924,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.436,
+        "tb": 6.531,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.448,
+        "tb": 7.409,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 9.531,
+        "tb": 8.379,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.96,
+        "tb": 17.973,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.86,
+        "tb": 7.461,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.049,
+        "tb": 10.12,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.946,
+        "tb": 12.62,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.724,
+        "tb": 28.712,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.687,
+        "tb": 5.61,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 11.049,
+        "tb": 7.088,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.865,
+        "tb": 8.128,
+        "score": 50,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114301": {
+    "id": 114301,
+    "status": "Accepted",
+    "displayScore": 49.5,
+    "timeUsed": 120716,
+    "memoryUsed": 2361764,
+    "cases": {
+      "3": {
+        "tk": 7.419,
+        "tb": 6.846,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.751,
+        "tb": 7.634,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.23,
+        "tb": 8.317,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.154,
+        "tb": 10.14,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.563,
+        "tb": 5.616,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 9.133,
+        "tb": 5.022,
+        "score": 35,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.473,
+        "tb": 17.991,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.684,
+        "tb": 7.011,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.677,
+        "tb": 15.066,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.01,
+        "tb": 28.818,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.93,
+        "tb": 6.616,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.692,
+        "tb": 8.107,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114302": {
+    "id": 114302,
+    "status": "Accepted",
+    "displayScore": 48.92,
+    "timeUsed": 127301,
+    "memoryUsed": 2366260,
+    "cases": {
+      "8": {
+        "tk": 9.114,
+        "tb": 7.049,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.946,
+        "tb": 8.132,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 10.224,
+        "tb": 6.565,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.303,
+        "tb": 19.261,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.42,
+        "tb": 6.836,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.27,
+        "tb": 4.953,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.092,
+        "tb": 8.295,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.78,
+        "tb": 7.556,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.538,
+        "tb": 12.626,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.569,
+        "tb": 5.56,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.113,
+        "tb": 10.13,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 29.932,
+        "tb": 28.809,
+        "score": 49,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114309": {
+    "id": 114309,
+    "status": "Accepted",
+    "displayScore": 49,
+    "timeUsed": 122359,
+    "memoryUsed": 2365428,
+    "cases": {
+      "2": {
+        "tk": 24.439,
+        "tb": 28.727,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.401,
+        "tb": 10.157,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.759,
+        "tb": 6.985,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.23,
+        "tb": 8.26,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.493,
+        "tb": 4.863,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.444,
+        "tb": 8.131,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.631,
+        "tb": 12.713,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.758,
+        "tb": 18.421,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.296,
+        "tb": 6.841,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.759,
+        "tb": 7.618,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.574,
+        "tb": 6.601,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.575,
+        "tb": 5.571,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114319": {
+    "id": 114319,
+    "status": "Accepted",
+    "displayScore": 49.5,
+    "timeUsed": 121805,
+    "memoryUsed": 2374172,
+    "cases": {
+      "5": {
+        "tk": 11.813,
+        "tb": 12.566,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.512,
+        "tb": 4.922,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.46,
+        "tb": 8.113,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.1,
+        "tb": 7.597,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.254,
+        "tb": 8.282,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.796,
+        "tb": 10.137,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.897,
+        "tb": 6.837,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.739,
+        "tb": 28.839,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.673,
+        "tb": 18.052,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.569,
+        "tb": 6.215,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.342,
+        "tb": 6.99,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.65,
+        "tb": 6.58,
+        "score": 49,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114348": {
+    "id": 114348,
+    "status": "Accepted",
+    "displayScore": 50,
+    "timeUsed": 120489,
+    "memoryUsed": 2340588,
+    "cases": {
+      "6": {
+        "tk": 8.061,
+        "tb": 7.636,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.918,
+        "tb": 10.345,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.543,
+        "tb": 5.669,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.901,
+        "tb": 6.727,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.506,
+        "tb": 28.9,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.069,
+        "tb": 7.232,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.597,
+        "tb": 18.102,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.417,
+        "tb": 8.164,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.364,
+        "tb": 8.425,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.513,
+        "tb": 12.678,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.319,
+        "tb": 6.998,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.281,
+        "tb": 5.048,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114349": {
+    "id": 114349,
+    "status": "Accepted",
+    "displayScore": 46.5,
+    "timeUsed": 133618,
+    "memoryUsed": 2359452,
+    "cases": {
+      "5": {
+        "tk": 11.465,
+        "tb": 12.66,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.092,
+        "tb": 7.658,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 13.693,
+        "tb": 4.986,
+        "score": 26,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.101,
+        "tb": 18.515,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.588,
+        "tb": 6.725,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.054,
+        "tb": 28.801,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.3,
+        "tb": 7.199,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 6.187,
+        "tb": 5.657,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.054,
+        "tb": 6.998,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 11.474,
+        "tb": 8.158,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.999,
+        "tb": 10.255,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.611,
+        "tb": 8.452,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114353": {
+    "id": 114353,
+    "status": "Accepted",
+    "displayScore": 47.33,
+    "timeUsed": 144141,
+    "memoryUsed": 2372664,
+    "cases": {
+      "11": {
+        "tk": 4.564,
+        "tb": 5.609,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.042,
+        "tb": 12.647,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.726,
+        "tb": 6.593,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.068,
+        "tb": 4.933,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.312,
+        "tb": 10.115,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.32,
+        "tb": 18.459,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.069,
+        "tb": 30.03,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 32.05,
+        "tb": 6.874,
+        "score": 17,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.055,
+        "tb": 7.041,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.073,
+        "tb": 8.444,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.375,
+        "tb": 8.129,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.487,
+        "tb": 7.706,
+        "score": 50,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114354": {
+    "id": 114354,
+    "status": "Accepted",
+    "displayScore": 50.58,
+    "timeUsed": 119759,
+    "memoryUsed": 2363308,
+    "cases": {
+      "1": {
+        "tk": 15.44,
+        "tb": 18.102,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.746,
+        "tb": 28.927,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.065,
+        "tb": 7.197,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.782,
+        "tb": 7.29,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.55,
+        "tb": 5.675,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.411,
+        "tb": 8.211,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.295,
+        "tb": 6.976,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.889,
+        "tb": 10.287,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.38,
+        "tb": 12.638,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.456,
+        "tb": 6.085,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.989,
+        "tb": 7.611,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.756,
+        "tb": 9.314,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114357": {
+    "id": 114357,
+    "status": "Accepted",
+    "displayScore": 47.75,
+    "timeUsed": 131266,
+    "memoryUsed": 2360900,
+    "cases": {
+      "12": {
+        "tk": 9.218,
+        "tb": 8.164,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.19,
+        "tb": 12.666,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.501,
+        "tb": 10.305,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.474,
+        "tb": 8.451,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.471,
+        "tb": 6.705,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.679,
+        "tb": 6.928,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 18.45,
+        "tb": 18.491,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 27.844,
+        "tb": 28.92,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 8.345,
+        "tb": 4.983,
+        "score": 37,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.173,
+        "tb": 7.232,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.976,
+        "tb": 5.663,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.945,
+        "tb": 7.563,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114362": {
+    "id": 114362,
+    "status": "Accepted",
+    "displayScore": 47.75,
+    "timeUsed": 135680,
+    "memoryUsed": 2367180,
+    "cases": {
+      "9": {
+        "tk": 7.025,
+        "tb": 8.418,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.64,
+        "tb": 5.663,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 34.258,
+        "tb": 28.802,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.405,
+        "tb": 7.243,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.275,
+        "tb": 5.01,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 9.446,
+        "tb": 8.25,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.576,
+        "tb": 12.637,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 9.636,
+        "tb": 6.783,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.801,
+        "tb": 6.982,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.667,
+        "tb": 10.271,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.351,
+        "tb": 7.531,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.6,
+        "tb": 18.323,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114382": {
+    "id": 114382,
+    "status": "Accepted",
+    "displayScore": 51.08,
+    "timeUsed": 117647,
+    "memoryUsed": 3223448,
+    "cases": {
+      "6": {
+        "tk": 6.996,
+        "tb": 8.161,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.479,
+        "tb": 20.106,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.554,
+        "tb": 5.669,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.218,
+        "tb": 10.238,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.412,
+        "tb": 8.154,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.286,
+        "tb": 6.942,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.061,
+        "tb": 7.234,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.094,
+        "tb": 8.409,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.9,
+        "tb": 6.679,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.274,
+        "tb": 5.01,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.732,
+        "tb": 28.928,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.641,
+        "tb": 12.674,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114386": {
+    "id": 114386,
+    "status": "Accepted",
+    "displayScore": 48.5,
+    "timeUsed": 125842,
+    "memoryUsed": 3250676,
+    "cases": {
+      "11": {
+        "tk": 5.888,
+        "tb": 5.597,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.947,
+        "tb": 6.612,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.031,
+        "tb": 8.264,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 13.637,
+        "tb": 10.047,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 11.005,
+        "tb": 6.959,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 9.533,
+        "tb": 8.103,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.949,
+        "tb": 28.943,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.887,
+        "tb": 12.582,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.317,
+        "tb": 6.839,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.27,
+        "tb": 5.547,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.53,
+        "tb": 18.34,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.848,
+        "tb": 7.507,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114391": {
+    "id": 114391,
+    "status": "Accepted",
+    "displayScore": 49.42,
+    "timeUsed": 121515,
+    "memoryUsed": 3225296,
+    "cases": {
+      "9": {
+        "tk": 7.745,
+        "tb": 8.514,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 9.716,
+        "tb": 6.738,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.412,
+        "tb": 8.144,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.756,
+        "tb": 7.616,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.169,
+        "tb": 10.282,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.546,
+        "tb": 5.688,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.595,
+        "tb": 28.817,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.585,
+        "tb": 18.032,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.224,
+        "tb": 6.981,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.287,
+        "tb": 5.025,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.101,
+        "tb": 7.195,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.379,
+        "tb": 12.69,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114396": {
+    "id": 114396,
+    "status": "Accepted",
+    "displayScore": 48.5,
+    "timeUsed": 125553,
+    "memoryUsed": 3190504,
+    "cases": {
+      "9": {
+        "tk": 7.04,
+        "tb": 8.312,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 8.524,
+        "tb": 6.049,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 12.738,
+        "tb": 10.156,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.958,
+        "tb": 12.656,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.778,
+        "tb": 6.591,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.091,
+        "tb": 6.916,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.754,
+        "tb": 7.642,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.05,
+        "tb": 7.12,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.899,
+        "tb": 8.117,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.952,
+        "tb": 17.884,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 6.034,
+        "tb": 5.603,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.735,
+        "tb": 28.827,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114401": {
+    "id": 114401,
+    "status": "Accepted",
+    "displayScore": 49.75,
+    "timeUsed": 121672,
+    "memoryUsed": 2344832,
+    "cases": {
+      "2": {
+        "tk": 24.541,
+        "tb": 28.759,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.417,
+        "tb": 6.731,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.497,
+        "tb": 18.169,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.576,
+        "tb": 12.743,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.532,
+        "tb": 5.667,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.264,
+        "tb": 4.997,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.423,
+        "tb": 8.568,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.713,
+        "tb": 7.598,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.216,
+        "tb": 10.297,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.787,
+        "tb": 8.152,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 13.396,
+        "tb": 7.164,
+        "score": 34,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.31,
+        "tb": 6.979,
+        "score": 45,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114406": {
+    "id": 114406,
+    "status": "Accepted",
+    "displayScore": 50.75,
+    "timeUsed": 124484,
+    "memoryUsed": 3246272,
+    "cases": {
+      "4": {
+        "tk": 5.272,
+        "tb": 6.004,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.738,
+        "tb": 8.745,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.635,
+        "tb": 10.155,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 11.951,
+        "tb": 8.132,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.102,
+        "tb": 82.129,
+        "score": 78,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.342,
+        "tb": 7.002,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.893,
+        "tb": 6.625,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.588,
+        "tb": 5.602,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.769,
+        "tb": 7.661,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.582,
+        "tb": 12.597,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.421,
+        "tb": 17.881,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.191,
+        "tb": 6.911,
+        "score": 42,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114409": {
+    "id": 114409,
+    "status": "Accepted",
+    "displayScore": 50.75,
+    "timeUsed": 117285,
+    "memoryUsed": 2364472,
+    "cases": {
+      "4": {
+        "tk": 6.248,
+        "tb": 5.028,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.294,
+        "tb": 8.507,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.87,
+        "tb": 6.992,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.407,
+        "tb": 8.164,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.87,
+        "tb": 6.702,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.947,
+        "tb": 10.298,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.543,
+        "tb": 5.67,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.116,
+        "tb": 7.203,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 22.925,
+        "tb": 28.874,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.994,
+        "tb": 15.061,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.775,
+        "tb": 18.324,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.296,
+        "tb": 7.612,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114465": {
+    "id": 114465,
+    "status": "WrongAnswer",
+    "displayScore": 0,
+    "timeUsed": 84268278,
+    "memoryUsed": 3460820,
+    "cases": {
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114468": {
+    "id": 114468,
+    "status": "WrongAnswer",
+    "displayScore": 32.08,
+    "timeUsed": 7342790,
+    "memoryUsed": 2377240,
+    "cases": {
+      "8": {
+        "tk": 9.779,
+        "tb": 7.146,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 11.727,
+        "tb": 10.277,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.474,
+        "tb": 28.712,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.84,
+        "tb": 6.909,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.877,
+        "tb": 4.955,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.533,
+        "tb": 5.394,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.769,
+        "tb": 7.492,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.446,
+        "tb": 17.897,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114470": {
+    "id": 114470,
+    "status": "Accepted",
+    "displayScore": 49.08,
+    "timeUsed": 123017,
+    "memoryUsed": 2362748,
+    "cases": {
+      "4": {
+        "tk": 5.263,
+        "tb": 4.989,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.164,
+        "tb": 7.626,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 14.164,
+        "tb": 10.299,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.829,
+        "tb": 12.567,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.408,
+        "tb": 8.145,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.434,
+        "tb": 8.471,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.131,
+        "tb": 6.756,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.354,
+        "tb": 6.972,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.734,
+        "tb": 5.645,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 22.814,
+        "tb": 28.769,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.569,
+        "tb": 18.014,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.153,
+        "tb": 7.194,
+        "score": 44,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114472": {
+    "id": 114472,
+    "status": "Accepted",
+    "displayScore": 48.33,
+    "timeUsed": 126283,
+    "memoryUsed": 2377240,
+    "cases": {
+      "7": {
+        "tk": 12.525,
+        "tb": 10.089,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.536,
+        "tb": 28.971,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.388,
+        "tb": 6.891,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.144,
+        "tb": 6.607,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.728,
+        "tb": 7.048,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.573,
+        "tb": 5.575,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.015,
+        "tb": 12.61,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 9.105,
+        "tb": 8.283,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.549,
+        "tb": 17.961,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.396,
+        "tb": 4.926,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.891,
+        "tb": 7.604,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.433,
+        "tb": 8.097,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114487": {
+    "id": 114487,
+    "status": "Accepted",
+    "displayScore": 45.33,
+    "timeUsed": 139201,
+    "memoryUsed": 2381372,
+    "cases": {
+      "12": {
+        "tk": 8.208,
+        "tb": 8.117,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.865,
+        "tb": 5.587,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.431,
+        "tb": 10.092,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.789,
+        "tb": 7.018,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.812,
+        "tb": 7.521,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 10.926,
+        "tb": 6.552,
+        "score": 37,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.678,
+        "tb": 18.008,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 13.101,
+        "tb": 8.337,
+        "score": 38,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.578,
+        "tb": 6.842,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 15.224,
+        "tb": 12.64,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.553,
+        "tb": 4.922,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.036,
+        "tb": 28.663,
+        "score": 53,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114490": {
+    "id": 114490,
+    "status": "WrongAnswer",
+    "displayScore": 40,
+    "timeUsed": 34097179,
+    "memoryUsed": 2352708,
+    "cases": {
+      "10": {
+        "tk": 7.834,
+        "tb": 6.602,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.954,
+        "tb": 10.258,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 10.181,
+        "tb": 12.274,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.909,
+        "tb": 7.944,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.725,
+        "tb": 6.069,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.319,
+        "tb": 7.111,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.18,
+        "tb": 8.304,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.574,
+        "tb": 5.596,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 7.658,
+        "tb": 6.874,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 9.356,
+        "tb": 7.64,
+        "score": 44,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114627": {
+    "id": 114627,
+    "status": "Accepted",
+    "displayScore": 48.08,
+    "timeUsed": 124675,
+    "memoryUsed": 2379160,
+    "cases": {
+      "8": {
+        "tk": 9.445,
+        "tb": 7.022,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.341,
+        "tb": 7.583,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.294,
+        "tb": 4.919,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.749,
+        "tb": 12.628,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.707,
+        "tb": 5.611,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.943,
+        "tb": 8.291,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.672,
+        "tb": 6.538,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.461,
+        "tb": 10.087,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.609,
+        "tb": 8.125,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.599,
+        "tb": 6.859,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.859,
+        "tb": 17.927,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 22.996,
+        "tb": 28.716,
+        "score": 55,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114629": {
+    "id": 114629,
+    "status": "Accepted",
+    "displayScore": 49.67,
+    "timeUsed": 125180,
+    "memoryUsed": 2375492,
+    "cases": {
+      "11": {
+        "tk": 4.58,
+        "tb": 5.591,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.049,
+        "tb": 7.598,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.947,
+        "tb": 8.115,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 18.872,
+        "tb": 12.579,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.004,
+        "tb": 9.326,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.766,
+        "tb": 6.571,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.508,
+        "tb": 17.899,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.425,
+        "tb": 7.036,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.437,
+        "tb": 6.873,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.279,
+        "tb": 4.96,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.15,
+        "tb": 28.72,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.163,
+        "tb": 11.861,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114631": {
+    "id": 114631,
+    "status": "WrongAnswer",
+    "displayScore": 0,
+    "timeUsed": 35775340,
+    "memoryUsed": 1507092,
+    "cases": {
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114635": {
+    "id": 114635,
+    "status": "WrongAnswer",
+    "displayScore": 33.08,
+    "timeUsed": 7409915,
+    "memoryUsed": 3449400,
+    "cases": {
+      "4": {
+        "tk": 5.276,
+        "tb": 4.919,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 6.559,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 9.478,
+        "tb": 6.863,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.224,
+        "tb": 6.046,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 7.69,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 10.801,
+        "tb": 10.058,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 7.63,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 6.745,
+        "tb": 7.619,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.139,
+        "tb": 28.749,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.481,
+        "tb": 17.943,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 12.657,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 9.676,
+        "tb": 7.459,
+        "score": 43,
+        "status": "Accepted"
+      }
+    }
+  },
+  "114651": {
+    "id": 114651,
+    "status": "WrongAnswer",
+    "displayScore": 33.92,
+    "timeUsed": 7669711,
+    "memoryUsed": 3626972,
+    "cases": {
+      "9": {
+        "tk": 0.0,
+        "tb": 7.815,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 25.161,
+        "tb": 28.814,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.162,
+        "tb": 18.351,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.86,
+        "tb": 10.121,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.509,
+        "tb": 7.635,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 6.727,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 4.591,
+        "tb": 5.084,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 6.695,
+        "tb": 7.711,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.286,
+        "tb": 6.951,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 12.69,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 4.177,
+        "tb": 6.127,
+        "score": 59,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 7.887,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  "114658": {
+    "id": 114658,
+    "status": "Accepted",
+    "displayScore": 50.67,
+    "timeUsed": 119558,
+    "memoryUsed": 3642944,
+    "cases": {
+      "7": {
+        "tk": 11.742,
+        "tb": 10.162,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.492,
+        "tb": 7.641,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 6.732,
+        "tb": 8.659,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 17.457,
+        "tb": 17.912,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.47,
+        "tb": 6.63,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.684,
+        "tb": 7.161,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.229,
+        "tb": 6.867,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 13.85,
+        "tb": 12.609,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.082,
+        "tb": 28.74,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.024,
+        "tb": 8.278,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 4.597,
+        "tb": 4.948,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.199,
+        "tb": 5.598,
+        "score": 57,
+        "status": "Accepted"
+      }
+    }
+  }
+}

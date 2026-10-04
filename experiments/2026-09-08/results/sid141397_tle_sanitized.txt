@@ -1,0 +1,28 @@
+SID: 141397
+submitTime: 2026-09-08T14:57:29.000Z
+status: TimeLimitExceeded
+progressType: Finished
+compile.success: true
+compile.message: ""
+totalOccupiedTime: 501085
+
+Only returned testcase record:
+classification: progress.samples[0] (not progress.subtasks[0].testcases)
+testcaseHash: c79bdf1e9ea07c2e382815b0f9c45514a4b0cefb
+input: "1\n"
+output: "1\n"
+status: TimeLimitExceeded
+time: 500990217.768
+memory: 3560940
+testcaseInfo.inputFile: null
+testcaseInfo.outputFile: null
+testcaseInfo.timeLimit: 500000
+
+userError (complete; no omitted tail):
+Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem
+[run-triton-dist] OJ_JUDGE_TASK_ID=<redacted> tc=1
+[run-triton-dist] per-rank logs: /opt/oj-cache/run-logs/20260908_145731_tc1_377660
+W0908 14:57:32.215000 377715 torch/distributed/run.py:851]
+W0908 14:57:32.215000 377715 torch/distributed/run.py:851] *****************************************
+W0908 14:57:32.215000 377715 torch/distributed/run.py:851] Setting OMP_NUM_THREADS environment variable to be 1, by default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+W0908 14:57:32.215000 377715 torch/distributed/run.py:851] *****************************************

@@ -1,0 +1,4390 @@
+{
+  "time": "2026-10-01T16:55:53.436215",
+  "me": {
+    "rank": 4,
+    "totalScore": 250.07999999999998,
+    "problemScores": [
+      {
+        "order": 1,
+        "score": 79.08,
+        "submissionCount": 3533,
+        "firstAcceptedAt": "2026-08-15T14:14:16.000Z",
+        "submissionId": 152238,
+        "customInfo": {
+          "weight": 1,
+          "accepted": true,
+          "hasAccepted": true,
+          "totalAttempts": 3533,
+          "wrongAttempts": 8
+        }
+      },
+      {
+        "order": 2,
+        "score": 100.5,
+        "submissionCount": 200,
+        "firstAcceptedAt": "2026-08-22T16:17:55.000Z",
+        "submissionId": 150946,
+        "customInfo": {
+          "weight": 1,
+          "accepted": true,
+          "hasAccepted": true,
+          "totalAttempts": 200,
+          "wrongAttempts": 1
+        }
+      },
+      {
+        "order": 3,
+        "score": 70.5,
+        "submissionCount": 2335,
+        "firstAcceptedAt": "2026-08-19T04:13:19.000Z",
+        "submissionId": 151896,
+        "customInfo": {
+          "weight": 1,
+          "accepted": true,
+          "hasAccepted": true,
+          "totalAttempts": 2335,
+          "wrongAttempts": 10
+        }
+      }
+    ]
+  },
+  "recent": [
+    {
+      "id": 153151,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 323892,
+      "score": null,
+      "displayScore": null,
+      "status": "Pending",
+      "submitTime": "2026-10-01T08:51:24.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": null,
+      "memoryUsed": null
+    },
+    {
+      "id": 153137,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 323858,
+      "score": 83,
+      "displayScore": 67.92,
+      "status": "WrongAnswer",
+      "submitTime": "2026-10-01T08:40:21.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 3677033,
+      "memoryUsed": 714052
+    },
+    {
+      "id": 153131,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327049,
+      "score": null,
+      "displayScore": null,
+      "status": "Pending",
+      "submitTime": "2026-10-01T08:37:10.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": null,
+      "memoryUsed": null,
+      "progressType": "Running"
+    },
+    {
+      "id": 153125,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 323858,
+      "score": 83,
+      "displayScore": 71.67,
+      "status": "WrongAnswer",
+      "submitTime": "2026-10-01T08:34:14.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 3670689,
+      "memoryUsed": 714080
+    },
+    {
+      "id": 153123,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327049,
+      "score": 100,
+      "displayScore": 81.75,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T08:29:57.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28701,
+      "memoryUsed": 714116
+    },
+    {
+      "id": 153115,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327049,
+      "score": 100,
+      "displayScore": 82,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T08:25:48.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28535,
+      "memoryUsed": 714032
+    },
+    {
+      "id": 153072,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327049,
+      "score": 100,
+      "displayScore": 81.92,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T07:43:16.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28677,
+      "memoryUsed": 714120
+    },
+    {
+      "id": 153052,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327059,
+      "score": 100,
+      "displayScore": 82,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T07:31:13.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28700,
+      "memoryUsed": 714132
+    },
+    {
+      "id": 153041,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327053,
+      "score": 100,
+      "displayScore": 82,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T07:21:32.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28675,
+      "memoryUsed": 714244
+    },
+    {
+      "id": 153031,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327344,
+      "score": 100,
+      "displayScore": 81.92,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T07:17:05.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28761,
+      "memoryUsed": 714144
+    },
+    {
+      "id": 153027,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 330037,
+      "score": 100,
+      "displayScore": 81.92,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T07:10:44.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28706,
+      "memoryUsed": 713944
+    },
+    {
+      "id": 153015,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327049,
+      "score": 0,
+      "displayScore": 0,
+      "status": "TimeLimitExceeded",
+      "submitTime": "2026-10-01T06:58:20.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 0,
+      "memoryUsed": 0
+    },
+    {
+      "id": 153011,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327071,
+      "score": 100,
+      "displayScore": 82.08,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T06:54:06.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28473,
+      "memoryUsed": 714216
+    },
+    {
+      "id": 153006,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 333093,
+      "score": 100,
+      "displayScore": 83.42,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T06:44:47.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 27004,
+      "memoryUsed": 714100
+    },
+    {
+      "id": 152995,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 329971,
+      "score": 100,
+      "displayScore": 81.92,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T06:37:14.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28700,
+      "memoryUsed": 714132
+    },
+    {
+      "id": 152976,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327049,
+      "score": 100,
+      "displayScore": 89,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T06:29:45.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 20968,
+      "memoryUsed": 714212
+    },
+    {
+      "id": 152969,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 333004,
+      "score": 100,
+      "displayScore": 82.92,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T06:22:11.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 27430,
+      "memoryUsed": 714164
+    },
+    {
+      "id": 152960,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327050,
+      "score": 100,
+      "displayScore": 82.25,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T06:16:56.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28401,
+      "memoryUsed": 714112
+    },
+    {
+      "id": 152955,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 329625,
+      "score": 100,
+      "displayScore": 82.08,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T06:12:37.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28687,
+      "memoryUsed": 714072
+    },
+    {
+      "id": 152952,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327072,
+      "score": 100,
+      "displayScore": 82.33,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T06:07:52.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28480,
+      "memoryUsed": 714084
+    }
+  ],
+  "details": {
+    "153151": {
+      "status": "Pending",
+      "displayScore": null,
+      "submitTime": "2026-10-01T08:51:24.000Z",
+      "source_sha256": "f9ca009609bc2a50c320cfe5e912961a99cbd0f53c58510482f43438784e7c6a",
+      "cases": {}
+    },
+    "153137": {
+      "status": "WrongAnswer",
+      "displayScore": 67.92,
+      "submitTime": "2026-10-01T08:40:21.000Z",
+      "source_sha256": "b7310ac0389e67fea33560e79ab4c5894ab07c07fe03c5d3bc9bf3ac4600328d",
+      "cases": {
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.67,
+            "tb_time_ms": 17.685,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.0,
+            "tb_time_ms": 10.185,
+            "th_time_ms": 0.0,
+            "pass": false
+          },
+          "status": "WrongAnswer",
+          "displayScore": null,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 1
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.347,
+            "tb_time_ms": 6.944,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.815,
+            "tb_time_ms": 28.583,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.449,
+            "tb_time_ms": 8.161,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 84,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.461,
+            "tb_time_ms": 7.716,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 75,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.871,
+            "tb_time_ms": 6.67,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.0,
+            "tb_time_ms": 7.544,
+            "th_time_ms": 0.0,
+            "pass": false
+          },
+          "status": "WrongAnswer",
+          "displayScore": null,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 1
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.858,
+            "tb_time_ms": 5.653,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.769,
+            "tb_time_ms": 12.107,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.779,
+            "tb_time_ms": 4.956,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.234,
+            "tb_time_ms": 7.169,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "153131": {
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-10-01T08:37:10.000Z",
+      "source_sha256": "1ae75887b550fb09508ca28b696896669066d8f068e0c8feaa8850e9bf6bec94",
+      "cases": {
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.778,
+            "tb_time_ms": 4.936,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.86,
+            "tb_time_ms": 5.692,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.339,
+            "tb_time_ms": 6.885,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.894,
+            "tb_time_ms": 28.69,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.616,
+            "tb_time_ms": 17.641,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.865,
+            "tb_time_ms": 6.697,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.467,
+            "tb_time_ms": 7.738,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 75,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.775,
+            "tb_time_ms": 12.179,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.45,
+            "tb_time_ms": 8.158,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 84,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.247,
+            "tb_time_ms": 7.5,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.203,
+            "tb_time_ms": 10.232,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.237,
+            "tb_time_ms": 7.151,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "153125": {
+      "status": "WrongAnswer",
+      "displayScore": 71.67,
+      "submitTime": "2026-10-01T08:34:14.000Z",
+      "source_sha256": "b7310ac0389e67fea33560e79ab4c5894ab07c07fe03c5d3bc9bf3ac4600328d",
+      "cases": {
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.632,
+            "tb_time_ms": 17.662,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.0,
+            "tb_time_ms": 10.242,
+            "th_time_ms": 0.0,
+            "pass": false
+          },
+          "status": "WrongAnswer",
+          "displayScore": null,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 1
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.359,
+            "tb_time_ms": 7.384,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 84,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.758,
+            "tb_time_ms": 28.737,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.0,
+            "tb_time_ms": 8.251,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 100,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.435,
+            "tb_time_ms": 7.708,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 75,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.661,
+            "tb_time_ms": 6.706,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 91,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.0,
+            "tb_time_ms": 7.557,
+            "th_time_ms": 0.0,
+            "pass": false
+          },
+          "status": "WrongAnswer",
+          "displayScore": null,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 1
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.0,
+            "tb_time_ms": 5.659,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 100,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.736,
+            "tb_time_ms": 12.122,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.785,
+            "tb_time_ms": 4.952,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.142,
+            "tb_time_ms": 7.128,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "153123": {
+      "status": "Accepted",
+      "displayScore": 81.75,
+      "submitTime": "2026-10-01T08:29:57.000Z",
+      "source_sha256": "f01c93f3c80253fe0bd598675d68eb3f3a1486025cb890a7f819c388c4302cd5",
+      "cases": {
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.786,
+            "tb_time_ms": 4.947,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.436,
+            "tb_time_ms": 7.698,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 75,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.239,
+            "tb_time_ms": 7.171,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.884,
+            "tb_time_ms": 6.675,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 77,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.857,
+            "tb_time_ms": 5.644,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.195,
+            "tb_time_ms": 10.242,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.761,
+            "tb_time_ms": 12.121,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.249,
+            "tb_time_ms": 7.533,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.446,
+            "tb_time_ms": 8.155,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 84,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.641,
+            "tb_time_ms": 17.759,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.871,
+            "tb_time_ms": 28.747,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.336,
+            "tb_time_ms": 6.941,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "153115": {
+      "status": "Accepted",
+      "displayScore": 82,
+      "submitTime": "2026-10-01T08:25:48.000Z",
+      "source_sha256": "ab16a35a14b9332d1f94d61f878906b5b806ebbca4bdea237a7fe6d9b030ec5e",
+      "cases": {
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.85,
+            "tb_time_ms": 5.658,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.344,
+            "tb_time_ms": 8.166,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.62,
+            "tb_time_ms": 17.769,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.347,
+            "tb_time_ms": 6.996,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.766,
+            "tb_time_ms": 12.161,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.199,
+            "tb_time_ms": 10.306,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.245,
+            "tb_time_ms": 7.611,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.791,
+            "tb_time_ms": 4.936,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.431,
+            "tb_time_ms": 7.751,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 76,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.227,
+            "tb_time_ms": 7.115,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.871,
+            "tb_time_ms": 6.663,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.844,
+            "tb_time_ms": 28.771,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "153072": {
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-10-01T07:43:16.000Z",
+      "source_sha256": "88361f262dddcb58986b23b9d54d9219c1645529b98752e8b768e19fc2ace673",
+      "cases": {
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.446,
+            "tb_time_ms": 8.15,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 84,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.235,
+            "tb_time_ms": 7.142,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.784,
+            "tb_time_ms": 4.949,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.878,
+            "tb_time_ms": 6.712,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.618,
+            "tb_time_ms": 17.743,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.35,
+            "tb_time_ms": 6.937,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.846,
+            "tb_time_ms": 28.83,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.201,
+            "tb_time_ms": 10.589,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.859,
+            "tb_time_ms": 5.639,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.247,
+            "tb_time_ms": 7.544,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.771,
+            "tb_time_ms": 12.048,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.442,
+            "tb_time_ms": 7.734,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 76,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "153052": {
+      "status": "Accepted",
+      "displayScore": 82,
+      "submitTime": "2026-10-01T07:31:13.000Z",
+      "source_sha256": "d67a1e5c6e21f221c070fc9cec391b4b54fe545fecd33fec9b1332bf39f3eab7",
+      "cases": {
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.201,
+            "tb_time_ms": 10.259,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.847,
+            "tb_time_ms": 5.708,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 87,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.856,
+            "tb_time_ms": 6.688,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.898,
+            "tb_time_ms": 28.805,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.456,
+            "tb_time_ms": 7.774,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 75,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.441,
+            "tb_time_ms": 8.138,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 84,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.622,
+            "tb_time_ms": 17.753,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.785,
+            "tb_time_ms": 5.015,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.236,
+            "tb_time_ms": 7.086,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.338,
+            "tb_time_ms": 7.542,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 84,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.77,
+            "tb_time_ms": 12.225,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.25,
+            "tb_time_ms": 7.552,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "153041": {
+      "status": "Accepted",
+      "displayScore": 82,
+      "submitTime": "2026-10-01T07:21:32.000Z",
+      "source_sha256": "925652d9d53d5e048795443689ab4a6c2690c3a0c473218f0988c6b21c46dd74",
+      "cases": {
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.196,
+            "tb_time_ms": 10.298,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.621,
+            "tb_time_ms": 17.672,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.795,
+            "tb_time_ms": 4.925,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.794,
+            "tb_time_ms": 12.07,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.443,
+            "tb_time_ms": 8.205,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.35,
+            "tb_time_ms": 6.94,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.831,
+            "tb_time_ms": 29.0,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.86,
+            "tb_time_ms": 5.713,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.232,
+            "tb_time_ms": 7.155,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.854,
+            "tb_time_ms": 6.672,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.25,
+            "tb_time_ms": 7.633,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.449,
+            "tb_time_ms": 7.762,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 76,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "153031": {
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-10-01T07:17:05.000Z",
+      "source_sha256": "308b59c38c482fb6568bd3c56f784e263eaa4af0e60f364fd39f1f7d7803d639",
+      "cases": {
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.235,
+            "tb_time_ms": 7.139,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.445,
+            "tb_time_ms": 8.243,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.858,
+            "tb_time_ms": 6.161,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 87,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.759,
+            "tb_time_ms": 12.135,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.448,
+            "tb_time_ms": 7.724,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 75,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.335,
+            "tb_time_ms": 7.001,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.199,
+            "tb_time_ms": 10.233,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.695,
+            "tb_time_ms": 17.647,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.248,
+            "tb_time_ms": 7.629,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.79,
+            "tb_time_ms": 4.919,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.884,
+            "tb_time_ms": 6.613,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 77,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.865,
+            "tb_time_ms": 29.59,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "153027": {
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-10-01T07:10:44.000Z",
+      "source_sha256": "67020564ffd42fa8ba30aac03abd170a1d8da916972c8eb587e00f45b7dd4e92",
+      "cases": {
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.449,
+            "tb_time_ms": 8.152,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 84,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.787,
+            "tb_time_ms": 4.923,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.628,
+            "tb_time_ms": 17.722,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.238,
+            "tb_time_ms": 7.119,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.865,
+            "tb_time_ms": 6.67,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.458,
+            "tb_time_ms": 7.826,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 76,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.856,
+            "tb_time_ms": 5.662,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.363,
+            "tb_time_ms": 7.066,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.845,
+            "tb_time_ms": 29.173,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.197,
+            "tb_time_ms": 10.245,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.771,
+            "tb_time_ms": 12.093,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.249,
+            "tb_time_ms": 7.426,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "153015": {
+      "status": "TimeLimitExceeded",
+      "displayScore": 0,
+      "submitTime": "2026-10-01T06:58:20.000Z",
+      "source_sha256": "871d7a1a718aa4ab14008fe7e9570539213bf89c2a022e29dbf332df9e30b836",
+      "cases": {}
+    },
+    "153011": {
+      "status": "Accepted",
+      "displayScore": 82.08,
+      "submitTime": "2026-10-01T06:54:06.000Z",
+      "source_sha256": "09aea6b339aedabc2254836b2a12d76fd3aa4596f013dbd806e3dc467ee3fde2",
+      "cases": {
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.195,
+            "tb_time_ms": 10.223,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.757,
+            "tb_time_ms": 5.666,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 88,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.346,
+            "tb_time_ms": 8.179,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.232,
+            "tb_time_ms": 7.133,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.866,
+            "tb_time_ms": 6.737,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.45,
+            "tb_time_ms": 7.678,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 75,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.866,
+            "tb_time_ms": 28.747,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.755,
+            "tb_time_ms": 12.07,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.787,
+            "tb_time_ms": 4.905,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.623,
+            "tb_time_ms": 18.062,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.249,
+            "tb_time_ms": 7.49,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.347,
+            "tb_time_ms": 6.96,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "153006": {
+      "status": "Accepted",
+      "displayScore": 83.42,
+      "submitTime": "2026-10-01T06:44:47.000Z",
+      "source_sha256": "b335dd6bccab25644d7e6b6b8085095ae2408a564bdc00d14d9a47ffa930a408",
+      "cases": {
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.302,
+            "tb_time_ms": 5.674,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 94,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.347,
+            "tb_time_ms": 6.941,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.46,
+            "tb_time_ms": 8.15,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 94,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.863,
+            "tb_time_ms": 6.663,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.761,
+            "tb_time_ms": 12.112,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.216,
+            "tb_time_ms": 7.183,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.248,
+            "tb_time_ms": 7.502,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.792,
+            "tb_time_ms": 4.927,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.413,
+            "tb_time_ms": 7.728,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 76,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.617,
+            "tb_time_ms": 17.662,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.195,
+            "tb_time_ms": 10.216,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.79,
+            "tb_time_ms": 28.929,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "152995": {
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-10-01T06:37:14.000Z",
+      "source_sha256": "e59ea080d461e75c77ddebdeeed43feddcf29e46da0058cdf197c7041f28ba8b",
+      "cases": {
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.438,
+            "tb_time_ms": 8.142,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 84,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.862,
+            "tb_time_ms": 29.212,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.77,
+            "tb_time_ms": 12.082,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.347,
+            "tb_time_ms": 7.355,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 84,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.859,
+            "tb_time_ms": 6.68,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.463,
+            "tb_time_ms": 7.787,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 75,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.194,
+            "tb_time_ms": 10.267,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.239,
+            "tb_time_ms": 7.516,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.634,
+            "tb_time_ms": 17.664,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.248,
+            "tb_time_ms": 7.462,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.791,
+            "tb_time_ms": 5.01,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.855,
+            "tb_time_ms": 5.715,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "152976": {
+      "status": "Accepted",
+      "displayScore": 89,
+      "submitTime": "2026-10-01T06:29:45.000Z",
+      "source_sha256": "88361f262dddcb58986b23b9d54d9219c1645529b98752e8b768e19fc2ace673",
+      "cases": {
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.0,
+            "tb_time_ms": 8.182,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 100,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.471,
+            "tb_time_ms": 7.168,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 93,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.771,
+            "tb_time_ms": 4.966,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.0,
+            "tb_time_ms": 6.69,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 100,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.563,
+            "tb_time_ms": 17.629,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.343,
+            "tb_time_ms": 7.002,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.791,
+            "tb_time_ms": 28.729,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.106,
+            "tb_time_ms": 10.229,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.0,
+            "tb_time_ms": 5.684,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 100,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.208,
+            "tb_time_ms": 7.488,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.715,
+            "tb_time_ms": 12.216,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.0,
+            "tb_time_ms": 7.736,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 100,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "152969": {
+      "status": "Accepted",
+      "displayScore": 82.92,
+      "submitTime": "2026-10-01T06:22:11.000Z",
+      "source_sha256": "fc5e10742dbf8f64cc9f6ce336ea4a2426322e66df52f7bcc3ba979b486515ab",
+      "cases": {
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.216,
+            "tb_time_ms": 7.17,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.337,
+            "tb_time_ms": 6.908,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.461,
+            "tb_time_ms": 8.522,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 94,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.251,
+            "tb_time_ms": 7.465,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.415,
+            "tb_time_ms": 7.819,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 76,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.606,
+            "tb_time_ms": 17.652,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.175,
+            "tb_time_ms": 10.262,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.778,
+            "tb_time_ms": 4.975,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.75,
+            "tb_time_ms": 6.065,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 88,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.839,
+            "tb_time_ms": 6.746,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.834,
+            "tb_time_ms": 28.929,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.768,
+            "tb_time_ms": 12.126,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "152960": {
+      "status": "Accepted",
+      "displayScore": 82.25,
+      "submitTime": "2026-10-01T06:16:56.000Z",
+      "source_sha256": "6282196ba6d2c605ce3887799d160e7fc05508bf5eaffddea66b2cc9225c06ec",
+      "cases": {
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.193,
+            "tb_time_ms": 10.305,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.598,
+            "tb_time_ms": 17.694,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.782,
+            "tb_time_ms": 12.213,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.759,
+            "tb_time_ms": 5.649,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 88,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.828,
+            "tb_time_ms": 28.848,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.346,
+            "tb_time_ms": 8.207,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.779,
+            "tb_time_ms": 4.945,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.444,
+            "tb_time_ms": 7.687,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 75,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.233,
+            "tb_time_ms": 7.175,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.853,
+            "tb_time_ms": 6.7,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.246,
+            "tb_time_ms": 7.789,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.34,
+            "tb_time_ms": 7.08,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 84,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "152955": {
+      "status": "Accepted",
+      "displayScore": 82.08,
+      "submitTime": "2026-10-01T06:12:37.000Z",
+      "source_sha256": "d4a922e326a260a0ba8b7f10ce9b3b117d5e9467d627ffc9958a2d4f83514ec6",
+      "cases": {
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.204,
+            "tb_time_ms": 10.281,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.78,
+            "tb_time_ms": 12.078,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.443,
+            "tb_time_ms": 8.145,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 84,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.819,
+            "tb_time_ms": 28.717,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.357,
+            "tb_time_ms": 6.945,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.857,
+            "tb_time_ms": 5.662,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.783,
+            "tb_time_ms": 4.973,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.645,
+            "tb_time_ms": 17.771,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.246,
+            "tb_time_ms": 7.451,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.868,
+            "tb_time_ms": 6.654,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.227,
+            "tb_time_ms": 7.163,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.458,
+            "tb_time_ms": 8.817,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    },
+    "152952": {
+      "status": "Accepted",
+      "displayScore": 82.33,
+      "submitTime": "2026-10-01T06:07:52.000Z",
+      "source_sha256": "d4d279a4575924cd45b8d8bbdf1ba3c895c1524caae5ba63a3ada90a4a1d06e0",
+      "cases": {
+        "11": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.756,
+            "tb_time_ms": 5.653,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 88,
+          "sqnr_db": [
+            23.31,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "5": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.762,
+            "tb_time_ms": 12.072,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 81,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        },
+        "8": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.232,
+            "tb_time_ms": 7.191,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "6": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.247,
+            "tb_time_ms": 7.524,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 85,
+          "sqnr_db": [
+            23.83,
+            22.93
+          ],
+          "determinism_checks_passed": 2
+        },
+        "1": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.631,
+            "tb_time_ms": 17.731,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "12": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.349,
+            "tb_time_ms": 8.561,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.25,
+            22.9
+          ],
+          "determinism_checks_passed": 2
+        },
+        "7": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.194,
+            "tb_time_ms": 10.274,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 82,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_checks_passed": 2
+        },
+        "2": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.868,
+            "tb_time_ms": 28.884,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 78,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_checks_passed": 2
+        },
+        "3": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.354,
+            "tb_time_ms": 6.96,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 83,
+          "sqnr_db": [
+            23.87,
+            22.7
+          ],
+          "determinism_checks_passed": 2
+        },
+        "4": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.78,
+            "tb_time_ms": 4.907,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 86,
+          "sqnr_db": [
+            23.21,
+            22.98
+          ],
+          "determinism_checks_passed": 2
+        },
+        "10": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.881,
+            "tb_time_ms": 7.256,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 79,
+          "sqnr_db": [
+            22.75,
+            22.69
+          ],
+          "determinism_checks_passed": 2
+        },
+        "9": {
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.426,
+            "tb_time_ms": 7.764,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "status": "Accepted",
+          "displayScore": 76,
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_checks_passed": 2
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5196 @@
+[
+  {
+    "id": 115143,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 68.42,
+    "timeUsed": 58545,
+    "memoryUsed": 2323184,
+    "cases": {
+      "1350a0f5ee6f8c417ef49d43d3850f13cb44cf6c": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "4\n",
+        "tk": 1.996,
+        "tb": 5.155,
+        "pass": true
+      },
+      "2160867f9b4c3e2f4d32e7e9884478ea4c380c4d": {
+        "status": "Accepted",
+        "score": 62,
+        "input": "10\n",
+        "tk": 4.003,
+        "tb": 6.728,
+        "pass": true
+      },
+      "483d50a0a3f62995982f5050422e81cc0f2cb26d": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "5\n",
+        "tk": 5.205,
+        "tb": 12.681,
+        "pass": true
+      },
+      "48798a7f8a987af910db18addefea94a7e072a24": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.406,
+        "tb": 5.628,
+        "pass": true
+      },
+      "4e9a76fdd7a18a6a7de3b4febd15534635a08cfb": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "8\n",
+        "tk": 2.925,
+        "tb": 7.172,
+        "pass": true
+      },
+      "88d401d20f2287f4d03305410e6eabb9f9772c05": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "12\n",
+        "tk": 3.715,
+        "tb": 8.195,
+        "pass": true
+      },
+      "a8b1e8f75b42a27ffa6e4854602170f4dc56b203": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.412,
+        "tb": 28.815,
+        "pass": true
+      },
+      "aea86673b4233da00cb41ab57ded5fbc6e030407": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.149,
+        "tb": 10.632,
+        "pass": true
+      },
+      "aef46ca40b6416ee3c09ae0f2f071830a97f703d": {
+        "status": "Accepted",
+        "score": 62,
+        "input": "9\n",
+        "tk": 5.029,
+        "tb": 8.398,
+        "pass": true
+      },
+      "b553ecdfc41182b798882d3debbc74b6486f5483": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.704,
+        "tb": 18.088,
+        "pass": true
+      },
+      "bf1bcbc0dd656a67753053a0527e2d9e9daaacc0": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "6\n",
+        "tk": 3.122,
+        "tb": 7.541,
+        "pass": true
+      },
+      "c0860462677796bf2a0c69c33f542084921993eb": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.879,
+        "tb": 6.99,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115147,
+    "status": "WrongAnswer",
+    "score": 92,
+    "displayScore": 65.58,
+    "timeUsed": 1900715,
+    "memoryUsed": 3568940,
+    "cases": {
+      "02c39511da293c08f96c69a35b5505edf9fd7fb7": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.343,
+        "tb": 28.916,
+        "pass": true
+      },
+      "168352312a66dd83ac4c4e487251edfa224108c4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "1be3793f6236fabfb78ae60813b689659ba0d214": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "4\n",
+        "tk": 1.959,
+        "tb": 5.076,
+        "pass": true
+      },
+      "1f62b31a6a10aa2d3a4b12866b1bdd97014a0329": {
+        "status": "Accepted",
+        "score": 63,
+        "input": "10\n",
+        "tk": 3.916,
+        "tb": 6.766,
+        "pass": true
+      },
+      "7d760461126ba409a0a2845bcb6e26f6c981ed54": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "11\n",
+        "tk": 2.159,
+        "tb": 5.759,
+        "pass": true
+      },
+      "8732975a1b7ffaf7097b8a0ab1242e2c0952ddc4": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "12\n",
+        "tk": 3.464,
+        "tb": 7.545,
+        "pass": true
+      },
+      "8ba3d2ef9c9695f23bf37724c9dab53ca0a6bbcf": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.846,
+        "tb": 6.949,
+        "pass": true
+      },
+      "9de90d8c84ec581a9148d489bbc749f7a939fe70": {
+        "status": "Accepted",
+        "score": 93,
+        "input": "6\n",
+        "tk": 3.08,
+        "tb": 47.879,
+        "pass": true
+      },
+      "b780d0193ecf3c019310a842e743288c14e983ee": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.689,
+        "tb": 18.307,
+        "pass": true
+      },
+      "b8675284cdd65e69c6fa56483edd23f3ec537a0a": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "8\n",
+        "tk": 2.777,
+        "tb": 7.156,
+        "pass": true
+      },
+      "f53b6b466c72310854d608a108cc64e2fe1f8a89": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.0,
+        "tb": 10.278,
+        "pass": true
+      },
+      "f90356d9b93c0200784f0bd76c36dc7c7a61fe05": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "5\n",
+        "tk": 5.161,
+        "tb": 12.668,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115156,
+    "status": "WrongAnswer",
+    "score": 8,
+    "displayScore": 5.75,
+    "timeUsed": 20338605,
+    "memoryUsed": 3579664,
+    "cases": {
+      "0715f96e47f33ed08f86da50ba671d8f2c9894ac": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "16a95f20c05cb9e19e38cf76a776ab9e222b451d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "18f8ce138bb5876941fb3e0a3d174c40c0ccae18": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "34a9f87587f1b8441362e56f97487104854f1fc2": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7e67ff176ff48d80db2545f98a26f25b65b9390f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "8d28bc989c3081ab83550eeefa084dfc9f42b125": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "9557bb0726a9f2f42db9a611bf366096b998b9a8": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ab8f593b71319fa56c076f55c698079dde91ffdf": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d55465ad06f480081cf553f6dcbb2b848233b52a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "e38b8fa04d71919c1783ba1f2a142169a9dcc093": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f5f8616c14045365e6aace61a8b1a6511cfcf4dd": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f7e40ad5f784168de4ed5fa6ebb3a96db488c633": {
+        "status": "Accepted",
+        "score": 69,
+        "input": "1\n",
+        "tk": 7.751,
+        "tb": 17.894,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115159,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 50558854,
+    "memoryUsed": 2345068,
+    "cases": {
+      "0715f96e47f33ed08f86da50ba671d8f2c9894ac": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "16a95f20c05cb9e19e38cf76a776ab9e222b451d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "18f8ce138bb5876941fb3e0a3d174c40c0ccae18": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "34a9f87587f1b8441362e56f97487104854f1fc2": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7e67ff176ff48d80db2545f98a26f25b65b9390f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "8d28bc989c3081ab83550eeefa084dfc9f42b125": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "9557bb0726a9f2f42db9a611bf366096b998b9a8": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ab8f593b71319fa56c076f55c698079dde91ffdf": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d55465ad06f480081cf553f6dcbb2b848233b52a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "e38b8fa04d71919c1783ba1f2a142169a9dcc093": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f5f8616c14045365e6aace61a8b1a6511cfcf4dd": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f7e40ad5f784168de4ed5fa6ebb3a96db488c633": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115161,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 78258442,
+    "memoryUsed": 3588880,
+    "cases": {
+      "079b25dadcfb601922f59efb63c161674d87b639": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "15e896801dde49798f7d8c51bfc08d13235b0a69": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "3517eb79f7359a2126f19ccf5807b0ca08b7a1dd": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "5d0003b96b2b0898e389c4ee13c69c21622ef3df": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "6a0f55b8d2d584a9cc89ad32f6bbd15ecc05e797": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "6ef3b9aa34a0419afebf045c8c6a17c643a55c11": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7798bf0e1ce851c5eb7c18886f636467abe5fe34": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7bdb7c49046c47671469fa6ccea6d6c2d0f52d4c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "97440eb248aa8f06945c044b18bbfed4062e7796": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "cd8415f3301400f154cca5c7640efaa2f49bc432": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d6b74dba2a19ae05fc6c6d044a3b2e9f61d5e9e1": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f7ae13b012e84fbfaf9f270c5fead4d30f71a1fc": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115165,
+    "status": "WrongAnswer",
+    "score": 92,
+    "displayScore": 66.67,
+    "timeUsed": 1901646,
+    "memoryUsed": 3634812,
+    "cases": {
+      "01285ed222baeaf07dd1b7d1d2659370d36ff951": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "5\n",
+        "tk": 5.159,
+        "tb": 12.744,
+        "pass": true
+      },
+      "353574e2383d402c0c7fc8428767ba11b14f9a26": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "8\n",
+        "tk": 2.85,
+        "tb": 7.166,
+        "pass": true
+      },
+      "41ba53f4a369f7d72aeb0bc73135bfac6fa8c891": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 6.702,
+        "pass": false
+      },
+      "47137c707272e97cb3f032b772e1592715745528": {
+        "status": "Accepted",
+        "score": 73,
+        "input": "6\n",
+        "tk": 3.093,
+        "tb": 8.484,
+        "pass": true
+      },
+      "55665a41b4c84ccd7c89f017a5f2689c233d0260": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.699,
+        "tb": 18.133,
+        "pass": true
+      },
+      "626605851f67bd395f999d8019d1e2ed4d09a60e": {
+        "status": "Accepted",
+        "score": 79,
+        "input": "4\n",
+        "tk": 1.958,
+        "tb": 7.475,
+        "pass": true
+      },
+      "7157afaee501ac2c134d6dd7370b257dc0c1a14b": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.37,
+        "tb": 28.975,
+        "pass": true
+      },
+      "87ee97e3d7e56daea0658bec010ede79a29bc63f": {
+        "status": "Accepted",
+        "score": 93,
+        "input": "11\n",
+        "tk": 2.165,
+        "tb": 33.558,
+        "pass": true
+      },
+      "8a3f35f8824809fa3b344cc12317a7f16115f574": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.063,
+        "tb": 10.349,
+        "pass": true
+      },
+      "929d88250f039fd98fff4257eae60d2dd99abbf5": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "3\n",
+        "tk": 2.853,
+        "tb": 6.991,
+        "pass": true
+      },
+      "ada942b115a2bd78e93a6d2cf158cd13c10b01ec": {
+        "status": "Accepted",
+        "score": 63,
+        "input": "9\n",
+        "tk": 4.984,
+        "tb": 8.506,
+        "pass": true
+      },
+      "fbe7de7fe583a539852ff2e46fa568808679cd75": {
+        "status": "Accepted",
+        "score": 73,
+        "input": "12\n",
+        "tk": 3.475,
+        "tb": 9.399,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115175,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 68.67,
+    "timeUsed": 57500,
+    "memoryUsed": 3624012,
+    "cases": {
+      "076ab024270d218411a5a07505fe1615124a113c": {
+        "status": "Accepted",
+        "score": 63,
+        "input": "9\n",
+        "tk": 4.868,
+        "tb": 8.349,
+        "pass": true
+      },
+      "3d636840c58054bb22c7e6843e91046aeb532ca9": {
+        "status": "Accepted",
+        "score": 69,
+        "input": "1\n",
+        "tk": 7.701,
+        "tb": 17.943,
+        "pass": true
+      },
+      "436890c589cf47679e16b0474b745a84ed6ae43e": {
+        "status": "Accepted",
+        "score": 63,
+        "input": "10\n",
+        "tk": 3.808,
+        "tb": 6.57,
+        "pass": true
+      },
+      "4859ad1bdea78347020571da0d762c71ab5d20c0": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.865,
+        "tb": 6.841,
+        "pass": true
+      },
+      "68634bd5fbf7acf608ac3df83b454119bb3bfb20": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "8\n",
+        "tk": 2.858,
+        "tb": 6.958,
+        "pass": true
+      },
+      "6cd7014b7546f89748353bbddeb0f06fa1d35dc0": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "5\n",
+        "tk": 5.191,
+        "tb": 12.88,
+        "pass": true
+      },
+      "76319d2cca6928793905bc689298901192e716fa": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "11\n",
+        "tk": 2.176,
+        "tb": 5.567,
+        "pass": true
+      },
+      "84177cd82fa89169c53283c65dd2a0ee2bd9c215": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "6\n",
+        "tk": 3.111,
+        "tb": 7.59,
+        "pass": true
+      },
+      "a32dfdafa8a4a600d2b7546000191c421cef640d": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.381,
+        "tb": 28.71,
+        "pass": true
+      },
+      "e19441c02471b5f3b3dc2c2b7acfcd8e91432328": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.084,
+        "tb": 10.172,
+        "pass": true
+      },
+      "f0d93563ad69fb51fd84df8298394326daf6d751": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 1.967,
+        "tb": 4.993,
+        "pass": true
+      },
+      "f9e8c71f73bfd817b4b50337724090d200c50827": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "12\n",
+        "tk": 3.49,
+        "tb": 8.165,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115180,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 69.33,
+    "timeUsed": 58488,
+    "memoryUsed": 3590944,
+    "cases": {
+      "124ce972b0b1302d935e011a2f8cf25e89dda916": {
+        "status": "Accepted",
+        "score": 61,
+        "input": "9\n",
+        "tk": 5.391,
+        "tb": 8.468,
+        "pass": true
+      },
+      "28465e8590756610daef6e2ef16c996c32917e3f": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.879,
+        "tb": 6.972,
+        "pass": true
+      },
+      "2b9aff3ffe6619b2d21ee84b4539c73e5a8cba59": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.092,
+        "tb": 7.609,
+        "pass": true
+      },
+      "2daf087145136b4b4b70114e1e10837eebacb2b8": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "2\n",
+        "tk": 15.481,
+        "tb": 40.725,
+        "pass": true
+      },
+      "4d3b17018bc0602989a69815061fa00f288f0c8d": {
+        "status": "Accepted",
+        "score": 69,
+        "input": "12\n",
+        "tk": 3.665,
+        "tb": 8.247,
+        "pass": true
+      },
+      "71434f292bc2b9a12fe84a6baa660a6fcb6e7a7f": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.35,
+        "tb": 5.712,
+        "pass": true
+      },
+      "727aa1a20fc3d0fbc5e20754d2c65655319d86f6": {
+        "status": "Accepted",
+        "score": 73,
+        "input": "4\n",
+        "tk": 1.961,
+        "tb": 5.508,
+        "pass": true
+      },
+      "72eee1d2869a15b8fc6686a341019212d3fa843b": {
+        "status": "Accepted",
+        "score": 63,
+        "input": "10\n",
+        "tk": 3.884,
+        "tb": 6.72,
+        "pass": true
+      },
+      "8a76c3ba57e14fcd4e866aed4124335559246fda": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.689,
+        "tb": 18.077,
+        "pass": true
+      },
+      "8e66fb4b387ca81eeae2a2b343fe9f3077257734": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "8\n",
+        "tk": 2.858,
+        "tb": 7.258,
+        "pass": true
+      },
+      "bb209a512150607845016d94a07c830ad4e32ee5": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "5\n",
+        "tk": 5.164,
+        "tb": 12.74,
+        "pass": true
+      },
+      "d4f7352afc1d5fa35f6119b53393d08d699fa778": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.074,
+        "tb": 10.328,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115185,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 69.33,
+    "timeUsed": 57204,
+    "memoryUsed": 3611316,
+    "cases": {
+      "12a191e9e0bd4f0f2c4b46893c5e04c06baff44d": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.06,
+        "tb": 10.287,
+        "pass": true
+      },
+      "1587518c528093545d2650803156d6c7f773a81b": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "12\n",
+        "tk": 3.469,
+        "tb": 8.198,
+        "pass": true
+      },
+      "15a52598dd7c1387bfc25ba8798cfb37f2c8e7de": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "4\n",
+        "tk": 1.958,
+        "tb": 5.036,
+        "pass": true
+      },
+      "3b8ec5065a88354225ce72e6d3cb7576c54dc74a": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.085,
+        "tb": 7.682,
+        "pass": true
+      },
+      "41b825aee53058ca5374b122d28ed4714ee361c6": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "10\n",
+        "tk": 3.123,
+        "tb": 6.72,
+        "pass": true
+      },
+      "499f3c53abee86c39160849343a78533a6250e66": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "8\n",
+        "tk": 2.85,
+        "tb": 7.247,
+        "pass": true
+      },
+      "5a70ff9dc9432901cf61a650e2ab36e4a5158383": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "3\n",
+        "tk": 2.852,
+        "tb": 7.006,
+        "pass": true
+      },
+      "af71fd8ad932976474d7dd4de95f6cb32b5e3e40": {
+        "status": "Accepted",
+        "score": 60,
+        "input": "9\n",
+        "tk": 5.464,
+        "tb": 8.467,
+        "pass": true
+      },
+      "caa230be1ad524c0e7ad2cf94a4ac281f629607e": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "5\n",
+        "tk": 5.167,
+        "tb": 12.722,
+        "pass": true
+      },
+      "dee6a37ccc16e33c66d66426c32b4c260a705318": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.677,
+        "tb": 18.011,
+        "pass": true
+      },
+      "ed753bf5b84600271efc6082573a4c87b2c5fab6": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "11\n",
+        "tk": 2.162,
+        "tb": 5.677,
+        "pass": true
+      },
+      "f1dcf8a61a1dedc19dab51f15f1b1d038a234a00": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.337,
+        "tb": 28.872,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115189,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 68.42,
+    "timeUsed": 59132,
+    "memoryUsed": 2325764,
+    "cases": {
+      "252f35c1cb40785d67c64eec0805fd8ef529b4ef": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.448,
+        "tb": 29.617,
+        "pass": true
+      },
+      "2fd2f295a0c32be11a32cfa912db455238fd6b45": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "8\n",
+        "tk": 2.926,
+        "tb": 7.216,
+        "pass": true
+      },
+      "329218669ba58211a01862c6a3a78372c385873d": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.136,
+        "tb": 10.25,
+        "pass": true
+      },
+      "3b0682659c8fb56974f8018fa025d34d1ccde9f4": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 1.996,
+        "tb": 5.103,
+        "pass": true
+      },
+      "46c58b9023b4afb836a4605e3b1984b69b3b986f": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.407,
+        "tb": 5.661,
+        "pass": true
+      },
+      "6a233cac8534b0be41fb29388ffe3a235ca785c2": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.706,
+        "tb": 18.108,
+        "pass": true
+      },
+      "6b91b48f6bf2534610bb4759ced5b8caa928d91c": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "5\n",
+        "tk": 5.198,
+        "tb": 12.639,
+        "pass": true
+      },
+      "78565d3d72c022eee78f3afa8c9a3e079871e3e6": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.135,
+        "tb": 7.681,
+        "pass": true
+      },
+      "860afcfcc9df27d732415d19c28f1084afc88016": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "12\n",
+        "tk": 3.715,
+        "tb": 8.175,
+        "pass": true
+      },
+      "b677d89a15887ae52e9d0f7c1bc7fc8b09558e4a": {
+        "status": "Accepted",
+        "score": 57,
+        "input": "9\n",
+        "tk": 6.34,
+        "tb": 8.422,
+        "pass": true
+      },
+      "c892e8b7138217f1aa2c31ed34c12384ea11a4c1": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.88,
+        "tb": 6.977,
+        "pass": true
+      },
+      "e96b41de7c93d64835cba9046335975ff9760e55": {
+        "status": "Accepted",
+        "score": 67,
+        "input": "10\n",
+        "tk": 3.245,
+        "tb": 6.749,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115190,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 69,
+    "timeUsed": 56903,
+    "memoryUsed": 3638848,
+    "cases": {
+      "12a191e9e0bd4f0f2c4b46893c5e04c06baff44d": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.094,
+        "tb": 10.132,
+        "pass": true
+      },
+      "1587518c528093545d2650803156d6c7f773a81b": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "12\n",
+        "tk": 3.484,
+        "tb": 8.22,
+        "pass": true
+      },
+      "15a52598dd7c1387bfc25ba8798cfb37f2c8e7de": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 1.968,
+        "tb": 4.979,
+        "pass": true
+      },
+      "3b8ec5065a88354225ce72e6d3cb7576c54dc74a": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "6\n",
+        "tk": 3.114,
+        "tb": 7.551,
+        "pass": true
+      },
+      "41b825aee53058ca5374b122d28ed4714ee361c6": {
+        "status": "Accepted",
+        "score": 67,
+        "input": "10\n",
+        "tk": 3.127,
+        "tb": 6.576,
+        "pass": true
+      },
+      "499f3c53abee86c39160849343a78533a6250e66": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "8\n",
+        "tk": 2.863,
+        "tb": 7.132,
+        "pass": true
+      },
+      "5a70ff9dc9432901cf61a650e2ab36e4a5158383": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.865,
+        "tb": 6.915,
+        "pass": true
+      },
+      "af71fd8ad932976474d7dd4de95f6cb32b5e3e40": {
+        "status": "Accepted",
+        "score": 62,
+        "input": "9\n",
+        "tk": 4.904,
+        "tb": 8.315,
+        "pass": true
+      },
+      "caa230be1ad524c0e7ad2cf94a4ac281f629607e": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "5\n",
+        "tk": 5.188,
+        "tb": 12.663,
+        "pass": true
+      },
+      "dee6a37ccc16e33c66d66426c32b4c260a705318": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.715,
+        "tb": 18.348,
+        "pass": true
+      },
+      "ed753bf5b84600271efc6082573a4c87b2c5fab6": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "11\n",
+        "tk": 2.176,
+        "tb": 5.57,
+        "pass": true
+      },
+      "f1dcf8a61a1dedc19dab51f15f1b1d038a234a00": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.405,
+        "tb": 28.903,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115196,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 67.67,
+    "timeUsed": 60809,
+    "memoryUsed": 3566772,
+    "cases": {
+      "20851404b7ca29c3cc4541953222e6fce193da1c": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "6\n",
+        "tk": 3.154,
+        "tb": 7.514,
+        "pass": true
+      },
+      "37b4231ff982e2792365fdcde36b2a4d8ca7094f": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.444,
+        "tb": 28.708,
+        "pass": true
+      },
+      "3d5f1a703ccebeb1cb2271ae977b388a6f1c8004": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.166,
+        "tb": 10.203,
+        "pass": true
+      },
+      "5189f39584608278047b43d8dfdecc71a68d1af7": {
+        "status": "Accepted",
+        "score": 69,
+        "input": "1\n",
+        "tk": 7.742,
+        "tb": 17.908,
+        "pass": true
+      },
+      "535092afb57456f289894a7fe2fd175c5e90e030": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.357,
+        "tb": 5.588,
+        "pass": true
+      },
+      "5510fa322aa25484bb14602604264cb3c6501b69": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.901,
+        "tb": 6.839,
+        "pass": true
+      },
+      "5cff8cb55b031cb825264693f9f2d5ea9bb51fb3": {
+        "status": "Accepted",
+        "score": 67,
+        "input": "10\n",
+        "tk": 3.199,
+        "tb": 6.635,
+        "pass": true
+      },
+      "9082cdef9096cb5a61aa557582061cd3f3e31a20": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "5\n",
+        "tk": 5.229,
+        "tb": 12.919,
+        "pass": true
+      },
+      "a46a7824a4fa7a1d1fd21a5bdb5fbb0614f97d16": {
+        "status": "Accepted",
+        "score": 69,
+        "input": "12\n",
+        "tk": 3.668,
+        "tb": 8.19,
+        "pass": true
+      },
+      "bbbc26a04f185292feed24d6540368050d09be16": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "8\n",
+        "tk": 2.934,
+        "tb": 7.035,
+        "pass": true
+      },
+      "d6eede01c08252d9b8f6b7c5b01669c03379288d": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "4\n",
+        "tk": 2.011,
+        "tb": 4.922,
+        "pass": true
+      },
+      "daa88a27e065aab1dce517ea89939d255e052329": {
+        "status": "Accepted",
+        "score": 50,
+        "input": "9\n",
+        "tk": 8.004,
+        "tb": 8.285,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115202,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 68.33,
+    "timeUsed": 59445,
+    "memoryUsed": 2326676,
+    "cases": {
+      "12a191e9e0bd4f0f2c4b46893c5e04c06baff44d": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.134,
+        "tb": 10.252,
+        "pass": true
+      },
+      "1587518c528093545d2650803156d6c7f773a81b": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "12\n",
+        "tk": 3.711,
+        "tb": 8.213,
+        "pass": true
+      },
+      "15a52598dd7c1387bfc25ba8798cfb37f2c8e7de": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 1.998,
+        "tb": 5.042,
+        "pass": true
+      },
+      "3b8ec5065a88354225ce72e6d3cb7576c54dc74a": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.133,
+        "tb": 7.842,
+        "pass": true
+      },
+      "41b825aee53058ca5374b122d28ed4714ee361c6": {
+        "status": "Accepted",
+        "score": 67,
+        "input": "10\n",
+        "tk": 3.24,
+        "tb": 6.704,
+        "pass": true
+      },
+      "499f3c53abee86c39160849343a78533a6250e66": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "8\n",
+        "tk": 2.925,
+        "tb": 7.218,
+        "pass": true
+      },
+      "5a70ff9dc9432901cf61a650e2ab36e4a5158383": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.879,
+        "tb": 6.964,
+        "pass": true
+      },
+      "af71fd8ad932976474d7dd4de95f6cb32b5e3e40": {
+        "status": "Accepted",
+        "score": 56,
+        "input": "9\n",
+        "tk": 6.639,
+        "tb": 8.469,
+        "pass": true
+      },
+      "caa230be1ad524c0e7ad2cf94a4ac281f629607e": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "5\n",
+        "tk": 5.212,
+        "tb": 12.69,
+        "pass": true
+      },
+      "dee6a37ccc16e33c66d66426c32b4c260a705318": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.688,
+        "tb": 18.128,
+        "pass": true
+      },
+      "ed753bf5b84600271efc6082573a4c87b2c5fab6": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.406,
+        "tb": 5.666,
+        "pass": true
+      },
+      "f1dcf8a61a1dedc19dab51f15f1b1d038a234a00": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.48,
+        "tb": 29.037,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115207,
+    "status": "WrongAnswer",
+    "score": 92,
+    "displayScore": 63.92,
+    "timeUsed": 1866719,
+    "memoryUsed": 2319892,
+    "cases": {
+      "0d4d4905308cf4b3ef5c61a4f890d73da3bd34a2": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.88,
+        "tb": 7.021,
+        "pass": true
+      },
+      "1412a138255519b3ee55b4b4ff0a5e2c1e9913b2": {
+        "status": "Accepted",
+        "score": 67,
+        "input": "10\n",
+        "tk": 3.233,
+        "tb": 6.719,
+        "pass": true
+      },
+      "46378b41add71c57874f9e4c80d809456262e709": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "8\n",
+        "tk": 2.926,
+        "tb": 7.186,
+        "pass": true
+      },
+      "67daf4b1dcb2e8900df113019b997c3593bf562c": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "11\n",
+        "tk": 2.412,
+        "tb": 6.29,
+        "pass": true
+      },
+      "7e1c5d08676c3f354e8e14133d990227981d08ce": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.139,
+        "tb": 10.296,
+        "pass": true
+      },
+      "a182ac45ce5ebdcab3fa76e6fb6db1182552b4d5": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.134,
+        "tb": 7.681,
+        "pass": true
+      },
+      "a9e0d5dab6d8a319b6921f94cd7fce28125e2005": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 2.006,
+        "tb": 5.045,
+        "pass": true
+      },
+      "d0f7147b22b345e21a129e7833f13a973081d882": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.433,
+        "tb": 28.937,
+        "pass": true
+      },
+      "e06a209507315165c5b347a5ee5acdbee62947cf": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.717,
+        "tb": 18.287,
+        "pass": true
+      },
+      "ee96bf7ee1044ccf9dc4bc852ed74ad0b1b6086b": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 8.452,
+        "pass": false
+      },
+      "ef5e305d22ad64396eda85cb23b1ad22efcac115": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "5\n",
+        "tk": 5.198,
+        "tb": 12.684,
+        "pass": true
+      },
+      "f9950fb1b934f533d4c449bcd01be536440254c9": {
+        "status": "Accepted",
+        "score": 69,
+        "input": "12\n",
+        "tk": 3.701,
+        "tb": 8.35,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115209,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 69.67,
+    "timeUsed": 56185,
+    "memoryUsed": 3570984,
+    "cases": {
+      "014e7d499a0efeed24472573323d872c096591d0": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "7\n",
+        "tk": 4.076,
+        "tb": 10.633,
+        "pass": true
+      },
+      "0da4f892478b48194f0ee4764e490c8a9d3b3c1f": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "5\n",
+        "tk": 5.161,
+        "tb": 12.657,
+        "pass": true
+      },
+      "0e3ad9b7fdc39b017e488c271c325e576aa398fe": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.68,
+        "tb": 18.072,
+        "pass": true
+      },
+      "147a43c5284e9ee26b1eb3d33558aabbcc092980": {
+        "status": "Accepted",
+        "score": 67,
+        "input": "10\n",
+        "tk": 3.199,
+        "tb": 6.724,
+        "pass": true
+      },
+      "23f1ad4d98a94b315e42c5407d0f09205422326d": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "8\n",
+        "tk": 2.864,
+        "tb": 7.125,
+        "pass": true
+      },
+      "24679f1834dcac9bc98293e77c7b7e0f97232402": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "9\n",
+        "tk": 3.839,
+        "tb": 8.391,
+        "pass": true
+      },
+      "34a0d1788bec6901332be2920008deea2e5f0401": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.091,
+        "tb": 7.603,
+        "pass": true
+      },
+      "3a708733b3fc257f3c49e53f23e7bb985293c462": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.88,
+        "tb": 6.966,
+        "pass": true
+      },
+      "873f19cabdb13b807463d9fdc8b2eeac4611603f": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "4\n",
+        "tk": 1.962,
+        "tb": 5.146,
+        "pass": true
+      },
+      "ab9dee258efdb1101a53d4470fb4f8663e1563a1": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.35,
+        "tb": 5.685,
+        "pass": true
+      },
+      "d274b6c75a55d38173960ac7e52cc216947f4c47": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.433,
+        "tb": 28.861,
+        "pass": true
+      },
+      "f4ad25a140fa4dcae4fca6dd186f22841cb1d299": {
+        "status": "Accepted",
+        "score": 69,
+        "input": "12\n",
+        "tk": 3.65,
+        "tb": 8.174,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115214,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 69.42,
+    "timeUsed": 56641,
+    "memoryUsed": 2324164,
+    "cases": {
+      "014e7d499a0efeed24472573323d872c096591d0": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "7\n",
+        "tk": 4.139,
+        "tb": 10.675,
+        "pass": true
+      },
+      "0da4f892478b48194f0ee4764e490c8a9d3b3c1f": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "5\n",
+        "tk": 5.202,
+        "tb": 12.74,
+        "pass": true
+      },
+      "0e3ad9b7fdc39b017e488c271c325e576aa398fe": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.673,
+        "tb": 18.382,
+        "pass": true
+      },
+      "147a43c5284e9ee26b1eb3d33558aabbcc092980": {
+        "status": "Accepted",
+        "score": 67,
+        "input": "10\n",
+        "tk": 3.243,
+        "tb": 6.734,
+        "pass": true
+      },
+      "23f1ad4d98a94b315e42c5407d0f09205422326d": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "8\n",
+        "tk": 2.927,
+        "tb": 7.214,
+        "pass": true
+      },
+      "24679f1834dcac9bc98293e77c7b7e0f97232402": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "9\n",
+        "tk": 3.878,
+        "tb": 8.414,
+        "pass": true
+      },
+      "34a0d1788bec6901332be2920008deea2e5f0401": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "6\n",
+        "tk": 3.139,
+        "tb": 7.682,
+        "pass": true
+      },
+      "3a708733b3fc257f3c49e53f23e7bb985293c462": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.877,
+        "tb": 6.937,
+        "pass": true
+      },
+      "873f19cabdb13b807463d9fdc8b2eeac4611603f": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 1.997,
+        "tb": 5.092,
+        "pass": true
+      },
+      "ab9dee258efdb1101a53d4470fb4f8663e1563a1": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.404,
+        "tb": 5.691,
+        "pass": true
+      },
+      "d274b6c75a55d38173960ac7e52cc216947f4c47": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.446,
+        "tb": 28.838,
+        "pass": true
+      },
+      "f4ad25a140fa4dcae4fca6dd186f22841cb1d299": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "12\n",
+        "tk": 3.716,
+        "tb": 8.218,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115217,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 46201672,
+    "memoryUsed": 2058808,
+    "cases": {
+      "062d84079dc1770aa629af21cf4285d41381485f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "0a3b043ca9d28cd3fb78a6aedc91f92e2ab9f256": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "10054679e2097dc596d4b90b0955581bc0dd5328": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "2917b8d2b7a210cfd145001ec8b9d270d031fbdb": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "3119cd5785291054aa0ecd512ac37a608c413eb0": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "3fb504c3227d39a261dd540dbc58d021068365f2": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7fac907bf125979f4b00e68061ff97dbd58eb206": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "a011ee978f1dd45bd4840aac0e0020ce3d0ca251": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d5c6537f972d788b8753fe1a03f15b2d2fbe1f9e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "db91a1a9065b59285e25077c5f8c0d98186f6584": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ebd4ec68fe0da5209bf4501d4a1d42c9174aaa8d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "fcd829a4762ca72f43b7ac17593ec1a75490a74f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115219,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 119350320,
+    "memoryUsed": 3386020,
+    "cases": {
+      "0494705fe7d8b5e187e77f01d2c1119820dffb6b": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "0dbcd1cae9f0bf97e4746231532d02c7ae81ad85": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "0f7c2b2c3d7f3c8fafd1d89d2b9cc90c1ea511ea": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "15c62c1e706f13e59154b8b4a8dafa729e438ef1": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "1bde592d8eef0fd64172ca8e77f7fb48bf763a7f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "5a314578b687491344d32a19dbb2acb022833259": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "71e6ea23157ae429ed515d6d76256b1b534dda66": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "93cd4487f4fe085be06fb3942dbe1c34dbe9274c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "99db683b98f848fb3dfa213da4b06f8f89bbb371": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b655c7b9c890f9a544b0f39e0e25ff7eeed81905": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "dfdca00bb59e0a6bacdc25a50acd0d1997734e55": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f7c5a2a733687102768e5b3be8b9ac2ed61e8542": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115222,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 69.33,
+    "timeUsed": 56570,
+    "memoryUsed": 3472520,
+    "cases": {
+      "1505dec7f4010517cfc45e620db169d4a34582a6": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.398,
+        "tb": 28.801,
+        "pass": true
+      },
+      "322bd11d6878ee9ab81cfa951b908d55597970df": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.671,
+        "tb": 18.027,
+        "pass": true
+      },
+      "369281ba3aae9a92c5bcd833322be79853e386cf": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "12\n",
+        "tk": 3.71,
+        "tb": 8.184,
+        "pass": true
+      },
+      "581fbc0d92cd33e7585bd8c0dd194ec8d5140d91": {
+        "status": "Accepted",
+        "score": 67,
+        "input": "10\n",
+        "tk": 3.243,
+        "tb": 6.73,
+        "pass": true
+      },
+      "6093dd049e5e857ce2c41892d8b2f7f3aca1aa86": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.132,
+        "tb": 10.248,
+        "pass": true
+      },
+      "6732126c119432d7cdb0cd39b02ffe1dfbc0b38a": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 1.995,
+        "tb": 5.074,
+        "pass": true
+      },
+      "847538aa2d80cb5469110a6896abeaff606c5657": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.877,
+        "tb": 6.976,
+        "pass": true
+      },
+      "8f2033b3c771e1735a8d5a97ad18228693d063b3": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.13,
+        "tb": 7.684,
+        "pass": true
+      },
+      "ab1d9ba6f63a3c5731843e4ea6184026ca1b41ee": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "9\n",
+        "tk": 3.878,
+        "tb": 8.453,
+        "pass": true
+      },
+      "ac3d09fb65aeb5f202d8bc12c8d51b47dc4fa7b3": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.407,
+        "tb": 5.65,
+        "pass": true
+      },
+      "b6f2d25049c34850eccb16d798baa4f1ac913568": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "5\n",
+        "tk": 5.205,
+        "tb": 12.715,
+        "pass": true
+      },
+      "f5326c38ce291200ae47c5b151202a188c28b2a8": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "8\n",
+        "tk": 2.924,
+        "tb": 7.186,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115593,
+    "status": "WrongAnswer",
+    "score": 33,
+    "displayScore": 23.5,
+    "timeUsed": 94340516,
+    "memoryUsed": 3615804,
+    "cases": {
+      "1705a299cc112aff8ea2a6477dd211fd73100491": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.415,
+        "tb": 29.595,
+        "pass": true
+      },
+      "232c23c92a46d85a5b0005eef1414d79f4b3686b": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "11\n",
+        "tk": 2.223,
+        "tb": 5.555,
+        "pass": true
+      },
+      "24ceaeb082db3007a914a32c80ba4ef36099baea": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.121,
+        "tb": 7.845,
+        "pass": true
+      },
+      "3e8dbb134d037e5636bb1e0f499dd9212ac55feb": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c2d5f8fe35b8f7f38b4f8fa21b8ae8fc4810911c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c40e879ac1745277450fef2c87f7edadc5a84e0a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c50f20c49aafc3d39fc4ee92a29c01ada3fc4289": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c8991395d204b550c2f2465a0f16cb1f52dff33b": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "cdc962a4d86d695c7c666f19b7774d0468598be5": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d378e4484e40879036a6458954be876a3c02f9ca": {
+        "status": "Accepted",
+        "score": 75,
+        "input": "4\n",
+        "tk": 1.973,
+        "tb": 6.168,
+        "pass": true
+      },
+      "f852e6904ca4cc15d7a5569412759da1725e87fd": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "fc75ab4e4c2b3e87f71434115dc464f73a2d8251": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115595,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 44.08,
+    "timeUsed": 198619,
+    "memoryUsed": 3383364,
+    "cases": {
+      "067f68399979b3f4c289a1646547b75439c35b66": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 1.999,
+        "tb": 5.021,
+        "pass": true
+      },
+      "17aa4a7c498992cd4765e0c13177348814b94709": {
+        "status": "Accepted",
+        "score": 33,
+        "input": "9\n",
+        "tk": 16.513,
+        "tb": 8.385,
+        "pass": true
+      },
+      "19f977a9ffb4a3037bae43b25ca65da427c3ef0a": {
+        "status": "Accepted",
+        "score": 43,
+        "input": "2\n",
+        "tk": 36.788,
+        "tb": 28.891,
+        "pass": true
+      },
+      "1a9669f2d164aef31f5256b2a6798e7f46d2a333": {
+        "status": "Accepted",
+        "score": 34,
+        "input": "10\n",
+        "tk": 12.89,
+        "tb": 6.731,
+        "pass": true
+      },
+      "1d9a573211c1f39f5eb7453ff68959a2f821bf75": {
+        "status": "Accepted",
+        "score": 32,
+        "input": "5\n",
+        "tk": 25.917,
+        "tb": 12.647,
+        "pass": true
+      },
+      "2d691fa64e84d7354d5d835958a467656c21e9ce": {
+        "status": "Accepted",
+        "score": 36,
+        "input": "3\n",
+        "tk": 12.237,
+        "tb": 6.972,
+        "pass": true
+      },
+      "3cb8fa1dae6d2b16164ee9da60321941a0a785eb": {
+        "status": "Accepted",
+        "score": 40,
+        "input": "8\n",
+        "tk": 10.553,
+        "tb": 7.179,
+        "pass": true
+      },
+      "4c743367ad60069d7508f74731289bf955ccc055": {
+        "status": "Accepted",
+        "score": 37,
+        "input": "12\n",
+        "tk": 13.313,
+        "tb": 8.101,
+        "pass": true
+      },
+      "6f4950a57ce94c1674b7b8576216229f1142ad23": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.406,
+        "tb": 5.648,
+        "pass": true
+      },
+      "91cb61579e318df6848426224ff95d490201d9c5": {
+        "status": "Accepted",
+        "score": 29,
+        "input": "1\n",
+        "tk": 43.517,
+        "tb": 18.115,
+        "pass": true
+      },
+      "e49b806006e67136f215fb60f15afc895e31bfd8": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "6\n",
+        "tk": 3.138,
+        "tb": 7.581,
+        "pass": true
+      },
+      "e833ca97390a6d698cb002d7c121998c91c60d85": {
+        "status": "Accepted",
+        "score": 34,
+        "input": "7\n",
+        "tk": 19.348,
+        "tb": 10.243,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115597,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 81856377,
+    "memoryUsed": 3607340,
+    "cases": {
+      "0280e37f737a731d08f3cf609e04b09d49c719e7": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "35f2f10d1624e2fb30a79bde1285c81c9b4caa3c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "3f5f1d03e15c4d38ec21da00a55543d1a2f570e7": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "4f4b90bbed068f99ba2e5d45d3d2e50be10eb878": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "525466e765adeda65225fb161a134d4eabaac2cd": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "61577cc2b290a16076d64a8c5269bb21bbc701d4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "73212f54231ba4510295433d0b57a1972e72f709": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 17.903,
+        "pass": false
+      },
+      "7cebc831fb728244e77fe013d1f50031c83d82a5": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "a39e7c95238deea71e5820bf1a7a18622637d740": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ad6d039e1bbdb7f70bb5bcb12bf2e7bb3c67048c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d8d7eaf95523d7bc3ddac55984c20c0f5306b2bc": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f834bafaa79d070cbd10a79996ae7b39aa2171f8": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115599,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 69,
+    "timeUsed": 56624,
+    "memoryUsed": 3579836,
+    "cases": {
+      "11f025aa0dcd827cb344b9eb3112dbdcc0b0ddee": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.073,
+        "tb": 7.773,
+        "pass": true
+      },
+      "54387f12f5bea1548b39de96f68397b14de23730": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "11\n",
+        "tk": 2.52,
+        "tb": 5.603,
+        "pass": true
+      },
+      "610e9ab1c403a22cbc2d528210d42a6d4c047260": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.902,
+        "tb": 6.879,
+        "pass": true
+      },
+      "613b413d8b84694172bd06d2815338074a9a7d89": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.428,
+        "tb": 29.426,
+        "pass": true
+      },
+      "6d2aceae052407c41f7b5851a2df40053daefe95": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "9\n",
+        "tk": 3.844,
+        "tb": 8.276,
+        "pass": true
+      },
+      "87e5e307802420ac236210f15bc009115f21e490": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.102,
+        "tb": 10.106,
+        "pass": true
+      },
+      "96108e826a40b1dd4bed6ecdfe2f67eb8f0e994b": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "12\n",
+        "tk": 3.667,
+        "tb": 8.156,
+        "pass": true
+      },
+      "a47c507ad9fcba9b51bd94bee34f0223916ad594": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "8\n",
+        "tk": 2.873,
+        "tb": 6.99,
+        "pass": true
+      },
+      "a4b247adf108eb0a2085c585e08ad1ee39fe0579": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 2.054,
+        "tb": 5.057,
+        "pass": true
+      },
+      "a51e5c5f00c89847a485d96e5c3ad3686da3a502": {
+        "status": "Accepted",
+        "score": 69,
+        "input": "1\n",
+        "tk": 7.753,
+        "tb": 17.902,
+        "pass": true
+      },
+      "da80c7f2e8ab553db53c58e376f0a009fba8210f": {
+        "status": "Accepted",
+        "score": 67,
+        "input": "10\n",
+        "tk": 3.211,
+        "tb": 6.541,
+        "pass": true
+      },
+      "fd1808d89a30bca1d90499651909a1d96018c5dc": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "5\n",
+        "tk": 5.197,
+        "tb": 12.587,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115602,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 36217702,
+    "memoryUsed": 1504460,
+    "cases": {
+      "0ce1478c896aa25fad3c5e4b5467144dec17b5d7": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "1a3cc1db3a62f065c27adb19e7a6699ff887f787": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "32bd496560d38756ba89ff6f6777348e5fd86d1a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "61ce9e0d37043a3914c83988cb6fea5efa87b406": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "632915201c9ca62888f7306597e2f78a2d9b3450": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7aed5c96ebfecffb5df2298eab7feb55b36aff91": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7dcac0f8dbb614c1231cbd7c483cc8452ea56d81": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "86cf1525a2a86b38d81ff8b1eb4aa5fbe27cb67d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b533170126c0e3894d340222253ebebb178228e8": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b5d913615ecb33b2c743076dd2293cd819e95bb4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ca9c9785926fb98211139aab768952cdc0e907be": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f208608fd16961210f62decce77af824ed6f6274": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115603,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 36526216,
+    "memoryUsed": 1500744,
+    "cases": {
+      "3fa58d441add0bdcc3b71152f0d3aec4387ee4ee": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "4f6112ac5307aa2f67821e576f6010446a47d874": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "76e3cfd281a3cbebf09d9140391a0a1876a0dc62": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7759964d4dec642c3915c0c7aadb4b0d5bed0da1": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "bdc0dfeecebf97e9f1349165e593ef9fef7ed48d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "cde0e4be21d8d719628a9d3b599edb693938e346": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d64cf833c72c46c9ab0066ff0dbc8013bedbcdee": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "de305f4433eef92bba9745d5e2826072e2a0c343": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ee26b02610a35829622b37bedbd042ef4b7fb813": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f131bd160c8430ddcf0f80d0771a4af8108b3e5e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f4f701bed673b28230eb23576a6d2ed3ed35c816": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f6922ca7f2745f53282fdc22ca6c080b345abd5b": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115604,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 42060348,
+    "memoryUsed": 2001228,
+    "cases": {
+      "01797a95c0ad37d7b7236d515d2ff68d320bfee5": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "04156aa8751238e522fa5bdc189c112319635e37": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "08bd84812894bc9ebec4146a2cca0e0da332300e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "0f22e8141cf7104954f21c5fba737a4c3312621a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "0f8005d9adfb9bc5bb10f3253ee5b76404dfbf1a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "35c0f69501242d2d72ff0cf3a1b93514ab027aee": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "6831a2fa370f98fbed92b83ab5be8c601ae45c06": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "6f9e7f2d04ca294eabfc4e78b65080f427f344bc": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "740c3afba373f34c2420ec08f71ee78f0b301022": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "756531ccb4e166f149b9f48e7cb51992e8b50e29": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c54a7ba9963a552d45296c9c290973fa55d75a35": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ec3e49c3eab506d89e2157e2366c258ebafe5cd2": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115607,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41909191,
+    "memoryUsed": 1984740,
+    "cases": {
+      "001135056b8a03e8311e66062e2ccdb944450d43": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "061a10344eaa896d1cfc63c748e086ea08d7ddd5": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "156d98417b6d25c86ebc3313da892738ecd930ec": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "31ee7821a79d491417bfdfc5d9f23ff7376268e9": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "462ab676ce0f40b43f84e04b49a379bb55658868": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "5b9e5b859f5929b2496b856e6c19d5893218c798": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7b77a686e9798cd575cb0848900a9b22c4f1af9e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "8e236c7d3003fea4a7b7c1dfea5d184fb43c17d1": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d47025230f0475e4d01586112e36d965e280b44c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d4c83f89a16edeb5f6e204211888308256de707e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f1a78908dc6cfcab49c6ecfd1fb58ed7b21c617e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f65a2be6d264c8c64e3030ffb8d2342a26d18e09": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115609,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41523305,
+    "memoryUsed": 2016420,
+    "cases": {
+      "19eff59e9b9f9e1bd93ae808d2afe1dbd9df8934": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "2205d0e7d6258597a44f6c4aa2249018335d02ac": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "2fb3c091dfe2c9149831bf02cdc4c10aa4bf77f9": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "333e726f9c7cb78ed8ff7264069d538c01481ca1": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "39b57535eded393c4b24fbfeb10af0520111d0b8": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "3bccd7419e09d0445e3eef9d5711e3811d747809": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "3e01cef8d6aceda089ee4144d612348297ccba9d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7dac17951b2515db1b8937a0f84ae8a29af32feb": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b16740883d854c7be84e079b2338c453129a0bdb": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b9ae600bee8c814b396e82451be4f3331735f5d4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "cf0eaa4a9287ea557c753092f393116f21406087": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "fd15aeb9c23a4f2e3d17c663bb3265f71529466a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115610,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 42054778,
+    "memoryUsed": 1997332,
+    "cases": {
+      "0e11cead65336d92aa0963b57f76e84a04336c0d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "11acf8bf0ad4dd19f047990c522ac31346b7c4e5": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "12d0875146ce0e824ee4bd57334ed297e9f2fe2d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "1397048fd935c9c25da941d6ff9c4e69508d4dbb": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "3f93e554f5f6a90e76cb58d6c617c8910e860e6b": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "4bffdb103d7f90480de8edab480a2a08bbe544d8": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "701b336597a0940f41121a3c0ba9b0bc5f16e02f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "8deb87a1f1cb79d83a00952b00dcd3cf66082ac3": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b7df75a49dfebbf9c0b044a6f665dfc4fcc5832a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c5fbf7b733bc8066f4876e51f371badb7c2d5071": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d5e27f85db8cbf5bc9b5b0716ae8b06e661f9597": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ed4fcefa04647a066ef149cb128834be69e6f432": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115612,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41389595,
+    "memoryUsed": 2008736,
+    "cases": {
+      "0bd434abb9ccb93457d3459f61b234f41ba58fd4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "0cfd9470381971ce500fdf3ae3ceb8df1a00da7b": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "3de20d2d33b3739e17029ef339c8fea40d04ef92": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "4a22d8a545f0096025b656bdb436894c694fa3fc": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "4c8638d4b93c34b37a61cc8a6310de94547ef9e9": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "9063ee6928e0c67c883fc2828285549871341df9": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b68c2e4cd6208c2987a2148f6eb12e21001050b1": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c27c3ddd153ddc940d5ed3231725f18a17e3ec9c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "dc08a3c13ba31778a570997962a2e20839e24752": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "dc12277d61905ad3cb2f255a14c6e85cfc558e28": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ddd40f3e4664f82c072851851c19c81bc4e9f09f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f5f25f59d5c42a26099cb4e8b625295396586b7f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115616,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41535166,
+    "memoryUsed": 2018744,
+    "cases": {
+      "00051a23a145fcbd0bafc23a7d6f64ade8cf6918": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "0f1ce6c275a53788f934c9529b70b44247c0b5be": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "4dc26da4d30cf02406663992a621079c3ab28486": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "6158cf3e95441c6118dc219051551db4379558f3": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "6387d4fd21446ad353e555c246109631595ad2f4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7c1ab11a35cfa9ff3131a322d1de4cc21cbd54a5": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7c557a2aeec47197b4bdc3243c419bfd2e9afc5a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "93c0926c4632a1f0c487ed33ead684d778df3aac": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "93eef84f60f6f69a4d47328e336e460979ff274c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "a60d2f11aef0b0d9e48d7c3ab3f1afa7244d986f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c0fff1846b052d5d4baaa794f55ab8b588301b05": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "e4138bdccae471db09123ec96eb24f184dc7201e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115618,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41986843,
+    "memoryUsed": 2009728,
+    "cases": {
+      "0bb400ea01fcbc9c8af38434ab28491ce719a75f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "2c582450dcc17aaec70f1e16ce41fe78142fe4be": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "60887b805ebbb42dacb77f2194ebf5fb1ef93151": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "664dc2001c959723fd275a391a0737ca47522f48": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "6fb9b459693668b691f7041a39db5cfdd8007814": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7e504ce22f1abdec46301bfbba5c80c09256ccfc": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "a034dd6cacb2d0575a06d0de5247f85cc40f3f6a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "a3527e07b3a2e26391129c577e0664c079a68594": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "a6833c628ad2955a3211ba05501105389c1e42e6": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b0672536b34e79d31d24bb395c4804c814792c4c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f01e48bb5cba6a6b242686acae0dde8970883bb4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f0778ac3f7316fc88b066a7100762e1c6d15970a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115622,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 42252530,
+    "memoryUsed": 2016868,
+    "cases": {
+      "0796c34576a5ad5d00e6138c20b1664024b42567": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "08e8f5801d9182bb665c71b71ca9001c362112a3": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "168ffa03e5950b08c913560ed3ba3b749d4818de": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "16b44510c76fb7e27f9529247f79fe5e8bb7e3f1": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "3c4c9135c10e722a96a7cc1ec1409477b3563ace": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "404e30a5bde47b773e5b14c1f6363b1565f33c96": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "4a0264070a320966741347115b4a89ffab32eccf": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "84d9426063125c501dcf063330c67441e8378132": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c833a7184c481c15e5db1ec4670d6a43bde2749b": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c8f97d54031ccca081d3635d7293f0a10421b188": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "e1bb6720d764c1854f1e71a0ca8262b0b6ff048d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "efee52bc39eea7907348e1a890748719677c2a9e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115626,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 65.17,
+    "timeUsed": 69748,
+    "memoryUsed": 3606116,
+    "cases": {
+      "1d803d41c2aa4112235181033bd8ad228fcf6a86": {
+        "status": "Accepted",
+        "score": 64,
+        "input": "5\n",
+        "tk": 6.969,
+        "tb": 12.603,
+        "pass": true
+      },
+      "201767ee5edd8bb9dced822fa1882fbf2067dbfe": {
+        "status": "Accepted",
+        "score": 66,
+        "input": "3\n",
+        "tk": 3.727,
+        "tb": 7.503,
+        "pass": true
+      },
+      "27ac49db30d18a7d165366b8ba5bfe0015c78834": {
+        "status": "Accepted",
+        "score": 60,
+        "input": "1\n",
+        "tk": 12.065,
+        "tb": 18.519,
+        "pass": true
+      },
+      "4a740cc01b75608704e2acdb5ac6387d98626aa6": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "7\n",
+        "tk": 5.373,
+        "tb": 10.157,
+        "pass": true
+      },
+      "4c44c2a31bdd026964c7412535b3dc1a4ba557ca": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.108,
+        "tb": 7.661,
+        "pass": true
+      },
+      "65365f2f43f183525f127d828c84d631c3fb9305": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 1.972,
+        "tb": 4.974,
+        "pass": true
+      },
+      "7e500f7edb5758894e32665008abd0468b30a420": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.354,
+        "tb": 5.609,
+        "pass": true
+      },
+      "9415d8a9f1d5eb465f6b99d6c75cba6be4ab477f": {
+        "status": "Accepted",
+        "score": 63,
+        "input": "12\n",
+        "tk": 4.605,
+        "tb": 8.138,
+        "pass": true
+      },
+      "b6c947aa5663871b43d68889cff6e7fa136986d8": {
+        "status": "Accepted",
+        "score": 66,
+        "input": "8\n",
+        "tk": 3.516,
+        "tb": 7.053,
+        "pass": true
+      },
+      "d2cac15bee253f4a47f27b5b84ae07702eff4e33": {
+        "status": "Accepted",
+        "score": 62,
+        "input": "10\n",
+        "tk": 3.971,
+        "tb": 6.582,
+        "pass": true
+      },
+      "eac137fb538254d6d5bee67fb8f341c1fc43f7a2": {
+        "status": "Accepted",
+        "score": 62,
+        "input": "9\n",
+        "tk": 4.866,
+        "tb": 8.276,
+        "pass": true
+      },
+      "fc8018e62652162cde8eac5b28f763bfeb6a6b76": {
+        "status": "Accepted",
+        "score": 62,
+        "input": "2\n",
+        "tk": 17.222,
+        "tb": 29.207,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115630,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 67,
+    "timeUsed": 63822,
+    "memoryUsed": 3352168,
+    "cases": {
+      "14900402d44e204b008fcf68bac73d88f0e6acb4": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.135,
+        "tb": 7.73,
+        "pass": true
+      },
+      "3747f2cdb98b9dbf0e9c6eb17e8a9be24656fe8e": {
+        "status": "Accepted",
+        "score": 69,
+        "input": "8\n",
+        "tk": 3.34,
+        "tb": 7.569,
+        "pass": true
+      },
+      "55b7d5150defab022bdd60faf889465b67450007": {
+        "status": "Accepted",
+        "score": 66,
+        "input": "5\n",
+        "tk": 6.257,
+        "tb": 12.628,
+        "pass": true
+      },
+      "79b22cd9cda01d872eb17abe65d7e9b1cee58ecf": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 1.997,
+        "tb": 5.063,
+        "pass": true
+      },
+      "9105d27a494adac90b07707c48ab1a997e3dbc23": {
+        "status": "Accepted",
+        "score": 66,
+        "input": "12\n",
+        "tk": 4.044,
+        "tb": 8.171,
+        "pass": true
+      },
+      "91d771107a8da11993d1f2051074a38630d0d7e3": {
+        "status": "Accepted",
+        "score": 64,
+        "input": "10\n",
+        "tk": 3.735,
+        "tb": 6.728,
+        "pass": true
+      },
+      "97bb125fdfc074bed5d32837339f6bc7e95d4110": {
+        "status": "Accepted",
+        "score": 64,
+        "input": "9\n",
+        "tk": 4.523,
+        "tb": 8.363,
+        "pass": true
+      },
+      "ccbcd4b5e2ce52350f0b853d24b0b49728e7583c": {
+        "status": "Accepted",
+        "score": 63,
+        "input": "2\n",
+        "tk": 16.785,
+        "tb": 28.862,
+        "pass": true
+      },
+      "d45b77aafb6b8378208983d21ac185e63bd23356": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "3\n",
+        "tk": 3.218,
+        "tb": 7.064,
+        "pass": true
+      },
+      "d5bb36eee77e5e31786d7760f9667713fba19d30": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.41,
+        "tb": 5.674,
+        "pass": true
+      },
+      "d8089a771957a621bb08149f3f65f05ca01ed5ef": {
+        "status": "Accepted",
+        "score": 67,
+        "input": "7\n",
+        "tk": 4.922,
+        "tb": 10.246,
+        "pass": true
+      },
+      "ee94d8d8a49ed3bd36acc2ab10f27b21aaa61580": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "1\n",
+        "tk": 9.456,
+        "tb": 18.303,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115633,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 42584603,
+    "memoryUsed": 2073188,
+    "cases": {
+      "080a290076dfa9b2d6c9c034de78bb64499529a0": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "15a91da773aa07fa7cb30d4974b9423ea8093866": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "18a1b9e9b3dce17cde636770f26d753f54a8a507": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "82dd662c14f5e769f776109faa148da5159ad171": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "99a5ec93cdca890760ba51cdbede203a16fb6b99": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c999582aef8225192be1f81a49a2fda0b16a529e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "cbe3b81b85e0231a4c034cbd428fa4959af9a4d4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d685c5981e0d95c66b216a7711665941bcc3c666": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "e21de05f1f37b2f25febed868b8de225013b0f6b": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ee2553dcbbd1d0a11169d746d966c3588094026a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ef11f7ea166723f3c7c5c4693f1156248ffccfa0": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f68b881c0984e6c2f3a94c26562053cde243f851": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115638,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41097001,
+    "memoryUsed": 1995812,
+    "cases": {
+      "035fbb8d913bdfad9b8532f45554d72029b7503d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "0c9bc3a53f08b41073dcca26e904831123ab832d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "20bed03e48b3ff9afaaf982db06b2e2b53bc777c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "3a6eb5cd6882da620aa562f8b4398c643cada937": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "62df952d793b0906e6aafb6e0579130f718eb100": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "639026a7e557181dc390fcdf916d4ac82025c72b": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "63d6640066f3ca7fc4d14c34db2cc04e4c95d95f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "72f01fc9586b38e26b03ff6ac6b190875507906a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "88d999641d71c285e71a5358e1a4fba9340d82c0": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "9e41719f316866a4d82e0442a12e5f2949f52ca9": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b835e33f3d5d4cd63e6a0689952937b182f93025": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "cf8d7a1f6a02b9623d2cee4f690f898f386296e1": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115641,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41097949,
+    "memoryUsed": 2012324,
+    "cases": {
+      "16d32ab9d85129615b91adecf9738ed07b6a352d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "2f5591b97f5c97d952edba3e46d600f9c7d7d8e0": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "31f56dfec62b40701df530704f1ae508d5faa6fb": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "80d6b42435f1617d26ad38a3da01a8aa584ba4b4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ac4407f186a9cfc25d8c273eec3a3dbdc928bfbd": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b079307d64bacd8ecab90fc6ffcf6dc0035e6f24": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c8233bf7d813d9fdf0ca53566836bf43adee9c2f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "cabc8858fa867bc1b48814b0b6c3baff20a15ae8": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d8c1b07819d988e402887e3c8336d6de751f1877": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "dd68eed8bd233d56cf520ead52012fbd59305e8b": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f40da816a1c851c75f4e6da449df4266d4a12c9b": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "fd9511da37584429791a065c41097917af4fe1b2": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115642,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41752775,
+    "memoryUsed": 1992256,
+    "cases": {
+      "05ec22922e79c5855c8ca24453426ebf3920b63f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "1375856a3d13cad97004677bf38e26481b99edbe": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "2d7b310f7ee601050ed531f79a98a6fd54a91b28": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "4f188e53b6dbb81746a690b46ca9bfe1efb5664a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "898c3f0d751545ac43aa4fd21287041b4bed4546": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "8afd899598547c48bb136bb5712ca902de93efda": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "a6193f1e1a52682022897e732db3ac0a9004861c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b6252513fc83f3e03ae47b355e996010cac7fd76": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b938c813f9698fec052aa2fc2f930b3cd044ee7f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "cb00fa0ec06bf15b775c626121fbf1a77d49c8be": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "dc3a10c9c536607f9af95a1b1f6a1165e92d16fd": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "e4b0ef8b8d35f5c0b32da1073abd4858264501ae": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115643,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41157953,
+    "memoryUsed": 2006464,
+    "cases": {
+      "14dbff6e46c8cbf200d10bf9581f725df9e67f74": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "1cafad3db5774cfc07d3c91c8985e53da8f631ad": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "52ec2e7806d4303abd6a805048ff779c590e1d17": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "6aa5a3c2b24a23080c6ec87139b6169d73b3a544": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "792f422ce695ba0d83c794f1af54a8a569fc0c9e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7afac527236cee83ae2db2f65254ee1578e9b4a0": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ae0f9c7911df5f460e8a328cae5e2c3a2dd1ed91": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "baeead984a1e676177b73f75bcd6bc5dcf7c026e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "bd36e7a669bf6402a66ba69a225ae83ba8d5d664": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "cf0131c161366f65ad54945ad28ff639e69a95e5": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "e7a6674354165b8bf9d98a4a9cb0565a626a65e4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ecd69a08f4c69d6313f4b53899c04aad294ba6bc": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115647,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 42428626,
+    "memoryUsed": 2020168,
+    "cases": {
+      "0944d54e65d5fbc0ed86a0cd4f818b3fb5158a51": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "49ec233c966dad99b1e1111f0545a87702ef5e0a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "65a89d8eb715338912a34f5b7dae84aa882ff0ce": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7bc7f0a8b744c6720d1c01fd7cf952665ae93868": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "81c92a8ae4ff83f021c3aacf3961a7401dcb757e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "85a2c90249bc8f3043e23633293a78d2a7907341": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "900a70c900e22756cd6dea2369ea6b56769a3fe7": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "a4d5a8ed638a5951f73efe19d210e0dc3708521c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "bf1b2d4db3935d3829da4286dd925c6f0bb4514c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c2944da42e5c6fe14ea064e5008425b94dac4b03": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c68c774460750d2040d64ea6d7a62ab1161f17be": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f2b66c3a927da9acf8686f05924231268cb714d1": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115653,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41896636,
+    "memoryUsed": 2013192,
+    "cases": {
+      "14efc2a2cf202d5058ddca55b3a38a6cdc8e265a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "15dc5d787cabbe8900d3053bacda7045655f6011": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "1869ddbefba8c981238a24e79dce42bd3980be9d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "4181d3decdc2dc5f5638290fc2bb9333ef76f040": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "4ae6fd9ffda46b3abf303e38f11b6343f765e4fa": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "84c53714a0f88df690e38017cb30024bce0244dd": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "a463e0814c4b8f44d1da1cf19716604f312fea88": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "a7fec48609f049a8800a52a8604830adb5905ddb": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ad3927ec41c5a02eafbaeceef90b2849d031ebd0": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b057287c92ab2500a578759cff0aaf0d9b1e4bc4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "b48a2c8e2e3bfdb023ce9f8eacdc2a3382070022": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f779b6bea6a9ad36de6bfc014266985b2a7e45f0": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115655,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41556312,
+    "memoryUsed": 1992728,
+    "cases": {
+      "1f822c2b56c2a8ad2139765b21d7c340710150b4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "2ef4900c15c69d49fc841012d115711be8eabb20": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "35bfe31483657949c9035685b03afd3b69511a94": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "4fa3b108c8e14fed39c6e7150aabbdb38fdd1f18": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "551c127595f040244ba7110d860b9a94e1d1990e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "795fda6fdfae62d56ad497727ef1c2b5f080ba1b": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7ada3f2dc21317793e8cf2d3b9a3d3f5c43a0487": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "8f99c643df11c54e37df93ef5624630c63f98c1e": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "a1db9fb4d8eddb839e67132be426fec952e74874": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d1c2f04f44860a2133ba0fe43a263ddd99ef4e10": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "de7e55a2eaf1277c42c03434185cbd17ec2dff08": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "f514c1e5d873f31681c737562de23563db179e60": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115658,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 53.67,
+    "timeUsed": 121287,
+    "memoryUsed": 3589600,
+    "cases": {
+      "0b81e8d2aae76f8ee4ad7a870b1238899821609b": {
+        "status": "Accepted",
+        "score": 50,
+        "input": "12\n",
+        "tk": 8.079,
+        "tb": 8.175,
+        "pass": true
+      },
+      "3a25d42cfb745533122cfd9330b7070fb67a618f": {
+        "status": "Accepted",
+        "score": 48,
+        "input": "3\n",
+        "tk": 7.237,
+        "tb": 6.861,
+        "pass": true
+      },
+      "3ec219fd92ea33ca202a043eabba3a71988678ae": {
+        "status": "Accepted",
+        "score": 52,
+        "input": "8\n",
+        "tk": 6.482,
+        "tb": 7.063,
+        "pass": true
+      },
+      "424fbcb598d61fd4833113a77a5acabcede44d9f": {
+        "status": "Accepted",
+        "score": 47,
+        "input": "7\n",
+        "tk": 11.174,
+        "tb": 10.152,
+        "pass": true
+      },
+      "4859fb2b24dceae33403503d2b2c4ac59431dbd3": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "6\n",
+        "tk": 3.157,
+        "tb": 7.52,
+        "pass": true
+      },
+      "4b7220aebd962acceeaa015fc8d5175903293f53": {
+        "status": "Accepted",
+        "score": 47,
+        "input": "10\n",
+        "tk": 7.348,
+        "tb": 6.601,
+        "pass": true
+      },
+      "6bfdb226a4a8d4161c513789964857aeda67c6b2": {
+        "status": "Accepted",
+        "score": 46,
+        "input": "5\n",
+        "tk": 14.832,
+        "tb": 12.804,
+        "pass": true
+      },
+      "9c142d3751fbdec6edf5e5264c21958a4cd433e5": {
+        "status": "Accepted",
+        "score": 53,
+        "input": "2\n",
+        "tk": 25.292,
+        "tb": 28.796,
+        "pass": true
+      },
+      "cf9e38b018cc5c3469059ebf57a474b3123560cb": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 2.002,
+        "tb": 4.924,
+        "pass": true
+      },
+      "d9d22929663f0022cab19ae06ff60de2facb9bf1": {
+        "status": "Accepted",
+        "score": 47,
+        "input": "9\n",
+        "tk": 9.353,
+        "tb": 8.325,
+        "pass": true
+      },
+      "dec42c65163c535f04bdff7efea98f1ddd5f2326": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "11\n",
+        "tk": 2.419,
+        "tb": 6.184,
+        "pass": true
+      },
+      "e081c3829709268d9f401f012584221414974ff2": {
+        "status": "Accepted",
+        "score": 42,
+        "input": "1\n",
+        "tk": 23.912,
+        "tb": 17.977,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115660,
+    "status": "WrongAnswer",
+    "score": 25,
+    "displayScore": 17.75,
+    "timeUsed": 113977358,
+    "memoryUsed": 3601436,
+    "cases": {
+      "06f53d6899b0f76efe996e092757358f78a7a104": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "27711f5c1d378943c7183e0c8ccb58900b96b099": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.368,
+        "tb": 5.616,
+        "pass": true
+      },
+      "3b8926577ba0f629bf82c578f8e1855bedb82950": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "54f929c3743ea003e10d4838282cbbf3a71274d7": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "722c7a64edc6b381bb459bbe47baf4ff6b65cfba": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "8cb33039956e81f0381f1d546c81dc89e20ac516": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "9666b927f141d4814fc3e8151499f8cb450060fd": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "baea07550825bec94736b4dba1887e77bc89ad2c": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c4ca78da549a1b236ffaecc583e1b704dfd03da4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "c7cdee37938d5ad5ff14fafce755cb45bdffd023": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d62b3a580f606b03eff613cdd211632b8934b8b8": {
+        "status": "Accepted",
+        "score": 73,
+        "input": "4\n",
+        "tk": 2.005,
+        "tb": 5.642,
+        "pass": true
+      },
+      "e38a9f147673809ebb9b04c683190a253b7b3c2a": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "6\n",
+        "tk": 3.175,
+        "tb": 7.474,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115666,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 68.92,
+    "timeUsed": 56760,
+    "memoryUsed": 2327864,
+    "cases": {
+      "1244bc7e08598e83c678e059650669583a8acc8c": {
+        "status": "Accepted",
+        "score": 69,
+        "input": "11\n",
+        "tk": 2.419,
+        "tb": 5.591,
+        "pass": true
+      },
+      "1525c35fa2ce3b5afff363f7b6e17d216b3b97ab": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "12\n",
+        "tk": 3.733,
+        "tb": 8.104,
+        "pass": true
+      },
+      "1a46604c4190708989d21248ca3c1e9954c2cfa9": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "8\n",
+        "tk": 2.931,
+        "tb": 7.072,
+        "pass": true
+      },
+      "2efadc17be8454c370ca201bbee435e05e357e53": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "7\n",
+        "tk": 4.161,
+        "tb": 10.121,
+        "pass": true
+      },
+      "40944fdc3115d72fc0770e2b26cc7cc2870cdefe": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "4\n",
+        "tk": 1.998,
+        "tb": 4.925,
+        "pass": true
+      },
+      "52c64efe623c0f6d78651c5f600ac245fc7957dc": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.109,
+        "tb": 7.72,
+        "pass": true
+      },
+      "975ba6e387cf36878298901c9409cd9726a63c27": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.429,
+        "tb": 28.686,
+        "pass": true
+      },
+      "a27d51199d2608d32ad187293feb94cb13564b80": {
+        "status": "Accepted",
+        "score": 69,
+        "input": "1\n",
+        "tk": 7.738,
+        "tb": 17.936,
+        "pass": true
+      },
+      "a5c6e341bc2c4427a5a21ed65a66832ae5cbc808": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.896,
+        "tb": 6.877,
+        "pass": true
+      },
+      "a8a1c85fb47c996f91c9a8462e11190cc06b5915": {
+        "status": "Accepted",
+        "score": 66,
+        "input": "10\n",
+        "tk": 3.244,
+        "tb": 6.578,
+        "pass": true
+      },
+      "cc10e4824132adada07b119af5edd61b046cffe9": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "5\n",
+        "tk": 5.216,
+        "tb": 12.537,
+        "pass": true
+      },
+      "f4401912710b6e1f60a1b4ba3ebc22ad93ea9bcd": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "9\n",
+        "tk": 3.886,
+        "tb": 8.33,
+        "pass": true
+      }
+    }
+  },
+  {
+    "id": 115668,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41314198,
+    "memoryUsed": 2016692,
+    "cases": {
+      "02e1d53a9344f334860f5faa545e27c3f55ed04d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "0a35577f75c4054b82c3d5b3f5f92ea0e35d161a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "34165623575907b1f0c9422696d32d8fc3ac86bd": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "6cc0fda8ad3bca97b0549e149eaf5fe9492eb305": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "79b0bff2c075d3146b055f64cfe7fac989706631": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "7d403eaa4dbc6514c6e22ad6c37d605a1f87a25a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "98135ed74a10deaf8c7f044a31e840ce89820ad8": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "9a73d3b2436824bbafaba15aaceec0766dcc9744": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "9e71b0d3a05be5b6d823689a46308eb2a4884cd4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "ce91184e850bd3b5c6e589f863a008307d6f0ef8": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d88bc9899442d3c8c723f78b4df1088642b8a45f": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "fe2023496370881a38958e23f8c0c9a54d6e8395": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115672,
+    "status": "WrongAnswer",
+    "score": null,
+    "displayScore": null,
+    "timeUsed": 41535842,
+    "memoryUsed": 2017364,
+    "cases": {
+      "0e10a0f211590d3369b0db4a43d91cb9b0a08f6a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "2\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "3514a36df222ff3b841f2ae893bf82e513dd3061": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "7\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "46aad3a49cb38f782b08e0f87e7de2965f7321e9": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "11\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "6ebcba8468fa5601c4b0ced9af1aaa92507709b4": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "10\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "786302d6fb8cbe8405b03eb1e622bb15e509245d": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "4\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "8fbc9808691b078135ae3307918d02ce8fd41d23": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "1\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "d5e89812fb0f0cc22d210db5b804a82963f866eb": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "5\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "dd50e7e55dcaf2b1ce65de9c95049a0fd119543a": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "6\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "e05aca2da12c9dc3d9cb746706bf2502e058d292": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "3\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "e56967caf2416bfac2f2cd434a816d2e6ccd0fc8": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "8\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "e584a2f30f1312437eb0098d45f11e4d5d3efbe1": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "12\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      },
+      "e78db3d87a477709b11aeb7237a3bc88af59bb92": {
+        "status": "WrongAnswer",
+        "score": null,
+        "input": "9\n",
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false
+      }
+    }
+  },
+  {
+    "id": 115678,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 69.67,
+    "timeUsed": 56230,
+    "memoryUsed": 3575404,
+    "cases": {
+      "44c308b6f12030307d2e8dd867d4f28f6bb56732": {
+        "status": "Accepted",
+        "score": 68,
+        "input": "9\n",
+        "tk": 3.844,
+        "tb": 8.391,
+        "pass": true
+      },
+      "47afcdd2f12af9e6335dfa91d6d41a55f1a9e09a": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "11\n",
+        "tk": 2.357,
+        "tb": 5.683,
+        "pass": true
+      },
+      "574570e3e9c1da8aeb3460fa102a42d0632a983a": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "1\n",
+        "tk": 7.664,
+        "tb": 18.097,
+        "pass": true
+      },
+      "5c7a11815e5fce561eaf4e3eb933ed69d03f811b": {
+        "status": "Accepted",
+        "score": 70,
+        "input": "3\n",
+        "tk": 2.878,
+        "tb": 6.97,
+        "pass": true
+      },
+      "6af5aaa20d18421d2ca4958235e85284079ae90e": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "4\n",
+        "tk": 2.0,
+        "tb": 5.28,
+        "pass": true
+      },
+      "6d1b126a3995dbe05560e8b32388339f6fd0a323": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "6\n",
+        "tk": 3.094,
+        "tb": 7.594,
+        "pass": true
+      },
+      "996b5fa024471a881bd7a3255e3d46a616cdc812": {
+        "status": "Accepted",
+        "score": 65,
+        "input": "2\n",
+        "tk": 15.429,
+        "tb": 29.0,
+        "pass": true
+      },
+      "a40796167affdfffdbd992bf17971f175e7610e5": {
+        "status": "Accepted",
+        "score": 69,
+        "input": "12\n",
+        "tk": 3.659,
+        "tb": 8.187,
+        "pass": true
+      },
+      "c881f4218f6c99ff375a11db3709f344d3b1cce2": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "7\n",
+        "tk": 4.073,
+        "tb": 10.293,
+        "pass": true
+      },
+      "e99bb9db7a42110167c399fa210cb82432327f71": {
+        "status": "Accepted",
+        "score": 71,
+        "input": "5\n",
+        "tk": 5.165,
+        "tb": 12.655,
+        "pass": true
+      },
+      "eb25d8f4afe2ff82668f5955ee4f1da1270a54c7": {
+        "status": "Accepted",
+        "score": 67,
+        "input": "10\n",
+        "tk": 3.202,
+        "tb": 6.755,
+        "pass": true
+      },
+      "fe12c167e2ff05485f75be194c4721eba0d67c75": {
+        "status": "Accepted",
+        "score": 72,
+        "input": "8\n",
+        "tk": 2.865,
+        "tb": 7.489,
+        "pass": true
+      }
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "id": "f5c14b6e-30cf-4e52-8c94-cf7bdb1a5595",
+  "problemId": 24,
+  "language": "triton-h800",
+  "mode": "GeneratedWorkload",
+  "sourcePath": "experiments/2026-09-13/candidates/fp8_c4_dn_tma_padded_custom_bench_confirm.py",
+  "sourceBytes": 24008,
+  "sourceSha256": "e3f0db278e452bf1058a2bf04cc5ed15176dccc929d6683245f4f105da00fd59",
+  "state": "Finished",
+  "progress": {"status": "WrongAnswer", "compile": {"success": true, "message": ""}, "totalOccupiedTime": 7943, "case": {"status": "WrongAnswer", "time": 7805053, "memory": 919400, "checkerMessage": "SPJ FAIL: payload pass=false.\n", "userErrorPath": "experiments/2026-09-13/results/public24_f5c14b6e-30cf-4e52-8c94-cf7bdb1a5595_user_error.txt"}},
+  "note": "Terminal API-detail projection; full source and exact userError are referenced by path and SHA."
+}

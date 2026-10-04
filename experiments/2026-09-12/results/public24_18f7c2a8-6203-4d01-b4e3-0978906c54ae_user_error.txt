@@ -1,0 +1,2 @@
+P1MD {"math_check_passed":false,"status":0,"md_sqnr_db":50.06300354003906,"dn_sqnr_db":34.462032318115234,"md_rel":0.0031394243706017733,"dn_rel":0.01891900599002838,"dn_scale_rel":0.0025935748126357794,"threshold_db":35.0}
+Generated custom workload failed: Compilation failed: Module compilation failed: P1MD c2 stage math check failed

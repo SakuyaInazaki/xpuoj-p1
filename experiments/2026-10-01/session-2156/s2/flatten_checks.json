@@ -1,0 +1,39 @@
+{
+  "sha256": "c82b6ee4286c9583851c33c0f715102a0946eaa0247e277060d9453ad3218c4b",
+  "parent_sha256": "ac338895e390139faaaebcaad98fba9ae1d5a3d55e378b2965f90da5431f2ea8",
+  "changes": [
+    "_fgs_t1i_mdq_kernel_g_s2_pad",
+    "_fgs_t1i_mdq_tma_pre_nf_kernel_s2_pad"
+  ],
+  "inverse_ast": "full file identical after only two range keyword lists restored",
+  "bindings": [
+    {
+      "name": "_fgs_t1i_mdq_kernel_g_s2_pad",
+      "line": 7904
+    },
+    {
+      "name": "_fgs_t1i_mdq_tma_pre_nf_kernel_s2_pad",
+      "line": 7929
+    },
+    {
+      "name": "_dn_tma2_f8_pad_static_kernel_s2_input_pad",
+      "line": 8005
+    },
+    {
+      "name": "_fgs_tma1_intq_host_g_s2_pad",
+      "line": 6613
+    },
+    {
+      "name": "_dn_tma2_f8_pad_static_host_s2_input_pad",
+      "line": 6743
+    },
+    {
+      "name": "_fgs_tma1_intq_host_pre_nf_s2_pad",
+      "line": 6594
+    }
+  ],
+  "compile": "passed",
+  "host_stages_math_layout": "unchanged AST",
+  "cpu_contract": "reuse session-1654/s2/contract_results.json 9 histograms/4157 tiles/524288 rows",
+  "limits": "no GPU/OJ/fullAC; flatten scheduling/overlap and benefit unproven"
+}

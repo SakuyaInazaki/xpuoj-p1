@@ -1,0 +1,108 @@
+--- experiments/2026-09-08/candidates/stable_shape_dispatch_aligned.py
++++ experiments/2026-09-08/candidates/fp6_c9_c10_roundtrip_stable.py
+@@ -5524,21 +5524,27 @@
+     I = expert_gate_proj.shape[1]
+     k = int(topk)
+     device = x.device
++    fp6_roundtrip = (T, H, E, I, k) in _FP6_ROUNDTRIP_KEYS
+ 
+     use_case9_lowmem_fp8 = (E == 256 and I == 2048)
+     if use_case9_lowmem_fp8:
+-        gu_q, gu_s, dn_q, dn_s = _get_full_fp8_weights_lowmem(
+-            expert_gate_proj, expert_up_proj, expert_down_proj
+-        )
++        if fp6_roundtrip:
++            gu_q, gu_s, dn_q, dn_s = _get_fp6_roundtrip_weights(
++                expert_gate_proj, expert_up_proj, expert_down_proj, True)
++        else:
++            gu_q, gu_s, dn_q, dn_s = _get_full_fp8_weights_lowmem(
++                expert_gate_proj, expert_up_proj, expert_down_proj)
+         use_int8 = False
+         use_fp8 = True
+         use_fp8_down = True
+         use_case10_int8_down = False
+         use_case2_plain_fp8 = False
+     else:
+-        gate_up_full, down_full = _get_full_weights(
+-            expert_gate_proj, expert_up_proj, expert_down_proj
+-        )
++        if fp6_roundtrip:
++            gate_up_full = down_full = None
++        else:
++            gate_up_full, down_full = _get_full_weights(
++                expert_gate_proj, expert_up_proj, expert_down_proj)
+         use_int8 = False
+         use_fp8 = ((E == 8 and H == 4096) or (E == 64 and I == 2560) or (E == 96 and H == 4096) or (E == 32 and I == 2048) or (E == 256 and I == 1536) or (E == 32 and I == 1024) or (E == 64 and I == 1024))
+         use_case2_plain_fp8 = (E == 8 and H == 4096 and I == 14336)
+@@ -5549,9 +5555,12 @@
+                 expert_gate_proj, expert_up_proj, expert_down_proj
+             )
+         if use_fp8_down:
+-            gu_q, gu_s, dn_q, dn_s = _get_full_fp8_weights(
+-                expert_gate_proj, expert_up_proj, expert_down_proj
+-            )
++            if fp6_roundtrip:
++                gu_q, gu_s, dn_q, dn_s = _get_fp6_roundtrip_weights(
++                    expert_gate_proj, expert_up_proj, expert_down_proj, False)
++            else:
++                gu_q, gu_s, dn_q, dn_s = _get_full_fp8_weights(
++                    expert_gate_proj, expert_up_proj, expert_down_proj)
+ 
+     flat_ids, flat_weights = _route_full(x, gate_weight, k)
+ 
+@@ -6120,3 +6129,55 @@
+             op=dist.ReduceOp.SUM,
+         )
+         output.copy_(combined.to(torch.bfloat16))
++
++
++_FP6_ROUNDTRIP_KEYS = (
++    (4096, 4096, 256, 2048, 8),
++    (4096, 4096, 256, 1536, 8),
++)
++_FP6_ROUNDTRIP_CACHE = {}
++
++
++@triton.jit
++def _fp6_roundtrip_kernel(Q, BLOCK: tl.constexpr):
++    offs = tl.program_id(0).to(tl.int64) * BLOCK + tl.arange(0, BLOCK)
++    raw = tl.load(Q + offs).to(tl.int32)
++    mag = raw & 0x7f
++    low = tl.where(mag <= 72, 0,
++          tl.where(mag < 84, 80,
++          tl.where(mag <= 90, 88,
++          tl.where(mag < 94, 92,
++          tl.where(mag <= 97, 96,
++          tl.where(mag < 99, 98,
++          tl.where(mag <= 101, 100,
++          tl.where(mag < 103, 102, 104))))))))
++    out = (raw & 0x80) | tl.where(mag >= 104, mag, low)
++    tl.store(Q + offs, out)
++
++
++def _fp6_roundtrip_(q):
++    n = q.numel()
++    block = 8192
++    assert n % block == 0
++    _fp6_roundtrip_kernel[(triton.cdiv(n, block),)](
++        q.view(torch.uint8), BLOCK=block, num_warps=8)
++
++
++def _get_fp6_roundtrip_weights(gate, up, down, lowmem):
++    key = (lowmem,) + tuple((id(w), w.data_ptr(), tuple(w.shape)) for w in (gate, up, down))
++    entry = _FP6_ROUNDTRIP_CACHE.get(key)
++    if entry is not None:
++        return entry[1]
++    base_cache = _FULL_FP8_LOWMEM_CACHE if lowmem else _FULL_FP8_CACHE
++    base_cache.clear()
++    if not lowmem:
++        _FULL_WEIGHT_CACHE.clear()
++    cached = (_get_full_fp8_weights_lowmem if lowmem else _get_full_fp8_weights)(gate, up, down)
++    base_cache.clear()  # Do not expose probe weights through the shape-only base cache.
++    if not lowmem:
++        _FULL_WEIGHT_CACHE.clear()
++    _fp6_roundtrip_(cached[0])
++    _fp6_roundtrip_(cached[2])
++    _FP6_ROUNDTRIP_CACHE.clear()
++    _FP6_ROUNDTRIP_CACHE[key] = ((gate, up, down), cached)
++    return cached

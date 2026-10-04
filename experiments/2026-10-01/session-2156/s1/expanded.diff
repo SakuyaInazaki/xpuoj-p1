@@ -1,0 +1,64 @@
+--- p1_s1_c6_v2_vector.py
++++ p1_s1_c3567_vector.py
+@@ -6450,7 +6450,12 @@
+         if use_case2_plain_fp8:
+             fp8_tokens_q, fp8_tokens_s = _gq1p_tm(x, inv_order, k)
+         elif _GA[0] or (E == 256 and _FL[0]):
+-            _hybrid = bool(_GA[0] and (T, H, E, I, k) == (8192, 3584, 64, 1024, 8))
++            _hybrid = bool(_GA[0] and (T, H, E, I, k) in (
++                (16384, 2048, 32, 2048, 4),
++                (8192, 3584, 64, 2560, 8),
++                (8192, 3584, 64, 1024, 8),
++                (16384, 4096, 96, 2048, 3),
++            ))
+             if _hybrid:
+                 fp8_tokens_q, fp8_tokens_s, _hybrid_ah, _hybrid_wi, _hybrid_scl = _s1_c6_gq_tok_params(
+                     x, inv_order, flat_ids, flat_weights, _gu_bnorm(gu_q, gu_s), k
+@@ -7724,7 +7729,7 @@
+     T, H,
+     stride_xm, stride_xh,
+     stride_qm, stride_qh,
+-    BLOCK_H: tl.constexpr, K_BRANCH: tl.constexpr,
++    BLOCK_H: tl.constexpr, K_BRANCH: tl.constexpr, K_BRANCH_PAD: tl.constexpr,
+ ):
+     t = tl.program_id(axis=0)
+     offs_h = tl.arange(0, BLOCK_H)
+@@ -7735,20 +7740,21 @@
+     q = (vals.to(tl.float32) * (1.0 / scale)).to(tl.float8e4nv)
+     tl.store(Q + t * stride_qm + offs_h * stride_qh, q, mask=h_mask)
+     tl.store(SCALE + t, scale)
+-    j = tl.arange(0, K_BRANCH)
+-    dest = tl.load(INV + t * K_BRANCH + j)
+-    e = tl.load(FLAT_IDS + t * K_BRANCH + j)
+-    w = tl.load(FLAT_W + t * K_BRANCH + j)
+-    bn = tl.load(BNORM + e)
++    j = tl.arange(0, K_BRANCH_PAD)
++    branch_mask = j < K_BRANCH
++    dest = tl.load(INV + t * K_BRANCH + j, mask=branch_mask, other=0)
++    e = tl.load(FLAT_IDS + t * K_BRANCH + j, mask=branch_mask, other=0)
++    w = tl.load(FLAT_W + t * K_BRANCH + j, mask=branch_mask, other=0.0)
++    bn = tl.load(BNORM + e, mask=branch_mask, other=1.0)
+     a = scale
+     bound = (((a * a) * bn) * bn) * tl.abs(w)
+     bbits = tl.maximum(bound, 1e-30).to(tl.int32, bitcast=True)
+     bexp = (bbits >> 23) & 0xFF
+     s = ((bexp + 10) << 23).to(tl.float32, bitcast=True)
+     inv = ((244 - bexp) << 23).to(tl.float32, bitcast=True)
+-    tl.store(AH + dest, a * 0.5)
+-    tl.store(WI + dest, (w * a) * inv)
+-    tl.store(ACT_SCALE + dest, s)
++    tl.store(AH + dest, a * 0.5, mask=branch_mask)
++    tl.store(WI + dest, (w * a) * inv, mask=branch_mask)
++    tl.store(ACT_SCALE + dest, s, mask=branch_mask)
+ 
+ def _s1_c6_gq_tok_params(x, inv_order, flat_ids, flat_weights, bnorm, k):
+     T = x.shape[0]
+@@ -7764,7 +7770,7 @@
+         x, q, scale, inv_order, flat_ids, flat_weights, bnorm, ah, wi, act_scale, T, H,
+         x.stride(0), x.stride(1),
+         q.stride(0), q.stride(1),
+-        BLOCK_H=h_pad, K_BRANCH=k,
++        BLOCK_H=h_pad, K_BRANCH=k, K_BRANCH_PAD=triton.next_power_of_2(k),
+         num_warps=4, num_stages=1,
+     )
+     return q, scale, ah, wi, act_scale

@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "experiment": "bulk_c9_comm_stable_w32_fence0",
+  "submission": {
+    "id": 141470,
+    "source": "experiments/2026-09-08/candidates/bulk_c9_comm_stable_w32_fence0.py",
+    "sha256": "3d113eca28aac092593155e30d753500fa281368364c031dc40893616b7da936",
+    "status": "Accepted",
+    "score": 100,
+    "display_score": 80.5,
+    "submit_time": "2026-09-08T18:10:24.000Z",
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "total_occupied_time": 133481,
+    "sum_tk_ms": 31.23,
+    "sample_records": [
+      {
+        "testcase_hash": "e1e8306713ec0fe464ba7693b94bdaa683d8ddf8",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 1,
+        "tk_ms": 4.736,
+        "tb_ms": 17.964,
+        "th_ms": 0.0,
+        "passed": true
+      }
+    ],
+    "cases": {
+      "1": {
+        "testcase_hash": "dd9c964cd637ce206f3c42a32ed61657e6b0b362",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 1,
+        "tk_ms": 4.736,
+        "tb_ms": 17.964,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "2": {
+        "testcase_hash": "cda941afa9b2ddb58ccb39b3542481e599627beb",
+        "status": "Accepted",
+        "display_score": 77,
+        "sqnr_db": [
+          23.77,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 2,
+        "tk_ms": 8.189,
+        "tb_ms": 28.78,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "3": {
+        "testcase_hash": "0f97c41f5f6ee337fe51d78bc774211c2e84fc6c",
+        "status": "Accepted",
+        "display_score": 82,
+        "sqnr_db": [
+          23.87,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 3,
+        "tk_ms": 1.429,
+        "tb_ms": 6.963,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "4": {
+        "testcase_hash": "e74f3e63f472c9a26fc0a48cb031dd49144697a9",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.21,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 4,
+        "tk_ms": 0.845,
+        "tb_ms": 4.936,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "5": {
+        "testcase_hash": "6a6930fbb2281e3e86a5e570b4d7259b195cd45d",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.13,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 5,
+        "tk_ms": 2.871,
+        "tb_ms": 12.705,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "6": {
+        "testcase_hash": "28de016ac07b8d6fec5c63e9cacbeabc5fa8ad0c",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.83,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 6,
+        "tk_ms": 1.344,
+        "tb_ms": 7.742,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "7": {
+        "testcase_hash": "0c1d38489a1f143a08ff7899ff5c2307d09124a4",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.11,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 7,
+        "tk_ms": 2.305,
+        "tb_ms": 10.217,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "8": {
+        "testcase_hash": "744b16f89bcf2089cb54dc399d959e51c6e70ad6",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.83,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 8,
+        "tk_ms": 1.369,
+        "tb_ms": 7.1,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "9": {
+        "testcase_hash": "a2ba0bdeba4d054d9e9332e6a43c8b5faa9dd519",
+        "status": "Accepted",
+        "display_score": 70,
+        "sqnr_db": [
+          22.63,
+          22.64
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 9,
+        "tk_ms": 3.451,
+        "tb_ms": 8.308,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "10": {
+        "testcase_hash": "551a8e02244fd87b619cd8b06b29bc22d1a2e09d",
+        "status": "Accepted",
+        "display_score": 76,
+        "sqnr_db": [
+          22.63,
+          22.65
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 10,
+        "tk_ms": 2.035,
+        "tb_ms": 6.64,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "11": {
+        "testcase_hash": "396d5e9fd3fa9b85d9a8c37cd07fac56c738370e",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.31,
+          23.31
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 11,
+        "tk_ms": 1.007,
+        "tb_ms": 5.623,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "12": {
+        "testcase_hash": "4d5f634d685ed98157c76c07bbcecc2aae7f7a03",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.25,
+          23.26
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 12,
+        "tk_ms": 1.649,
+        "tb_ms": 8.15,
+        "th_ms": 0.0,
+        "passed": true
+      }
+    }
+  },
+  "c9_measurement": {
+    "sqnr_db": [
+      22.63,
+      22.64
+    ],
+    "margin_over_22_db": [
+      0.63,
+      0.64
+    ],
+    "determinism_ok_count": 2,
+    "determinism_fail_count": 0,
+    "tk_ms": 3.451,
+    "scope": "Total incremental time includes quantization, combine, CTA synchronization/fence/signal, and final reuse barrier; it is not a pure-link bandwidth measurement."
+  },
+  "comparison_vs_141454": {
+    "untouched_11_cases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "untouched_median_tk_ratio": 1.0,
+    "untouched_sum_tk_ratio": 1.0007565386555228,
+    "untouched_candidate_sum_tk_ms": 27.779,
+    "untouched_reference_sum_tk_ms": 27.758,
+    "c9_raw_tk_ratio": 1.312167300380228,
+    "c9_raw_delta_ms": 0.8210000000000002,
+    "c9_median_corrected_tk_ms": 3.451,
+    "c9_median_corrected_ratio": 1.312167300380228,
+    "c9_median_corrected_delta_ms": 0.8210000000000002,
+    "c9_sum_corrected_tk_ms": 3.448391158789013,
+    "c9_sum_corrected_ratio": 1.3111753455471533,
+    "c9_sum_corrected_delta_ms": 0.8183911587890131
+  },
+  "comparison_vs_141465": {
+    "untouched_11_cases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "untouched_median_tk_ratio": 0.9970297029702969,
+    "untouched_sum_tk_ratio": 1.0001800244833297,
+    "untouched_candidate_sum_tk_ms": 27.779,
+    "untouched_reference_sum_tk_ms": 27.774,
+    "c9_raw_tk_ratio": 1.00232355503921,
+    "c9_raw_delta_ms": 0.008000000000000007,
+    "c9_median_corrected_tk_ms": 3.4612810327706063,
+    "c9_median_corrected_ratio": 1.0053096232270131,
+    "c9_median_corrected_delta_ms": 0.01828103277060622,
+    "c9_sum_corrected_tk_ms": 3.4503788473307178,
+    "c9_sum_corrected_ratio": 1.0021431447373563,
+    "c9_sum_corrected_delta_ms": 0.007378847330717697
+  },
+  "conclusion_boundary": "No fence0 benefit was observed relative to SID 141465 after either untouched-case correction. Root closed the current bulk optimization/full-EP direction; no retry.",
+  "scoreboard_after_submission": {
+    "p1_score": 72.75,
+    "best_submission_id": 141408,
+    "submission_count": 2587,
+    "inflight_submission_ids": []
+  },
+  "resubmitted": false,
+  "raw_detail_file": "experiments/2026-09-08/results/submissions_141470_raw.json"
+}

@@ -1,0 +1,31 @@
+{
+  "production_sha256": "08dd08eb51b1602648d31f0694912466d5de4be48b36d3604465216f8f9089f9",
+  "hybrid_branch_parameter_bit_comparisons": 10413,
+  "hybrid_branch_mappings": 3471,
+  "layout_scenarios": 9,
+  "nonoverlapping_full_tile_writes": 1341,
+  "valid_compact_padded_row_pairs": 140808,
+  "current_dimension_annotations": {
+    "_fgs_t1i_mdq_kernel_g": {
+      "I": "tl.constexpr",
+      "K": "tl.constexpr"
+    },
+    "_fgs_t1i_mdq_tma_pre_kernel": {
+      "I": null,
+      "K": "tl.constexpr"
+    },
+    "_fgs_t1i_mdq_tma_pre_nf_kernel": {
+      "I": null,
+      "K": "tl.constexpr"
+    },
+    "_fgs_t1i_mdq_pre_kernel": {
+      "I": null,
+      "K": "tl.constexpr"
+    }
+  },
+  "limits": [
+    "CPU index and explicitly rounded FP32 operation checks only.",
+    "No GPU test, compiler proof, FP8 SQNR, or measured speedup.",
+    "Existing A_SCALE exponent/floor semantics retained; this does not validate arbitrary extreme inputs."
+  ]
+}

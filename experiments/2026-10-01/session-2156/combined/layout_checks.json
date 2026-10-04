@@ -1,0 +1,13 @@
+{
+  "sha256": "df5c5f77eadccd9466719d32f8755c381c7686e1dad6d660789d8ba75cac1318",
+  "parent_sha256": "79549c5bc0151c940d72ee776cdc571f78edf4ab9740fd0a3f6d0d1fb870bd5e",
+  "changed_helpers": [
+    "_fgs_t1i_mdq_kernel_g_s2_pad",
+    "_fgs_t1i_mdq_tma_pre_nf_kernel_s2_pad"
+  ],
+  "changed_helpers_ast": "exact ac338 original S2",
+  "other_functions_run": "unchanged combined AST",
+  "pycompile": "passed",
+  "CPU": "fully reuse parent contracts",
+  "online": "unverified"
+}

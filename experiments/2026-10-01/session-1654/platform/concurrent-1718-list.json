@@ -1,0 +1,368 @@
+{
+  "submissions": [
+    {
+      "id": 153193,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 319771,
+      "score": null,
+      "displayScore": null,
+      "status": "Pending",
+      "submitTime": "2026-10-01T09:17:13.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": null,
+      "memoryUsed": null,
+      "progressType": "Running"
+    },
+    {
+      "id": 153151,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 323892,
+      "score": 100,
+      "displayScore": 89.75,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T08:51:24.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 21238,
+      "memoryUsed": 714096
+    },
+    {
+      "id": 153137,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 323858,
+      "score": 83,
+      "displayScore": 67.92,
+      "status": "WrongAnswer",
+      "submitTime": "2026-10-01T08:40:21.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 3677033,
+      "memoryUsed": 714052
+    },
+    {
+      "id": 153131,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327049,
+      "score": 100,
+      "displayScore": 81.83,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T08:37:10.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28731,
+      "memoryUsed": 714124
+    },
+    {
+      "id": 153125,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 323858,
+      "score": 83,
+      "displayScore": 71.67,
+      "status": "WrongAnswer",
+      "submitTime": "2026-10-01T08:34:14.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 3670689,
+      "memoryUsed": 714080
+    },
+    {
+      "id": 153123,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327049,
+      "score": 100,
+      "displayScore": 81.75,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T08:29:57.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28701,
+      "memoryUsed": 714116
+    },
+    {
+      "id": 153115,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327049,
+      "score": 100,
+      "displayScore": 82,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T08:25:48.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28535,
+      "memoryUsed": 714032
+    },
+    {
+      "id": 153072,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327049,
+      "score": 100,
+      "displayScore": 81.92,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T07:43:16.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28677,
+      "memoryUsed": 714120
+    },
+    {
+      "id": 153052,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327059,
+      "score": 100,
+      "displayScore": 82,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T07:31:13.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28700,
+      "memoryUsed": 714132
+    },
+    {
+      "id": 153041,
+      "isPublic": false,
+      "codeLanguage": "triton-dist",
+      "answerSize": 327053,
+      "score": 100,
+      "displayScore": 82,
+      "status": "Accepted",
+      "submitTime": "2026-10-01T07:21:32.000Z",
+      "problem": {
+        "order": 1,
+        "type": "Traditional",
+        "locales": [
+          "zh_CN"
+        ]
+      },
+      "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+      "submitter": {
+        "id": 2080,
+        "username": "salt-Star",
+        "email": "601119026@qq.com",
+        "avatar": {
+          "type": "qq",
+          "key": "601119026"
+        },
+        "nickname": "崎小咪",
+        "bio": "The Brain - is wider than the Sky",
+        "isAdmin": false,
+        "acceptedProblemCount": 12,
+        "submissionCount": 234,
+        "rating": 0,
+        "registrationTime": "2026-08-15T13:19:42.000Z"
+      },
+      "timeUsed": 28675,
+      "memoryUsed": 714244
+    }
+  ],
+  "progressSubscriptionKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjowLCJzdWJtaXNzaW9uSWRzIjpbMTUzMTkzXSwidmlzaWJpbGl0aWVzIjp7IjE1MzE5MyI6eyJjYW5WaWV3U2NvcmUiOnRydWUsImNhblZpZXdKdWRnZURldGFpbHMiOnRydWV9fSwiaWF0IjoxNzkwODQ2MzM2fQ.mtr73cs7AT156LREOvR9e6TQSklXPBmw0qAEU4lxxjA",
+  "hasSmallerId": true,
+  "hasLargerId": false
+}

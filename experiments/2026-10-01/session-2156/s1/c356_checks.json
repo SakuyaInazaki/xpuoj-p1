@@ -1,0 +1,39 @@
+{
+  "sha256": "75c702478afa8c7d282064fad23d6a542556f30593cae8cb41a201c38da0ea7a",
+  "parent_sha": "3f95092adf1225f59b5e29a5bc7ad56000ca65dfeda02dd882ab6ded17c9db9a",
+  "delta": "two shape predicates add complete c3 only",
+  "inverse_ast": "passed",
+  "all_helper_ast": "unchanged",
+  "bindings": [
+    {
+      "name": "_s1_c6_gq_tok_params_kernel",
+      "line": 7769
+    },
+    {
+      "name": "_s1_c6_mdq_g_pre_kernel",
+      "line": 7849
+    },
+    {
+      "name": "_s1_c6_gq_tok_params",
+      "line": 6455
+    },
+    {
+      "name": "_s1_c6_gq_tok_params",
+      "line": 6463
+    },
+    {
+      "name": "_s1_c6_mdq_g_pre_host",
+      "line": 6599
+    }
+  ],
+  "k4_contract": "M=T*k/branch stride true k/MD KTOP=k; T16384 M65536; metadata untouched",
+  "cpu_contract": "reuse expanded_checks.json actual c3 T16384/E32/k4 FP32/INV",
+  "compile": "passed",
+  "c3_new_risks": [
+    "pre_nf TMA-A -> ORDER gather/SIMT A",
+    "launch4/maxnreg232 -> launch3/no maxnreg",
+    "I runtime -> constexpr"
+  ],
+  "c3_math": "both f16x2 tanh and h*th+h; both full-tile TMA ACT and tail pointer",
+  "limits": "No GPU/OJ/AC or speed claim; not a pure c6 isomorphic extension"
+}

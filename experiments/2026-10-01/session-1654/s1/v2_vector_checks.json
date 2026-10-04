@@ -1,0 +1,61 @@
+{
+  "candidate_sha256": "d11bf076b18ff243984aa346b551c3c1bcbe8c0ba65a9bc2c18ad927c8ad3497",
+  "unchanged_original_functions": 185,
+  "new_helper_bindings": [
+    {
+      "callee": "_s1_c6_gq_tok_params_kernel",
+      "line": 7763,
+      "positional": 16
+    },
+    {
+      "callee": "_s1_c6_mdq_g_pre_kernel",
+      "line": 7843,
+      "positional": 21
+    },
+    {
+      "callee": "_s1_c6_gq_tok_params",
+      "line": 6455,
+      "positional": 6
+    },
+    {
+      "callee": "_s1_c6_mdq_g_pre_host",
+      "line": 6593,
+      "positional": 14
+    }
+  ],
+  "cpu_scenarios": [
+    {
+      "T": 8192,
+      "M": 65536,
+      "unique_compact_writes": 65536,
+      "token_scale_length": 8192,
+      "act_scale_length": 65536
+    },
+    {
+      "T": 257,
+      "M": 2056,
+      "unique_compact_writes": 2056,
+      "token_scale_length": 257,
+      "act_scale_length": 2056
+    },
+    {
+      "T": 1,
+      "M": 8,
+      "unique_compact_writes": 8,
+      "token_scale_length": 1,
+      "act_scale_length": 8
+    }
+  ],
+  "fp32_bit_comparisons": 202800,
+  "new_functions": {
+    "_s1_c6_gq_tok_params": 7753,
+    "_s1_c6_gq_tok_params_kernel": 7722,
+    "_s1_c6_mdq_g_pre_host": 7834,
+    "_s1_c6_mdq_g_pre_kernel": 7773
+  },
+  "limits": [
+    "No submitted kernel import or GPU execution",
+    "No OJ result, performance or end-to-end SQNR verification",
+    "FP32 CPU rounding contract does not prove GPU FMA contraction or extreme static scale semantics"
+  ]
+}

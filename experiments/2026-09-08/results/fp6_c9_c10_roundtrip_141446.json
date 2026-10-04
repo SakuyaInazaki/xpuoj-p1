@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "experiment": "fp6_c9_c10_roundtrip_target_stable",
+  "submission": {
+    "id": 141446,
+    "source": "experiments/2026-09-08/candidates/fp6_c9_c10_roundtrip_target_stable.py",
+    "sha256": "673b9614100c2a438df6a71838077183512ac647fa38b3c7d440e0a226977b7e",
+    "status": "WrongAnswer",
+    "display_score": 0,
+    "compile_success": true,
+    "total_occupied_time": 57462,
+    "sample_case": 1,
+    "sqnr_count": 0,
+    "determinism_ok_count": 0,
+    "timed_case_count": 0,
+    "schema": {
+      "tk_time_ms": 0.0,
+      "tb_time_ms": 0.0,
+      "th_time_ms": 0.0,
+      "pass": false
+    }
+  },
+  "validation_error": {
+    "line": 6239,
+    "binding": "_fp6_roundtrip_",
+    "message": "invalid variable name because it starts with underscore"
+  },
+  "c9_sqnr_db": null,
+  "c10_sqnr_db": null,
+  "evidence_boundary": "The submission failed language validation before model execution. It provides no FP6 accuracy, determinism, or performance evidence.",
+  "scoreboard_after_submission": {
+    "p1_score": 72.75,
+    "best_submission_id": 141408,
+    "submission_count": 2578,
+    "inflight_submission_ids": []
+  },
+  "resubmitted": false,
+  "raw_detail_file": "experiments/2026-09-08/results/submissions_141446_raw.json",
+  "sanitized_log_file": "experiments/2026-09-08/results/sid141446_wa_sanitized.txt"
+}

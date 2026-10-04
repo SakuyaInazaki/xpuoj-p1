@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "customTestId": "19fd1bbe-71a0-4b9c-b52b-34a11748f78e",
+  "requestCount": 1,
+  "retryPerformed": false,
+  "source": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/candidates/native_int6_md_custom_bench_checkargs.py",
+    "bytes": 22158,
+    "sha256": "6c011210268763f8a6ec2cea36821f1a5b1ea8f132c77582e33a2a739cd1fc3e"
+  },
+  "request": {
+    "endpoint": "customTest/createCustomTest",
+    "action": "custom_test",
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "compileAndRunOptions": {}
+  },
+  "terminal": {
+    "state": "Finished",
+    "progressType": "Finished",
+    "status": "WrongAnswer",
+    "outerCompileSuccess": true,
+    "outerCompileMessage": "",
+    "totalOccupiedTime": 5561,
+    "createdAtUnixMs": 1789205304183,
+    "finishedAtUnixMs": 1789205310446
+  },
+  "case": {
+    "index": 0,
+    "status": "WrongAnswer",
+    "time": 5447100,
+    "memory": 910564,
+    "ojResult": {
+      "schema_version": 2,
+      "tk_time_ms": 0.0,
+      "tb_time_ms": 0.0,
+      "th_time_ms": 0.0,
+      "pass": false
+    }
+  },
+  "generatedWorkload": {
+    "failureStage": "generated_workload_triton_jit_llvm_lowering",
+    "failureExpression": "tl.atomic_or(STATUS, 2, mask=actual_q != expected_q)",
+    "failureContext": "The FP8 inequality in native_math_check_kernel lowered to llvm.fcmp with i8 operands, which LLVM rejected. This happened while compiling the check kernel, before any P1MD runtime output.",
+    "userError": {
+      "data": "/judge/1/working/.kernel_cache/kernel_1888dd5c662574e7.py:246:45: error: 'llvm.fcmp' op operand #0 must be floating point LLVM type or LLVM dialect-compatible vector of floating point LLVM type, but got 'i8'\n    tl.atomic_or(STATUS, 2, mask=actual_q != expected_q)\n                                            ^\n#blocked = #ttg.blocked<{sizePerThread = [16], threadsPerWarp = [32], warpsPerCTA = [8], order = [0]}>\nmodule attributes {\"ttg.num-ctas\" = 1 : i32, \"ttg.num-warps\" = 8 : i32, ttg.target = \"cuda:90\", \"ttg.threads-per-warp\" = 32 : i32} {\n  tt.func public @native_math_check_kernel(%arg0: !tt.ptr<i8> {tt.divisibility = 16 : i32}, %arg1: !tt.ptr<f32> {tt.divisibility = 16 : i32}, %arg2: !tt.ptr<f32> {tt.divisibility = 16 : i32}, %arg3: !tt.ptr<i8> {tt.divisibility = 16 : i32}, %arg4: !tt.ptr<f32> {tt.divisibility = 16 : i32}, %arg5: !tt.ptr<f8E4M3FN> {tt.divisibility = 16 : i32}, %arg6: !tt.ptr<f32> {tt.divisibility = 16 : i32}, %arg7: !tt.ptr<i32> {tt.divisibility = 16 : i32}) attributes {noinline = false} {\n    %c128_i32 = arith.constant 128 : i32\n    %c0_i32 = arith.constant 0 : i32\n    %c1_i32 = arith.constant 1 : i32\n    %c16384_i32 = arith.constant 16384 : i32\n    %c32767_i32 = arith.constant 32767 : i32\n    %c2048_i32 = arith.constant 2048 : i32\n    %c4095_i32 = arith.constant 4095 : i32\n    %c255_i32 = arith.constant 255 : i32\n    %c768_i32 = arith.constant 768 : i32\n    %c1408_i32 = arith.constant 1408 : i32\n    %c3072_i32 = arith.constant 3072 : i32\n    %c1536_i32 = arith.constant 1536 : i32\n    %c4096_i64 = arith.constant 4096 : i64\n    %cst = arith.constant 0.000000e+00 : f32\n    %cst_0 = arith.constant 1.44269502 : f32\n    %cst_1 = arith.constant 1.000000e+00 : f32\n    %cst_2 = arith.constant 1.250000e-01 : f32\n    %cst_3 = arith.constant 0.283482134 : f32\n    %cst_4 = arith.constant 1.000000e-30 : f32\n    %c23_i32 = arith.constant 23 : i32\n    %c10_i32 = arith.constant 10 : i32\n    %c244_i32 = arith.constant 244 : i32\n    %c2_i32 = arith.constant 2 : i32\n    %0 = tt.get_program_id x : i32\n    %1 = arith.divsi %0, %c128_i32 : i32\n    %2 = arith.remsi %0, %c128_i32 : i32\n    %3 = arith.cmpi eq, %1, %c0_i32 : i32\n    %4 = arith.cmpi eq, %1, %c1_i32 : i32\n    %5 = arith.select %4, %c16384_i32, %c32767_i32 : i32\n    %6 = arith.select %3, %c0_i32, %5 : i32\n    %7 = arith.select %4, %c2048_i32, %c4095_i32 : i32\n    %8 = arith.select %3, %c0_i32, %7 : i32\n    %9 = arith.select %4, %c128_i32, %c255_i32 : i32\n    %10 = arith.select %3, %c0_i32, %9 : i32\n    %11 = arith.select %4, %c768_i32, %c1408_i32 : i32\n    %12 = arith.select %3, %c0_i32, %11 : i32\n    %13 = arith.addi %12, %2 : i32\n    %14 = tt.make_range {end = 4096 : i32, start = 0 : i32} : tensor<4096xi32, #blocked>\n    %15 = arith.extsi %8 : i32 to i64\n    %16 = arith.muli %10, %c3072_i32 : i32\n    %17 = arith.addi %16, %13 : i32\n    %18 = arith.extsi %17 : i32 to i64\n    %19 = arith.addi %16, %c1536_i32 : i32\n    %20 = arith.addi %19, %13 : i32\n    %21 = arith.extsi %20 : i32 to i64\n    %22 = arith.muli %15, %c4096_i64 : i64\n    %23 = tt.addptr %arg0, %22 : !tt.ptr<i8>, i64\n    %24 = tt.splat %23 : !tt.ptr<i8> -> tensor<4096x!tt.ptr<i8>, #blocked>\n    %25 = tt.addptr %24, %14 : tensor<4096x!tt.ptr<i8>, #blocked>, tensor<4096xi32, #blocked>\n    %26 = tt.load %25 : tensor<4096x!tt.ptr<i8>, #blocked>\n    %27 = arith.extsi %26 : tensor<4096xi8, #blocked> to tensor<4096xi32, #blocked>\n    %28 = arith.muli %18, %c4096_i64 : i64\n    %29 = tt.addptr %arg3, %28 : !tt.ptr<i8>, i64\n    %30 = tt.splat %29 : !tt.ptr<i8> -> tensor<4096x!tt.ptr<i8>, #blocked>\n    %31 = tt.addptr %30, %14 : tensor<4096x!tt.ptr<i8>, #blocked>, tensor<4096xi32, #blocked>\n    %32 = tt.load %31 : tensor<4096x!tt.ptr<i8>, #blocked>\n    %33 = arith.extsi %32 : tensor<4096xi8, #blocked> to tensor<4096xi32, #blocked>\n    %34 = arith.muli %21, %c4096_i64 : i64\n    %35 = tt.addptr %arg3, %34 : !tt.ptr<i8>, i64\n    %36 = tt.splat %35 : !tt.ptr<i8> -> tensor<4096x!tt.ptr<i8>, #blocked>\n    %37 = tt.addptr %36, %14 : tensor<4096x!tt.ptr<i8>, #blocked>, tensor<4096xi32, #blocked>\n    %38 = tt.load %37 : tensor<4096x!tt.ptr<i8>, #blocked>\n    %39 = arith.extsi %38 : tensor<4096xi8, #blocked> to tensor<4096xi32, #blocked>\n    %40 = arith.muli %27, %33 : tensor<4096xi32, #blocked>\n    %41 = \"tt.reduce\"(%40) <{axis = 0 : i32}> ({\n    ^bb0(%arg8: i32, %arg9: i32):\n      %94 = arith.addi %arg8, %arg9 : i32\n      tt.reduce.return %94 : i32\n    }) : (tensor<4096xi32, #blocked>) -> i32\n    %42 = arith.muli %27, %39 : tensor<4096xi32, #blocked>\n    %43 = \"tt.reduce\"(%42) <{axis = 0 : i32}> ({\n    ^bb0(%arg8: i32, %arg9: i32):\n      %94 = arith.addi %arg8, %arg9 : i32\n      tt.reduce.return %94 : i32\n    }) : (tensor<4096xi32, #blocked>) -> i32\n    %44 = tt.addptr %arg1, %8 : !tt.ptr<f32>, i32\n    %45 = tt.load %44 : !tt.ptr<f32>\n    %46 = tt.addptr %arg4, %16 : !tt.ptr<f32>, i32\n    %47 = tt.addptr %46, %13 : !tt.ptr<f32>, i32\n    %48 = tt.load %47 : !tt.ptr<f32>\n    %49 = arith.mulf %45, %48 : f32\n    %50 = tt.addptr %46, %c1536_i32 : !tt.ptr<f32>, i32\n    %51 = tt.addptr %50, %13 : !tt.ptr<f32>, i32\n    %52 = tt.lo",
+      "omittedLength": 3234
+    },
+    "userErrorPath": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_19fd1bbe-71a0-4b9c-b52b-34a11748f78e_user_error.json",
+    "userErrorSha256": "68f44064f7eece1fe1bfb8462e6cd49c063df400640ce7671fd077d356fb5eff",
+    "apiUserErrorTruncated": true,
+    "apiOmittedLength": 3234
+  },
+  "runtimeEvidence": {
+    "p1mdLines": [],
+    "mathCheck": null,
+    "timingGroups": null,
+    "resources": null,
+    "reportedTritonVersion": null,
+    "reportedDeviceName": null,
+    "note": "No runtime P1MD output was emitted before check-kernel lowering failed. P1MD text embedded in submitted source is not execution evidence."
+  },
+  "observedEnvironmentMetadata": {
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "gpuModelFromRuntime": null,
+    "tritonVersionFromRuntime": null
+  },
+  "rawResult": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_19fd1bbe-71a0-4b9c-b52b-34a11748f78e_raw.json",
+    "sha256": "7e541ea1c09e9b39d9818e90ea3b6564c3409247e9ddea873d9eb7556ceb7a99"
+  }
+}

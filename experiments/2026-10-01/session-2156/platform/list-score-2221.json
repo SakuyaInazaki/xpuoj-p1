@@ -1,0 +1,127 @@
+{
+  "at": "2026-10-01T22:21:46.707805",
+  "list": {
+    "submissions": [
+      {
+        "id": 153526,
+        "status": "Pending",
+        "displayScore": null,
+        "submitTime": "2026-10-01T14:11:36.000Z",
+        "timeUsed": null
+      },
+      {
+        "id": 153507,
+        "status": "Pending",
+        "displayScore": null,
+        "submitTime": "2026-10-01T13:59:28.000Z",
+        "timeUsed": null
+      },
+      {
+        "id": 153322,
+        "status": "Accepted",
+        "displayScore": 82.08,
+        "submitTime": "2026-10-01T10:58:36.000Z",
+        "timeUsed": 28702
+      },
+      {
+        "id": 153278,
+        "status": "Accepted",
+        "displayScore": 81.92,
+        "submitTime": "2026-10-01T10:17:13.000Z",
+        "timeUsed": 28555
+      },
+      {
+        "id": 153250,
+        "status": "Accepted",
+        "displayScore": 82.17,
+        "submitTime": "2026-10-01T09:47:25.000Z",
+        "timeUsed": 28652
+      },
+      {
+        "id": 153193,
+        "status": "Accepted",
+        "displayScore": 81.83,
+        "submitTime": "2026-10-01T09:17:13.000Z",
+        "timeUsed": 28727
+      },
+      {
+        "id": 153151,
+        "status": "Accepted",
+        "displayScore": 89.75,
+        "submitTime": "2026-10-01T08:51:24.000Z",
+        "timeUsed": 21238
+      },
+      {
+        "id": 153137,
+        "status": "WrongAnswer",
+        "displayScore": 67.92,
+        "submitTime": "2026-10-01T08:40:21.000Z",
+        "timeUsed": 3677033
+      },
+      {
+        "id": 153131,
+        "status": "Accepted",
+        "displayScore": 81.83,
+        "submitTime": "2026-10-01T08:37:10.000Z",
+        "timeUsed": 28731
+      },
+      {
+        "id": 153125,
+        "status": "WrongAnswer",
+        "displayScore": 71.67,
+        "submitTime": "2026-10-01T08:34:14.000Z",
+        "timeUsed": 3670689
+      }
+    ],
+    "hasSmallerId": true,
+    "hasLargerId": false
+  },
+  "me": {
+    "rank": 5,
+    "totalScore": 250.75,
+    "problemScores": [
+      {
+        "order": 1,
+        "score": 79.75,
+        "submissionCount": 3539,
+        "firstAcceptedAt": "2026-08-15T14:14:16.000Z",
+        "submissionId": 153151,
+        "customInfo": {
+          "weight": 1,
+          "accepted": true,
+          "hasAccepted": true,
+          "totalAttempts": 3539,
+          "wrongAttempts": 8
+        }
+      },
+      {
+        "order": 2,
+        "score": 100.5,
+        "submissionCount": 200,
+        "firstAcceptedAt": "2026-08-22T16:17:55.000Z",
+        "submissionId": 150946,
+        "customInfo": {
+          "weight": 1,
+          "accepted": true,
+          "hasAccepted": true,
+          "totalAttempts": 200,
+          "wrongAttempts": 1
+        }
+      },
+      {
+        "order": 3,
+        "score": 70.5,
+        "submissionCount": 2342,
+        "firstAcceptedAt": "2026-08-19T04:13:19.000Z",
+        "submissionId": 151896,
+        "customInfo": {
+          "weight": 1,
+          "accepted": true,
+          "hasAccepted": true,
+          "totalAttempts": 2342,
+          "wrongAttempts": 10
+        }
+      }
+    ]
+  }
+}

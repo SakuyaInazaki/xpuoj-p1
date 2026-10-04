@@ -1,0 +1,668 @@
+{
+  "schema_version": 1,
+  "experiment": "c5_c7_stage_repeat_profiles",
+  "baseline": {
+    "sid": 141408,
+    "source": "experiments/2026-09-08/candidates/stable_c5_c7_dispatch.py",
+    "sha256": "64ad7cf0f5b9a1c39747c326310d0084e259bd96681b4cc546eede85f73c1b50",
+    "submit_time": "2026-09-08T15:19:48.000Z",
+    "status": "Accepted",
+    "display_score": 82.75,
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "sum_tk_ms": 29.75,
+    "cases": {
+      "1": {
+        "hash": "f754bea298636e9b372955c460287f7482f5e022",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 1,
+        "tk_ms": 4.61,
+        "tb_ms": 18.092,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "2": {
+        "hash": "998af24ad0133d1020ce04729b266c95d33cc804",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.77,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "case": 2,
+        "tk_ms": 7.947,
+        "tb_ms": 28.987,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "3": {
+        "hash": "8e652a5ad8b6d8c5f4d68863d7a9a4534df5a566",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.87,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "case": 3,
+        "tk_ms": 1.406,
+        "tb_ms": 42.634,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "4": {
+        "hash": "bd2cdb340c6430913d8193d55c01af174943f6ba",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.21,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "case": 4,
+        "tk_ms": 0.838,
+        "tb_ms": 5.197,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "5": {
+        "hash": "43c373bca10cc464d7695fb539d841c4483f7263",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.13,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "case": 5,
+        "tk_ms": 2.799,
+        "tb_ms": 12.779,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "6": {
+        "hash": "02a001fbc5ee1f59730c926a8e484adad6f1a553",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.83,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "case": 6,
+        "tk_ms": 1.326,
+        "tb_ms": 7.627,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "7": {
+        "hash": "1cca946b6a4ec197da1c39d078eebe6243941eda",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.11,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 7,
+        "tk_ms": 2.266,
+        "tb_ms": 10.293,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "8": {
+        "hash": "04fb947ae8486f980753e51af8e84950d7e35a6a",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.83,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 8,
+        "tk_ms": 1.353,
+        "tb_ms": 7.291,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "9": {
+        "hash": "7ba0bbb010db615ade69382d5137c3709b4c058e",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.8,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "case": 9,
+        "tk_ms": 2.587,
+        "tb_ms": 8.518,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "10": {
+        "hash": "4443b203a8144370669c883d15e2da72e3efa1d7",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.79,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "case": 10,
+        "tk_ms": 1.994,
+        "tb_ms": 6.726,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "11": {
+        "hash": "b25087c1e264f71ecf9002f6485203385c64b63c",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.31,
+          23.31
+        ],
+        "determinism_ok_count": 2,
+        "case": 11,
+        "tk_ms": 1.004,
+        "tb_ms": 6.284,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "12": {
+        "hash": "68ec2a9d82bb248fd02b9623df46b70c0c0f36d5",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.25,
+          23.26
+        ],
+        "determinism_ok_count": 2,
+        "case": 12,
+        "tk_ms": 1.62,
+        "tb_ms": 8.147,
+        "th_ms": 0.0,
+        "passed": true
+      }
+    },
+    "untimed_records": [
+      {
+        "hash": "71b497d2576cec5d476a96a1f5c72569fb962944",
+        "status": "Accepted",
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 1
+      }
+    ]
+  },
+  "profiles": {
+    "md": {
+      "sid": 141410,
+      "source": "experiments/2026-09-08/candidates/c57_profile_md.py",
+      "sha256": "2d2435694e8fef0801f1ceb7766057450f05738b5c7f236acc65815fc5fdcdd7",
+      "submit_time": "2026-09-08T15:27:08.000Z",
+      "status": "Accepted",
+      "display_score": 81.08,
+      "compile": {
+        "message": "",
+        "success": true
+      },
+      "sum_tk_ms": 32.853,
+      "cases": {
+        "1": {
+          "hash": "8809ed0df058db24a7a62add2754ff4474552518",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_ok_count": 2,
+          "case": 1,
+          "tk_ms": 4.623,
+          "tb_ms": 18.094,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "2": {
+          "hash": "db82ced50dcd53f47c774c6695ee8570370a230d",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_ok_count": 2,
+          "case": 2,
+          "tk_ms": 7.954,
+          "tb_ms": 77.325,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "3": {
+          "hash": "fd0c17de339b858745d40b86588db44867555821",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_ok_count": 2,
+          "case": 3,
+          "tk_ms": 1.403,
+          "tb_ms": 7.013,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "4": {
+          "hash": "cd2a56cd41c1d6988a314239845f263a0d25b5b8",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_ok_count": 2,
+          "case": 4,
+          "tk_ms": 0.832,
+          "tb_ms": 5.055,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "5": {
+          "hash": "7f3b5493af49efe69dafaaab4584d92b4e746764",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_ok_count": 2,
+          "case": 5,
+          "tk_ms": 4.555,
+          "tb_ms": 12.641,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "6": {
+          "hash": "8428403af4760f99494b642232b0c7d6493d1951",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_ok_count": 2,
+          "case": 6,
+          "tk_ms": 1.322,
+          "tb_ms": 7.67,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "7": {
+          "hash": "e695b368ad035b6d65046dc2bcd93347f476145e",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.11,
+            23.12
+          ],
+          "determinism_ok_count": 2,
+          "case": 7,
+          "tk_ms": 3.582,
+          "tb_ms": 10.257,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "8": {
+          "hash": "34169e24009eb4c475ac973950f6246b5f36c3e3",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_ok_count": 2,
+          "case": 8,
+          "tk_ms": 1.355,
+          "tb_ms": 7.165,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "9": {
+          "hash": "292ec8a936ee8ac4dd1174496c4569fd6b932d8d",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_ok_count": 2,
+          "case": 9,
+          "tk_ms": 2.596,
+          "tb_ms": 8.478,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "10": {
+          "hash": "2d3ec89c24352885d0cf7cc8831e8794cdc3b4bf",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.79,
+            23.14
+          ],
+          "determinism_ok_count": 2,
+          "case": 10,
+          "tk_ms": 1.998,
+          "tb_ms": 6.772,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "11": {
+          "hash": "420ab0f944f487cfa11b98f1c153defe75288ae3",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_ok_count": 2,
+          "case": 11,
+          "tk_ms": 1.007,
+          "tb_ms": 5.652,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "12": {
+          "hash": "b9c3254c14d8462585a284d9dd34b5bbc35d5ca1",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_ok_count": 2,
+          "case": 12,
+          "tk_ms": 1.626,
+          "tb_ms": 8.23,
+          "th_ms": 0.0,
+          "passed": true
+        }
+      },
+      "untimed_records": [
+        {
+          "hash": "523b7e286e1f784e328d95c3db9f6cd8833bcdce",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_ok_count": 2,
+          "case": 1
+        }
+      ]
+    },
+    "dn": {
+      "sid": 141411,
+      "source": "experiments/2026-09-08/candidates/c57_profile_dn.py",
+      "sha256": "cf63d3bd4022245315840fc3b6b5d4a3962a36837d748e962ededf270c1a57d7",
+      "submit_time": "2026-09-08T15:30:06.000Z",
+      "status": "Accepted",
+      "display_score": 80.83,
+      "compile": {
+        "message": "",
+        "success": true
+      },
+      "sum_tk_ms": 31.309,
+      "cases": {
+        "1": {
+          "hash": "04f6091c196fad28baa27ee5fee0cbde1e0355b4",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_ok_count": 2,
+          "case": 1,
+          "tk_ms": 4.608,
+          "tb_ms": 17.972,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "2": {
+          "hash": "757d596c5557dd6e949f6bfcafbafd8a5f692a16",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_ok_count": 2,
+          "case": 2,
+          "tk_ms": 7.941,
+          "tb_ms": 28.966,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "3": {
+          "hash": "35f8d4b6a2a763c50abd76a746cf815c038fd569",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_ok_count": 2,
+          "case": 3,
+          "tk_ms": 1.403,
+          "tb_ms": 7.578,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "4": {
+          "hash": "41fcde42e137aff8ef65c9d3697e43a40b0b7684",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_ok_count": 2,
+          "case": 4,
+          "tk_ms": 0.848,
+          "tb_ms": 5.056,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "5": {
+          "hash": "e5a8b863c781c8694154bc4b777a6dac9dcbd018",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_ok_count": 2,
+          "case": 5,
+          "tk_ms": 3.668,
+          "tb_ms": 12.697,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "6": {
+          "hash": "d3335be76ce18057365e0146e20b33d8db7d617e",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_ok_count": 2,
+          "case": 6,
+          "tk_ms": 1.329,
+          "tb_ms": 7.575,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "7": {
+          "hash": "60bc28f518754c829685ecac061b35366c910209",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.11,
+            23.12
+          ],
+          "determinism_ok_count": 2,
+          "case": 7,
+          "tk_ms": 2.923,
+          "tb_ms": 10.867,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "8": {
+          "hash": "1aa9a442f11a4a605e317d99aeef72e762b381a2",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_ok_count": 2,
+          "case": 8,
+          "tk_ms": 1.347,
+          "tb_ms": 7.625,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "9": {
+          "hash": "17f408f5a8886ff24b38bb8fa00a934a5363205b",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_ok_count": 2,
+          "case": 9,
+          "tk_ms": 2.596,
+          "tb_ms": 8.498,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "10": {
+          "hash": "5205da75d955f45c9b050ab71200aed11c86725b",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.79,
+            23.14
+          ],
+          "determinism_ok_count": 2,
+          "case": 10,
+          "tk_ms": 2.006,
+          "tb_ms": 6.799,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "11": {
+          "hash": "d7c920b9756223f4c90057e89beecd52b7a8723e",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_ok_count": 2,
+          "case": 11,
+          "tk_ms": 1.006,
+          "tb_ms": 5.679,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "12": {
+          "hash": "1b6c4270d0f3e1ac6e8501911fb717b0b2c83cf8",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_ok_count": 2,
+          "case": 12,
+          "tk_ms": 1.634,
+          "tb_ms": 8.223,
+          "th_ms": 0.0,
+          "passed": true
+        }
+      },
+      "untimed_records": [
+        {
+          "hash": "6119bee8a00b4a3114437692d1cd4d92b437bb31",
+          "status": "Accepted",
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_ok_count": 2,
+          "case": 1
+        }
+      ]
+    }
+  },
+  "comparisons": {
+    "md": {
+      "untouched_cases": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "untouched_median_tk_ratio": 1.0017421073271553,
+      "untouched_sum_tk_ratio": 1.0012558233745188,
+      "untouched_candidate_sum_tk_ms": 24.716,
+      "untouched_baseline_sum_tk_ms": 24.685000000000002,
+      "target": {
+        "5": {
+          "tk_ms": 4.555,
+          "baseline_tk_ms": 2.799,
+          "raw_extra_ms": 1.7559999999999998,
+          "median_corrected_extra_ms": 1.7480785012258635,
+          "sum_corrected_extra_ms": 1.750286899174624
+        },
+        "7": {
+          "tk_ms": 3.582,
+          "baseline_tk_ms": 2.266,
+          "raw_extra_ms": 1.3159999999999998,
+          "median_corrected_extra_ms": 1.3097706237960582,
+          "sum_corrected_extra_ms": 1.3115072827318341
+        }
+      }
+    },
+    "dn": {
+      "untouched_cases": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "untouched_median_tk_ratio": 1.002127237655712,
+      "untouched_sum_tk_ratio": 1.001336844237391,
+      "untouched_candidate_sum_tk_ms": 24.718,
+      "untouched_baseline_sum_tk_ms": 24.685000000000002,
+      "target": {
+        "5": {
+          "tk_ms": 3.668,
+          "baseline_tk_ms": 2.799,
+          "raw_extra_ms": 0.8690000000000002,
+          "median_corrected_extra_ms": 0.8612138552591344,
+          "sum_corrected_extra_ms": 0.8641030018609923
+        },
+        "7": {
+          "tk_ms": 2.923,
+          "baseline_tk_ms": 2.266,
+          "raw_extra_ms": 0.657,
+          "median_corrected_extra_ms": 0.6507952832394897,
+          "sum_corrected_extra_ms": 0.653097621166761
+        }
+      }
+    }
+  },
+  "interpretation": "extra time from one repeated stage kernel on stable c5/c7 dispatch; all cases Accepted and target SQNR/determinism passed",
+  "display_score_caveat": "display scores include abnormal tb values and are not used for stage estimates",
+  "raw_detail_files": [
+    "experiments/2026-09-08/results/submissions_141408_raw.json",
+    "experiments/2026-09-08/results/submissions_141410_raw.json",
+    "experiments/2026-09-08/results/submissions_141411_raw.json"
+  ]
+}

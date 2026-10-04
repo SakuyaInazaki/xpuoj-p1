@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "customTestId": "04511ff8-38e2-4c6c-bd5d-027cce65a245",
+  "requestCount": 1,
+  "retryPerformed": false,
+  "source": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/candidates/native_int6_md_custom_bench_i32out.py",
+    "bytes": 22056,
+    "sha256": "0336cd9bec4d40c28c1e6b69ab759c817b0ce1c87da21e672d1b0dc673058728"
+  },
+  "request": {
+    "endpoint": "customTest/createCustomTest",
+    "action": "custom_test",
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "compileAndRunOptions": {}
+  },
+  "terminal": {
+    "state": "Finished",
+    "progressType": "Finished",
+    "status": "WrongAnswer",
+    "outerCompileSuccess": true,
+    "outerCompileMessage": "",
+    "totalOccupiedTime": 8574,
+    "createdAtUnixMs": 1789205067865,
+    "finishedAtUnixMs": 1789205077118
+  },
+  "case": {
+    "index": 0,
+    "status": "WrongAnswer",
+    "time": 8425480,
+    "memory": 909368,
+    "ojResult": {
+      "schema_version": 2,
+      "tk_time_ms": 0.0,
+      "tb_time_ms": 0.0,
+      "th_time_ms": 0.0,
+      "pass": false
+    }
+  },
+  "generatedWorkload": {
+    "failureStage": "generated_workload_triton_jit_compilation",
+    "failureExpression": "branch_row = tl.where(check_index == 0, 0, tl.where(check_index == 1, M // 2, M - 1))",
+    "failureContext": "native_math_check_kernel accesses module global M from inside @triton.jit. The returned Triton frontend error says only globals instantiated as triton.language.constexpr are accessible.",
+    "userError": "Generated custom workload failed: Compilation failed: Module compilation failed: at 5:74:\ndef native_math_check_kernel(A, A_SCALE, BNORM, B, B_SCALE, ACT, ROWSCALE, STATUS, I: tl.constexpr, K: tl.constexpr, BLOCK_K: tl.constexpr):\n    pid = tl.program_id(0)\n    check_index = pid // 128\n    col_in_segment = pid % 128\n    branch_row = tl.where(check_index == 0, 0, tl.where(check_index == 1, M // 2, M - 1))\n                                                                          ^\nNameError(\"Cannot access global variable M from within @jit'ed function. Triton kernels can only access global variables that are instanstiated as constexpr (`x = triton.language.constexpr(42)`). Note that this is different from annotating a variable as constexpr (`x: triton.language.constexpr = 42`), which is not supported.  Alternatively, set the envvar TRITON_ALLOW_NON_CONSTEXPR_GLOBALS=1, but we do not promise to support this forever.\")\n",
+    "userErrorPath": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_04511ff8-38e2-4c6c-bd5d-027cce65a245_user_error.txt",
+    "userErrorSha256": "cbd0db32a871410bd11cff96cdf001cf97df3bf03ae08b5a0a7d1aceb1fd2bf2"
+  },
+  "runtimeEvidence": {
+    "p1mdLines": [],
+    "mathCheck": null,
+    "timingGroups": null,
+    "resources": null,
+    "reportedTritonVersion": null,
+    "reportedDeviceName": null,
+    "note": "No runtime P1MD output was emitted before the generated-workload Triton JIT failure. P1MD text embedded in the submitted source is not execution evidence."
+  },
+  "observedEnvironmentMetadata": {
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "gpuModelFromRuntime": null,
+    "tritonVersionFromRuntime": null
+  },
+  "rawResult": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_04511ff8-38e2-4c6c-bd5d-027cce65a245_raw.json",
+    "sha256": "fd310da3a26d523e4e91c397a72f1fd259881c1efbc00a088ef93b9d6f104ae7"
+  }
+}

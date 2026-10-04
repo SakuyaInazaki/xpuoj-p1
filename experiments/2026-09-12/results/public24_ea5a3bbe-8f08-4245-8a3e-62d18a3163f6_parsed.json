@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "customTestId": "ea5a3bbe-8f08-4245-8a3e-62d18a3163f6",
+  "requestCount": 1,
+  "retryPerformed": false,
+  "source": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/candidates/fp8_c2_md_dn_stage_profile_report.py",
+    "bytes": 28147,
+    "sha256": "885868a7570212385471e0b4dbe1c9da7b02e68e196aac25bfbc47625675722a"
+  },
+  "request": {
+    "endpoint": "customTest/createCustomTest",
+    "action": "custom_test",
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "compileAndRunOptions": {}
+  },
+  "terminal": {
+    "state": "Finished",
+    "progressType": "Finished",
+    "status": "WrongAnswer",
+    "outerCompileSuccess": true,
+    "outerCompileMessage": "",
+    "totalOccupiedTime": 6683,
+    "createdAtUnixMs": 1789224417658,
+    "finishedAtUnixMs": 1789224424996
+  },
+  "case": {
+    "index": 0,
+    "status": "WrongAnswer",
+    "time": 6495260,
+    "memory": 921516,
+    "ojResult": {
+      "schema_version": 2,
+      "tk_time_ms": 0.0,
+      "tb_time_ms": 0.0,
+      "th_time_ms": 0.0,
+      "pass": false
+    }
+  },
+  "generatedWorkload": {
+    "executionReachedDiagnostic": true,
+    "stageReferenceThresholdPassed": true,
+    "purpose": "existing_production_stage_profiling_not_candidate_correctness_validation",
+    "timingReached": true,
+    "terminalMarkerExpected": true,
+    "userErrorPath": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_ea5a3bbe-8f08-4245-8a3e-62d18a3163f6_user_error.txt",
+    "userErrorSha256": "ef7d3757a5d251e2639ed3c6a4347d40897de1c1be670d4283f2f41b99048e58"
+  },
+  "runtimeEvidence": {
+    "p1mdLines": [
+      "P1MD {\"kind\":\"fp8_c2_md_dn_stage_custom\",\"purpose\":\"existing_production_stage_profiling_not_candidate_correctness_validation\",\"shape\":{\"T\":16384,\"H\":4096,\"E\":8,\"I\":14336,\"topk\":2,\"M\":32768},\"rank_semantics\":\"private_T16384_input_no_activation_collective\",\"route\":{\"kind\":\"deterministic_affine_bijection\",\"counts\":[4016,4176,4016,4176,4016,4176,4016,4176],\"metadata_tiles\":260,\"all_experts_have_partial_BM128_tail\":true},\"geometry\":{\"md\":{\"grid\":132,\"BM\":128,\"BN\":128,\"BK\":128,\"GM\":8,\"warps\":8,\"stages\":4,\"maxnreg\":168},\"dn\":{\"grid\":132,\"BM\":128,\"BN\":256,\"BK\":128,\"GM\":32,\"warps\":8,\"stages\":3,\"flatten\":false}},\"stage_reference\":{\"status\":0,\"stage_reference_threshold_passed\":true,\"rows\":[4015,4016,32767],\"comparisons_per_stage\":384,\"md_reference\":\"independent_F32_K4096_then_same_FP8_contract\",\"dn_reference\":\"independent_F32_K14336_full_256col_chunk_max_then_same_FP8_contract\",\"threshold_db\":35.0,\"md_rel\":0.0032581801060587168,\"md_sqnr_db\":49.74049758911133,\"dn_rel\":0.01003764197230339,\"dn_sqnr_db\":39.96736526489258,\"md_exact_fraction\":0.9765625,\"dn_exact_fraction\":0.9244791865348816,\"md_rowscale_bitwise\":true,\"dn_scale_rel\":0.002587946131825447,\"dn_scale_rel_reference\":0.001,\"dn_scale_rel_diagnostic_only\":true,\"finite\":true},\"resources\":{\"md\":{\"n_regs\":168,\"n_spills\":0,\"shared\":196640},\"dn\":{\"n_regs\":186,\"n_spills\":0,\"shared\":147480}},\"timing\":{\"method\":\"do_bench_warmup5_rep10\",\"scope\":\"MD_only_DN_only_and_two_launch_MD_plus_DN\",\"groups\":[{\"group\":0,\"order\":\"MD_DN_COMBINED\",\"md_ms\":5.431488037109375,\"dn_ms\":2.6518399715423584,\"md_plus_dn_sum_ms\":8.083328008651733,\"combined_ms\":8.832991600036621,\"combined_over_separate_sum\":1.0927419486853074},{\"group\":1,\"order\":\"DN_COMBINED_MD\",\"md_ms\":6.139135837554932,\"dn_ms\":2.745472033818563,\"md_plus_dn_sum_ms\":8.884607871373495,\"combined_ms\":8.963423728942871,\"combined_over_separate_sum\":1.0088710564056882},{\"group\":2,\"order\":\"COMBINED_MD_DN\",\"md_ms\":6.173920154571533,\"dn_ms\":2.7475732962290444,\"md_plus_dn_sum_ms\":8.921493450800577,\"combined_ms\":8.965184211730957,\"combined_over_separate_sum\":1.0048972474363538}]},\"excluded\":{\"allocation\":true,\"route_and_metadata\":true,\"A_GU_DN_quantization\":true,\"BNORM_and_descriptors\":true,\"weight_cache_and_collectives\":true,\"final_gather\":true},\"limitations\":\"single_GPU_c2_stage_diagnostic_not_P1_end_to_end_or_candidate\"}"
+    ],
+    "report": {
+      "kind": "fp8_c2_md_dn_stage_custom",
+      "purpose": "existing_production_stage_profiling_not_candidate_correctness_validation",
+      "shape": {
+        "T": 16384,
+        "H": 4096,
+        "E": 8,
+        "I": 14336,
+        "topk": 2,
+        "M": 32768
+      },
+      "rank_semantics": "private_T16384_input_no_activation_collective",
+      "route": {
+        "kind": "deterministic_affine_bijection",
+        "counts": [
+          4016,
+          4176,
+          4016,
+          4176,
+          4016,
+          4176,
+          4016,
+          4176
+        ],
+        "metadata_tiles": 260,
+        "all_experts_have_partial_BM128_tail": true
+      },
+      "geometry": {
+        "md": {
+          "grid": 132,
+          "BM": 128,
+          "BN": 128,
+          "BK": 128,
+          "GM": 8,
+          "warps": 8,
+          "stages": 4,
+          "maxnreg": 168
+        },
+        "dn": {
+          "grid": 132,
+          "BM": 128,
+          "BN": 256,
+          "BK": 128,
+          "GM": 32,
+          "warps": 8,
+          "stages": 3,
+          "flatten": false
+        }
+      },
+      "stage_reference": {
+        "status": 0,
+        "stage_reference_threshold_passed": true,
+        "rows": [
+          4015,
+          4016,
+          32767
+        ],
+        "comparisons_per_stage": 384,
+        "md_reference": "independent_F32_K4096_then_same_FP8_contract",
+        "dn_reference": "independent_F32_K14336_full_256col_chunk_max_then_same_FP8_contract",
+        "threshold_db": 35.0,
+        "md_rel": 0.0032581801060587168,
+        "md_sqnr_db": 49.74049758911133,
+        "dn_rel": 0.01003764197230339,
+        "dn_sqnr_db": 39.96736526489258,
+        "md_exact_fraction": 0.9765625,
+        "dn_exact_fraction": 0.9244791865348816,
+        "md_rowscale_bitwise": true,
+        "dn_scale_rel": 0.002587946131825447,
+        "dn_scale_rel_reference": 0.001,
+        "dn_scale_rel_diagnostic_only": true,
+        "finite": true
+      },
+      "resources": {
+        "md": {
+          "n_regs": 168,
+          "n_spills": 0,
+          "shared": 196640
+        },
+        "dn": {
+          "n_regs": 186,
+          "n_spills": 0,
+          "shared": 147480
+        }
+      },
+      "timing": {
+        "method": "do_bench_warmup5_rep10",
+        "scope": "MD_only_DN_only_and_two_launch_MD_plus_DN",
+        "groups": [
+          {
+            "group": 0,
+            "order": "MD_DN_COMBINED",
+            "md_ms": 5.431488037109375,
+            "dn_ms": 2.6518399715423584,
+            "md_plus_dn_sum_ms": 8.083328008651733,
+            "combined_ms": 8.832991600036621,
+            "combined_over_separate_sum": 1.0927419486853074
+          },
+          {
+            "group": 1,
+            "order": "DN_COMBINED_MD",
+            "md_ms": 6.139135837554932,
+            "dn_ms": 2.745472033818563,
+            "md_plus_dn_sum_ms": 8.884607871373495,
+            "combined_ms": 8.963423728942871,
+            "combined_over_separate_sum": 1.0088710564056882
+          },
+          {
+            "group": 2,
+            "order": "COMBINED_MD_DN",
+            "md_ms": 6.173920154571533,
+            "dn_ms": 2.7475732962290444,
+            "md_plus_dn_sum_ms": 8.921493450800577,
+            "combined_ms": 8.965184211730957,
+            "combined_over_separate_sum": 1.0048972474363538
+          }
+        ]
+      },
+      "excluded": {
+        "allocation": true,
+        "route_and_metadata": true,
+        "A_GU_DN_quantization": true,
+        "BNORM_and_descriptors": true,
+        "weight_cache_and_collectives": true,
+        "final_gather": true
+      },
+      "limitations": "single_GPU_c2_stage_diagnostic_not_P1_end_to_end_or_candidate"
+    },
+    "note": "Single-GPU profiling of existing production-equivalent MD and DN stage ASTs. This is not P1 end-to-end timing or candidate correctness validation."
+  },
+  "rawResult": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_ea5a3bbe-8f08-4245-8a3e-62d18a3163f6_raw.json",
+    "sha256": "c6ca2e59f02937741c3cd977d046657fd734146d3a72af6358175b5d2cc89663"
+  }
+}

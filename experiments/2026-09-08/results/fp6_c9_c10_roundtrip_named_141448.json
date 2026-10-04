@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "experiment": "fp6_c9_c10_roundtrip_named",
+  "submission": {
+    "id": 141448,
+    "source": "experiments/2026-09-08/candidates/fp6_c9_c10_roundtrip_named.py",
+    "sha256": "1da76e0621d5365cbd459c6a43984d4415e3f220335477479e094c5e9149e2fc",
+    "status": "WrongAnswer",
+    "score": 83,
+    "display_score": 68.42,
+    "submit_time": "2026-09-08T16:55:49.000Z",
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "total_occupied_time": 112842,
+    "sample_records": [
+      {
+        "testcase_hash": "6df20d3854a1b2af2864f8353729fa0f5cb6d0cc",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 1
+      }
+    ],
+    "cases": {
+      "1": {
+        "testcase_hash": "648750f38047e7ab52ade5da8a69cedaf6056506",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 1,
+        "tk_ms": 4.764,
+        "tb_ms": 17.932,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "2": {
+        "testcase_hash": "11bce804013af67102af72de653c500fd9d03922",
+        "status": "Accepted",
+        "display_score": 78,
+        "sqnr_db": [
+          23.77,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "case": 2,
+        "tk_ms": 8.222,
+        "tb_ms": 29.504,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "3": {
+        "testcase_hash": "faef04f1c82af46f15351fd539827fcdae054d8c",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.87,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "case": 3,
+        "tk_ms": 1.42,
+        "tb_ms": 7.028,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "4": {
+        "testcase_hash": "3ac72313e931b0199f29bf6ffb27e0c3c531c94c",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.21,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "case": 4,
+        "tk_ms": 0.856,
+        "tb_ms": 4.94,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "5": {
+        "testcase_hash": "830bbd85eb2a7e343ba67aa3ca6d228b69fa87b7",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.13,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "case": 5,
+        "tk_ms": 2.873,
+        "tb_ms": 12.571,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "6": {
+        "testcase_hash": "339962b8dfc5470c97bc266e1189194c334e711b",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.83,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "case": 6,
+        "tk_ms": 1.347,
+        "tb_ms": 7.534,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "7": {
+        "testcase_hash": "e82f1d230bb638b276ce82b7d39b3672837b78e0",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.11,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 7,
+        "tk_ms": 2.304,
+        "tb_ms": 10.059,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "8": {
+        "testcase_hash": "ba23fddc829b3083b0d55b0fd3dd22332a18fb16",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.83,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 8,
+        "tk_ms": 1.37,
+        "tb_ms": 7.007,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "9": {
+        "testcase_hash": "1300cd8656ec3057fa91ce71035bb9b161d9df89",
+        "status": "WrongAnswer",
+        "display_score": null,
+        "sqnr_db": [],
+        "determinism_ok_count": 0,
+        "case": 9,
+        "tk_ms": 0.0,
+        "tb_ms": 0.0,
+        "th_ms": 0.0,
+        "passed": false,
+        "error": "torch.Tensor attribute/method 'data_ptr' is not allowed in the sandbox"
+      },
+      "10": {
+        "testcase_hash": "7a3fa5b5be3273fd19c4b950276000ce65a62ed8",
+        "status": "WrongAnswer",
+        "display_score": null,
+        "sqnr_db": [],
+        "determinism_ok_count": 0,
+        "case": 10,
+        "tk_ms": 0.0,
+        "tb_ms": 0.0,
+        "th_ms": 0.0,
+        "passed": false,
+        "error": "torch.Tensor attribute/method 'data_ptr' is not allowed in the sandbox"
+      },
+      "11": {
+        "testcase_hash": "5052cda5482a78bc82abef9b248092705a1bd16e",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.32,
+          23.26
+        ],
+        "determinism_ok_count": 2,
+        "case": 11,
+        "tk_ms": 1.012,
+        "tb_ms": 6.146,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "12": {
+        "testcase_hash": "4f342d5b958089440e86ac26b57730f912809a16",
+        "status": "Accepted",
+        "display_score": 82,
+        "sqnr_db": [
+          23.27,
+          23.27
+        ],
+        "determinism_ok_count": 2,
+        "case": 12,
+        "tk_ms": 1.646,
+        "tb_ms": 7.674,
+        "th_ms": 0.0,
+        "passed": true
+      }
+    }
+  },
+  "target_summary": {
+    "c9_sqnr_db": null,
+    "c10_sqnr_db": null,
+    "c9_margin_over_22_db": null,
+    "c10_margin_over_22_db": null,
+    "failure": "Both targets fail before FP6 execution because Tensor.data_ptr() is forbidden by TensorGuard.",
+    "accuracy_evidence_available": false
+  },
+  "scoreboard_after_submission": {
+    "p1_score": 72.75,
+    "best_submission_id": 141408,
+    "submission_count": 2579,
+    "inflight_submission_ids": []
+  },
+  "resubmitted": false,
+  "raw_detail_file": "experiments/2026-09-08/results/submissions_141448_raw.json",
+  "sanitized_log_file": "experiments/2026-09-08/results/sid141448_wa_sanitized.txt"
+}

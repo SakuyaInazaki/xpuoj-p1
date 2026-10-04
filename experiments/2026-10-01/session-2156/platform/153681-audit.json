@@ -1,0 +1,295 @@
+{
+  "status": "Accepted",
+  "displayScore": 81.08,
+  "submitTime": "2026-10-01T15:29:06.000Z",
+  "source_sha256": "c82b6ee4286c9583851c33c0f715102a0946eaa0247e277060d9453ad3218c4b",
+  "cases": {
+    "12": {
+      "metrics": {
+        "schema_version": 2,
+        "tk_time_ms": 1.441,
+        "tb_time_ms": 8.148,
+        "th_time_ms": 0.0,
+        "pass": true
+      },
+      "status": "Accepted",
+      "displayScore": 84,
+      "sqnr_db": [
+        23.25,
+        22.9
+      ],
+      "determinism_checks_passed": 2
+    },
+    "5": {
+      "metrics": {
+        "schema_version": 2,
+        "tk_time_ms": 2.74,
+        "tb_time_ms": 12.192,
+        "th_time_ms": 0.0,
+        "pass": true
+      },
+      "status": "Accepted",
+      "displayScore": 81,
+      "sqnr_db": [
+        23.8,
+        23.13
+      ],
+      "determinism_checks_passed": 2
+    },
+    "4": {
+      "metrics": {
+        "schema_version": 2,
+        "tk_time_ms": 1.456,
+        "tb_time_ms": 5.034,
+        "th_time_ms": 0.0,
+        "pass": true
+      },
+      "status": "Accepted",
+      "displayScore": 77,
+      "sqnr_db": [
+        23.21,
+        22.98
+      ],
+      "determinism_checks_passed": 2
+    },
+    "11": {
+      "metrics": {
+        "schema_version": 2,
+        "tk_time_ms": 0.854,
+        "tb_time_ms": 5.672,
+        "th_time_ms": 0.0,
+        "pass": true
+      },
+      "status": "Accepted",
+      "displayScore": 86,
+      "sqnr_db": [
+        23.31,
+        23.14
+      ],
+      "determinism_checks_passed": 2
+    },
+    "10": {
+      "metrics": {
+        "schema_version": 2,
+        "tk_time_ms": 1.896,
+        "tb_time_ms": 6.649,
+        "th_time_ms": 0.0,
+        "pass": true
+      },
+      "status": "Accepted",
+      "displayScore": 77,
+      "sqnr_db": [
+        22.75,
+        22.69
+      ],
+      "determinism_checks_passed": 2
+    },
+    "7": {
+      "metrics": {
+        "schema_version": 2,
+        "tk_time_ms": 2.18,
+        "tb_time_ms": 10.242,
+        "th_time_ms": 0.0,
+        "pass": true
+      },
+      "status": "Accepted",
+      "displayScore": 82,
+      "sqnr_db": [
+        23.79,
+        23.12
+      ],
+      "determinism_checks_passed": 2
+    },
+    "8": {
+      "metrics": {
+        "schema_version": 2,
+        "tk_time_ms": 1.224,
+        "tb_time_ms": 7.143,
+        "th_time_ms": 0.0,
+        "pass": true
+      },
+      "status": "Accepted",
+      "displayScore": 85,
+      "sqnr_db": [
+        23.83,
+        22.9
+      ],
+      "determinism_checks_passed": 2
+    },
+    "2": {
+      "metrics": {
+        "schema_version": 2,
+        "tk_time_ms": 7.86,
+        "tb_time_ms": 28.657,
+        "th_time_ms": 0.0,
+        "pass": true
+      },
+      "status": "Accepted",
+      "displayScore": 78,
+      "sqnr_db": [
+        23.77,
+        23.14
+      ],
+      "determinism_checks_passed": 2
+    },
+    "6": {
+      "metrics": {
+        "schema_version": 2,
+        "tk_time_ms": 1.237,
+        "tb_time_ms": 7.504,
+        "th_time_ms": 0.0,
+        "pass": true
+      },
+      "status": "Accepted",
+      "displayScore": 85,
+      "sqnr_db": [
+        23.83,
+        22.93
+      ],
+      "determinism_checks_passed": 2
+    },
+    "9": {
+      "metrics": {
+        "schema_version": 2,
+        "tk_time_ms": 2.448,
+        "tb_time_ms": 7.773,
+        "th_time_ms": 0.0,
+        "pass": true
+      },
+      "status": "Accepted",
+      "displayScore": 76,
+      "sqnr_db": [
+        23.13,
+        23.13
+      ],
+      "determinism_checks_passed": 2
+    },
+    "1": {
+      "metrics": {
+        "schema_version": 2,
+        "tk_time_ms": 4.612,
+        "tb_time_ms": 17.628,
+        "th_time_ms": 0.0,
+        "pass": true
+      },
+      "status": "Accepted",
+      "displayScore": 79,
+      "sqnr_db": [
+        23.79,
+        23.12
+      ],
+      "determinism_checks_passed": 2
+    },
+    "3": {
+      "metrics": {
+        "schema_version": 2,
+        "tk_time_ms": 1.358,
+        "tb_time_ms": 6.954,
+        "th_time_ms": 0.0,
+        "pass": true
+      },
+      "status": "Accepted",
+      "displayScore": 83,
+      "sqnr_db": [
+        23.87,
+        22.7
+      ],
+      "determinism_checks_passed": 2
+    }
+  },
+  "logs": [
+    {
+      "key": "07b760d0841b8632d9ee04686308693a5923227b",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=12\n[OK] oracle SQNR (bf16): SQNR=23.25 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=22.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.441,\"tb_time_ms\":8.148,\"th_time_ms\":0.0,\"pass\":true}\n",
+      "omittedLength": 0
+    },
+    {
+      "key": "19fd93d62f4b18283a5d859628be1baba5b747c7",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=5\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.13 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.74,\"tb_time_ms\":12.192,\"th_time_ms\":0.0,\"pass\":true}\n",
+      "omittedLength": 0
+    },
+    {
+      "key": "3374321dfc38a8e04d3572c9e3cc2e600943e419",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=4\n[OK] oracle SQNR (bf16): SQNR=23.21 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=22.98 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.456,\"tb_time_ms\":5.034,\"th_time_ms\":0.0,\"pass\":true}\n",
+      "omittedLength": 0
+    },
+    {
+      "key": "420fd1b1886517cf20513b80501d3dc886f14a78",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=11\n[OK] oracle SQNR (bf16): SQNR=23.31 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.14 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":0.854,\"tb_time_ms\":5.672,\"th_time_ms\":0.0,\"pass\":true}\n",
+      "omittedLength": 0
+    },
+    {
+      "key": "545cfe05fda7be7687e5bad7bbf7548a9e8e6a95",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=10\n[OK] oracle SQNR (bf16): SQNR=22.75 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=22.69 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.896,\"tb_time_ms\":6.649,\"th_time_ms\":0.0,\"pass\":true}\n",
+      "omittedLength": 0
+    },
+    {
+      "key": "6c3053fd8e0d0e1e7e6c54fe1183a911bce7d75d",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=7\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.12 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.18,\"tb_time_ms\":10.242,\"th_time_ms\":0.0,\"pass\":true}\n",
+      "omittedLength": 0
+    },
+    {
+      "key": "8cf7b52b6c2a78c84d33030a6362bb32cafa046c",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=8\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=22.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.224,\"tb_time_ms\":7.143,\"th_time_ms\":0.0,\"pass\":true}\n",
+      "omittedLength": 0
+    },
+    {
+      "key": "9af85f5fe683c8bf049ad2728db6356c050ae06f",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=2\n[OK] oracle SQNR (bf16): SQNR=23.77 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.14 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":7.86,\"tb_time_ms\":28.657,\"th_time_ms\":0.0,\"pass\":true}\n",
+      "omittedLength": 0
+    },
+    {
+      "key": "cc83eea416bb6330009bd0d377b1ef3888a5e43a",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=6\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=22.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.237,\"tb_time_ms\":7.504,\"th_time_ms\":0.0,\"pass\":true}\n",
+      "omittedLength": 0
+    },
+    {
+      "key": "d3aecbfa3a642a7e0b6ffd7d61485d0565c1e230",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=1\n[run-triton-dist] per-rank logs: /opt/oj-cache/run-logs/20261001_153624_tc1_1433667\nW1001 15:36:25.558000 1433715 torch/distributed/run.py:851] \nW1001 15:36:25.558000 1433715 torch/distributed/run.py:851] *****************************************\nW1001 15:36:25.558000 1433715 torch/distributed/run.py:851] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. \nW1001 15:36:25.558000 1433715 torch/distributed/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.12 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n",
+      "omittedLength": 0
+    },
+    {
+      "key": "fe1c8a1ad7f841f0179f5196dd7066a1cbd6f8b6",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=9\n[OK] oracle SQNR (bf16): SQNR=23.13 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.13 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.448,\"tb_time_ms\":7.773,\"th_time_ms\":0.0,\"pass\":true}\n",
+      "omittedLength": 0
+    },
+    {
+      "key": "fea4ed0c75535de904e21fa8f859b8982ea5c401",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=1\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.12 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.612,\"tb_time_ms\":17.628,\"th_time_ms\":0.0,\"pass\":true}\n",
+      "omittedLength": 0
+    },
+    {
+      "key": "fedb7980009210990c9f4f94af2696c6c145518a",
+      "status": "Accepted",
+      "text": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=257df602-9a4e-43c8-9159-022cea17d1a1 tc=3\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=22.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.358,\"tb_time_ms\":6.954,\"th_time_ms\":0.0,\"pass\":true}\n",
+      "omittedLength": 0
+    }
+  ],
+  "sid": 153681,
+  "checked_at": "2026-10-01T23:42:24.163517",
+  "zero_cases": [],
+  "low_cases": [],
+  "full_ac_audit": true,
+  "net": 71.08,
+  "first_terminal_observed_at": "2026-10-01T23:42:24.163517",
+  "submitted_source_match": true,
+  "wall_since_submit_s": 798.635144,
+  "visible_log_time_markers": [
+    {
+      "case": 1,
+      "per_rank_directory_stamp": "20261001_153624"
+    }
+  ]
+}

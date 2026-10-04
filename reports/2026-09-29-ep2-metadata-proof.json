@@ -1,0 +1,459 @@
+{
+  "scope": "Static call-site proof and CPU metadata simulation only; no remote failure-causality or GPU validation.",
+  "base": "experiments/2026-09-27/candidates/v866_c9c10_pair_ep2_halfweights.py",
+  "base_sha256": "b7a7d6f68b9ff5a9a4fa79baa9760bbd88c0f779bf2db9a5f5232642dac9fd66",
+  "candidate": "experiments/2026-09-29/candidates/ep2_v866_metadata_fix.py",
+  "candidate_sha256": "b7079e0a239d1dfb01b03802cce45f7459da050f9df620060bc3f660c58652a8",
+  "patched_calls": 2,
+  "production_unchanged_sha256": "436f0a227678eb9caa255627837727f066884bbeb4bd4a0a829d08155353c8fc",
+  "cases": [
+    {
+      "experts": 4,
+      "rows": 386,
+      "tiles": 5,
+      "old_wrong_in_bounds_tile_reads": 2,
+      "old_oob_tile_reads": 1
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 256,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 128
+    },
+    {
+      "experts": 128,
+      "rows": 0,
+      "tiles": 0,
+      "old_wrong_in_bounds_tile_reads": 0,
+      "old_oob_tile_reads": 0
+    },
+    {
+      "experts": 128,
+      "rows": 65536,
+      "tiles": 512,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 384
+    },
+    {
+      "experts": 128,
+      "rows": 65536,
+      "tiles": 512,
+      "old_wrong_in_bounds_tile_reads": 0,
+      "old_oob_tile_reads": 384
+    },
+    {
+      "experts": 128,
+      "rows": 12288,
+      "tiles": 128,
+      "old_wrong_in_bounds_tile_reads": 32,
+      "old_oob_tile_reads": 0
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 313,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 185
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 313,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 185
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 318,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 190
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 316,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 188
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 318,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 190
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 312,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 184
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 319,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 191
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 319,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 191
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 320,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 192
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 319,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 191
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 321,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 193
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 313,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 185
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 318,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 190
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 325,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 197
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 319,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 191
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 320,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 192
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 315,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 187
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 320,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 192
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 312,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 184
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 316,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 188
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 312,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 184
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 314,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 186
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 320,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 192
+    },
+    {
+      "experts": 128,
+      "rows": 32768,
+      "tiles": 322,
+      "old_wrong_in_bounds_tile_reads": 127,
+      "old_oob_tile_reads": 194
+    }
+  ],
+  "total_checked_rows": 962946,
+  "affected_files": {
+    "experiments/2026-09-27/candidates/v858_c9c10_pair_ep2.py": [
+      {
+        "line": 7183,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7194,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v859_c9c10_pair_ep2_group.py": [
+      {
+        "line": 7168,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7179,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v860_c9c10_pair_ep2_a2a.py": [
+      {
+        "line": 7184,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7195,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v861_c9c10_pair_ep2_worldag.py": [
+      {
+        "line": 7168,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7179,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v862_c9c10_pair_ep2_worldag_fix.py": [
+      {
+        "line": 7169,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7180,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v863_ep2_comm_diag.py": [
+      {
+        "line": 7185,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7196,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v864_ep2_md_diag.py": [
+      {
+        "line": 7170,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7198,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7209,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v865_ep2_sort_diag.py": [
+      {
+        "line": 7180,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7191,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v866_c9c10_pair_ep2_halfweights.py": [
+      {
+        "line": 7178,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7189,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v867_ep2_half_md_diag.py": [
+      {
+        "line": 7178,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7195,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v868_ep2_half_sort_diag.py": [
+      {
+        "line": 7184,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7195,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v869_ep2_half_clone_md_diag.py": [
+      {
+        "line": 7189,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7206,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v871_ep2_fullw_local_md_diag.py": [
+      {
+        "line": 7189,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7206,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v872_ep2_md_host_diag.py": [
+      {
+        "line": 7186,
+        "callee": "_fgs_tma1_host_tiled"
+      },
+      {
+        "line": 7197,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v873_ep2_no_clone_md_diag.py": [
+      {
+        "line": 7171,
+        "callee": "_fgs_tma1_host_tiled"
+      },
+      {
+        "line": 7182,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v874_ep2_md_mpad_diag.py": [
+      {
+        "line": 7175,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7192,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v875_ep2_md_debugprint.py": [
+      {
+        "line": 7173,
+        "callee": "_fgs_tma1_host_tiled"
+      },
+      {
+        "line": 7185,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v876_ep2_step_debug.py": [
+      {
+        "line": 7176,
+        "callee": "_fgs_tma1_host_tiled"
+      },
+      {
+        "line": 7188,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v894_ep2_exit_after_md.py": [
+      {
+        "line": 7178,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7193,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v895_ep2_exit_after_md_v2.py": [
+      {
+        "line": 7178,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7192,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ],
+    "experiments/2026-09-27/candidates/v896_ep2_meta_check_exit.py": [
+      {
+        "line": 7188,
+        "callee": "_fgs_tma1_kernel_gq_tiled[132,]"
+      },
+      {
+        "line": 7199,
+        "callee": "_dn_tma2_f8_host_tiled"
+      }
+    ]
+  },
+  "small_counterexample": {
+    "counts": [
+      129,
+      1,
+      0,
+      256
+    ],
+    "old_per_expert_starts": [
+      0,
+      129,
+      130,
+      130
+    ],
+    "required_per_tile_starts": [
+      0,
+      0,
+      129,
+      130,
+      130
+    ]
+  }
+}

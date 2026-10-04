@@ -1,0 +1,55 @@
+{
+  "base_sid": 152976,
+  "base_sha256": "88361f262dddcb58986b23b9d54d9219c1645529b98752e8b768e19fc2ace673",
+  "submitted_by_this_script": false,
+  "candidates": [
+    {
+      "name": "J1",
+      "path": "experiments/2026-10-01/guide-candidates/p1_layout_J1_unmeasured.py",
+      "sha256": "ab16a35a14b9332d1f94d61f878906b5b806ebbca4bdea237a7fe6d9b030ec5e",
+      "same_function_bodies_and_other_top_level_ast": true,
+      "changed_submitted_jit_start_lines": {
+        "_fgs_t1i_mdq_kernel_g": {
+          "before": 6007,
+          "after": 6056
+        }
+      },
+      "gpu_status": "UNTESTED"
+    },
+    {
+      "name": "J2",
+      "path": "experiments/2026-10-01/guide-candidates/p1_layout_J2_unmeasured.py",
+      "sha256": "f01c93f3c80253fe0bd598675d68eb3f3a1486025cb890a7f819c388c4302cd5",
+      "same_function_bodies_and_other_top_level_ast": true,
+      "changed_submitted_jit_start_lines": {
+        "_fgs_t1i_mdq_tma_pre_kernel": {
+          "before": 6156,
+          "after": 6177
+        }
+      },
+      "gpu_status": "UNTESTED"
+    },
+    {
+      "name": "J12",
+      "path": "experiments/2026-10-01/guide-candidates/p1_layout_J12_unmeasured.py",
+      "sha256": "1ae75887b550fb09508ca28b696896669066d8f068e0c8feaa8850e9bf6bec94",
+      "same_function_bodies_and_other_top_level_ast": true,
+      "changed_submitted_jit_start_lines": {
+        "_fgs_t1i_mdq_kernel_g": {
+          "before": 6007,
+          "after": 6056
+        },
+        "_fgs_t1i_mdq_tma_pre_kernel": {
+          "before": 6156,
+          "after": 6177
+        }
+      },
+      "gpu_status": "UNTESTED"
+    }
+  ],
+  "limits": [
+    "Submitted source control only; runtime source rewriting and cache identity are unobserved.",
+    "No correctness/performance/anomaly success claim without official full-AC results.",
+    "No causal estimate is possible from three nonrandom first-SHA trials."
+  ]
+}

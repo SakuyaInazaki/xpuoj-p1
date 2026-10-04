@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "experiment": "stable_shape_dispatch_aligned",
+  "submission": {
+    "id": 141442,
+    "source": "experiments/2026-09-08/candidates/stable_shape_dispatch_aligned.py",
+    "sha256": "1a832e87435d1ce266ce5e8f6d384fdd95a88161c8a1bc2fedf4d815692492af",
+    "status": "TimeLimitExceeded",
+    "display_score": 0,
+    "compile_success": true,
+    "total_occupied_time": 501011,
+    "sample_case": 1,
+    "sample_record_time": 500915879.156,
+    "sample_time_limit": 500000,
+    "sqnr_count": 0,
+    "determinism_ok_count": 0,
+    "timing_schema_count": 0,
+    "timed_case_count": 0
+  },
+  "comparison_to_141390": null,
+  "comparison_to_141408": null,
+  "evidence_boundary": "The outer compile step succeeded, but the only sample record stopped at the 500-second limit before any correctness or timing output. The detail cannot identify whether JIT compilation, runtime execution, or synchronization stalled.",
+  "resubmitted": false,
+  "raw_detail_file": "experiments/2026-09-08/results/submissions_141442_raw.json",
+  "sanitized_log_file": "experiments/2026-09-08/results/sid141442_tle_sanitized.txt"
+}

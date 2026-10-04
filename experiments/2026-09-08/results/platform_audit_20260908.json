@@ -1,0 +1,139 @@
+{
+  "audit_time": "2026-09-08T18:00:00+08:00",
+  "scope": "XPUOJ contest 13 / problem 1 / triton-dist; read-only live audit",
+  "scoreboard": {
+    "problem_score": 72.5,
+    "best_submission_id": 139314,
+    "best_submission_display_score": 82.5,
+    "submission_count": 2565,
+    "pending_or_running_in_recent_window": false
+  },
+  "current_kernel": {
+    "path": "p1/kernel.py",
+    "sha256": "dd46bdebb7be2eed2f1ebe1106be258789bde35e4ee6c9421d5756b163f426b9",
+    "mtime": "2026-09-04T21:59:03+08:00",
+    "changed_since_2026_09_05_handoff": false,
+    "git_history_available_at_workspace_root": false
+  },
+  "local_platform_state": {
+    "turnstile_pool_service_running": true,
+    "browser_producer_online": true,
+    "submit_problem_target": 2,
+    "submit_problem_available": 2,
+    "active_p1_submit_or_poll_process_found": false
+  },
+  "new_formal_records_after_sid_140247": [
+    {
+      "sid": 140248,
+      "file": "p1/codex_int6_c9_g64_bk64.py",
+      "sha256": "6f1af0da8056ee6cf69fd6e8a4258a9c14887a224f96b2241deeac97336f6bd3",
+      "status": "TimeLimitExceeded",
+      "display_score": 0.0,
+      "time_used": 0,
+      "finding": "Second identical retry; about 501 seconds, compile.success=true, no schema or SQNR evidence."
+    },
+    {
+      "sid": 140251,
+      "file": "p1/codex_profile_c5_c7_md_repeat.py",
+      "sha256": "fa6923403d48bd278d3ffea0006a943073699d42034c326c2b3cd427aaa8bf4f",
+      "status": "Accepted",
+      "display_score": 80.17,
+      "time_used": 32475
+    },
+    {
+      "sid": 140253,
+      "file": "p1/kernel.py",
+      "sha256": "dd46bdebb7be2eed2f1ebe1106be258789bde35e4ee6c9421d5756b163f426b9",
+      "status": "Accepted",
+      "display_score": 81.0,
+      "time_used": 30372,
+      "role": "contemporaneous unchanged anchor"
+    },
+    {
+      "sid": 140254,
+      "file": "p1/codex_mddn_fuse_c11_noinline_noevict.py",
+      "sha256": "714b9bb3638645aac6a344e77f0bd2ebf61486950e91875b50c47639a1f5a1cb",
+      "status": "Accepted",
+      "display_score": 81.33,
+      "time_used": 29972,
+      "finding": "Removing the invalid eviction hint combination cleared the prior PTXAS failure; c11 remained slower than the anchor."
+    },
+    {
+      "sid": 140261,
+      "file": "p1/codex_mddn_fuse_c11_s2_noevict.py",
+      "sha256": "a4dc8032f0b693bf4aedf4ddcd5b9d547847765e35a6178f8a2aca91cb3ce4d2",
+      "status": "Accepted",
+      "display_score": 80.75,
+      "time_used": 30700,
+      "c11_tk_ms": 1.28,
+      "c11_sqnr_db": [23.27, 23.31],
+      "untouched_11_case_tk_sum_ms": 29.42,
+      "anchor_untouched_11_case_tk_sum_ms": 29.366,
+      "machine_ratio": 1.0018388612681333,
+      "machine_corrected_c11_regression_fraction": 0.2700303954654126
+    },
+    {
+      "sid": 140263,
+      "file": "p1/codex_mddn_fuse_c11_s3_noevict.py",
+      "sha256": "81a6b19630780892390690bf22a11040dc7f79ccea5c29ede280a21070441e54",
+      "status": "Accepted",
+      "display_score": 81.25,
+      "time_used": 29889,
+      "c11_tk_ms": 1.037,
+      "c11_sqnr_db": [23.27, 23.31],
+      "untouched_11_case_tk_sum_ms": 28.852,
+      "anchor_untouched_11_case_tk_sum_ms": 29.366,
+      "machine_ratio": 0.9824967649662876,
+      "machine_corrected_c11_regression_fraction_sum_ratio": 0.049179138395745,
+      "machine_corrected_c11_regression_fraction_median_ratio": 0.0449806446731869
+    }
+  ],
+  "c11_fusion_decision": {
+    "status": "closed",
+    "reason": "s2 regressed about 27.0% after machine correction; s3 regressed about 4.5% to 4.9% after machine correction.",
+    "repeat_requested": false
+  },
+  "historical_source_hash_lookups": [
+    {
+      "file": "p1/kernel_v662a.py",
+      "sha256": "ceffb47fe3924c7e0bb471e9a9081d32443d66cd79de037c181231cf54cf7bc4",
+      "sid": 138445,
+      "status": "Accepted",
+      "display_score": 79.33,
+      "time_used": 34677
+    },
+    {
+      "file": "p1/kernel_v662b.py",
+      "sha256": "02e952ac4591c706fa5116aeefe74272a9de2216f7b8a85ab4554edec0bcdfd5",
+      "sid": 138446,
+      "status": "Accepted",
+      "display_score": 79.33,
+      "time_used": 32944
+    }
+  ],
+  "environment_version": {
+    "site_server_version_hash": "85fff004ca",
+    "site_server_version_date": "2026-09-05T14:04:35+08:00",
+    "site_server_version_is_judge_image_version": false,
+    "public_triton_dist_metadata_contains_image_version": false,
+    "last_explicitly_known_p1_image": "distributed Triton 3.4.0",
+    "last_explicit_source": "2026-09-05 organizer statement recorded in reports",
+    "upgrade_evidence_as_of_2026_09_08": false,
+    "note": "Do not infer Triton 3.6 or reopen version-dependent warp-specialization/cluster work from the site server version."
+  },
+  "call_counter_semantics": {
+    "counter": "_CALLN",
+    "increment_location": "Python run_kernel entry, before shape dispatch",
+    "counts": "actual run_kernel entries in one imported module instance",
+    "does_not_increment_for_inner_triton_jit_compile_alone": true,
+    "resets_on_module_reload_or_new_process": true,
+    "public_determinism_requirement": "Two independent run_kernel calls on exactly the same input must produce byte-identical outputs.",
+    "public_call_sequence": "Multiple calls per testcase, at least one untimed warmup, then timed runs on newly generated hidden_states; weights and topk stay fixed within the testcase.",
+    "proven_by_accepted_submissions": "The checker-selected repeated pairs for the tested cases passed.",
+    "not_proven_by_accepted_submissions": "Universal byte identity across arbitrary call-number boundaries such as 1/2, 2/3, 3..5/6+, arbitrary module reloads, or untested call sequences.",
+    "unknown": "The local workspace does not contain the public testcase_config.py or a TracedKernel wrapper implementation, so exact checker call numbers and reload boundaries are not established from source."
+  },
+  "security": {
+    "credentials_or_turnstile_tokens_recorded": false
+  }
+}

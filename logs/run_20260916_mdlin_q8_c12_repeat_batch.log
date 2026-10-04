@@ -1,0 +1,16 @@
+[令牌池] 取到 submit_problem 令牌 …971041（年龄 68.7s，剩余可用 231.3s）
+PoW难度5 求解1.5s  HTTP 201
+mdlin_q8_c12_repeat: SID=144868
+[令牌池] 取到 submit_problem 令牌 …fac4a2（年龄 93.3s，剩余可用 206.7s）
+PoW难度5 求解0.7s  HTTP 201
+锚: SID=144869
+08:54:33 ['-', '-']
+08:55:03 ['-', '-']
+08:55:33 ['Acce', '-']
+08:56:03 ['Acce', '-']
+08:56:33 ['Acce', '-']
+08:57:04 ['Acce', '-']
+08:57:34 ['Acce', 'Acce']
+mdlin_q8_c12_repeat 144868 display=80.75 Σtk=32.498 SQNR最差余量+1.12dB
+锚 144869 display=81.17 Σtk=30.152 SQNR最差余量+1.12dB
+mdlin_q8_c12_repeat: 机器项+0.30%  净残差 c1+17.23 c2+17.03   ⇒ raw -0.473

@@ -1,0 +1,21 @@
+--- p1_s1_c6_v2_vector.py
++++ p1_s1_c6_unified.py
+@@ -6458,9 +6458,15 @@
+             else:
+                 fp8_tokens_q, fp8_tokens_s = _gq1p_tok(x)
+         elif _dir_a:
+-            fp8_tokens_q, fp8_tokens_s, _dir_ah, _dir_wi, _dir_scl = _gq1p_tm_params(
+-                x, inv_order, flat_ids, flat_weights, _gu_bnorm(gu_q, gu_s), k
+-            )
++            if (T, H, E, I, k) == (8192, 3584, 64, 1024, 8):
++                _hybrid = True
++                fp8_tokens_q, fp8_tokens_s, _hybrid_ah, _hybrid_wi, _hybrid_scl = _s1_c6_gq_tok_params(
++                    x, inv_order, flat_ids, flat_weights, _gu_bnorm(gu_q, gu_s), k
++                )
++            else:
++                fp8_tokens_q, fp8_tokens_s, _dir_ah, _dir_wi, _dir_scl = _gq1p_tm_params(
++                    x, inv_order, flat_ids, flat_weights, _gu_bnorm(gu_q, gu_s), k
++                )
+         else:
+             fp8_tokens_q, fp8_tokens_s = _gq1p_tm(x, inv_order, k)
+     elif use_case2_plain_fp8:

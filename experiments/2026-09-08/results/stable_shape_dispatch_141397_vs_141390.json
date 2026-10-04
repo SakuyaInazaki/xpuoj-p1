@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "experiment": "stable_shape_dispatch",
+  "submission": {
+    "sid": 141397,
+    "source": "experiments/2026-09-08/candidates/stable_shape_dispatch.py",
+    "sha256": "67340914ae3759c84dd541ec5cece0f8305fdeb8a517286bc8105fc05128f9ea",
+    "submit_time": "2026-09-08T14:57:29.000Z",
+    "status": "TimeLimitExceeded",
+    "score": 0,
+    "display_score": 0,
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "total_occupied_time": 501085,
+    "sum_tk_ms": null,
+    "timed_cases": {},
+    "untimed_records": [
+      {
+        "testcase_hash": "c79bdf1e9ea07c2e382815b0f9c45514a4b0cefb",
+        "classification": "sample",
+        "status": "TimeLimitExceeded",
+        "judge_time": 500990217.768,
+        "sqnr_db": [],
+        "case": 1
+      }
+    ]
+  },
+  "baseline_reference": {
+    "sid": 141390,
+    "sha256": "dd46bdebb7be2eed2f1ebe1106be258789bde35e4ee6c9421d5756b163f426b9",
+    "sum_tk_ms": 30.436
+  },
+  "decision": "failed_sample_configuration_1_first_call_time_budget_before_correctness_or_timing_output",
+  "evidence_boundary": "outer compile succeeded; detail cannot distinguish JIT compilation, runtime hang, or synchronization stall",
+  "resubmitted": false,
+  "raw_detail_file": "experiments/2026-09-08/results/submissions_141397_raw.json"
+}

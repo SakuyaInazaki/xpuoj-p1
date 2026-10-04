@@ -1,0 +1,20 @@
+kind	old_path	new_path	sha256	file_count	moved_at	status
+file	README.md	archive/legacy/README.pre-2026-09-08.md	6cf10f990afd54f08279fb5d2a2a3aee65cca09aee638a605e84d7de59412d7a	1	2026-09-08T22:21:16+0800	moved; old path reused by new entry
+file	HANDOFF.md	archive/handoffs/HANDOFF.md	8606fe74cacf40e8a4e936e36a1ef6d93715ac1c4cd5b27c3f9f3f934efc9980	1	2026-09-08T22:21:16+0800	moved
+file	HANDOFF-session-1925ec69-20260816.md	archive/handoffs/HANDOFF-session-1925ec69-20260816.md	4228f28d959cc217dfef22b383b59942f14ee57f4c81ba892ed06c98bb884b82	1	2026-09-08T22:21:16+0800	moved
+file	2026-09-02-021543-this-session-is-being-continued-from-a-previous-c.txt	archive/transcripts/2026-09-02-021543-this-session-is-being-continued-from-a-previous-c.txt	5c5a1993b4978471f69123975f52ff6ee0ebed7254322694517400190441f694	1	2026-09-08T22:21:16+0800	moved
+file	2026-09-05-181255-this-session-is-being-continued-from-a-previous-c.txt	archive/transcripts/2026-09-05-181255-this-session-is-being-continued-from-a-previous-c.txt	a18e6a2dee64f5274ba8787c2d64bf52e375b92a5ba46f1d9328ca071ae5d2eb	1	2026-09-08T22:21:16+0800	moved
+dir	handoff-final	archive/handoffs/handoff-final	4bb917ff5b774f11b07bbb96f59bc1a6f62bb8d52213205e9e98c3a6daaa50d5	8	2026-09-08T22:21:16+0800	moved
+dir	handoff-final-20260818	archive/handoffs/handoff-final-20260818	24b861f17b598a969cdc432ee3bbcb2df987bbdf06a4a52178176dadedadbd64	19	2026-09-08T22:21:16+0800	moved
+dir	handoff-session	archive/handoffs/handoff-session	ac4933212d6a3ebcb8c958d97fc91b56eacc8d12c39bb79870689f088789bc3b	10	2026-09-08T22:21:16+0800	moved
+dir	handoff-session-20260817-final	archive/handoffs/handoff-session-20260817-final	c58ca09635bfeddf8bfa4be8f71b10fc43f43ee6cd581d62ced4ba1bf4448ab7	16	2026-09-08T22:21:16+0800	moved
+dir	handoff-session-20260817-final2	archive/handoffs/handoff-session-20260817-final2	1e33d9236116ee19a0fc196946441988e769efc1571e6befcec45372537abd3f	3	2026-09-08T22:21:16+0800	moved
+dir	handoff-session-20260817-final3	archive/handoffs/handoff-session-20260817-final3	dd79f6212ba93d6125cd07a92496e2cb5d155a85da5a8d1416cb385aed54c08a	2	2026-09-08T22:21:16+0800	moved
+dir	handoff-session-20260818-final	archive/handoffs/handoff-session-20260818-final	34657af5bd0b8c6b610c29515339604f963971fecbb83a8eb10c2303db2a9e6c	8	2026-09-08T22:21:16+0800	moved
+dir	handoff-session-20260818-final2	archive/handoffs/handoff-session-20260818-final2	c6305ea1a3aad6bc71aa349cc3ea5bd0d213f9bcbdeebc29f13223911ee21c1c	2	2026-09-08T22:21:16+0800	moved
+dir	handoff-session-20260818-final3	archive/handoffs/handoff-session-20260818-final3	8ac3dd2a8a9880cf7b28507e671c7f44e22fd77ee71dfa9f43d2f9d504d4d4fc	2	2026-09-08T22:21:16+0800	moved
+dir	handoff-session-20260818-final4	archive/handoffs/handoff-session-20260818-final4	a292e2b9530b685e6a227d11d08dd1196750ae240b0b2e87d911a3b80fb4231a	8	2026-09-08T22:21:16+0800	moved
+dir	handoff-session-20260818-final5	archive/handoffs/handoff-session-20260818-final5	91dace3618424ee554b92146860b66e1a242b6ea7ba382580d307e6cf8b586be	2	2026-09-08T22:21:16+0800	moved
+dir	handoff-session-20260818-final6	archive/handoffs/handoff-session-20260818-final6	f00323ce2fad892538ba2ad5b33b64d02c6648ef9c6b6fd6dadc10b13d0a7012	11	2026-09-08T22:21:16+0800	moved
+dir	handoff-session-20260821	archive/handoffs/handoff-session-20260821	0d06f1e09be10c3051d96f5e3f9c52e7579953645b120e910a080120d83a692f	2	2026-09-08T22:21:16+0800	moved
+dir	handoff-takeover-20260817	archive/handoffs/handoff-takeover-20260817	0ec4eb638b685e61289235c6ac4b3be8e836c38b16fe9bb6d3e602b7e7d67444	2	2026-09-08T22:21:16+0800	moved

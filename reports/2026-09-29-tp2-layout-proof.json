@@ -1,0 +1,43 @@
+{
+  "scope": "CPU coordinate checks + Python float64 identity only; no quantized accuracy/GPU performance claim.",
+  "layout_checks": [
+    {
+      "I": 2048,
+      "shard": 0,
+      "GU_and_D_coordinates": 36000
+    },
+    {
+      "I": 2048,
+      "shard": 1,
+      "GU_and_D_coordinates": 36000
+    },
+    {
+      "I": 1536,
+      "shard": 0,
+      "GU_and_D_coordinates": 36000
+    },
+    {
+      "I": 1536,
+      "shard": 1,
+      "GU_and_D_coordinates": 36000
+    }
+  ],
+  "checked_coordinates": 144000,
+  "float64_examples": 50,
+  "float64_max_abs_difference": 2.7755575615628914e-17,
+  "synthetic_legal_topk_padding": {
+    "T": 4096,
+    "E": 256,
+    "k": 8,
+    "baseline_mean_padded_branch_rows": 48640.0,
+    "ep2_padded_rows_by_owner": [
+      41088,
+      41216
+    ],
+    "tp2_padded_rows": 82304,
+    "tp2_half_I_equivalent_rows": 41152.0,
+    "work_ratio_ep2_mean": 0.8460526315789474,
+    "work_ratio_tp2": 0.8460526315789474,
+    "warning": "Uniform random unique top-k model, not measured OJ routing."
+  }
+}

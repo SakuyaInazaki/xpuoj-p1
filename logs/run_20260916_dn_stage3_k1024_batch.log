@@ -1,0 +1,50 @@
+[令牌池] 取到 submit_problem 令牌 …b34571（年龄 127.3s，剩余可用 172.7s）
+PoW难度5 求解1.0s  HTTP 201
+dn_stage3_k1024: SID=144963
+[令牌池] 取到 submit_problem 令牌 …27d66c（年龄 123.5s，剩余可用 176.5s）
+PoW难度5 求解1.4s  HTTP 201
+锚: SID=144964
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.14/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/opt/homebrew/lib/python3.14/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/opt/homebrew/lib/python3.14/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='sd629vuj4f7uh2cscrbe0.apigateway-cn-beijing.volceapi.com', port=443): Max retries exceeded with url: /api/submission/getSubmissionDetail (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sakimi/Desktop/xpuoj-p1/scripts/run_batch.py", line 79, in <module>
+    main(sys.argv[1:])
+    ~~~~^^^^^^^^^^^^^^
+  File "/Users/sakimi/Desktop/xpuoj-p1/scripts/run_batch.py", line 39, in main
+    sts = [(c.get_detail(s).json().get('progress') or {}).get('status') or '-' if s else 'x' for s in ids]
+            ~~~~~~~~~~~~^^^
+  File "/Users/sakimi/Desktop/xpuoj-p1/scripts/xpuoj_pow.py", line 85, in get_detail
+    return self.s.post(API + "submission/getSubmissionDetail",
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       json={"submissionId": str(sid), "locale": "zh_CN"}, timeout=60)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/requests/sessions.py", line 640, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/homebrew/lib/python3.14/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/homebrew/lib/python3.14/site-packages/requests/adapters.py", line 676, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='sd629vuj4f7uh2cscrbe0.apigateway-cn-beijing.volceapi.com', port=443): Max retries exceeded with url: /api/submission/getSubmissionDetail (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))

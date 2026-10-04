@@ -1,0 +1,12 @@
+[令牌池] 取到 submit_problem 令牌 …96c410（年龄 193.8s，剩余可用 106.2s）
+PoW难度5 求解1.4s  HTTP 201
+dn_pad128_c1112: SID=144875
+[令牌池] 取到 submit_problem 令牌 …0959cd（年龄 52.6s，剩余可用 247.4s）
+PoW难度5 求解1.2s  HTTP 201
+锚: SID=144877
+09:04:54 ['-', '-']
+09:05:24 ['-', '-']
+09:06:20 ['Time', 'Acce']
+dn_pad128_c1112 144875 TimeLimitExceeded  SQNR最差 23.12dB
+    首个失败 tc0: TimeLimitExceeded [23.79, 23.12]
+锚 144877 display=81.42 Σtk=29.583 SQNR最差余量+1.12dB

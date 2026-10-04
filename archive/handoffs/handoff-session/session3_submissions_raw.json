@@ -1,0 +1,2092 @@
+[
+  {
+    "id": 114777,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 52.67,
+    "timeUsed": 111062,
+    "memoryUsed": 3608376,
+    "submitTime": "2026-08-16T15:55:43.000Z",
+    "cases": {
+      "3\n": {
+        "tk": 10.338,
+        "tb": 6.992,
+        "pass": true,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 3.605,
+        "tb": 5.655,
+        "pass": true,
+        "score": 61,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.591,
+        "tb": 10.196,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 15.617,
+        "tb": 18.107,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 6.952,
+        "tb": 8.416,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 6.136,
+        "tb": 8.153,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.964,
+        "tb": 7.644,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 8.06,
+        "tb": 8.648,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 4.751,
+        "tb": 6.701,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 4.993,
+        "tb": 5.004,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 22.082,
+        "tb": 28.777,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 10.973,
+        "tb": 12.588,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114785,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 52.67,
+    "timeUsed": 109884,
+    "memoryUsed": 3596180,
+    "submitTime": "2026-08-16T15:59:58.000Z",
+    "cases": {
+      "12\n": {
+        "tk": 6.142,
+        "tb": 8.187,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 3.606,
+        "tb": 5.686,
+        "pass": true,
+        "score": 61,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 8.263,
+        "tb": 7.578,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 7.998,
+        "tb": 6.989,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 23.821,
+        "tb": 28.969,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 5.515,
+        "tb": 8.415,
+        "pass": true,
+        "score": 60,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 8.052,
+        "tb": 7.241,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.362,
+        "tb": 10.251,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 6.367,
+        "tb": 6.755,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 11.383,
+        "tb": 12.681,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 4.92,
+        "tb": 5.016,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.455,
+        "tb": 18.08,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114787,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 48.25,
+    "timeUsed": 125993,
+    "memoryUsed": 2377036,
+    "submitTime": "2026-08-16T16:02:08.000Z",
+    "cases": {
+      "8\n": {
+        "tk": 8.141,
+        "tb": 7.174,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 12.966,
+        "tb": 12.721,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 8.141,
+        "tb": 6.705,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 8.177,
+        "tb": 5.003,
+        "pass": true,
+        "score": 37,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 8.752,
+        "tb": 8.157,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 17.049,
+        "tb": 18.289,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 8.54,
+        "tb": 7.57,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 22.306,
+        "tb": 29.545,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 6.956,
+        "tb": 8.401,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 10.251,
+        "tb": 10.253,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 3.969,
+        "tb": 5.689,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 10.745,
+        "tb": 7.001,
+        "pass": true,
+        "score": 39,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114791,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 51.17,
+    "timeUsed": 115937,
+    "memoryUsed": 2365276,
+    "submitTime": "2026-08-16T16:04:27.000Z",
+    "cases": {
+      "8\n": {
+        "tk": 8.12,
+        "tb": 7.179,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 11.129,
+        "tb": 10.266,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 7.812,
+        "tb": 8.36,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 6.167,
+        "tb": 6.703,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 6.759,
+        "tb": 7.618,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 7.871,
+        "tb": 6.98,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 25.486,
+        "tb": 28.82,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 15.402,
+        "tb": 18.039,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 6.827,
+        "tb": 8.176,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 3.962,
+        "tb": 5.681,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 5.288,
+        "tb": 5.004,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 11.114,
+        "tb": 12.607,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114796,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 55.5,
+    "timeUsed": 100803,
+    "memoryUsed": 3653708,
+    "submitTime": "2026-08-16T16:11:42.000Z",
+    "cases": {
+      "11\n": {
+        "tk": 3.169,
+        "tb": 5.719,
+        "pass": true,
+        "score": 64,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 4.674,
+        "tb": 6.758,
+        "pass": true,
+        "score": 59,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 5.867,
+        "tb": 8.395,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.461,
+        "tb": 10.239,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.596,
+        "tb": 18.048,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 10.065,
+        "tb": 12.65,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 5.328,
+        "tb": 8.229,
+        "pass": true,
+        "score": 60,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 22.38,
+        "tb": 30.976,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 4.191,
+        "tb": 5.035,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 6.696,
+        "tb": 6.98,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.66,
+        "tb": 7.206,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 6.716,
+        "tb": 7.696,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114800,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 54.33,
+    "timeUsed": 104540,
+    "memoryUsed": 3648636,
+    "submitTime": "2026-08-16T16:17:14.000Z",
+    "cases": {
+      "1\n": {
+        "tk": 15.46,
+        "tb": 17.874,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 10.525,
+        "tb": 12.651,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 3.183,
+        "tb": 5.632,
+        "pass": true,
+        "score": 63,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.654,
+        "tb": 6.99,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 7.98,
+        "tb": 6.882,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.503,
+        "tb": 10.153,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 7.279,
+        "tb": 7.724,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 4.8,
+        "tb": 6.565,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 6.225,
+        "tb": 8.302,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 4.201,
+        "tb": 4.906,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 5.342,
+        "tb": 8.138,
+        "pass": true,
+        "score": 60,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 22.388,
+        "tb": 34.101,
+        "pass": true,
+        "score": 60,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114804,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 50.75,
+    "timeUsed": 115953,
+    "memoryUsed": 3543148,
+    "submitTime": "2026-08-16T16:23:30.000Z",
+    "cases": {
+      "11\n": {
+        "tk": 3.986,
+        "tb": 5.591,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 8.239,
+        "tb": 7.019,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 6.686,
+        "tb": 7.696,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.697,
+        "tb": 17.963,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 6.844,
+        "tb": 8.167,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 10.083,
+        "tb": 10.063,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 8.716,
+        "tb": 6.844,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 8.745,
+        "tb": 8.258,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 22.241,
+        "tb": 39.658,
+        "pass": true,
+        "score": 64,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 11.31,
+        "tb": 12.605,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 7.391,
+        "tb": 4.911,
+        "pass": true,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 7.015,
+        "tb": 6.612,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114813,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 51.25,
+    "timeUsed": 114108,
+    "memoryUsed": 3531352,
+    "submitTime": "2026-08-16T16:35:33.000Z",
+    "cases": {
+      "1\n": {
+        "tk": 14.752,
+        "tb": 18.066,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.782,
+        "tb": 10.279,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 8.534,
+        "tb": 7.552,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.881,
+        "tb": 7.236,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 11.409,
+        "tb": 12.618,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 7.768,
+        "tb": 9.165,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 8.469,
+        "tb": 6.959,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 22.434,
+        "tb": 28.819,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 3.903,
+        "tb": 5.641,
+        "pass": true,
+        "score": 59,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 5.502,
+        "tb": 5.002,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 7.563,
+        "tb": 8.17,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 6.111,
+        "tb": 6.74,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114817,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 49,
+    "timeUsed": 122781,
+    "memoryUsed": 3207564,
+    "submitTime": "2026-08-16T16:42:58.000Z",
+    "cases": {
+      "6\n": {
+        "tk": 9.03,
+        "tb": 7.539,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 10.787,
+        "tb": 5.029,
+        "pass": true,
+        "score": 31,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 8.131,
+        "tb": 7.316,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 6.664,
+        "tb": 6.783,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 11.357,
+        "tb": 12.798,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.998,
+        "tb": 10.292,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 7.024,
+        "tb": 8.176,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 23.851,
+        "tb": 28.923,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 4.009,
+        "tb": 5.651,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 15.095,
+        "tb": 18.04,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 8.0,
+        "tb": 6.966,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 8.835,
+        "tb": 8.472,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114820,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 51.67,
+    "timeUsed": 111669,
+    "memoryUsed": 2379336,
+    "submitTime": "2026-08-16T16:46:22.000Z",
+    "cases": {
+      "7\n": {
+        "tk": 10.007,
+        "tb": 10.099,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.366,
+        "tb": 17.862,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 7.705,
+        "tb": 6.846,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 22.521,
+        "tb": 28.671,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 6.777,
+        "tb": 7.567,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 3.915,
+        "tb": 5.588,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 11.443,
+        "tb": 14.015,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 6.31,
+        "tb": 6.561,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 5.025,
+        "tb": 4.856,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 8.891,
+        "tb": 8.23,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.924,
+        "tb": 6.972,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 6.785,
+        "tb": 8.123,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114822,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 50.83,
+    "timeUsed": 114942,
+    "memoryUsed": 3210852,
+    "submitTime": "2026-08-16T16:49:06.000Z",
+    "cases": {
+      "4\n": {
+        "tk": 4.923,
+        "tb": 4.891,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 11.094,
+        "tb": 12.56,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 23.394,
+        "tb": 28.801,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 8.094,
+        "tb": 7.024,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 5.785,
+        "tb": 6.607,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 4.046,
+        "tb": 5.685,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 9.931,
+        "tb": 6.838,
+        "pass": true,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 8.293,
+        "tb": 7.481,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 6.87,
+        "tb": 8.131,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 10.067,
+        "tb": 10.138,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.447,
+        "tb": 18.383,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 7.998,
+        "tb": 8.299,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114830,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 56.83,
+    "timeUsed": 98813,
+    "memoryUsed": 2373292,
+    "submitTime": "2026-08-16T16:55:58.000Z",
+    "cases": {
+      "4\n": {
+        "tk": 2.029,
+        "tb": 5.014,
+        "pass": true,
+        "score": 71,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 6.36,
+        "tb": 8.371,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 2.445,
+        "tb": 5.672,
+        "pass": true,
+        "score": 69,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 3.923,
+        "tb": 8.17,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.235,
+        "tb": 10.256,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 7.714,
+        "tb": 6.983,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.043,
+        "tb": 18.123,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.721,
+        "tb": 7.229,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 10.704,
+        "tb": 12.609,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 4.701,
+        "tb": 6.707,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 21.979,
+        "tb": 28.801,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 7.959,
+        "tb": 7.566,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114832,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 55.58,
+    "timeUsed": 104035,
+    "memoryUsed": 2363808,
+    "submitTime": "2026-08-16T16:58:52.000Z",
+    "cases": {
+      "9\n": {
+        "tk": 7.227,
+        "tb": 8.43,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 7.682,
+        "tb": 7.03,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.652,
+        "tb": 7.153,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 2.373,
+        "tb": 5.698,
+        "pass": true,
+        "score": 70,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.914,
+        "tb": 10.226,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 3.847,
+        "tb": 8.166,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 6.823,
+        "tb": 6.691,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 23.466,
+        "tb": 28.905,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 10.853,
+        "tb": 12.664,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 7.454,
+        "tb": 7.575,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 1.968,
+        "tb": 5.039,
+        "pass": true,
+        "score": 71,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.776,
+        "tb": 18.039,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114835,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 55.92,
+    "timeUsed": 105314,
+    "memoryUsed": 2368524,
+    "submitTime": "2026-08-16T17:02:14.000Z",
+    "cases": {
+      "9\n": {
+        "tk": 6.057,
+        "tb": 8.358,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.433,
+        "tb": 18.576,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 2.005,
+        "tb": 4.993,
+        "pass": true,
+        "score": 71,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 4.985,
+        "tb": 6.738,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 23.372,
+        "tb": 29.547,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.623,
+        "tb": 7.2,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 7.433,
+        "tb": 7.592,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 8.679,
+        "tb": 6.998,
+        "pass": true,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 10.039,
+        "tb": 10.219,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 14.389,
+        "tb": 12.686,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 3.892,
+        "tb": 8.147,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 2.407,
+        "tb": 5.643,
+        "pass": true,
+        "score": 70,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114837,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 55.83,
+    "timeUsed": 104355,
+    "memoryUsed": 3463476,
+    "submitTime": "2026-08-16T17:04:54.000Z",
+    "cases": {
+      "5\n": {
+        "tk": 11.717,
+        "tb": 12.82,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.239,
+        "tb": 10.567,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 21.943,
+        "tb": 28.904,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 6.857,
+        "tb": 6.709,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 3.933,
+        "tb": 8.206,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 6.982,
+        "tb": 7.974,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.817,
+        "tb": 7.198,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 7.222,
+        "tb": 8.355,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 15.641,
+        "tb": 19.693,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 2.447,
+        "tb": 5.659,
+        "pass": true,
+        "score": 69,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 8.524,
+        "tb": 6.985,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 2.033,
+        "tb": 5.027,
+        "pass": true,
+        "score": 71,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114839,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 58.25,
+    "timeUsed": 95848,
+    "memoryUsed": 2362060,
+    "submitTime": "2026-08-16T17:08:16.000Z",
+    "cases": {
+      "9\n": {
+        "tk": 6.528,
+        "tb": 8.407,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 3.299,
+        "tb": 7.001,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 12.202,
+        "tb": 12.647,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.215,
+        "tb": 10.274,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.524,
+        "tb": 18.029,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 2.035,
+        "tb": 4.985,
+        "pass": true,
+        "score": 71,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 3.933,
+        "tb": 8.15,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 6.741,
+        "tb": 7.55,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.851,
+        "tb": 7.234,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 22.051,
+        "tb": 28.786,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 5.022,
+        "tb": 6.696,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 2.447,
+        "tb": 5.642,
+        "pass": true,
+        "score": 69,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114840,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 58.42,
+    "timeUsed": 98420,
+    "memoryUsed": 3595392,
+    "submitTime": "2026-08-16T17:11:06.000Z",
+    "cases": {
+      "4\n": {
+        "tk": 2.028,
+        "tb": 5.133,
+        "pass": true,
+        "score": 71,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 3.291,
+        "tb": 6.986,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 3.868,
+        "tb": 8.153,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 7.041,
+        "tb": 8.456,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 24.552,
+        "tb": 32.954,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.645,
+        "tb": 7.177,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 7.601,
+        "tb": 7.729,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.592,
+        "tb": 10.285,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 5.862,
+        "tb": 6.705,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.464,
+        "tb": 18.498,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 10.089,
+        "tb": 13.735,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 2.387,
+        "tb": 5.682,
+        "pass": true,
+        "score": 70,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114845,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 58.58,
+    "timeUsed": 97821,
+    "memoryUsed": 2371056,
+    "submitTime": "2026-08-16T17:13:42.000Z",
+    "cases": {
+      "7\n": {
+        "tk": 9.375,
+        "tb": 10.264,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 6.825,
+        "tb": 8.49,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.693,
+        "tb": 18.073,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 7.895,
+        "tb": 9.796,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.686,
+        "tb": 7.24,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 10.332,
+        "tb": 12.683,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 2.441,
+        "tb": 5.669,
+        "pass": true,
+        "score": 69,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 23.568,
+        "tb": 28.959,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 3.927,
+        "tb": 8.166,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 2.025,
+        "tb": 5.011,
+        "pass": true,
+        "score": 71,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 5.753,
+        "tb": 6.723,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 3.301,
+        "tb": 7.037,
+        "pass": true,
+        "score": 68,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114848,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 58.17,
+    "timeUsed": 97352,
+    "memoryUsed": 2388748,
+    "submitTime": "2026-08-16T17:16:17.000Z",
+    "cases": {
+      "10\n": {
+        "tk": 5.192,
+        "tb": 6.744,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 3.307,
+        "tb": 6.981,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 2.022,
+        "tb": 5.032,
+        "pass": true,
+        "score": 71,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 3.925,
+        "tb": 8.133,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 7.91,
+        "tb": 8.38,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 2.448,
+        "tb": 5.665,
+        "pass": true,
+        "score": 69,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.642,
+        "tb": 10.261,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.719,
+        "tb": 7.188,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 10.412,
+        "tb": 12.832,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 23.563,
+        "tb": 29.557,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 6.531,
+        "tb": 7.601,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.681,
+        "tb": 18.361,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114850,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 57.08,
+    "timeUsed": 101534,
+    "memoryUsed": 2369432,
+    "submitTime": "2026-08-16T17:20:32.000Z",
+    "cases": {
+      "1\n": {
+        "tk": 14.271,
+        "tb": 20.032,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 21.979,
+        "tb": 29.198,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 2.025,
+        "tb": 5.107,
+        "pass": true,
+        "score": 71,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 9.812,
+        "tb": 8.482,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 3.919,
+        "tb": 8.149,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 12.829,
+        "tb": 12.68,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.837,
+        "tb": 7.177,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 2.444,
+        "tb": 5.651,
+        "pass": true,
+        "score": 69,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 5.757,
+        "tb": 6.715,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 3.304,
+        "tb": 6.952,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 6.672,
+        "tb": 7.629,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 10.685,
+        "tb": 10.217,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114854,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 58.5,
+    "timeUsed": 95132,
+    "memoryUsed": 2386432,
+    "submitTime": "2026-08-16T17:23:01.000Z",
+    "cases": {
+      "6\n": {
+        "tk": 6.942,
+        "tb": 7.56,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 5.942,
+        "tb": 6.741,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3\n": {
+        "tk": 3.268,
+        "tb": 7.043,
+        "pass": true,
+        "score": 68,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 1.995,
+        "tb": 5.062,
+        "pass": true,
+        "score": 71,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.178,
+        "tb": 10.232,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 9.935,
+        "tb": 12.643,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 22.335,
+        "tb": 29.519,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.551,
+        "tb": 18.054,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 8.174,
+        "tb": 7.269,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 6.521,
+        "tb": 8.544,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 3.886,
+        "tb": 8.14,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 2.405,
+        "tb": 5.663,
+        "pass": true,
+        "score": 70,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114856,
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 57.67,
+    "timeUsed": 98341,
+    "memoryUsed": 2384620,
+    "submitTime": "2026-08-16T17:25:30.000Z",
+    "cases": {
+      "3\n": {
+        "tk": 3.244,
+        "tb": 6.972,
+        "pass": true,
+        "score": 68,
+        "status": "Accepted"
+      },
+      "11\n": {
+        "tk": 2.384,
+        "tb": 5.674,
+        "pass": true,
+        "score": 70,
+        "status": "Accepted"
+      },
+      "12\n": {
+        "tk": 3.862,
+        "tb": 8.211,
+        "pass": true,
+        "score": 68,
+        "status": "Accepted"
+      },
+      "4\n": {
+        "tk": 1.982,
+        "tb": 5.009,
+        "pass": true,
+        "score": 71,
+        "status": "Accepted"
+      },
+      "6\n": {
+        "tk": 8.059,
+        "tb": 7.549,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "7\n": {
+        "tk": 9.218,
+        "tb": 10.308,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5\n": {
+        "tk": 10.299,
+        "tb": 12.578,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "9\n": {
+        "tk": 6.42,
+        "tb": 8.428,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "1\n": {
+        "tk": 14.78,
+        "tb": 18.078,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "2\n": {
+        "tk": 23.143,
+        "tb": 28.821,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "10\n": {
+        "tk": 7.285,
+        "tb": 6.717,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "8\n": {
+        "tk": 7.665,
+        "tb": 7.192,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  }
+]

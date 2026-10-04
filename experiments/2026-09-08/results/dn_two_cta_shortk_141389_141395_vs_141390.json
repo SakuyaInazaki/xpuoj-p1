@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "experiment": "dn_two_cta_shortk",
+  "submissions": {
+    "initial_tle": {
+      "sid": 141389,
+      "source": "experiments/2026-09-08/candidates/dn_two_cta_shortk.py",
+      "sha256": "38424c0e98a5ebd0a0b0bb40cb5045fcc9bdf2958cc3905e6b3ecf629a30a851",
+      "submit_time": "2026-09-08T14:43:05.000Z",
+      "status": "TimeLimitExceeded",
+      "score": 0,
+      "display_score": 0,
+      "compile": {
+        "message": "",
+        "success": true
+      },
+      "total_occupied_time": 416652,
+      "sum_tk_ms": null,
+      "timed_cases": {},
+      "untimed_records": [
+        {
+          "testcase_hash": "a9fb8709beb5fbb170d293623665a99e5261f0c7",
+          "classification": "sample",
+          "status": "TimeLimitExceeded",
+          "judge_time": 416567619.227,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "case": 1
+        }
+      ]
+    },
+    "accepted_retry": {
+      "sid": 141395,
+      "source": "experiments/2026-09-08/candidates/dn_two_cta_shortk.py",
+      "sha256": "38424c0e98a5ebd0a0b0bb40cb5045fcc9bdf2958cc3905e6b3ecf629a30a851",
+      "submit_time": "2026-09-08T14:54:40.000Z",
+      "status": "Accepted",
+      "score": 100,
+      "display_score": 81.08,
+      "compile": {
+        "message": "",
+        "success": true
+      },
+      "total_occupied_time": 103460,
+      "sum_tk_ms": 30.133,
+      "timed_cases": {
+        "1": {
+          "testcase_hash": "644b42bd90ecdcf40a12420ac7c55d797d477cea",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 4604,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "case": 1,
+          "tk_ms": 4.604,
+          "tb_ms": 18.1,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "2": {
+          "testcase_hash": "6636454d0b6b4097ec45b91f1ed62546639edcb9",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 7950,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "case": 2,
+          "tk_ms": 7.95,
+          "tb_ms": 28.842,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "3": {
+          "testcase_hash": "51fa579ee348859ec5a6d1ba80e4bf7ea5f6b3c9",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 1401,
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "case": 3,
+          "tk_ms": 1.401,
+          "tb_ms": 7.033,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "4": {
+          "testcase_hash": "e6aa0a7747adae3a828928ba92705c86ea7ba497",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 903,
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "case": 4,
+          "tk_ms": 0.903,
+          "tb_ms": 5.768,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "5": {
+          "testcase_hash": "b2ed7485adb1123b1dccfea7320e78528a1ac235",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 2806,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "case": 5,
+          "tk_ms": 2.806,
+          "tb_ms": 12.603,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "6": {
+          "testcase_hash": "ea2e105d1a4841d52edfb5d75ae4572708d51011",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 1461,
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "case": 6,
+          "tk_ms": 1.461,
+          "tb_ms": 7.555,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "7": {
+          "testcase_hash": "139d7d7f894a2feae60a4810a4d0044f0111542f",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 2287,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "case": 7,
+          "tk_ms": 2.287,
+          "tb_ms": 10.269,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "8": {
+          "testcase_hash": "111de8ebb830e2cf81f467ba85c7a7e6a1dfb514",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 1465,
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "case": 8,
+          "tk_ms": 1.465,
+          "tb_ms": 7.24,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "9": {
+          "testcase_hash": "2780d39c32b5813d337c45d204376fd679b1d9ee",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 2561,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "case": 9,
+          "tk_ms": 2.561,
+          "tb_ms": 8.386,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "10": {
+          "testcase_hash": "766e800eeb4ae11c47202f07f31b125b8e7bffce",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 2007,
+          "sqnr_db": [
+            23.79,
+            23.14
+          ],
+          "case": 10,
+          "tk_ms": 2.007,
+          "tb_ms": 6.7,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "11": {
+          "testcase_hash": "b8cc7b4d0f6e6848be432466c979fefbb689fb3e",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 1069,
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "case": 11,
+          "tk_ms": 1.069,
+          "tb_ms": 5.662,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "12": {
+          "testcase_hash": "9d9329e65ab7cc8856808e6fd37b27911ccb6b09",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 1619,
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "case": 12,
+          "tk_ms": 1.619,
+          "tb_ms": 8.124,
+          "th_ms": 0.0,
+          "passed": true
+        }
+      },
+      "untimed_records": [
+        {
+          "testcase_hash": "a9fb8709beb5fbb170d293623665a99e5261f0c7",
+          "classification": "sample",
+          "status": "Accepted",
+          "judge_time": 4604,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "case": 1
+        }
+      ]
+    },
+    "baseline": {
+      "sid": 141390,
+      "source": "p1/kernel.py",
+      "sha256": "dd46bdebb7be2eed2f1ebe1106be258789bde35e4ee6c9421d5756b163f426b9",
+      "submit_time": "2026-09-08T14:43:17.000Z",
+      "status": "Accepted",
+      "score": 100,
+      "display_score": 81,
+      "compile": {
+        "message": "",
+        "success": true
+      },
+      "total_occupied_time": 102982,
+      "sum_tk_ms": 30.436,
+      "timed_cases": {
+        "1": {
+          "testcase_hash": "9c94da16f2153ff7950fdbe053f5b01ce915186f",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 4746,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "case": 1,
+          "tk_ms": 4.746,
+          "tb_ms": 17.908,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "2": {
+          "testcase_hash": "99ecaeb79d6e79df4bee6e97166d2a5b6bba5b95",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 8193,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "case": 2,
+          "tk_ms": 8.193,
+          "tb_ms": 29.295,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "3": {
+          "testcase_hash": "e86670deed3648b4ea4798f652cb89a9a45d797c",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 1421,
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "case": 3,
+          "tk_ms": 1.421,
+          "tb_ms": 6.956,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "4": {
+          "testcase_hash": "ac5ce9342923e304b47949899ff334bdbbf5e2eb",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 852,
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "case": 4,
+          "tk_ms": 0.852,
+          "tb_ms": 4.917,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "5": {
+          "testcase_hash": "7bf71590097081ad430cb8182a6c82c82b7421b0",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 2880,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "case": 5,
+          "tk_ms": 2.88,
+          "tb_ms": 12.733,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "6": {
+          "testcase_hash": "9d46cb783993afcebbfc6a42efce0bd7c6b078db",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 1348,
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "case": 6,
+          "tk_ms": 1.348,
+          "tb_ms": 7.518,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "7": {
+          "testcase_hash": "4217beeb4c55f99b20b17046a1f82f3a2a4eb125",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 2328,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "case": 7,
+          "tk_ms": 2.328,
+          "tb_ms": 10.164,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "8": {
+          "testcase_hash": "fab83e1e9472469655646242ca233c97f95b4824",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 1362,
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "case": 8,
+          "tk_ms": 1.362,
+          "tb_ms": 6.975,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "9": {
+          "testcase_hash": "d702c5ada22fea520828e4422f157e567f869dda",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 2634,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "case": 9,
+          "tk_ms": 2.634,
+          "tb_ms": 8.322,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "10": {
+          "testcase_hash": "49307dee0de3d409c385dd0d75c9e8dde6e009f1",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 2017,
+          "sqnr_db": [
+            23.79,
+            23.14
+          ],
+          "case": 10,
+          "tk_ms": 2.017,
+          "tb_ms": 6.68,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "11": {
+          "testcase_hash": "dba299454bc56b7c40fcdbbe50f4a9db80e8b13e",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 1009,
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "case": 11,
+          "tk_ms": 1.009,
+          "tb_ms": 5.61,
+          "th_ms": 0.0,
+          "passed": true
+        },
+        "12": {
+          "testcase_hash": "25ed40aaa61f79f1f989df67aa4933ccd79314e5",
+          "classification": "subtask",
+          "status": "Accepted",
+          "judge_time": 1646,
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "case": 12,
+          "tk_ms": 1.646,
+          "tb_ms": 8.156,
+          "th_ms": 0.0,
+          "passed": true
+        }
+      },
+      "untimed_records": [
+        {
+          "testcase_hash": "4e0b210ca3501ff9b779a94d7199361eac60afec",
+          "classification": "sample",
+          "status": "Accepted",
+          "judge_time": 4746,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "case": 1
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "target_cases": [
+      4,
+      6,
+      8,
+      11
+    ],
+    "untouched_cases": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      12
+    ],
+    "raw_target_tk_ratio": {
+      "4": 1.0598591549295775,
+      "6": 1.0838278931750742,
+      "8": 1.0756240822320118,
+      "11": 1.0594648166501488
+    },
+    "untouched_median_tk_ratio": 0.9783469358533792,
+    "untouched_sum_tk_ratio": 0.9756427604871448,
+    "median_corrected_target_tk_ratio": {
+      "4": 1.0833162716507083,
+      "6": 1.1078154931100055,
+      "8": 1.0994301129933841,
+      "11": 1.082913205759686
+    },
+    "sum_corrected_target_tk_ratio": {
+      "4": 1.0863188841788596,
+      "6": 1.1108860097869346,
+      "8": 1.1024773880297596,
+      "11": 1.0859147011157557
+    },
+    "decision": "rejected_all_target_cases_slower_after_machine_correction",
+    "initial_tle_interpretation": "unlocalized sample-stage runtime anomaly; accepted identical-code retry proves it was not a mandatory compile or correctness failure",
+    "third_submission": false
+  },
+  "raw_detail_files": [
+    "experiments/2026-09-08/results/submissions_141389_141390_raw.json",
+    "experiments/2026-09-08/results/submissions_141395_raw.json"
+  ]
+}

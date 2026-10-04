@@ -1,0 +1,51 @@
+{
+  "announcements": [
+    {
+      "meta": {
+        "id": 32,
+        "title": "关于题目1的调试输出问题",
+        "publishTime": "2026-08-06T07:53:54.000Z",
+        "editTime": "2026-08-06T10:14:30.000Z",
+        "sortTime": "2026-08-06T10:14:30.000Z",
+        "replyCount": 0,
+        "isPublic": true,
+        "publisherId": 1,
+        "problemId": 219,
+        "contestId": 13
+      },
+      "problem": {
+        "order": 1,
+        "title": "Triton-distributed 算子优化 - MegaMoE",
+        "titleLocale": "zh_CN"
+      }
+    },
+    {
+      "meta": {
+        "id": 38,
+        "title": "Triton Tilelang 语言沙箱配置更新完成",
+        "publishTime": "2026-08-31T08:06:15.000Z",
+        "editTime": "2026-08-31T12:03:33.000Z",
+        "sortTime": "2026-08-31T12:03:33.000Z",
+        "replyCount": 0,
+        "isPublic": true,
+        "publisherId": 1,
+        "problemId": null,
+        "contestId": 13
+      }
+    },
+    {
+      "meta": {
+        "id": 81,
+        "title": "提交次数限制放宽与相关提示",
+        "publishTime": "2026-09-04T11:48:47.000Z",
+        "editTime": "2026-09-04T11:50:38.000Z",
+        "sortTime": "2026-09-04T11:50:38.000Z",
+        "replyCount": 0,
+        "isPublic": true,
+        "publisherId": 1,
+        "problemId": null,
+        "contestId": 13
+      }
+    }
+  ]
+}

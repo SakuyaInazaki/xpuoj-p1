@@ -1,0 +1,550 @@
+{
+  "checked_at": "2026-09-29T19:46:43.141923+00:00",
+  "read_only": true,
+  "me": {
+    "rank": 4,
+    "totalScore": 246.09000000000003,
+    "problemScores": [
+      {
+        "order": 1,
+        "score": 75.17,
+        "submissionCount": 3417,
+        "firstAcceptedAt": "2026-08-15T14:14:16.000Z",
+        "submissionId": 149493,
+        "customInfo": {
+          "weight": 1,
+          "accepted": true,
+          "hasAccepted": true,
+          "totalAttempts": 3417,
+          "wrongAttempts": 8
+        }
+      },
+      {
+        "order": 2,
+        "score": 100.5,
+        "submissionCount": 200,
+        "firstAcceptedAt": "2026-08-22T16:17:55.000Z",
+        "submissionId": 150946,
+        "customInfo": {
+          "weight": 1,
+          "accepted": true,
+          "hasAccepted": true,
+          "totalAttempts": 200,
+          "wrongAttempts": 1
+        }
+      },
+      {
+        "order": 3,
+        "score": 70.42,
+        "submissionCount": 2216,
+        "firstAcceptedAt": "2026-08-19T04:13:19.000Z",
+        "submissionId": 150313,
+        "customInfo": {
+          "weight": 1,
+          "accepted": true,
+          "hasAccepted": true,
+          "totalAttempts": 2216,
+          "wrongAttempts": 10
+        }
+      }
+    ]
+  },
+  "recent": [
+    {
+      "id": 151380,
+      "status": "Accepted",
+      "displayScore": 82.17,
+      "submitTime": "2026-09-29T08:40:37.000Z",
+      "timeUsed": 28671
+    },
+    {
+      "id": 151378,
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-09-29T08:40:05.000Z",
+      "timeUsed": 28697
+    },
+    {
+      "id": 151377,
+      "status": "Accepted",
+      "displayScore": 82,
+      "submitTime": "2026-09-29T08:39:35.000Z",
+      "timeUsed": 28839
+    },
+    {
+      "id": 151373,
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-09-29T08:34:51.000Z",
+      "timeUsed": 28747
+    },
+    {
+      "id": 151370,
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-09-29T08:33:04.000Z",
+      "timeUsed": 28632
+    },
+    {
+      "id": 151368,
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-09-29T08:32:32.000Z",
+      "timeUsed": 28655
+    },
+    {
+      "id": 151355,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T08:16:54.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151332,
+      "status": "Accepted",
+      "displayScore": 81.33,
+      "submitTime": "2026-09-29T07:56:58.000Z",
+      "timeUsed": 30109
+    },
+    {
+      "id": 151322,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T07:48:18.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151321,
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-09-29T07:48:12.000Z",
+      "timeUsed": 28775
+    },
+    {
+      "id": 151320,
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-09-29T07:47:40.000Z",
+      "timeUsed": 28673
+    },
+    {
+      "id": 151319,
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-09-29T07:47:39.000Z",
+      "timeUsed": 28705
+    },
+    {
+      "id": 151316,
+      "status": "Accepted",
+      "displayScore": 82.25,
+      "submitTime": "2026-09-29T07:44:24.000Z",
+      "timeUsed": 28757
+    },
+    {
+      "id": 151238,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T06:33:37.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151236,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T06:33:05.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151233,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T06:32:34.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151231,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T06:32:03.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151230,
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-09-29T06:31:32.000Z",
+      "timeUsed": 28707
+    },
+    {
+      "id": 151229,
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-09-29T06:31:00.000Z",
+      "timeUsed": 28793
+    },
+    {
+      "id": 151226,
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-09-29T06:30:29.000Z",
+      "timeUsed": 28742
+    },
+    {
+      "id": 151225,
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-09-29T06:29:58.000Z",
+      "timeUsed": 28701
+    },
+    {
+      "id": 151222,
+      "status": "Accepted",
+      "displayScore": 82,
+      "submitTime": "2026-09-29T06:29:27.000Z",
+      "timeUsed": 28710
+    },
+    {
+      "id": 151220,
+      "status": "Accepted",
+      "displayScore": 82,
+      "submitTime": "2026-09-29T06:28:55.000Z",
+      "timeUsed": 28658
+    },
+    {
+      "id": 151219,
+      "status": "Accepted",
+      "displayScore": 82.08,
+      "submitTime": "2026-09-29T06:28:24.000Z",
+      "timeUsed": 28686
+    },
+    {
+      "id": 151212,
+      "status": "Accepted",
+      "displayScore": 82.17,
+      "submitTime": "2026-09-29T06:25:11.000Z",
+      "timeUsed": 28387
+    },
+    {
+      "id": 151191,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T06:13:15.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151179,
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-09-29T06:05:13.000Z",
+      "timeUsed": 28685
+    },
+    {
+      "id": 151173,
+      "status": "Accepted",
+      "displayScore": 82.17,
+      "submitTime": "2026-09-29T06:03:11.000Z",
+      "timeUsed": 28685
+    },
+    {
+      "id": 151166,
+      "status": "Accepted",
+      "displayScore": 82.25,
+      "submitTime": "2026-09-29T05:57:51.000Z",
+      "timeUsed": 28750
+    },
+    {
+      "id": 151162,
+      "status": "Accepted",
+      "displayScore": 81.67,
+      "submitTime": "2026-09-29T05:55:19.000Z",
+      "timeUsed": 28944
+    },
+    {
+      "id": 151132,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T05:10:10.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151122,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T05:00:28.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151119,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T04:56:56.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151118,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T04:56:25.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151117,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T04:55:52.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151112,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T04:49:17.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151111,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T04:48:45.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151109,
+      "status": "Canceled",
+      "displayScore": null,
+      "submitTime": "2026-09-29T04:48:13.000Z",
+      "timeUsed": null
+    },
+    {
+      "id": 151107,
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-09-29T04:47:42.000Z",
+      "timeUsed": 28673
+    },
+    {
+      "id": 151105,
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-09-29T04:47:11.000Z",
+      "timeUsed": 28738
+    },
+    {
+      "id": 151103,
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-09-29T04:45:27.000Z",
+      "timeUsed": 28690
+    },
+    {
+      "id": 151099,
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-09-29T04:41:57.000Z",
+      "timeUsed": 28643
+    },
+    {
+      "id": 151096,
+      "status": "Accepted",
+      "displayScore": 81.67,
+      "submitTime": "2026-09-29T04:38:51.000Z",
+      "timeUsed": 28967
+    },
+    {
+      "id": 151086,
+      "status": "WrongAnswer",
+      "displayScore": 69.08,
+      "submitTime": "2026-09-29T04:28:52.000Z",
+      "timeUsed": 3642840
+    },
+    {
+      "id": 151082,
+      "status": "WrongAnswer",
+      "displayScore": 0,
+      "submitTime": "2026-09-29T04:26:55.000Z",
+      "timeUsed": 0
+    },
+    {
+      "id": 151081,
+      "status": "WrongAnswer",
+      "displayScore": 0,
+      "submitTime": "2026-09-29T04:23:38.000Z",
+      "timeUsed": 0
+    },
+    {
+      "id": 151078,
+      "status": "WrongAnswer",
+      "displayScore": 0,
+      "submitTime": "2026-09-29T04:20:33.000Z",
+      "timeUsed": 0
+    },
+    {
+      "id": 151076,
+      "status": "WrongAnswer",
+      "displayScore": 69.08,
+      "submitTime": "2026-09-29T04:17:18.000Z",
+      "timeUsed": 3671273
+    },
+    {
+      "id": 151071,
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-09-29T04:14:45.000Z",
+      "timeUsed": 28647
+    },
+    {
+      "id": 151064,
+      "status": "WrongAnswer",
+      "displayScore": 71.67,
+      "submitTime": "2026-09-29T04:11:02.000Z",
+      "timeUsed": 3636977
+    },
+    {
+      "id": 151061,
+      "status": "Accepted",
+      "displayScore": 81.75,
+      "submitTime": "2026-09-29T04:07:28.000Z",
+      "timeUsed": 29118
+    },
+    {
+      "id": 151056,
+      "status": "WrongAnswer",
+      "displayScore": 0,
+      "submitTime": "2026-09-29T03:58:42.000Z",
+      "timeUsed": 0
+    },
+    {
+      "id": 151051,
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-09-29T03:55:26.000Z",
+      "timeUsed": 28701
+    },
+    {
+      "id": 151045,
+      "status": "WrongAnswer",
+      "displayScore": 69.42,
+      "submitTime": "2026-09-29T03:50:36.000Z",
+      "timeUsed": 3682066
+    },
+    {
+      "id": 150976,
+      "status": "TimeLimitExceeded",
+      "displayScore": 0,
+      "submitTime": "2026-09-28T19:54:25.000Z",
+      "timeUsed": 0
+    },
+    {
+      "id": 150973,
+      "status": "WrongAnswer",
+      "displayScore": 69.08,
+      "submitTime": "2026-09-28T19:50:42.000Z",
+      "timeUsed": 3709351
+    },
+    {
+      "id": 150969,
+      "status": "WrongAnswer",
+      "displayScore": 69,
+      "submitTime": "2026-09-28T19:46:07.000Z",
+      "timeUsed": 3670967
+    },
+    {
+      "id": 150967,
+      "status": "WrongAnswer",
+      "displayScore": 69.17,
+      "submitTime": "2026-09-28T19:42:48.000Z",
+      "timeUsed": 3623069
+    },
+    {
+      "id": 150966,
+      "status": "WrongAnswer",
+      "displayScore": 69.25,
+      "submitTime": "2026-09-28T19:39:29.000Z",
+      "timeUsed": 3677275
+    },
+    {
+      "id": 150965,
+      "status": "Accepted",
+      "displayScore": 81.5,
+      "submitTime": "2026-09-28T19:31:37.000Z",
+      "timeUsed": 29313
+    },
+    {
+      "id": 150964,
+      "status": "Accepted",
+      "displayScore": 81.33,
+      "submitTime": "2026-09-28T19:27:42.000Z",
+      "timeUsed": 29633
+    },
+    {
+      "id": 150961,
+      "status": "WrongAnswer",
+      "displayScore": 69.17,
+      "submitTime": "2026-09-28T19:24:43.000Z",
+      "timeUsed": 3660724
+    },
+    {
+      "id": 150945,
+      "status": "Accepted",
+      "displayScore": 81.75,
+      "submitTime": "2026-09-28T18:30:28.000Z",
+      "timeUsed": 28713
+    },
+    {
+      "id": 150943,
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-09-28T18:28:30.000Z",
+      "timeUsed": 28724
+    },
+    {
+      "id": 150942,
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-09-28T18:26:27.000Z",
+      "timeUsed": 28652
+    },
+    {
+      "id": 150941,
+      "status": "Accepted",
+      "displayScore": 84.5,
+      "submitTime": "2026-09-28T18:22:54.000Z",
+      "timeUsed": 26199
+    },
+    {
+      "id": 150936,
+      "status": "Accepted",
+      "displayScore": 81.75,
+      "submitTime": "2026-09-28T18:17:06.000Z",
+      "timeUsed": 28716
+    },
+    {
+      "id": 150934,
+      "status": "Accepted",
+      "displayScore": 81.83,
+      "submitTime": "2026-09-28T18:15:07.000Z",
+      "timeUsed": 28725
+    },
+    {
+      "id": 150928,
+      "status": "TimeLimitExceeded",
+      "displayScore": 0,
+      "submitTime": "2026-09-28T18:06:14.000Z",
+      "timeUsed": 0
+    },
+    {
+      "id": 150926,
+      "status": "Accepted",
+      "displayScore": 81.75,
+      "submitTime": "2026-09-28T18:03:16.000Z",
+      "timeUsed": 28709
+    }
+  ],
+  "distributed_custom": {
+    "available": false
+  },
+  "single_gpu_custom": {
+    "available": true
+  }
+}

@@ -1,0 +1,181 @@
+--- p1/kernel.py
++++ p1_s1_c6_v1.py
+@@ -6346,6 +6346,10 @@
+                              (2048, 1024), (2048, 2048),
+                              (3584, 2560), (3584, 1024),
+                              (4096, 2048), (4096, 1024)))
++    _hybrid = False
++    _hybrid_ah = None
++    _hybrid_wi = None
++    _hybrid_scl = None
+     _dir_ah = None
+     _dir_wi = None
+     _dir_scl = None
+@@ -6446,7 +6450,13 @@
+         if use_case2_plain_fp8:
+             fp8_tokens_q, fp8_tokens_s = _gq1p_tm(x, inv_order, k)
+         elif _GA[0] or (E == 256 and _FL[0]):
+-            fp8_tokens_q, fp8_tokens_s = _gq1p_tok(x)
++            _hybrid = bool(_GA[0] and (T, H, E, I, k) == (8192, 3584, 64, 1024, 8))
++            if _hybrid:
++                fp8_tokens_q, fp8_tokens_s, _hybrid_ah, _hybrid_wi, _hybrid_scl = _s1_c6_gq_tok_params(
++                    x, inv_order, flat_ids, flat_weights, _gu_bnorm(gu_q, gu_s), k
++                )
++            else:
++                fp8_tokens_q, fp8_tokens_s = _gq1p_tok(x)
+         elif _dir_a:
+             fp8_tokens_q, fp8_tokens_s, _dir_ah, _dir_wi, _dir_scl = _gq1p_tm_params(
+                 x, inv_order, flat_ids, flat_weights, _gu_bnorm(gu_q, gu_s), k
+@@ -6579,7 +6589,13 @@
+             act_spm = None
+         elif _CALLN[0] >= 3 and E <= 96 and _q8_act:
+             _gq16, _gs16 = _get_int_gu(gu_q, gu_s, 1)
+-            if _dir_a:
++            if _hybrid:
++                act_q8, act_rowscl = _s1_c6_mdq_g_pre_host(
++                    fp8_tokens_q, _hybrid_scl, _hybrid_ah, _hybrid_wi, _gq16, _gs16, order,
++                    meta_expert_ids, expert_counts, meta_tile_split,
++                    meta_tile_num, meta_tile_num_cum, num_tiles_total, k,
++                )
++            elif _dir_a:
+                 if H == 1024:
+                     act_q8, act_rowscl = _fgs_tma1_intq_host_pre(
+                         fp8_tokens_q, _dir_scl, _dir_ah, _dir_wi, _gq16, _gs16,
+@@ -7699,3 +7715,137 @@
+         num_warps=8, num_stages=3 if K == 14336 else 4,
+     )
+     return c, cscl
++
++
++# S1 c6: token Q and compact branch parameter producer/consumer.
++@triton_dist.jit
++def _s1_c6_gq_tok_params_kernel(
++    X, Q, SCALE, INV, FLAT_IDS, FLAT_W, BNORM, AH, WI, ACT_SCALE,
++    T, H,
++    stride_xm, stride_xh,
++    stride_qm, stride_qh,
++    BLOCK_H: tl.constexpr, K_BRANCH: tl.constexpr,
++):
++    t = tl.program_id(axis=0)
++    offs_h = tl.arange(0, BLOCK_H)
++    h_mask = offs_h < H
++    vals = tl.load(X + t * stride_xm + offs_h * stride_xh, mask=h_mask, other=0.0)
++    amax = tl.max(tl.abs(vals)).to(tl.float32)
++    scale = tl.maximum(amax / 448.0, 1e-12)
++    q = (vals.to(tl.float32) * (1.0 / scale)).to(tl.float8e4nv)
++    tl.store(Q + t * stride_qm + offs_h * stride_qh, q, mask=h_mask)
++    tl.store(SCALE + t, scale)
++    for j in tl.static_range(K_BRANCH):
++        dest = tl.load(INV + t * K_BRANCH + j)
++        e = tl.load(FLAT_IDS + t * K_BRANCH + j)
++        w = tl.load(FLAT_W + t * K_BRANCH + j)
++        bn = tl.load(BNORM + e)
++        a = scale
++        bound = (((a * a) * bn) * bn) * tl.abs(w)
++        bbits = tl.maximum(bound, 1e-30).to(tl.int32, bitcast=True)
++        bexp = (bbits >> 23) & 0xFF
++        s = ((bexp + 10) << 23).to(tl.float32, bitcast=True)
++        inv = ((244 - bexp) << 23).to(tl.float32, bitcast=True)
++        tl.store(AH + dest, a * 0.5)
++        tl.store(WI + dest, (w * a) * inv)
++        tl.store(ACT_SCALE + dest, s)
++
++def _s1_c6_gq_tok_params(x, inv_order, flat_ids, flat_weights, bnorm, k):
++    T = x.shape[0]
++    H = x.shape[1]
++    q = torch.empty((T, H), dtype=torch.float8_e4m3fn, device=x.device)
++    scale = torch.empty(T, dtype=torch.float32, device=x.device)
++    M = T * k
++    ah = torch.empty(M, dtype=torch.float32, device=x.device)
++    wi = torch.empty(M, dtype=torch.float32, device=x.device)
++    act_scale = torch.empty(M, dtype=torch.float32, device=x.device)
++    h_pad = triton.next_power_of_2(H)
++    _s1_c6_gq_tok_params_kernel[(T,)](
++        x, q, scale, inv_order, flat_ids, flat_weights, bnorm, ah, wi, act_scale, T, H,
++        x.stride(0), x.stride(1),
++        q.stride(0), q.stride(1),
++        BLOCK_H=h_pad, K_BRANCH=k,
++        num_warps=4, num_stages=1,
++    )
++    return q, scale, ah, wi, act_scale
++
++@triton_dist.jit
++def _s1_c6_mdq_g_pre_kernel(
++    A, AH, WI, B_DESC, B_SCALE, ORDER, ACT, ACT_DESC,
++    expert_ids, split_size, split_size_cum, tile_num, tile_cum, num_tiles,
++    M, I: tl.constexpr, K: tl.constexpr,
++    stride_am, stride_ak,
++    stride_cm, stride_cn,
++    BLOCK_M: tl.constexpr, BLOCK_N: tl.constexpr, BLOCK_K: tl.constexpr,
++    GROUP_M: tl.constexpr, KTOP: tl.constexpr,
++):
++    pid = tl.program_id(0)
++    num_pid = tl.num_programs(0)
++    num_block_n = tl.cdiv(I, BLOCK_N)
++    total_tiles = tl.load(num_tiles)
++
++    for tile_id in tl.range(pid, total_tiles * num_block_n, num_pid, num_stages=2):
++        pid_m = tile_id // num_block_n
++        pid_n = tile_id % num_block_n
++
++        expert = tl.load(expert_ids + pid_m)
++        n_rows = tl.load(split_size + expert)
++        row_begin = tl.load(split_size_cum + pid_m)
++        t_num = tl.load(tile_num + pid_m)
++        t_cum = tl.load(tile_cum + pid_m)
++        local_m = pid_m - (t_cum - t_num)
++        local_m, pid_n = tl.swizzle2d(local_m, pid_n, t_num, num_block_n, GROUP_M)
++
++        offs_m = row_begin + local_m * BLOCK_M + tl.arange(0, BLOCK_M)
++        offs_n = pid_n * BLOCK_N + tl.arange(0, BLOCK_N)
++        offs_k = tl.arange(0, BLOCK_K)
++        row_mask = offs_m < row_begin + n_rows
++
++        rows = tl.load(ORDER + offs_m, mask=row_mask, other=0) // KTOP
++        a_ptrs = A + rows[:, None] * stride_am + offs_k[None, :] * stride_ak
++        b_row = expert * (2 * I) + pid_n * (2 * BLOCK_N)
++        b_sc = tl.load(B_SCALE + expert * (2 * I) + pid_n * 2 * BLOCK_N + tl.arange(0, 2 * BLOCK_N))
++        acc = tl.zeros((BLOCK_M, 2 * BLOCK_N), dtype=tl.float32)
++        for k in range(0, tl.cdiv(K, BLOCK_K)):
++            a = tl.load(a_ptrs, mask=row_mask[:, None], other=0.0,
++                        eviction_policy='evict_last')
++            b = B_DESC.load([b_row, k * BLOCK_K])
++            acc = tl.dot(a, b.T, acc)
++            a_ptrs += BLOCK_K * stride_ak
++
++        scaled = acc * b_sc[None, :]
++        pair = tl.reshape(scaled, (BLOCK_M, BLOCK_N, 2))
++        gr, u = tl.split(pair)
++        ah = tl.load(AH + offs_m, mask=row_mask, other=0.0)
++        h = gr * ah[:, None]
++        th = tl.inline_asm_elementwise(
++            "tanh.approx.f16x2 $0, $1;", "=r,r", [h.to(tl.float16)],
++            dtype=tl.float16, is_pure=True, pack=2).to(tl.float32)
++        silu = h * th + h
++        wi = tl.load(WI + offs_m, mask=row_mask, other=0.0)
++        q = (silu * u * wi[:, None]).to(tl.float8e4nv)
++        if (row_begin + local_m * BLOCK_M) + BLOCK_M <= row_begin + n_rows:
++            ACT_DESC.store([row_begin + local_m * BLOCK_M, pid_n * BLOCK_N], q)
++        else:
++            c_ptrs = ACT + offs_m[:, None] * stride_cm + offs_n[None, :] * stride_cn
++            tl.store(c_ptrs, q, mask=row_mask[:, None],
++                     eviction_policy='evict_first')
++
++def _s1_c6_mdq_g_pre_host(a_q, act_scale, ah, wi, b_q_int, b_s_int, order, expert_ids, counts, split_cum, tile_num, tile_cum, num_tiles, k):
++    M = int(order.shape[0])
++    K = a_q.shape[1]
++    G, N2, K2 = b_q_int.shape
++    I = N2 // 2
++    act = torch.empty((M, I), dtype=torch.float8_e4m3fn, device=a_q.device)
++    b_flat = b_q_int.view(G * N2, K2)
++    b_desc = TensorDescriptor(b_flat, b_flat.shape, b_flat.stride(), [256, 128])
++    act_desc = TensorDescriptor(act, act.shape, act.stride(), [128, 128])
++    _s1_c6_mdq_g_pre_kernel[(132,)](
++        a_q, ah, wi, b_desc, b_s_int, order, act, act_desc,
++        expert_ids, counts, split_cum, tile_num, tile_cum, num_tiles,
++        M, I, K,
++        a_q.stride(0), a_q.stride(1), act.stride(0), act.stride(1),
++        BLOCK_M=128, BLOCK_N=128, BLOCK_K=128, GROUP_M=8 if K <= 1024 else 32, KTOP=k,
++        num_warps=8, num_stages=3,
++    )
++    return act, act_scale

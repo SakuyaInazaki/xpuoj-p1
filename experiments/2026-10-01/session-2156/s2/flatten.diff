@@ -1,0 +1,20 @@
+--- p1_s2_c4_layout_only.py
++++ p1_s2_c4_flatten.py
+@@ -7751,7 +7751,7 @@
+     num_block_n = tl.cdiv(I, BLOCK_N)
+     total_tiles = tl.load(num_tiles)
+ 
+-    for tile_id in tl.range(pid, total_tiles * num_block_n, num_pid, num_stages=2):
++    for tile_id in tl.range(pid, total_tiles * num_block_n, num_pid, flatten=True):
+         pid_m = tile_id // num_block_n
+         pid_n = tile_id % num_block_n
+ 
+@@ -7841,7 +7841,7 @@
+     num_block_n = tl.cdiv(I, BLOCK_N)
+     total_tiles = tl.load(num_tiles)
+ 
+-    for tile_id in tl.range(pid, total_tiles * num_block_n, num_pid, num_stages=2):
++    for tile_id in tl.range(pid, total_tiles * num_block_n, num_pid, flatten=True):
+         pid_m = tile_id // num_block_n
+         pid_n = tile_id % num_block_n
+ 

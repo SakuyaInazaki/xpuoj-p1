@@ -1,0 +1,19 @@
+[令牌池] 取到 submit_problem 令牌 …999490（年龄 202.7s，剩余可用 97.3s）
+PoW难度5 求解1.4s  HTTP 201
+SID 145184 iter 0
+RESULT 145184 status Accepted display 81.33 sum 1055
+[令牌池] 取到 submit_problem 令牌 …f9c721（年龄 233.8s，剩余可用 66.2s）
+PoW难度5 求解2.2s  HTTP 201
+SID 145185 iter 1
+RESULT 145185 status Accepted display 81.25 sum 1054
+[令牌池] 取到 submit_problem 令牌 …69950c（年龄 139.9s，剩余可用 160.1s）
+PoW难度5 求解2.0s  HTTP 201
+SID 145187 iter 2
+RESULT 145187 status TimeLimitExceeded display 0 sum 0
+[令牌池] 取到 submit_problem 令牌 …bd7179（年龄 209.8s，剩余可用 90.2s）
+PoW难度5 求解1.9s  HTTP 201
+SID 145188 iter 3
+RESULT 145188 status Accepted display 81.25 sum 1054
+[令牌池] 取到 submit_problem 令牌 …2d458a（年龄 141.9s，剩余可用 158.1s）
+PoW难度5 求解1.4s  HTTP 201
+SID 145190 iter 4

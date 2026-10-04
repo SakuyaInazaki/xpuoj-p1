@@ -1,0 +1,1023 @@
+{
+  "checked_at": "2026-10-01T06:51:56.353607+00:00",
+  "cohort_size": 283,
+  "statuses": {
+    "TimeLimitExceeded": 12,
+    "Accepted": 207,
+    "WrongAnswer": 43,
+    "Canceled": 21
+  },
+  "groups": {
+    "first_in_cohort": {
+      "complete_ac": 130,
+      "low_ac": 17,
+      "exact_zero_ac": 9,
+      "tle": 12
+    },
+    "repeat_in_cohort": {
+      "complete_ac": 77,
+      "low_ac": 0,
+      "exact_zero_ac": 0,
+      "tle": 0
+    },
+    "source_unavailable": {}
+  },
+  "full_ac_low_events": [
+    {
+      "sid": 149493,
+      "status": "Accepted",
+      "raw": 85.17,
+      "source_sha256": "c23394ec00deb6d76e0cb9416dbad05fb5a0182219c2a6bbf7935967dc64a471",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        11,
+        12
+      ],
+      "exact_zero_cases": [
+        12
+      ],
+      "paths": [],
+      "submitTime": "2026-09-26T19:43:51.000Z",
+      "tk_ms": [
+        4.611,
+        7.83,
+        1.37,
+        0.8,
+        2.797,
+        1.283,
+        2.213,
+        1.262,
+        2.441,
+        1.899,
+        0.325,
+        0.0
+      ]
+    },
+    {
+      "sid": 149520,
+      "status": "Accepted",
+      "raw": 84.83,
+      "source_sha256": "a6442ca8d4a717f2e52b4769b697c623c125ab0fd62ce1bf7d859c25d6dcca07",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        10,
+        11,
+        12
+      ],
+      "exact_zero_cases": [],
+      "paths": [],
+      "submitTime": "2026-09-26T20:28:08.000Z",
+      "tk_ms": [
+        4.601,
+        7.889,
+        1.359,
+        0.798,
+        2.75,
+        1.256,
+        2.102,
+        1.167,
+        2.45,
+        0.68,
+        0.309,
+        0.47
+      ]
+    },
+    {
+      "sid": 149526,
+      "status": "Accepted",
+      "raw": 84.92,
+      "source_sha256": "fc7f81eb7109b0d4eb3af5aecf88088c76509f105826baa24933b5a6cbb06cc5",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        10,
+        11,
+        12
+      ],
+      "exact_zero_cases": [],
+      "paths": [],
+      "submitTime": "2026-09-26T20:39:08.000Z",
+      "tk_ms": [
+        4.633,
+        7.86,
+        1.343,
+        0.8,
+        2.746,
+        1.26,
+        2.103,
+        1.158,
+        2.439,
+        0.686,
+        0.311,
+        0.47
+      ]
+    },
+    {
+      "sid": 149530,
+      "status": "Accepted",
+      "raw": 85,
+      "source_sha256": "b74482e04b4d1a4a226dc616670e57af72598d8f8bd1d2391376b0d870590fa3",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        10,
+        11,
+        12
+      ],
+      "exact_zero_cases": [],
+      "paths": [],
+      "submitTime": "2026-09-26T20:54:59.000Z",
+      "tk_ms": [
+        4.626,
+        7.836,
+        1.346,
+        0.79,
+        2.764,
+        1.257,
+        2.098,
+        1.162,
+        2.459,
+        0.678,
+        0.31,
+        0.469
+      ]
+    },
+    {
+      "sid": 149609,
+      "status": "Accepted",
+      "raw": 83.5,
+      "source_sha256": "965def0ea019519a0c598e2f66ae5874c5bc0e9a48f1b6f9656baf2d93bc39a6",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        10
+      ],
+      "exact_zero_cases": [],
+      "paths": [],
+      "submitTime": "2026-09-27T03:21:35.000Z",
+      "tk_ms": [
+        4.994,
+        8.51,
+        1.353,
+        0.79,
+        2.753,
+        1.255,
+        2.098,
+        1.161,
+        2.419,
+        0.671,
+        0.776,
+        1.381
+      ]
+    },
+    {
+      "sid": 150941,
+      "status": "Accepted",
+      "raw": 84.5,
+      "source_sha256": "1526ea9559af7da41743504d8a69a550d3f4801a0c0d34d135f63552d79f3e83",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        11,
+        12
+      ],
+      "exact_zero_cases": [
+        12
+      ],
+      "paths": [],
+      "submitTime": "2026-09-28T18:22:54.000Z",
+      "tk_ms": [
+        4.606,
+        7.853,
+        1.353,
+        0.783,
+        2.749,
+        1.226,
+        2.099,
+        1.148,
+        2.411,
+        1.875,
+        0.096,
+        0.0
+      ]
+    },
+    {
+      "sid": 151793,
+      "status": "Accepted",
+      "raw": 83.42,
+      "source_sha256": "d5accd04aaf81c71c28330af298188f8ba7870561752f959fbbc686ad2ba394a",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        12
+      ],
+      "exact_zero_cases": [
+        12
+      ],
+      "paths": [
+        "experiments/2026-09-30/candidates/v932_c11_slot_last_dn.py"
+      ],
+      "submitTime": "2026-09-29T20:17:54.000Z",
+      "tk_ms": [
+        4.628,
+        7.826,
+        1.344,
+        0.78,
+        2.751,
+        1.23,
+        2.1,
+        1.157,
+        2.399,
+        1.857,
+        0.891,
+        0.0
+      ]
+    },
+    {
+      "sid": 151895,
+      "status": "Accepted",
+      "raw": 85.58,
+      "source_sha256": "06ba520e204f60940a1b1b559ccf6eb71f7fd2ad54d4f0f16246fb9dd9468288",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        10,
+        11,
+        12
+      ],
+      "exact_zero_cases": [
+        11,
+        12
+      ],
+      "paths": [
+        "experiments/2026-09-30/candidates/p1_dirA_c11_v7_meas.py"
+      ],
+      "submitTime": "2026-09-30T02:34:47.000Z",
+      "tk_ms": [
+        4.604,
+        7.785,
+        1.354,
+        0.785,
+        2.73,
+        1.233,
+        2.098,
+        1.152,
+        2.435,
+        0.658,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "sid": 152205,
+      "status": "Accepted",
+      "raw": 87.75,
+      "source_sha256": "4b39672981d4a0f17fe97e4505086c2e827fa9865c9d1b93b039e13ba33c36be",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "exact_zero_cases": [
+        11,
+        12
+      ],
+      "paths": [
+        "experiments/2026-09-30/candidates/p1_dirA_c34_v11_meas.py"
+      ],
+      "submitTime": "2026-09-30T09:56:41.000Z",
+      "tk_ms": [
+        4.643,
+        7.773,
+        1.349,
+        0.781,
+        2.747,
+        1.209,
+        2.1,
+        1.142,
+        0.859,
+        0.063,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "sid": 152238,
+      "status": "Accepted",
+      "raw": 89.08,
+      "source_sha256": "08dd08eb51b1602648d31f0694912466d5de4be48b36d3604465216f8f9089f9",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "exact_zero_cases": [
+        10,
+        11,
+        12
+      ],
+      "paths": [
+        "p1/kernel.py",
+        "experiments/2026-09-30/candidates/p1_dirA_c34_v12_far_meas.py"
+      ],
+      "submitTime": "2026-09-30T10:29:22.000Z",
+      "tk_ms": [
+        4.645,
+        7.83,
+        1.353,
+        0.788,
+        2.758,
+        1.204,
+        2.097,
+        0.468,
+        0.062,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "sid": 152289,
+      "status": "Accepted",
+      "raw": 87.58,
+      "source_sha256": "9364070dec36b3bd82b329248a8a77483222b3ecb41ed416a102c436a0128ec3",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "exact_zero_cases": [
+        11,
+        12
+      ],
+      "paths": [
+        "experiments/2026-09-30/candidates/p1_dirA_c12_v13_meas.py"
+      ],
+      "submitTime": "2026-09-30T11:05:38.000Z",
+      "tk_ms": [
+        4.62,
+        7.82,
+        1.34,
+        0.775,
+        2.704,
+        1.204,
+        2.094,
+        1.136,
+        0.856,
+        0.062,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "sid": 152721,
+      "status": "Accepted",
+      "raw": 87.5,
+      "source_sha256": "f1edeae6f8f9456263dfe7241f0f918cdb5ad44fd1312ec44ff1f4e0fe459b81",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "exact_zero_cases": [
+        11,
+        12
+      ],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v3.py"
+      ],
+      "submitTime": "2026-09-30T18:07:26.000Z",
+      "tk_ms": [
+        4.61,
+        7.785,
+        1.34,
+        0.78,
+        2.745,
+        1.211,
+        2.106,
+        1.141,
+        0.857,
+        0.063,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "sid": 152939,
+      "status": "Accepted",
+      "raw": 83,
+      "source_sha256": "913e194ffd89b84556e21f701897c98cc733fb33812fe2f7f0885bcd6eba1486",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        12
+      ],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v8_pretanh_shift.py"
+      ],
+      "submitTime": "2026-10-01T05:53:55.000Z",
+      "tk_ms": [
+        4.643,
+        7.797,
+        1.349,
+        0.776,
+        2.769,
+        1.244,
+        2.175,
+        1.152,
+        2.414,
+        1.841,
+        0.754,
+        0.46
+      ]
+    },
+    {
+      "sid": 152945,
+      "status": "Accepted",
+      "raw": 83,
+      "source_sha256": "b32fc4cc627ff112750df066078cb9707d56a2f93faba93f14360ec080b1d310",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        12
+      ],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v9_c8spec.py"
+      ],
+      "submitTime": "2026-10-01T06:02:26.000Z",
+      "tk_ms": [
+        4.592,
+        7.774,
+        1.338,
+        0.785,
+        2.757,
+        1.246,
+        2.177,
+        1.212,
+        2.416,
+        1.857,
+        0.751,
+        0.462
+      ]
+    },
+    {
+      "sid": 152969,
+      "status": "Accepted",
+      "raw": 82.92,
+      "source_sha256": "fc5e10742dbf8f64cc9f6ce336ea4a2426322e66df52f7bcc3ba979b486515ab",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        12
+      ],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v16_pretanh2_shift.py"
+      ],
+      "submitTime": "2026-10-01T06:22:11.000Z",
+      "tk_ms": [
+        4.606,
+        7.834,
+        1.337,
+        0.778,
+        2.768,
+        1.251,
+        2.175,
+        1.216,
+        2.415,
+        1.839,
+        0.75,
+        0.461
+      ]
+    },
+    {
+      "sid": 152976,
+      "status": "Accepted",
+      "raw": 89,
+      "source_sha256": "88361f262dddcb58986b23b9d54d9219c1645529b98752e8b768e19fc2ace673",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "exact_zero_cases": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v17_tiledshift.py",
+        "experiments/2026-10-01/guide-candidates/anchor_sid152976_88361f262ddd.py"
+      ],
+      "submitTime": "2026-10-01T06:29:45.000Z",
+      "tk_ms": [
+        4.563,
+        7.791,
+        1.343,
+        0.771,
+        2.715,
+        1.208,
+        2.106,
+        0.471,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "sid": 153006,
+      "status": "Accepted",
+      "raw": 83.42,
+      "source_sha256": "b335dd6bccab25644d7e6b6b8085095ae2408a564bdc00d14d9a47ffa930a408",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        11,
+        12
+      ],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v21_c7c8_pretanh.py"
+      ],
+      "submitTime": "2026-10-01T06:44:47.000Z",
+      "tk_ms": [
+        4.617,
+        7.79,
+        1.347,
+        0.792,
+        2.761,
+        1.248,
+        2.195,
+        1.216,
+        2.413,
+        1.863,
+        0.302,
+        0.46
+      ]
+    }
+  ],
+  "new_since_152586": [
+    {
+      "sid": 152622,
+      "status": "WrongAnswer",
+      "raw": 0,
+      "source_sha256": "9e62077d7793531aac3fc4dc5805aa171a9984c669388c342f98436c7f4c43a2",
+      "source_group": "first_in_cohort",
+      "complete_ac": false,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_c11_splitcnt_v1.py"
+      ],
+      "submitTime": "2026-09-30T15:21:56.000Z"
+    },
+    {
+      "sid": 152626,
+      "status": "Accepted",
+      "raw": 81.92,
+      "source_sha256": "b77942227ec0d2e4787429ebee445370ccf677a14ca926bbce0aae500f6cde46",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_c11_splitcnt_v2.py"
+      ],
+      "submitTime": "2026-09-30T15:24:57.000Z"
+    },
+    {
+      "sid": 152630,
+      "status": "Accepted",
+      "raw": 82,
+      "source_sha256": "327b301629ab867de353834966bc150d0d0a2b0c91f6104c8ae1fd66326c0956",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_c6_splitcnt_v3.py"
+      ],
+      "submitTime": "2026-09-30T15:34:16.000Z"
+    },
+    {
+      "sid": 152634,
+      "status": "WrongAnswer",
+      "raw": 75.42,
+      "source_sha256": "4215b9b6b8f3652aa50b22674dc24ee1ca960067dec965de1b177380d596433b",
+      "source_group": "first_in_cohort",
+      "complete_ac": false,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_aext_c3c5_edge_v1.py"
+      ],
+      "submitTime": "2026-09-30T15:37:31.000Z"
+    },
+    {
+      "sid": 152639,
+      "status": "Accepted",
+      "raw": 81.75,
+      "source_sha256": "85c6bf853bac81f7709cf3fb2c39099f5e4097970768263f8444a0ddf235fa3d",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_aext_c3c5_edge_v2.py"
+      ],
+      "submitTime": "2026-09-30T15:40:21.000Z"
+    },
+    {
+      "sid": 152641,
+      "status": "WrongAnswer",
+      "raw": 74.67,
+      "source_sha256": "0c06189ca10e554fd2f6b82151a586e1409629b4dc6644fba7fe5ce34d1d6b08",
+      "source_group": "first_in_cohort",
+      "complete_ac": false,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [],
+      "submitTime": "2026-09-30T15:44:28.000Z"
+    },
+    {
+      "sid": 152644,
+      "status": "WrongAnswer",
+      "raw": 0,
+      "source_sha256": "878c71b2972e7123bf02c471aa0aaa2a772fedd1f682857971abdc85bbc347f6",
+      "source_group": "first_in_cohort",
+      "complete_ac": false,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r3_c11_nosc_v1.py",
+        "experiments/2026-10-01/candidates/p1_r3_c11_nosc_v2.py"
+      ],
+      "submitTime": "2026-09-30T15:47:56.000Z"
+    },
+    {
+      "sid": 152647,
+      "status": "Accepted",
+      "raw": 82,
+      "source_sha256": "5c1070e48319861de0a54fbd0cafd239c571d3bcb51c933418b2bfd990912690",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_pre_tanh_f16x2_v1.py"
+      ],
+      "submitTime": "2026-09-30T15:52:42.000Z"
+    },
+    {
+      "sid": 152650,
+      "status": "Accepted",
+      "raw": 82.25,
+      "source_sha256": "218bf585f4d831dd64c8d47d344139f98712668a3ed18e8379e3226c077ef350",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_c7_static_pre_tanh_v1.py"
+      ],
+      "submitTime": "2026-09-30T15:55:47.000Z"
+    },
+    {
+      "sid": 152652,
+      "status": "Accepted",
+      "raw": 81.83,
+      "source_sha256": "1574543afa5b75d24eff7382e0634a6116a8e244a2fb66805ae18711baee3fbb",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_c3_dn_s3_v1.py"
+      ],
+      "submitTime": "2026-09-30T15:59:03.000Z"
+    },
+    {
+      "sid": 152660,
+      "status": "Accepted",
+      "raw": 81.92,
+      "source_sha256": "9720db91aeff31f9bfeeaca8d048ed3bc96335146aad0caae9b680ac53bde0a4",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_c3_g_s4_v1.py"
+      ],
+      "submitTime": "2026-09-30T16:06:15.000Z"
+    },
+    {
+      "sid": 152713,
+      "status": "Accepted",
+      "raw": 81.92,
+      "source_sha256": "b23a7f3ab6357ec8bd1b1b1038f5c9d1b72d297158d7d75b6825aba7d9102fa0",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_allstatic_split_v1.py"
+      ],
+      "submitTime": "2026-09-30T17:58:07.000Z"
+    },
+    {
+      "sid": 152715,
+      "status": "Accepted",
+      "raw": 81.92,
+      "source_sha256": "c992e8bbee3d585e61420157fbe2f879d80864d0ca91e694f7548666631fc292",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_v2.py"
+      ],
+      "submitTime": "2026-09-30T18:01:28.000Z"
+    },
+    {
+      "sid": 152721,
+      "status": "Accepted",
+      "raw": 87.5,
+      "source_sha256": "f1edeae6f8f9456263dfe7241f0f918cdb5ad44fd1312ec44ff1f4e0fe459b81",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "exact_zero_cases": [
+        11,
+        12
+      ],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v3.py"
+      ],
+      "submitTime": "2026-09-30T18:07:26.000Z"
+    },
+    {
+      "sid": 152920,
+      "status": "TimeLimitExceeded",
+      "raw": 0,
+      "source_sha256": "f9e48bcd8fdc1bd1584f422ec27e38d47bec352d9c47c19f6631ba97aa796d2f",
+      "source_group": "first_in_cohort",
+      "complete_ac": false,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v4.py"
+      ],
+      "submitTime": "2026-10-01T05:36:16.000Z"
+    },
+    {
+      "sid": 152925,
+      "status": "Accepted",
+      "raw": 81.92,
+      "source_sha256": "1a45dd0a13ef16d62431e783111b0edb2f4d82b00bb2db4199a9aca40da1a63d",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v6_pretanh.py"
+      ],
+      "submitTime": "2026-10-01T05:45:04.000Z"
+    },
+    {
+      "sid": 152933,
+      "status": "Accepted",
+      "raw": 81.67,
+      "source_sha256": "a4b9331023883b2d7a6f9cd7312ece0fb17506cc3b20db4c9741ba418691afad",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v7_aext_pretanh.py"
+      ],
+      "submitTime": "2026-10-01T05:49:24.000Z"
+    },
+    {
+      "sid": 152939,
+      "status": "Accepted",
+      "raw": 83,
+      "source_sha256": "913e194ffd89b84556e21f701897c98cc733fb33812fe2f7f0885bcd6eba1486",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        12
+      ],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v8_pretanh_shift.py"
+      ],
+      "submitTime": "2026-10-01T05:53:55.000Z"
+    },
+    {
+      "sid": 152945,
+      "status": "Accepted",
+      "raw": 83,
+      "source_sha256": "b32fc4cc627ff112750df066078cb9707d56a2f93faba93f14360ec080b1d310",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        12
+      ],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v9_c8spec.py"
+      ],
+      "submitTime": "2026-10-01T06:02:26.000Z"
+    },
+    {
+      "sid": 152952,
+      "status": "Accepted",
+      "raw": 82.33,
+      "source_sha256": "d4d279a4575924cd45b8d8bbdf1ba3c895c1524caae5ba63a3ada90a4a1d06e0",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v10_ident.py"
+      ],
+      "submitTime": "2026-10-01T06:07:52.000Z"
+    },
+    {
+      "sid": 152955,
+      "status": "Accepted",
+      "raw": 82.08,
+      "source_sha256": "d4a922e326a260a0ba8b7f10ce9b3b117d5e9467d627ffc9958a2d4f83514ec6",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v11_c8c9_fin.py"
+      ],
+      "submitTime": "2026-10-01T06:12:37.000Z"
+    },
+    {
+      "sid": 152960,
+      "status": "Accepted",
+      "raw": 82.25,
+      "source_sha256": "6282196ba6d2c605ce3887799d160e7fc05508bf5eaffddea66b2cc9225c06ec",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v5.py"
+      ],
+      "submitTime": "2026-10-01T06:16:56.000Z"
+    },
+    {
+      "sid": 152969,
+      "status": "Accepted",
+      "raw": 82.92,
+      "source_sha256": "fc5e10742dbf8f64cc9f6ce336ea4a2426322e66df52f7bcc3ba979b486515ab",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        12
+      ],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v16_pretanh2_shift.py"
+      ],
+      "submitTime": "2026-10-01T06:22:11.000Z"
+    },
+    {
+      "sid": 152976,
+      "status": "Accepted",
+      "raw": 89,
+      "source_sha256": "88361f262dddcb58986b23b9d54d9219c1645529b98752e8b768e19fc2ace673",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "exact_zero_cases": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v17_tiledshift.py",
+        "experiments/2026-10-01/guide-candidates/anchor_sid152976_88361f262ddd.py"
+      ],
+      "submitTime": "2026-10-01T06:29:45.000Z"
+    },
+    {
+      "sid": 152995,
+      "status": "Accepted",
+      "raw": 81.92,
+      "source_sha256": "e59ea080d461e75c77ddebdeeed43feddcf29e46da0058cdf197c7041f28ba8b",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v18_tiledshift_pretanh.py"
+      ],
+      "submitTime": "2026-10-01T06:37:14.000Z"
+    },
+    {
+      "sid": 153006,
+      "status": "Accepted",
+      "raw": 83.42,
+      "source_sha256": "b335dd6bccab25644d7e6b6b8085095ae2408a564bdc00d14d9a47ffa930a408",
+      "source_group": "first_in_cohort",
+      "complete_ac": true,
+      "low_cases": [
+        11,
+        12
+      ],
+      "exact_zero_cases": [],
+      "paths": [
+        "experiments/2026-10-01/candidates/p1_r1_all_pad_split_mid_v21_c7c8_pretanh.py"
+      ],
+      "submitTime": "2026-10-01T06:44:47.000Z"
+    }
+  ],
+  "score_formula_mismatches": [],
+  "timeUsed_vs_sum_tk_mismatches": [],
+  "full_ac_missing_two_sqnr_or_determinism_checks": [],
+  "function_map_comparisons": [
+    {
+      "a": "p1_r1_all_pad_split_v2.py",
+      "b": "p1_r1_all_pad_split_mid_v3.py",
+      "same_effective_function_asts": true,
+      "same_other_top_level_asts": true
+    },
+    {
+      "a": "p1_r1_all_pad_split_mid_v3.py",
+      "b": "p1_r1_all_pad_split_mid_v4.py",
+      "same_effective_function_asts": true,
+      "same_other_top_level_asts": true
+    },
+    {
+      "a": "p1_r1_all_pad_split_mid_v3.py",
+      "b": "p1_r1_all_pad_split_mid_v5.py",
+      "same_effective_function_asts": true,
+      "same_other_top_level_asts": true
+    },
+    {
+      "a": "p1_r1_all_pad_split_mid_v6_pretanh.py",
+      "b": "p1_r1_all_pad_split_mid_v8_pretanh_shift.py",
+      "same_effective_function_asts": false,
+      "same_other_top_level_asts": true
+    },
+    {
+      "a": "p1_r1_all_pad_split_mid_v3.py",
+      "b": "p1_r1_all_pad_split_mid_v17_tiledshift.py",
+      "same_effective_function_asts": true,
+      "same_other_top_level_asts": true
+    },
+    {
+      "a": "p1_r1_all_pad_split_mid_v17_tiledshift.py",
+      "b": "p1_r1_all_pad_split_mid_v18_tiledshift_pretanh.py",
+      "same_effective_function_asts": false,
+      "same_other_top_level_asts": true
+    }
+  ],
+  "limits": [
+    "Cohort first is not lifetime first or proven cold compile.",
+    "Low threshold retained at 50% of historical v926; exact zeros counted separately.",
+    "Nonrandom, dependent observations cannot estimate an intervention success probability.",
+    "Local candidate filenames may have been overwritten; platform SHA is authoritative."
+  ]
+}

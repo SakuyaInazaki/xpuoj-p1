@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "experiment": "fp6_c9_c10_packed_md_diagnostic",
+  "submission": {
+    "id": 141462,
+    "source": "experiments/2026-09-08/candidates/fp6_c9_c10_packed_md_diagnostic.py",
+    "sha256": "643dd2feaddab3989978283ad1478dca5e074e467bfed2205e2f040a3f78014b",
+    "status": "WrongAnswer",
+    "score": 92,
+    "display_score": 72,
+    "submit_time": "2026-09-08T17:36:52.000Z",
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "total_occupied_time": 119192,
+    "sum_reported_tk_ms": 38.221,
+    "sample_records": [
+      {
+        "testcase_hash": "85b42d0c85f8a14b41a770880b86a2d6c70a85eb",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 1,
+        "tk_ms": 4.644,
+        "tb_ms": 18.112,
+        "th_ms": 0.0,
+        "passed": true
+      }
+    ],
+    "cases": {
+      "1": {
+        "testcase_hash": "a93989b2f76401d8dc5e1f98d3b9ff114e91a93e",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 1,
+        "tk_ms": 4.644,
+        "tb_ms": 18.112,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "2": {
+        "testcase_hash": "8db2256e8c9038354f1ead875968c65c85a0994d",
+        "status": "Accepted",
+        "display_score": 78,
+        "sqnr_db": [
+          23.77,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 2,
+        "tk_ms": 7.941,
+        "tb_ms": 29.054,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "3": {
+        "testcase_hash": "c49147f2ba6eed0e184fd169af252eed5261c3ec",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.87,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 3,
+        "tk_ms": 1.402,
+        "tb_ms": 7.426,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "4": {
+        "testcase_hash": "a06e067d01c51066d023dcc84e7a91d45a121a66",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.21,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 4,
+        "tk_ms": 0.84,
+        "tb_ms": 5.038,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "5": {
+        "testcase_hash": "4b0e69b6657810ffd56ae30b0834a06488c29d34",
+        "status": "Accepted",
+        "display_score": 82,
+        "sqnr_db": [
+          23.13,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 5,
+        "tk_ms": 2.799,
+        "tb_ms": 12.784,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "6": {
+        "testcase_hash": "efe4ed01fc6579adaefd6a788c04ceb45e4401ae",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.83,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 6,
+        "tk_ms": 1.323,
+        "tb_ms": 7.615,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "7": {
+        "testcase_hash": "3b2d0114c19ffd7a033967aa7bb1217f19f3b20b",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.11,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 7,
+        "tk_ms": 2.262,
+        "tb_ms": 10.245,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "8": {
+        "testcase_hash": "104777c965f556a543d3614ebdbfaaa4743495ad",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.83,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 8,
+        "tk_ms": 1.347,
+        "tb_ms": 7.182,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "9": {
+        "testcase_hash": "d3e40979cd9c5b33da9734d6f6a5290dd1248bc8",
+        "status": "WrongAnswer",
+        "display_score": null,
+        "sqnr_db": [
+          22.63,
+          22.64
+        ],
+        "determinism_ok_count": 1,
+        "determinism_fail_count": 1,
+        "case": 9,
+        "tk_ms": 0.0,
+        "tb_ms": 8.417,
+        "th_ms": 0.0,
+        "passed": false,
+        "error": "CUDA out of memory during a later determinism invocation (requested 1024 MiB; 515.44 MiB free); platform emitted no Python/Triton stack frames."
+      },
+      "10": {
+        "testcase_hash": "01185195478ae754aac7af8e3d133707b97389d0",
+        "status": "Accepted",
+        "display_score": 38,
+        "sqnr_db": [
+          22.63,
+          22.65
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 10,
+        "tk_ms": 13.03,
+        "tb_ms": 8.208,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "11": {
+        "testcase_hash": "f428b255949569e8580db76f008f84484e6e7a76",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.31,
+          23.31
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 11,
+        "tk_ms": 1.004,
+        "tb_ms": 5.731,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "12": {
+        "testcase_hash": "2bfd19c913b0de25da13cf89bf8e1499d61f7cfd",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.25,
+          23.26
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 12,
+        "tk_ms": 1.629,
+        "tb_ms": 8.128,
+        "th_ms": 0.0,
+        "passed": true
+      }
+    }
+  },
+  "diagnostic_capture": {
+    "runtime_fp6_marker_line_count": 0,
+    "runtime_fp6_marker_lines": [],
+    "source_text_occurrences_excluded": true,
+    "rank_partition_available": false,
+    "static_cache_miss_count": null,
+    "packed_cache_miss_count": null,
+    "last_marker_before_c9_oom": null,
+    "n_regs": null,
+    "n_spills": null,
+    "metadata_shared": null,
+    "sandbox_rejection_observed": false,
+    "interpretation": "No FP6_* lines appeared in testcase userError, userOutput, checkerMessage, or output. The raw JSON contains marker strings only inside submitted source text. Execution, count, order, and rank cannot be inferred."
+  },
+  "target_summary": {
+    "c9_sqnr_db": [
+      22.63,
+      22.64
+    ],
+    "c9_margin_over_22_db": [
+      0.63,
+      0.64
+    ],
+    "c9_determinism_ok_count": 1,
+    "c9_determinism_fail_count": 1,
+    "c9_tk_ms": null,
+    "c9_failure": "OOM during a later determinism invocation; no valid timing result",
+    "c10_sqnr_db": [
+      22.63,
+      22.65
+    ],
+    "c10_margin_over_22_db": [
+      0.63,
+      0.65
+    ],
+    "c10_determinism_ok_count": 2,
+    "c10_determinism_fail_count": 0,
+    "c10_tk_ms": 13.03,
+    "non_target_10_all_accepted": true
+  },
+  "comparison_vs_141454": {
+    "untouched_cases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "untouched_median_tk_ratio": 0.9815913021991598,
+    "untouched_sum_tk_ratio": 0.9777217155055307,
+    "untouched_candidate_sum_tk_ms": 25.191,
+    "untouched_baseline_sum_tk_ms": 25.765,
+    "c9": {
+      "raw_tk_ratio": null,
+      "median_machine_corrected_ratio": null,
+      "sum_machine_corrected_ratio": null
+    },
+    "c10": {
+      "raw_tk_ratio": 6.537882589061716,
+      "median_machine_corrected_ratio": 6.660493603003843,
+      "sum_machine_corrected_ratio": 6.6868542299700335,
+      "fixed_141454_tb_case_score_floor": 33
+    }
+  },
+  "failure_boundary": {
+    "category": "OutOfMemoryError",
+    "binding_validation_passed": true,
+    "outer_compile_success": true,
+    "jit_or_api_error_observed": false,
+    "out_of_range_error_observed": false,
+    "tle_observed": false,
+    "stack_available": false,
+    "observed_message": "CUDA out of memory; requested 1024 MiB with 515.44 MiB free during a determinism invocation."
+  },
+  "scoreboard_after_submission": {
+    "p1_score": 72.75,
+    "best_submission_id": 141408,
+    "submission_count": 2584,
+    "inflight_submission_ids": []
+  },
+  "resubmitted": false,
+  "raw_detail_file": "experiments/2026-09-08/results/submissions_141462_raw.json",
+  "sanitized_log_file": "experiments/2026-09-08/results/sid141462_wa_sanitized.txt"
+}

@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "id": 153031,
+    "isPublic": false,
+    "codeLanguage": "triton-dist",
+    "answerSize": 327344,
+    "score": 100,
+    "displayScore": 81.92,
+    "status": "Accepted",
+    "submitTime": "2026-10-01T07:17:05.000Z",
+    "problem": {
+      "id": 219,
+      "displayId": 40001,
+      "type": "Traditional",
+      "publicTime": null,
+      "isPublic": false,
+      "ownerId": 3,
+      "locales": [
+        "zh_CN"
+      ]
+    },
+    "problemTitle": "Triton-distributed 算子优化 - MegaMoE",
+    "submitter": {
+      "id": 2080,
+      "username": "salt-Star",
+      "email": "601119026@qq.com",
+      "avatar": {
+        "type": "qq",
+        "key": "601119026"
+      },
+      "nickname": "崎小咪",
+      "bio": "The Brain - is wider than the Sky",
+      "isAdmin": false,
+      "acceptedProblemCount": 12,
+      "submissionCount": 234,
+      "rating": 0,
+      "registrationTime": "2026-08-15T13:19:42.000Z"
+    },
+    "timeUsed": 28761,
+    "memoryUsed": 714144
+  },
+  "progress": {
+    "score": 100,
+    "status": "Accepted",
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "samples": [
+      {
+        "testcaseHash": "e9519c4bc8d953ef7d7fc7042b9657eb793c2615"
+      }
+    ],
+    "subtasks": [
+      {
+        "score": 100,
+        "fullScore": 100,
+        "testcases": [
+          {
+            "testcaseHash": "8a0cce22f4e3e47735b47b1f4d978ca668446fa2"
+          },
+          {
+            "testcaseHash": "f818c77b38cc688fd17973323add4d7ba5834829"
+          },
+          {
+            "testcaseHash": "6fdd131f880b38f3e78684dd08eb80235a6f5ba8"
+          },
+          {
+            "testcaseHash": "cb332e07094bdfc4a761711c421051bf55913ddb"
+          },
+          {
+            "testcaseHash": "640f6d6d45595ece2a66044d49af167de25c8691"
+          },
+          {
+            "testcaseHash": "9260257892225c74a412bb44123874ea29cd7ea9"
+          },
+          {
+            "testcaseHash": "75a0abd33c5e6f8caf71369ed0d04d0029b963cd"
+          },
+          {
+            "testcaseHash": "3534c73372e72d2eda97773ff4babdcebf58e546"
+          },
+          {
+            "testcaseHash": "6df2e2ea42800cc21d4e58c0e450814bd5c3906c"
+          },
+          {
+            "testcaseHash": "e3ae8f9c90a1614fa10cdcc800a54b4ccb280261"
+          },
+          {
+            "testcaseHash": "62e21ee3de4f87f6aff421f6ddb76588e266483b"
+          },
+          {
+            "testcaseHash": "55e63b8a867620c8c4539cabd9f422f472d406b4"
+          }
+        ],
+        "displayScore": 81.91666666666667
+      }
+    ],
+    "displayScore": 81.92,
+    "progressType": "Finished",
+    "testcaseResult": {
+      "3534c73372e72d2eda97773ff4babdcebf58e546": {
+        "time": 1235,
+        "input": "8\n",
+        "score": 100,
+        "memory": 713744,
+        "output": "",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=8\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=22.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.235,\"tb_time_ms\":7.139,\"th_time_ms\":0.0,\"pass\":true}\n",
+        "userOutput": "OJCHAL v1 hs/nU4ou2mzM8Lrlzq1axw==\nOJRESULT v1 36af1887cbcbd26c719c945ad39dd10c971dffcfc39d4b2e9e7672bad38298b0 eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6MS4yMzUsInRiX3RpbWVfbXMiOjcuMTM5LCJ0aF90aW1lX21zIjowLjAsInBhc3MiOnRydWV9\n",
+        "displayScore": 85,
+        "testcaseInfo": {
+          "inputFile": "8.in",
+          "timeLimit": 500000,
+          "outputFile": "8.out",
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #8\n\n  Baseline:           7.139000     ms\n  User kernel:        1.235000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    5.781       ×\n\n  Score ratio:        0.852520      (85.25%)\n  Display score:      85            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      },
+      "55e63b8a867620c8c4539cabd9f422f472d406b4": {
+        "time": 1445,
+        "input": "12\n",
+        "score": 100,
+        "memory": 713972,
+        "output": "",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=12\n[OK] oracle SQNR (bf16): SQNR=23.25 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=22.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.445,\"tb_time_ms\":8.243,\"th_time_ms\":0.0,\"pass\":true}\n",
+        "userOutput": "OJCHAL v1 36R+Vb7Wfwj4/oBttYywMA==\nOJRESULT v1 0cfc06355fd5be704c350352048cc89e9a56fd00d3fdc9ede24a0f9cdb305de9 eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6MS40NDUsInRiX3RpbWVfbXMiOjguMjQzLCJ0aF90aW1lX21zIjowLjAsInBhc3MiOnRydWV9\n",
+        "displayScore": 85,
+        "testcaseInfo": {
+          "inputFile": "12.in",
+          "timeLimit": 500000,
+          "outputFile": "12.out",
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #12\n\n  Baseline:           8.243000     ms\n  User kernel:        1.445000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    5.704       ×\n\n  Score ratio:        0.850846      (85.08%)\n  Display score:      85            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      },
+      "62e21ee3de4f87f6aff421f6ddb76588e266483b": {
+        "time": 858,
+        "input": "11\n",
+        "score": 100,
+        "memory": 713952,
+        "output": "",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=11\n[OK] oracle SQNR (bf16): SQNR=23.31 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.14 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":0.858,\"tb_time_ms\":6.161,\"th_time_ms\":0.0,\"pass\":true}\n",
+        "userOutput": "OJCHAL v1 1dcAN+AEs38nA6zKQ8C9Ig==\nOJRESULT v1 c2e7cf4783ae09ee61c6535c622650a8fe2d65486c4fab7867005bb11f6b7583 eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6MC44NTgsInRiX3RpbWVfbXMiOjYuMTYxLCJ0aF90aW1lX21zIjowLjAsInBhc3MiOnRydWV9\n",
+        "displayScore": 87,
+        "testcaseInfo": {
+          "inputFile": "11.in",
+          "timeLimit": 500000,
+          "outputFile": "11.out",
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #11\n\n  Baseline:           6.161000     ms\n  User kernel:        0.858000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    7.181       ×\n\n  Score ratio:        0.877760      (87.78%)\n  Display score:      87            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      },
+      "640f6d6d45595ece2a66044d49af167de25c8691": {
+        "time": 2759,
+        "input": "5\n",
+        "score": 100,
+        "memory": 713684,
+        "output": "",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=5\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.13 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.759,\"tb_time_ms\":12.135,\"th_time_ms\":0.0,\"pass\":true}\n",
+        "userOutput": "OJCHAL v1 mawFrZqaMPMBSxM1Q5wwzg==\nOJRESULT v1 238c36b7ea38c86bbd62ab23d2c4e0aef5dda271d88031bd3351eaf3436c5348 eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6Mi43NTksInRiX3RpbWVfbXMiOjEyLjEzNSwidGhfdGltZV9tcyI6MC4wLCJwYXNzIjp0cnVlfQ==\n",
+        "displayScore": 81,
+        "testcaseInfo": {
+          "inputFile": "5.in",
+          "timeLimit": 500000,
+          "outputFile": "5.out",
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #5\n\n  Baseline:           12.135000    ms\n  User kernel:        2.759000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    4.398       ×\n\n  Score ratio:        0.814758      (81.48%)\n  Display score:      81            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      },
+      "6df2e2ea42800cc21d4e58c0e450814bd5c3906c": {
+        "time": 2448,
+        "input": "9\n",
+        "score": 100,
+        "memory": 714144,
+        "output": "",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=9\n[OK] oracle SQNR (bf16): SQNR=23.13 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.13 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.448,\"tb_time_ms\":7.724,\"th_time_ms\":0.0,\"pass\":true}\n",
+        "userOutput": "OJCHAL v1 wLkbSsbbDLRhgc/5YuWiFw==\nOJRESULT v1 20ae6a74e7a5e23fec0dda1b87d9188bef41918753bffcdd96de10d869c2085b eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6Mi40NDgsInRiX3RpbWVfbXMiOjcuNzI0LCJ0aF90aW1lX21zIjowLjAsInBhc3MiOnRydWV9\n",
+        "displayScore": 75,
+        "testcaseInfo": {
+          "inputFile": "9.in",
+          "timeLimit": 500000,
+          "outputFile": "9.out",
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #9\n\n  Baseline:           7.724000     ms\n  User kernel:        2.448000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    3.155       ×\n\n  Score ratio:        0.759339      (75.93%)\n  Display score:      75            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      },
+      "6fdd131f880b38f3e78684dd08eb80235a6f5ba8": {
+        "time": 1335,
+        "input": "3\n",
+        "score": 100,
+        "memory": 714052,
+        "output": "",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=3\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=22.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.335,\"tb_time_ms\":7.001,\"th_time_ms\":0.0,\"pass\":true}\n",
+        "userOutput": "OJCHAL v1 dymqLnPt8DvzGfiIOd0hvQ==\nOJRESULT v1 6177c13ebb417c7919be0a4307cae6fc5af074af33c1fee21282890d0d7a519e eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6MS4zMzUsInRiX3RpbWVfbXMiOjcuMDAxLCJ0aF90aW1lX21zIjowLjAsInBhc3MiOnRydWV9\n",
+        "displayScore": 83,
+        "testcaseInfo": {
+          "inputFile": "3.in",
+          "timeLimit": 500000,
+          "outputFile": "3.out",
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #3\n\n  Baseline:           7.001000     ms\n  User kernel:        1.335000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    5.244       ×\n\n  Score ratio:        0.839851      (83.99%)\n  Display score:      83            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      },
+      "75a0abd33c5e6f8caf71369ed0d04d0029b963cd": {
+        "time": 2199,
+        "input": "7\n",
+        "score": 100,
+        "memory": 714088,
+        "output": "",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=7\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.12 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.199,\"tb_time_ms\":10.233,\"th_time_ms\":0.0,\"pass\":true}\n",
+        "userOutput": "OJCHAL v1 RWrdBY7HG/+Oonh7vsPu0A==\nOJRESULT v1 5141bbf7c5b04f1e83e7d822586644662b084ab491f1ea002700ea4058182515 eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6Mi4xOTksInRiX3RpbWVfbXMiOjEwLjIzMywidGhfdGltZV9tcyI6MC4wLCJwYXNzIjp0cnVlfQ==\n",
+        "displayScore": 82,
+        "testcaseInfo": {
+          "inputFile": "7.in",
+          "timeLimit": 500000,
+          "outputFile": "7.out",
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #7\n\n  Baseline:           10.233000    ms\n  User kernel:        2.199000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    4.653       ×\n\n  Score ratio:        0.823118      (82.31%)\n  Display score:      82            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      },
+      "8a0cce22f4e3e47735b47b1f4d978ca668446fa2": {
+        "time": 4695,
+        "input": "1\n",
+        "score": 100,
+        "memory": 713844,
+        "output": "",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=1\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.12 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.695,\"tb_time_ms\":17.647,\"th_time_ms\":0.0,\"pass\":true}\n",
+        "userOutput": "OJCHAL v1 PK089Zl67WuVZcbDnn6DtA==\nOJRESULT v1 1c639d53e5e9a9ba1bd8c10e8661feed6a1c89fa0b7d2cbaeb51a43bf11c9075 eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6NC42OTUsInRiX3RpbWVfbXMiOjE3LjY0NywidGhfdGltZV9tcyI6MC4wLCJwYXNzIjp0cnVlfQ==\n",
+        "displayScore": 78,
+        "testcaseInfo": {
+          "inputFile": "1.in",
+          "timeLimit": 500000,
+          "outputFile": "1.out",
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #1\n\n  Baseline:           17.647000    ms\n  User kernel:        4.695000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    3.759       ×\n\n  Score ratio:        0.789858      (78.99%)\n  Display score:      78            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      },
+      "9260257892225c74a412bb44123874ea29cd7ea9": {
+        "time": 1248,
+        "input": "6\n",
+        "score": 100,
+        "memory": 714000,
+        "output": "",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=6\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=22.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.248,\"tb_time_ms\":7.629,\"th_time_ms\":0.0,\"pass\":true}\n",
+        "userOutput": "OJCHAL v1 8/tAcyb/rBCIA4A6is5gQg==\nOJRESULT v1 ee6ad221c3dee25b59118bcabc9e0f26f0f237e71d8f6de2d753a9155d510fe9 eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6MS4yNDgsInRiX3RpbWVfbXMiOjcuNjI5LCJ0aF90aW1lX21zIjowLjAsInBhc3MiOnRydWV9\n",
+        "displayScore": 85,
+        "testcaseInfo": {
+          "inputFile": "6.in",
+          "timeLimit": 500000,
+          "outputFile": "6.out",
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #6\n\n  Baseline:           7.629000     ms\n  User kernel:        1.248000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    6.113       ×\n\n  Score ratio:        0.859412      (85.94%)\n  Display score:      85            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      },
+      "cb332e07094bdfc4a761711c421051bf55913ddb": {
+        "time": 790,
+        "input": "4\n",
+        "score": 100,
+        "memory": 713900,
+        "output": "",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=4\n[OK] oracle SQNR (bf16): SQNR=23.21 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=22.98 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":0.79,\"tb_time_ms\":4.919,\"th_time_ms\":0.0,\"pass\":true}\n",
+        "userOutput": "OJCHAL v1 Rlm9c3DMBw/6dk+tVWFCSA==\nOJRESULT v1 33b8bc4b15e43c3e6f2a26a7fc50b5c77f99af6195e64938fca4069e8b75a194 eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6MC43OSwidGJfdGltZV9tcyI6NC45MTksInRoX3RpbWVfbXMiOjAuMCwicGFzcyI6dHJ1ZX0=\n",
+        "displayScore": 86,
+        "testcaseInfo": {
+          "inputFile": "4.in",
+          "timeLimit": 500000,
+          "outputFile": "4.out",
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #4\n\n  Baseline:           4.919000     ms\n  User kernel:        0.790000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    6.227       ×\n\n  Score ratio:        0.861622      (86.16%)\n  Display score:      86            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      },
+      "e3ae8f9c90a1614fa10cdcc800a54b4ccb280261": {
+        "time": 1884,
+        "input": "10\n",
+        "score": 100,
+        "memory": 713940,
+        "output": "",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=10\n[OK] oracle SQNR (bf16): SQNR=22.75 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=22.69 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.884,\"tb_time_ms\":6.613,\"th_time_ms\":0.0,\"pass\":true}\n",
+        "userOutput": "OJCHAL v1 EochdEXGpDGUMBFyt2p7xg==\nOJRESULT v1 0b80ee2ac76d69e6ce1e49dff35bc086cdbcd51966eac389648704fddb0d3718 eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6MS44ODQsInRiX3RpbWVfbXMiOjYuNjEzLCJ0aF90aW1lX21zIjowLjAsInBhc3MiOnRydWV9\n",
+        "displayScore": 77,
+        "testcaseInfo": {
+          "inputFile": "10.in",
+          "timeLimit": 500000,
+          "outputFile": "10.out",
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #10\n\n  Baseline:           6.613000     ms\n  User kernel:        1.884000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    3.510       ×\n\n  Score ratio:        0.778275      (77.83%)\n  Display score:      77            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      },
+      "e9519c4bc8d953ef7d7fc7042b9657eb793c2615": {
+        "time": 4695,
+        "input": "1\n",
+        "score": 100,
+        "memory": 2377568,
+        "output": "1\n",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=1\n[run-triton-dist] per-rank logs: /opt/oj-cache/run-logs/20261001_071814_tc1_1051254\nW1001 07:18:16.012000 1051299 torch/distributed/run.py:851] \nW1001 07:18:16.012000 1051299 torch/distributed/run.py:851] *****************************************\nW1001 07:18:16.012000 1051299 torch/distributed/run.py:851] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. \nW1001 07:18:16.012000 1051299 torch/distributed/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.12 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n",
+        "userOutput": "OJCHAL v1 7RrrXDC8BKAmtnMpzlit6Q==\nOJRESULT v1 04ce43dec720fa28cccf86a4432e1da5ac7279f61bbc6e81e2756ea175ead8f3 eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6NC42OTUsInRiX3RpbWVfbXMiOjE3LjY0NywidGhfdGltZV9tcyI6MC4wLCJwYXNzIjp0cnVlfQ==\n",
+        "displayScore": 78,
+        "testcaseInfo": {
+          "inputFile": null,
+          "timeLimit": 500000,
+          "outputFile": null,
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #1\n\n  Baseline:           17.647000    ms\n  User kernel:        4.695000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    3.759       ×\n\n  Score ratio:        0.789858      (78.99%)\n  Display score:      78            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      },
+      "f818c77b38cc688fd17973323add4d7ba5834829": {
+        "time": 7865,
+        "input": "2\n",
+        "score": 100,
+        "memory": 714088,
+        "output": "",
+        "status": "Accepted",
+        "userError": "Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem\n[run-triton-dist] OJ_JUDGE_TASK_ID=12327a0c-94e0-4f8b-8302-1ce8e3d11363 tc=2\n[OK] oracle SQNR (bf16): SQNR=23.77 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.14 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":7.865,\"tb_time_ms\":29.59,\"th_time_ms\":0.0,\"pass\":true}\n",
+        "userOutput": "OJCHAL v1 kMNGVtS+NPvtDIo28CM19w==\nOJRESULT v1 d76477f0322e6cc51b4937808545acbd4b47b9352d6200802194bbcbe43cc5d1 eyJzY2hlbWFfdmVyc2lvbiI6MiwidGtfdGltZV9tcyI6Ny44NjUsInRiX3RpbWVfbXMiOjI5LjU5LCJ0aF90aW1lX21zIjowLjAsInBhc3MiOnRydWV9\n",
+        "displayScore": 79,
+        "testcaseInfo": {
+          "inputFile": "2.in",
+          "timeLimit": 500000,
+          "outputFile": "2.out",
+          "memoryLimit": 103424
+        },
+        "checkerMessage": "────────────────────────────────────────────────────────────────\n  Testcase  #2\n\n  Baseline:           29.590000    ms\n  User kernel:        7.865000     ms\n  Hardware bound:     0.000000     ms\n  Speedup vs base:    3.762       ×\n\n  Score ratio:        0.790015      (79.00%)\n  Display score:      79            / 100\n  Pass:               ✔\n────────────────────────────────────────────────────────────────\n"
+      }
+    },
+    "totalOccupiedTime": 116022
+  },
+  "permissionRejudge": false,
+  "permissionCancel": true,
+  "permissionSetPublic": false,
+  "permissionDelete": false
+}

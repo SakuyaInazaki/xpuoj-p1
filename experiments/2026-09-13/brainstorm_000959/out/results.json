@@ -1,0 +1,114 @@
+{
+  "run_label": "p1-structural-next-directions",
+  "generated_at": "2026-09-13T00:11:58+0800",
+  "results": [
+    {
+      "id": "assumption-breaker",
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "variant": null,
+      "track": "grounded",
+      "ok": true,
+      "contract_ok": true,
+      "missing_markers": [],
+      "attempts": 1,
+      "elapsed_seconds": 24.23,
+      "cost": 0.006781,
+      "tokens": {
+        "total": 14652,
+        "input": 13716,
+        "output": 936,
+        "reasoning": 0,
+        "cache": {
+          "write": 0,
+          "read": 0
+        }
+      },
+      "malformed_jsonl_lines": 0,
+      "error": null,
+      "output_file": "assumption-breaker.md",
+      "raw_file": "assumption-breaker.raw.jsonl"
+    },
+    {
+      "id": "cross-domain-translator",
+      "provider": "deepseek",
+      "model": "deepseek-v4-flash",
+      "variant": null,
+      "track": "grounded",
+      "ok": true,
+      "contract_ok": true,
+      "missing_markers": [],
+      "attempts": 1,
+      "elapsed_seconds": 10.84,
+      "cost": 0.002104,
+      "tokens": {
+        "total": 14379,
+        "input": 13728,
+        "output": 651,
+        "reasoning": 0,
+        "cache": {
+          "write": 0,
+          "read": 0
+        }
+      },
+      "malformed_jsonl_lines": 0,
+      "error": null,
+      "output_file": "cross-domain-translator.md",
+      "raw_file": "cross-domain-translator.raw.jsonl"
+    },
+    {
+      "id": "mechanism-builder",
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "variant": null,
+      "track": "grounded",
+      "ok": true,
+      "contract_ok": true,
+      "missing_markers": [],
+      "attempts": 1,
+      "elapsed_seconds": 17.75,
+      "cost": 0.006438,
+      "tokens": {
+        "total": 14265,
+        "input": 13730,
+        "output": 535,
+        "reasoning": 0,
+        "cache": {
+          "write": 0,
+          "read": 0
+        }
+      },
+      "malformed_jsonl_lines": 0,
+      "error": null,
+      "output_file": "mechanism-builder.md",
+      "raw_file": "mechanism-builder.raw.jsonl"
+    },
+    {
+      "id": "constraint-opportunist",
+      "provider": "deepseek",
+      "model": "deepseek-v4-flash",
+      "variant": null,
+      "track": "grounded",
+      "ok": true,
+      "contract_ok": true,
+      "missing_markers": [],
+      "attempts": 1,
+      "elapsed_seconds": 11.75,
+      "cost": 0.002196,
+      "tokens": {
+        "total": 14701,
+        "input": 13713,
+        "output": 988,
+        "reasoning": 0,
+        "cache": {
+          "write": 0,
+          "read": 0
+        }
+      },
+      "malformed_jsonl_lines": 0,
+      "error": null,
+      "output_file": "constraint-opportunist.md",
+      "raw_file": "constraint-opportunist.raw.jsonl"
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "experiment": "fp6_packed_swar4_c9_resource_c10_perf",
+  "submission": {
+    "id": 141474,
+    "source": "experiments/2026-09-08/candidates/fp6_packed_swar4_c9_resource_c10_perf.py",
+    "sha256": "ca1f98b730764867626323f3ded8830d2811b8fd6726acb8173210b67a887da1",
+    "status": "WrongAnswer",
+    "score": 92,
+    "display_score": 72.83,
+    "submit_time": "2026-09-08T18:38:58.000Z",
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "total_occupied_time": 116153,
+    "sample_records": [
+      {
+        "testcase_hash": "9406d7785cd2503ee19fb729b9b9620bff42957e",
+        "status": "Accepted",
+        "display_score": 82,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 1,
+        "tk_ms": 4.746,
+        "tb_ms": 23.135,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      }
+    ],
+    "cases": {
+      "1": {
+        "testcase_hash": "426774bc64a7cea53bc2f9733d936567483ad39d",
+        "status": "Accepted",
+        "display_score": 82,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 1,
+        "tk_ms": 4.746,
+        "tb_ms": 23.135,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "2": {
+        "testcase_hash": "e3f477cf705bd7f09ce2b9cbb4b010693ba5d61e",
+        "status": "Accepted",
+        "display_score": 77,
+        "sqnr_db": [
+          23.77,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 2,
+        "tk_ms": 8.166,
+        "tb_ms": 28.835,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "3": {
+        "testcase_hash": "0df1eecf4ee26760f8328e578eb17dda0d6da25f",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.87,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 3,
+        "tk_ms": 1.419,
+        "tb_ms": 6.989,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "4": {
+        "testcase_hash": "c967d6cee24c06f4162c81a8726b50b41d0a105e",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.21,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 4,
+        "tk_ms": 0.851,
+        "tb_ms": 4.897,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "5": {
+        "testcase_hash": "31782e8f1c29e4a17c422153c178aa2a2af89998",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.13,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 5,
+        "tk_ms": 2.873,
+        "tb_ms": 12.664,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "6": {
+        "testcase_hash": "a940af1f921a1aa17c1e7175f59bb8f1865d9b7f",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.83,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 6,
+        "tk_ms": 1.345,
+        "tb_ms": 7.542,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "7": {
+        "testcase_hash": "ace727573bd41da7113d8b96790f7a8813aad1b0",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.11,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 7,
+        "tk_ms": 2.308,
+        "tb_ms": 10.124,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "8": {
+        "testcase_hash": "7b8e02a905b405a519cf907e2b8a0e2dc6b5cb14",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.83,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 8,
+        "tk_ms": 1.367,
+        "tb_ms": 7.077,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "9": {
+        "testcase_hash": "4b8ca07bf2930d1b13720a8f654ee9dc8cb10de8",
+        "status": "WrongAnswer",
+        "display_score": null,
+        "sqnr_db": [],
+        "determinism_ok_count": 0,
+        "determinism_fail_count": 0,
+        "case": 9,
+        "tk_ms": 0.0,
+        "tb_ms": 0.0,
+        "th_ms": 0.0,
+        "passed": false,
+        "runtime_resource_marker": "RuntimeError: FP6_MD_RESOURCE regs=255 spills=4 shared=131088"
+      },
+      "10": {
+        "testcase_hash": "37f2c4ce309275907ab7cb63d4f7fab46efa917c",
+        "status": "Accepted",
+        "display_score": 51,
+        "sqnr_db": [
+          22.63,
+          22.64
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 10,
+        "tk_ms": 6.393,
+        "tb_ms": 6.66,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "11": {
+        "testcase_hash": "a94b0e334ee55e68f1fe9be2925ff52bbb252072",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.35,
+          23.27
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 11,
+        "tk_ms": 1.013,
+        "tb_ms": 5.617,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "12": {
+        "testcase_hash": "d34421b4267275b477ac04fa896963b27a9f699c",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.3,
+          23.27
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 12,
+        "tk_ms": 1.644,
+        "tb_ms": 8.233,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      }
+    }
+  },
+  "c9_resource": {
+    "n_regs": 255,
+    "n_spills": 4,
+    "local_size_bytes_per_thread": 16,
+    "metadata_shared": 131088,
+    "source_text_occurrences_excluded": true,
+    "attribute_access_succeeded": true,
+    "interpretation": "Triton v3.4.0 obtains n_spills as CU_FUNC_ATTRIBUTE_LOCAL_SIZE_BYTES divided by 4. It is not a spill-instruction count.",
+    "execution_boundary": "Intentional RuntimeError after the normal launch returned; no c9 SQNR, determinism, or valid timing."
+  },
+  "c10_result": {
+    "status": "Accepted",
+    "sqnr_db": [
+      22.63,
+      22.64
+    ],
+    "margin_over_22_db": [
+      0.63,
+      0.64
+    ],
+    "determinism_ok_count": 2,
+    "determinism_fail_count": 0,
+    "tk_ms": 6.393,
+    "tb_ms": 6.66
+  },
+  "resource_comparisons": {
+    "original_packed_141460": {
+      "n_regs": 255,
+      "n_spills": 180,
+      "local_size_bytes_per_thread": 720,
+      "metadata_shared": 131088
+    },
+    "bn64_141473": {
+      "n_regs": 255,
+      "n_spills": 10,
+      "local_size_bytes_per_thread": 40,
+      "metadata_shared": 90128
+    },
+    "swar4_141474": {
+      "n_regs": 255,
+      "n_spills": 4,
+      "local_size_bytes_per_thread": 16,
+      "metadata_shared": 131088
+    },
+    "causality_boundary": "Resource and performance changes are recorded together but are not treated as proof of a single cause."
+  },
+  "comparison_vs_141454": {
+    "untouched_10_cases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "untouched_median_tk_ratio": 0.9986932854333614,
+    "untouched_sum_tk_ratio": 0.9987191927032796,
+    "untouched_candidate_sum_tk_ms": 25.732,
+    "untouched_reference_sum_tk_ms": 25.765,
+    "c10_reference_tk_ms": 1.993,
+    "c10_raw_ratio": 3.2077270446562967,
+    "c10_raw_delta_ms": 4.3999999999999995,
+    "c10_median_corrected_tk_ms": 6.4013647565737815,
+    "c10_median_corrected_ratio": 3.211924112681275,
+    "c10_median_corrected_delta_ms": 4.408364756573781,
+    "c10_sum_corrected_tk_ms": 6.401198702005286,
+    "c10_sum_corrected_ratio": 3.2118407937808757,
+    "c10_sum_corrected_delta_ms": 4.4081987020052855
+  },
+  "comparison_vs_141473": {
+    "untouched_10_cases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "untouched_median_tk_ratio": 0.9977149074135274,
+    "untouched_sum_tk_ratio": 0.9978671423585528,
+    "untouched_candidate_sum_tk_ms": 25.732,
+    "untouched_reference_sum_tk_ms": 25.787,
+    "c10_reference_tk_ms": 8.926,
+    "c10_raw_ratio": 0.7162222720143401,
+    "c10_raw_delta_ms": -2.5330000000000004,
+    "c10_median_corrected_tk_ms": 6.407642055357467,
+    "c10_median_corrected_ratio": 0.717862654644574,
+    "c10_median_corrected_delta_ms": -2.518357944642533,
+    "c10_sum_corrected_tk_ms": 6.406664503342141,
+    "c10_sum_corrected_ratio": 0.7177531372778558,
+    "c10_sum_corrected_delta_ms": -2.5193354966578587
+  },
+  "comparison_vs_141460": {
+    "untouched_10_cases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "untouched_median_tk_ratio": 0.9985271493126787,
+    "untouched_sum_tk_ratio": 0.9981768105822568,
+    "untouched_candidate_sum_tk_ms": 25.732,
+    "untouched_reference_sum_tk_ms": 25.779,
+    "c10_reference_tk_ms": 13.141,
+    "c10_raw_ratio": 0.4864926565710372,
+    "c10_raw_delta_ms": -6.748,
+    "c10_median_corrected_tk_ms": 6.402429823165575,
+    "c10_median_corrected_ratio": 0.4872102445145404,
+    "c10_median_corrected_delta_ms": -6.738570176834425,
+    "c10_sum_corrected_tk_ms": 6.404676939219649,
+    "c10_sum_corrected_ratio": 0.4873812448991438,
+    "c10_sum_corrected_delta_ms": -6.736323060780351
+  },
+  "scoreboard_after_submission": {
+    "p1_score": 72.75,
+    "best_submission_id": 141408,
+    "submission_count": 2589,
+    "inflight_submission_ids": []
+  },
+  "resubmitted": false,
+  "raw_detail_file": "experiments/2026-09-08/results/submissions_141474_raw.json",
+  "sanitized_log_file": "experiments/2026-09-08/results/sid141474_resource_sanitized.txt"
+}

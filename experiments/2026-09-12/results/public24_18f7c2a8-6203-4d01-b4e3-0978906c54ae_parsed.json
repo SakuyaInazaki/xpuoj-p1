@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "customTestId": "18f7c2a8-6203-4d01-b4e3-0978906c54ae",
+  "requestCount": 1,
+  "retryPerformed": false,
+  "source": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/candidates/fp8_c2_md_dn_stage_custom_bench_scale_report.py",
+    "bytes": 27852,
+    "sha256": "8179a279ed7037125bc1546eca151401e0458deb73f5ab3827bcd1bf085947e1"
+  },
+  "request": {
+    "endpoint": "customTest/createCustomTest",
+    "action": "custom_test",
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "compileAndRunOptions": {}
+  },
+  "terminal": {
+    "state": "Finished",
+    "progressType": "Finished",
+    "status": "WrongAnswer",
+    "outerCompileSuccess": true,
+    "outerCompileMessage": "",
+    "totalOccupiedTime": 6093,
+    "createdAtUnixMs": 1789224117837,
+    "finishedAtUnixMs": 1789224124607
+  },
+  "case": {
+    "index": 0,
+    "status": "WrongAnswer",
+    "time": 5978918,
+    "memory": 921348,
+    "ojResult": {
+      "schema_version": 2,
+      "tk_time_ms": 0.0,
+      "tb_time_ms": 0.0,
+      "th_time_ms": 0.0,
+      "pass": false
+    }
+  },
+  "generatedWorkload": {
+    "executionReachedDiagnostic": true,
+    "mathGatePassed": false,
+    "failureReason": "dn_sqnr_db 34.462032318115234 was below threshold 35.0",
+    "scaleRelativeErrorDiagnosticOnly": true,
+    "timingReached": false,
+    "userErrorPath": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_18f7c2a8-6203-4d01-b4e3-0978906c54ae_user_error.txt",
+    "userErrorSha256": "8c2bfa563339a36658402c72e70101605f04fb32c1b1f7c5712fe2669ffd19e3"
+  },
+  "runtimeEvidence": {
+    "p1mdLines": [
+      "P1MD {\"math_check_passed\":false,\"status\":0,\"md_sqnr_db\":50.06300354003906,\"dn_sqnr_db\":34.462032318115234,\"md_rel\":0.0031394243706017733,\"dn_rel\":0.01891900599002838,\"dn_scale_rel\":0.0025935748126357794,\"threshold_db\":35.0}"
+    ],
+    "mathGate": {
+      "math_check_passed": false,
+      "status": 0,
+      "md_sqnr_db": 50.06300354003906,
+      "dn_sqnr_db": 34.462032318115234,
+      "md_rel": 0.0031394243706017733,
+      "dn_rel": 0.01891900599002838,
+      "dn_scale_rel": 0.0025935748126357794,
+      "threshold_db": 35.0
+    },
+    "timingGroups": null,
+    "resources": null,
+    "note": "The scale-relative-error field was diagnostic-only. The run stopped at the retained DN SQNR gate before stage timing and resource reporting."
+  },
+  "rawResult": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_18f7c2a8-6203-4d01-b4e3-0978906c54ae_raw.json",
+    "sha256": "e51fa22fed346b6a6da8852a55bd21d6793d29ced4f5e7c20715ff4a096e9e12"
+  }
+}

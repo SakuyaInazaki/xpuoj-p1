@@ -1,0 +1,11 @@
+{
+  "A1": {
+    "source": "p1/kernel.py",
+    "sha": "08dd08eb51b1602648d31f0694912466d5de4be48b36d3604465216f8f9089f9"
+  },
+  "B1": {
+    "sha": "05828fef7359fd70159046bc026b414219d7fd28559146cd8793799aaaa15fa7"
+  },
+  "gate": "153151 terminal then A1 full normal AC; otherwise pause and report",
+  "authorized_new_submissions": 2
+}

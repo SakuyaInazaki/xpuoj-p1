@@ -1,0 +1,4 @@
+/judge/1/working/.kernel_cache/kernel_af470a116a7ec002.py:262:25: error: 'tt.atomic_rmw' op failed to verify that mask type matches value type
+    tl.atomic_or(STATUS, 1, mask=mask & (value_finite == 0))
+                        ^
+Generated custom workload failed: Compilation failed: Module compilation failed: error encountered during parsing

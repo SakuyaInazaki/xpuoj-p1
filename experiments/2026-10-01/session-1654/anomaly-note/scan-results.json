@@ -1,0 +1,49 @@
+{
+  "cohort_count": 283,
+  "cohort_hits": {
+    "range_counter": [],
+    "range_detail": [],
+    "order_counter": [],
+    "order_warning": [],
+    "kineto_record_counts": [],
+    "trace_empty": [],
+    "cycle_warning": [
+      "149635",
+      "149707",
+      "149710",
+      "149747",
+      "149751",
+      "149753",
+      "149754",
+      "149756",
+      "149758",
+      "149759",
+      "149765",
+      "149766",
+      "149959",
+      "149970",
+      "149972",
+      "150002",
+      "151056",
+      "151078",
+      "151081",
+      "151082",
+      "152644"
+    ]
+  },
+  "recent_raw_files": [
+    "experiments/2026-10-01/session-1654/platform/153072-raw.json",
+    "experiments/2026-10-01/session-1654/platform/153115-raw.json",
+    "experiments/2026-10-01/session-1654/platform/153123-raw.json",
+    "experiments/2026-10-01/session-1654/platform/153131-raw.json",
+    "experiments/2026-10-01/session-1654/platform/153137-raw.json",
+    "experiments/2026-10-01/session-1654/platform/153151-raw.json"
+  ],
+  "recent_hits": {},
+  "legacy_matches": [
+    "experiments/2026-09-08/results/fp6_c9_c10_packed_md_diagnostic_141462.json",
+    "experiments/2026-09-08/results/fp6_c9_c10_packed_md_static_cache_141460.json",
+    "experiments/2026-09-08/results/fp6_c9_c10_packed_md_release_141457.json",
+    "experiments/2026-09-08/results/fp6_c9_c10_packed_md_resource_error_141469.json"
+  ]
+}

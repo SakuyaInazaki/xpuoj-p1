@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-01T23:09:41.503139",
+  "credit": {
+    "api_token": {
+      "type": "api_token",
+      "state": "depleted",
+      "available": 0,
+      "capacity": 10,
+      "refillIntervalSeconds": 1800,
+      "nextCreditAt": "2026-10-01T15:16:49.116Z",
+      "fullyRefilledAt": "2026-10-01T19:46:49.116Z"
+    },
+    "custom_test": {
+      "type": "custom_test",
+      "state": "full",
+      "available": 3,
+      "capacity": 3,
+      "refillIntervalSeconds": 600,
+      "nextCreditAt": null,
+      "fullyRefilledAt": null
+    }
+  }
+}

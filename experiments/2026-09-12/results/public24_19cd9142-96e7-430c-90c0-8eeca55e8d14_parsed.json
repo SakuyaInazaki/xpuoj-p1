@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "customTestId": "19cd9142-96e7-430c-90c0-8eeca55e8d14",
+  "requestCount": 1,
+  "retryPerformed": false,
+  "source": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/candidates/native_int6_md_custom_bench.py",
+    "bytes": 22016,
+    "sha256": "8ccf9f3766b6b13fd6f459cd2149bf1bec05718cd0b1b65698591bd02b38e367"
+  },
+  "request": {
+    "endpoint": "customTest/createCustomTest",
+    "action": "custom_test",
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "compileAndRunOptions": {}
+  },
+  "terminal": {
+    "state": "Finished",
+    "progressType": "Finished",
+    "status": "WrongAnswer",
+    "outerCompileSuccess": true,
+    "outerCompileMessage": "",
+    "totalOccupiedTime": 5045,
+    "createdAtUnixMs": 1789204528625,
+    "finishedAtUnixMs": 1789204534316
+  },
+  "case": {
+    "index": 0,
+    "status": "WrongAnswer",
+    "time": 4903251,
+    "memory": 902828,
+    "ojResult": {
+      "schema_version": 2,
+      "tk_time_ms": 0.0,
+      "tb_time_ms": 0.0,
+      "th_time_ms": 0.0,
+      "pass": false
+    }
+  },
+  "generatedWorkload": {
+    "failureStage": "generated_workload_triton_jit_compilation",
+    "failureExpression": "acc_g = tl.dot(a, bg.T, acc_g)",
+    "failureContext": "The failing generated-module snippet has int32 accumulators and comes from native_int6_md_kernel. The returned error stops at the tl.dot caret and does not state a more specific compiler reason.",
+    "userError": "Generated custom workload failed: Compilation failed: Module compilation failed: at 30:20:\n        row_mask = offs_m < row_begin + n_rows\n        rows = tl.load(ORDER + offs_m, mask=row_mask, other=0) // KTOP\n        a_ptrs = A + rows[:, None] * stride_am + offs_k[None, :] * stride_ak\n        b_row_g = expert * (2 * I) + pid_n * BLOCK_N\n        b_row_u = b_row_g + I\n        acc_g = tl.zeros((BLOCK_M, BLOCK_N), dtype=tl.int32)\n        acc_u = tl.zeros((BLOCK_M, BLOCK_N), dtype=tl.int32)\n        for k in range(0, tl.cdiv(K, BLOCK_K)):\n            a = tl.load(a_ptrs, mask=row_mask[:, None], other=0, eviction_policy='evict_last')\n            bg = B_DESC.load([b_row_g, k * BLOCK_K])\n            bu = B_DESC.load([b_row_u, k * BLOCK_K])\n            acc_g = tl.dot(a, bg.T, acc_g)\n                    ^\n"
+  },
+  "runtimeEvidence": {
+    "p1mdLines": [],
+    "mathCheck": null,
+    "timingGroups": null,
+    "resources": null,
+    "reportedTritonVersion": null,
+    "reportedDeviceName": null,
+    "note": "No runtime P1MD output was emitted before the generated-workload Triton JIT failure. P1MD text embedded in the submitted source is not execution evidence."
+  },
+  "observedEnvironmentMetadata": {
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "gpuModelFromRuntime": null,
+    "tritonVersionFromRuntime": null
+  },
+  "rawResult": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_19cd9142-96e7-430c-90c0-8eeca55e8d14_raw.json",
+    "sha256": "61f8fc1b80393f24e6c20b30ff86e178c8123118d55d4bc27c47213f6766f043"
+  }
+}

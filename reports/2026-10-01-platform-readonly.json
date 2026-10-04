@@ -1,0 +1,130 @@
+{
+  "checked_at": "2026-10-01T06:51:56.353607+00:00",
+  "read_only": true,
+  "me": {
+    "rank": 4,
+    "totalScore": 250.07999999999998,
+    "problemScores": [
+      {
+        "order": 1,
+        "score": 79.08,
+        "submissionCount": 3522,
+        "firstAcceptedAt": "2026-08-15T14:14:16.000Z",
+        "submissionId": 152238,
+        "customInfo": {
+          "weight": 1,
+          "accepted": true,
+          "hasAccepted": true,
+          "totalAttempts": 3522,
+          "wrongAttempts": 8
+        }
+      },
+      {
+        "order": 2,
+        "score": 100.5,
+        "submissionCount": 200,
+        "firstAcceptedAt": "2026-08-22T16:17:55.000Z",
+        "submissionId": 150946,
+        "customInfo": {
+          "weight": 1,
+          "accepted": true,
+          "hasAccepted": true,
+          "totalAttempts": 200,
+          "wrongAttempts": 1
+        }
+      },
+      {
+        "order": 3,
+        "score": 70.5,
+        "submissionCount": 2312,
+        "firstAcceptedAt": "2026-08-19T04:13:19.000Z",
+        "submissionId": 151896,
+        "customInfo": {
+          "weight": 1,
+          "accepted": true,
+          "hasAccepted": true,
+          "totalAttempts": 2312,
+          "wrongAttempts": 10
+        }
+      }
+    ]
+  },
+  "recent": [
+    {
+      "id": 153006,
+      "status": "Accepted",
+      "displayScore": 83.42,
+      "submitTime": "2026-10-01T06:44:47.000Z",
+      "timeUsed": 27004
+    },
+    {
+      "id": 152995,
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "submitTime": "2026-10-01T06:37:14.000Z",
+      "timeUsed": 28700
+    },
+    {
+      "id": 152976,
+      "status": "Accepted",
+      "displayScore": 89,
+      "submitTime": "2026-10-01T06:29:45.000Z",
+      "timeUsed": 20968
+    },
+    {
+      "id": 152969,
+      "status": "Accepted",
+      "displayScore": 82.92,
+      "submitTime": "2026-10-01T06:22:11.000Z",
+      "timeUsed": 27430
+    },
+    {
+      "id": 152960,
+      "status": "Accepted",
+      "displayScore": 82.25,
+      "submitTime": "2026-10-01T06:16:56.000Z",
+      "timeUsed": 28401
+    },
+    {
+      "id": 152955,
+      "status": "Accepted",
+      "displayScore": 82.08,
+      "submitTime": "2026-10-01T06:12:37.000Z",
+      "timeUsed": 28687
+    },
+    {
+      "id": 152952,
+      "status": "Accepted",
+      "displayScore": 82.33,
+      "submitTime": "2026-10-01T06:07:52.000Z",
+      "timeUsed": 28480
+    },
+    {
+      "id": 152945,
+      "status": "Accepted",
+      "displayScore": 83,
+      "submitTime": "2026-10-01T06:02:26.000Z",
+      "timeUsed": 27367
+    },
+    {
+      "id": 152939,
+      "status": "Accepted",
+      "displayScore": 83,
+      "submitTime": "2026-10-01T05:53:55.000Z",
+      "timeUsed": 27374
+    },
+    {
+      "id": 152933,
+      "status": "Accepted",
+      "displayScore": 81.67,
+      "submitTime": "2026-10-01T05:49:24.000Z",
+      "timeUsed": 28872
+    }
+  ],
+  "distributed_custom": {
+    "available": false
+  },
+  "single_gpu_custom": {
+    "available": true
+  }
+}

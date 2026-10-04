@@ -1,0 +1,30 @@
+{
+  "customTestId": "f5c14b6e-30cf-4e52-8c94-cf7bdb1a5595",
+  "sourcePath": "experiments/2026-09-13/candidates/fp8_c4_dn_tma_padded_custom_bench_confirm.py",
+  "sourceBytes": 24008,
+  "sourceSha256": "e3f0db278e452bf1058a2bf04cc5ed15176dccc929d6683245f4f105da00fd59",
+  "requestCount": 1,
+  "retryCount": 0,
+  "state": "Finished",
+  "status": "WrongAnswer",
+  "intentionalTerminalMarker": "P1MD done",
+  "outerCompileSuccess": true,
+  "totalOccupiedTimeMs": 7943,
+  "caseTimeUs": 7805053,
+  "memoryKiB": 919400,
+  "mathCheck": {"passed": true, "fullFp8Bitwise": true, "fullScaleExact": true, "fullFinalBf16Exact": true, "zeroRowsExact": true, "padRowAnalyticExact": true, "fp8BitMismatch": 0, "scaleMismatch": 0, "bf16FinalMismatch": 0},
+  "resources": {"baseline": {"nRegs": 170, "nSpills": 0, "shared": 229408}, "candidate": {"nRegs": 172, "nSpills": 0, "shared": 230432}, "rowmap": {"nRegs": 16, "nSpills": 0, "shared": 0}, "baselineGather": {"nRegs": 43, "nSpills": 0, "shared": 8192}, "paddedGather": {"nRegs": 43, "nSpills": 0, "shared": 8192}},
+  "timing": {
+    "method": "do_bench warmup=5 rep=25",
+    "groups": [
+      {"group": 0, "order": "AB", "baselineDnMs": 0.24492021650075912, "candidateDnMs": 0.23873828525667068, "candidateOverBaselineDn": 0.9747594080537272, "baselineDnGatherMs": 0.3248794823884964, "candidateComboMs": 0.32267908190117506, "candidateComboOverBaseline": 0.9932270253844776},
+      {"group": 1, "order": "BA", "baselineDnMs": 0.2562248768055276, "candidateDnMs": 0.2421978949324081, "candidateOverBaselineDn": 0.9452551912679196, "baselineDnGatherMs": 0.3250213778409802, "candidateComboMs": 0.32780053168535234, "candidateComboOverBaseline": 1.0085506801516664},
+      {"group": 2, "order": "BA", "baselineDnMs": 0.251623786180406, "candidateDnMs": 0.24110129843284558, "candidateOverBaselineDn": 0.9581816651466483, "baselineDnGatherMs": 0.3223538374314543, "candidateComboMs": 0.32636327870556564, "candidateComboOverBaseline": 1.0124380131660877},
+      {"group": 3, "order": "AB", "baselineDnMs": 0.25076053380966185, "candidateDnMs": 0.2439288430308041, "candidateOverBaselineDn": 0.9727561164627153, "baselineDnGatherMs": 0.3299525243337037, "candidateComboMs": 0.33523042573303474, "candidateComboOverBaseline": 1.0159959418706952},
+      {"group": 4, "order": "AB", "baselineDnMs": 0.2676651598750681, "candidateDnMs": 0.2528854800413733, "candidateOverBaselineDn": 0.9447829525493971, "baselineDnGatherMs": 0.3321871181665841, "candidateComboMs": 0.3272752001881599, "candidateComboOverBaseline": 0.9852134001898263},
+      {"group": 5, "order": "BA", "baselineDnMs": 0.25815588533878325, "candidateDnMs": 0.2496537599960963, "candidateOverBaselineDn": 0.9670659247937368, "baselineDnGatherMs": 0.3286441965181319, "candidateComboMs": 0.32540853569904965, "candidateComboOverBaseline": 0.9901545170936747}
+    ],
+    "means": {"baselineDnMs": 0.2548917430850343, "candidateDnMs": 0.24475092694836634, "candidateOverBaselineDn": 0.9602152034666541, "baselineDnGatherMs": 0.32717308944655843, "candidateComboMs": 0.32745950898538956, "candidateComboOverBaseline": 1.0008754373390416}
+  },
+  "interpretation": "All gates and resources reproduced. DN-only was faster in all six groups, but the taxed main comparison split three faster and three slower over 0.98521-1.01600x; ratio of means was 1.00088x. The earlier tentative main-path gain did not reproduce as a stable benefit. Final disposition belongs to root."
+}

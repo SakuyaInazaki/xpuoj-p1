@@ -1,0 +1,6 @@
+SID 141469: WrongAnswer from the requested intentional RuntimeError; outer compile succeeded.
+Testcase #9 runtime stack: fp6_packed_md_host -> fp6_tma_md_host -> intentional RuntimeError.
+Testcase #9: RuntimeError: FP6_MD_RESOURCE regs=255 spills=180 shared=131088
+Testcase #10 runtime stack: fp6_packed_md_host -> fp6_tma_md_host -> intentional RuntimeError.
+Testcase #10: RuntimeError: FP6_MD_RESOURCE regs=255 spills=180 shared=131088
+The attributes were readable; no sandbox rejection occurred. Both targets stopped before SQNR, determinism, or timing.

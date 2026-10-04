@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "customTestId": "ac6c2e16-d9d5-476d-bd94-b0618dc5b91f",
+  "requestCount": 1,
+  "retryPerformed": false,
+  "source": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/candidates/native_int6_md_custom_bench_checkbits.py",
+    "bytes": 22212,
+    "sha256": "5217c4bc77fbce18fd9cca511ac1d679343e85305e32fcec3dc62df35466d0a2"
+  },
+  "request": {
+    "endpoint": "customTest/createCustomTest",
+    "action": "custom_test",
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "compileAndRunOptions": {}
+  },
+  "terminal": {
+    "state": "Finished",
+    "progressType": "Finished",
+    "status": "WrongAnswer",
+    "outerCompileSuccess": true,
+    "outerCompileMessage": "",
+    "totalOccupiedTime": 5977,
+    "createdAtUnixMs": 1789205456599,
+    "finishedAtUnixMs": 1789205463281
+  },
+  "case": {
+    "index": 0,
+    "status": "WrongAnswer",
+    "time": 5851920,
+    "memory": 919448,
+    "ojResult": {
+      "schema_version": 2,
+      "tk_time_ms": 0.0,
+      "tb_time_ms": 0.0,
+      "th_time_ms": 0.0,
+      "pass": false
+    }
+  },
+  "generatedWorkload": {
+    "executionReachedDiagnostic": true,
+    "intentionalTerminalMarkerObserved": true,
+    "terminalMarker": "P1MD done",
+    "userErrorPath": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_ac6c2e16-d9d5-476d-bd94-b0618dc5b91f_user_error.txt",
+    "userErrorSha256": "1d82deccd9c12c253367f53ba4017637dbf308c80b71de0a84fcf6f84ebb5132"
+  },
+  "runtimeEvidence": {
+    "p1mdLines": [
+      "P1MD {\"kind\":\"native_int8_a_int6_gu_md_custom\",\"shape\":{\"T\":4096,\"H\":4096,\"E\":256,\"I\":1536,\"topk\":8,\"M\":32768},\"triton_version\":\"unavailable_dunder_blocked\",\"device_name\":\"unavailable_torch_cuda_blocked\",\"geometry\":{\"grid\":132,\"BM\":128,\"BN\":128,\"BK\":128,\"GM\":32,\"warps\":8,\"stages\":4},\"route\":{\"kind\":\"analytic_grouped_nonrandom\",\"counts\":\"112_144_alternating\",\"total_tiles\":384},\"quantization\":{\"baseline\":\"A_GU_row_amax_over_448_FP8\",\"native\":\"A_row_amax_over_127_INT8_GU_row_amax_over_31_signed6_in_INT8\",\"native_act_bound_factor\":\"127_over_448_squared\",\"source_weights\":\"BF16_Gaussian_torch_randn_once_then_real_row_quant\"},\"math_check\":{\"kind\":\"3_rows_x_3_corresponding_N128_segments_scalar_reduction\",\"comparisons\":384,\"bitwise_status_check\":true,\"passed\":true},\"resources\":{\"fp8\":{\"n_regs\":170,\"n_spills\":0,\"shared\":196640},\"native\":{\"n_regs\":173,\"n_spills\":0,\"shared\":196640}},\"timing\":{\"method\":\"do_bench_warmup5_rep10\",\"scope\":\"MD_kernel_only_not_end_to_end\",\"setup_excluded\":true,\"groups\":[{\"group\":0,\"order\":\"fp8_then_native\",\"fp8_ms\":1.231154271534511,\"native_ms\":1.3101257256099157,\"native_over_fp8\":1.064144239191872},{\"group\":1,\"order\":\"native_then_fp8\",\"fp8_ms\":1.2346011229923792,\"native_ms\":1.3101439816611153,\"native_over_fp8\":1.0611880689737574},{\"group\":2,\"order\":\"fp8_then_native\",\"fp8_ms\":1.2537599972316198,\"native_ms\":1.3584746519724529,\"native_over_fp8\":1.0835204943306929}]},\"limitations\":\"custom_single_GPU_unpacked_signed6_nonrandom_route_no_P1_integration\"}"
+    ],
+    "diagnostic": {
+      "kind": "native_int8_a_int6_gu_md_custom",
+      "shape": {
+        "T": 4096,
+        "H": 4096,
+        "E": 256,
+        "I": 1536,
+        "topk": 8,
+        "M": 32768
+      },
+      "triton_version": "unavailable_dunder_blocked",
+      "device_name": "unavailable_torch_cuda_blocked",
+      "geometry": {
+        "grid": 132,
+        "BM": 128,
+        "BN": 128,
+        "BK": 128,
+        "GM": 32,
+        "warps": 8,
+        "stages": 4
+      },
+      "route": {
+        "kind": "analytic_grouped_nonrandom",
+        "counts": "112_144_alternating",
+        "total_tiles": 384
+      },
+      "quantization": {
+        "baseline": "A_GU_row_amax_over_448_FP8",
+        "native": "A_row_amax_over_127_INT8_GU_row_amax_over_31_signed6_in_INT8",
+        "native_act_bound_factor": "127_over_448_squared",
+        "source_weights": "BF16_Gaussian_torch_randn_once_then_real_row_quant"
+      },
+      "math_check": {
+        "kind": "3_rows_x_3_corresponding_N128_segments_scalar_reduction",
+        "comparisons": 384,
+        "bitwise_status_check": true,
+        "passed": true
+      },
+      "resources": {
+        "fp8": {
+          "n_regs": 170,
+          "n_spills": 0,
+          "shared": 196640
+        },
+        "native": {
+          "n_regs": 173,
+          "n_spills": 0,
+          "shared": 196640
+        }
+      },
+      "timing": {
+        "method": "do_bench_warmup5_rep10",
+        "scope": "MD_kernel_only_not_end_to_end",
+        "setup_excluded": true,
+        "groups": [
+          {
+            "group": 0,
+            "order": "fp8_then_native",
+            "fp8_ms": 1.231154271534511,
+            "native_ms": 1.3101257256099157,
+            "native_over_fp8": 1.064144239191872
+          },
+          {
+            "group": 1,
+            "order": "native_then_fp8",
+            "fp8_ms": 1.2346011229923792,
+            "native_ms": 1.3101439816611153,
+            "native_over_fp8": 1.0611880689737574
+          },
+          {
+            "group": 2,
+            "order": "fp8_then_native",
+            "fp8_ms": 1.2537599972316198,
+            "native_ms": 1.3584746519724529,
+            "native_over_fp8": 1.0835204943306929
+          }
+        ]
+      },
+      "limitations": "custom_single_GPU_unpacked_signed6_nonrandom_route_no_P1_integration"
+    },
+    "mathCheck": {
+      "kind": "3_rows_x_3_corresponding_N128_segments_scalar_reduction",
+      "comparisons": 384,
+      "bitwise_status_check": true,
+      "passed": true
+    },
+    "timingGroups": [
+      {
+        "group": 0,
+        "order": "fp8_then_native",
+        "fp8_ms": 1.231154271534511,
+        "native_ms": 1.3101257256099157,
+        "native_over_fp8": 1.064144239191872
+      },
+      {
+        "group": 1,
+        "order": "native_then_fp8",
+        "fp8_ms": 1.2346011229923792,
+        "native_ms": 1.3101439816611153,
+        "native_over_fp8": 1.0611880689737574
+      },
+      {
+        "group": 2,
+        "order": "fp8_then_native",
+        "fp8_ms": 1.2537599972316198,
+        "native_ms": 1.3584746519724529,
+        "native_over_fp8": 1.0835204943306929
+      }
+    ],
+    "timingSummary": {
+      "fp8MeanMs": 1.2398384639195033,
+      "nativeMeanMs": 1.326248119747828,
+      "nativeOverFp8Mean": 1.0696176008321074,
+      "fp8MedianMs": 1.2346011229923792,
+      "nativeMedianMs": 1.3101439816611153,
+      "nativeOverFp8Median": 1.064144239191872
+    },
+    "resources": {
+      "fp8": {
+        "n_regs": 170,
+        "n_spills": 0,
+        "shared": 196640
+      },
+      "native": {
+        "n_regs": 173,
+        "n_spills": 0,
+        "shared": 196640
+      }
+    },
+    "reportedTritonVersion": "unavailable_dunder_blocked",
+    "reportedDeviceName": "unavailable_torch_cuda_blocked",
+    "note": "The P1MD line came from executed userError output before the intentional RuntimeError marker. The terminal WrongAnswer and zero OJ timings reflect the deliberate diagnostic failure, not a failed math check."
+  },
+  "observedEnvironmentMetadata": {
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "gpuModelFromRuntime": null,
+    "tritonVersionFromRuntime": null,
+    "runtimeAccessNotes": {
+      "gpuModel": "unavailable_torch_cuda_blocked",
+      "tritonVersion": "unavailable_dunder_blocked"
+    }
+  },
+  "rawResult": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_ac6c2e16-d9d5-476d-bd94-b0618dc5b91f_raw.json",
+    "sha256": "86a03ce036a7a40847b9dac431a3eac1b91d4dcabbefedd3f8589d6cac3d7837"
+  }
+}

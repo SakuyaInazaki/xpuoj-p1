@@ -1,0 +1,19 @@
+[令牌池] 取到 submit_problem 令牌 …5fbc5e（年龄 73.4s，剩余可用 226.6s）
+PoW难度5 求解1.8s  HTTP 201
+w1: SID=151103
+[令牌池] 取到 submit_problem 令牌 …256493（年龄 0.0s，剩余可用 300.0s）
+PoW难度5 求解0.9s  HTTP 201
+w2: SID=151105
+[令牌池] 取到 submit_problem 令牌 …fe29b0（年龄 1.0s，剩余可用 299.0s）
+PoW难度5 求解0.9s  HTTP 201
+w3: SID=151107
+[令牌池] 取到 submit_problem 令牌 …ae7c45（年龄 19.9s，剩余可用 280.1s）
+PoW难度5 求解0.9s  HTTP 201
+w4: SID=151109
+[令牌池] 取到 submit_problem 令牌 …4c9999（年龄 23.9s，剩余可用 276.1s）
+PoW难度5 求解1.5s  HTTP 201
+w5: SID=151111
+[令牌池] 取到 submit_problem 令牌 …fa6848（年龄 28.7s，剩余可用 271.3s）
+PoW难度5 求解2.0s  HTTP 201
+w6: SID=151112
+  retry 0 令牌池空（submit_problem）：浏览器端脚本不在线——请在 https://xpuoj.com 的标签页里运行 browser/x

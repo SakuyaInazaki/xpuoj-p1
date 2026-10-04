@@ -1,0 +1,8 @@
+Generated custom workload failed: Compilation failed: Module compilation failed: at 5:74:
+def native_math_check_kernel(A, A_SCALE, BNORM, B, B_SCALE, ACT, ROWSCALE, STATUS, I: tl.constexpr, K: tl.constexpr, BLOCK_K: tl.constexpr):
+    pid = tl.program_id(0)
+    check_index = pid // 128
+    col_in_segment = pid % 128
+    branch_row = tl.where(check_index == 0, 0, tl.where(check_index == 1, M // 2, M - 1))
+                                                                          ^
+NameError("Cannot access global variable M from within @jit'ed function. Triton kernels can only access global variables that are instanstiated as constexpr (`x = triton.language.constexpr(42)`). Note that this is different from annotating a variable as constexpr (`x: triton.language.constexpr = 42`), which is not supported.  Alternatively, set the envvar TRITON_ALLOW_NON_CONSTEXPR_GLOBALS=1, but we do not promise to support this forever.")

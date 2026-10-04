@@ -1,0 +1,6 @@
+SID 141473: expected partial WrongAnswer; score=92; displayScore=71.75; outer compile succeeded.
+Testcase #9 runtime stack: fp6_packed_md_host -> fp6_tma_md_host -> intentional RuntimeError.
+Testcase #9: RuntimeError: FP6_MD_RESOURCE regs=255 spills=10 shared=90128
+In Triton v3.4.0, n_spills is CU_FUNC_ATTRIBUTE_LOCAL_SIZE_BYTES / 4, so 10 corresponds to 40 bytes/thread local memory; it is not a spill-instruction count.
+Testcase #9 stopped before SQNR, determinism, or valid timing.
+Testcase #10: Accepted; SQNR=22.63/22.64 dB; determinism=2/2; tk=8.926 ms; tb=6.629 ms.

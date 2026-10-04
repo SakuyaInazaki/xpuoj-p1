@@ -1,0 +1,100 @@
+{
+  "sha256": "befd19dcc7a0824ae49c93c91151e051ee6d3d4c8e8da17e2b1fdf40e9a02b68",
+  "parent_sha256": "d11bf076b18ff243984aa346b551c3c1bcbe8c0ba65a9bc2c18ad927c8ad3497",
+  "changed_top_level_nodes": [
+    "_run_replicated"
+  ],
+  "reversible_ast_diff": "exactly c6 producer branch within existing _dir_a",
+  "all_helpers_ast": "unchanged",
+  "bindings": [
+    {
+      "name": "_s1_c6_gq_tok_params_kernel",
+      "line": 7769,
+      "positional": 16
+    },
+    {
+      "name": "_s1_c6_mdq_g_pre_kernel",
+      "line": 7849,
+      "positional": 21
+    },
+    {
+      "name": "_s1_c6_gq_tok_params",
+      "line": 6455,
+      "positional": 6
+    },
+    {
+      "name": "_s1_c6_gq_tok_params",
+      "line": 6463,
+      "positional": 6
+    },
+    {
+      "name": "_s1_c6_mdq_g_pre_host",
+      "line": 6599,
+      "positional": 14
+    }
+  ],
+  "c6_predicate_table": [
+    {
+      "n": 1,
+      "GA": false,
+      "dir_a": false,
+      "parent_hybrid": false,
+      "unified_hybrid": false,
+      "Q_rows": 65536,
+      "consumer": "cold_original"
+    },
+    {
+      "n": 2,
+      "GA": false,
+      "dir_a": false,
+      "parent_hybrid": false,
+      "unified_hybrid": false,
+      "Q_rows": 65536,
+      "consumer": "cold_original"
+    },
+    {
+      "n": 3,
+      "GA": true,
+      "dir_a": false,
+      "parent_hybrid": true,
+      "unified_hybrid": true,
+      "Q_rows": 8192,
+      "consumer": "hybrid"
+    },
+    {
+      "n": 5,
+      "GA": true,
+      "dir_a": false,
+      "parent_hybrid": true,
+      "unified_hybrid": true,
+      "Q_rows": 8192,
+      "consumer": "hybrid"
+    },
+    {
+      "n": 6,
+      "GA": false,
+      "dir_a": true,
+      "parent_hybrid": false,
+      "unified_hybrid": true,
+      "Q_rows": 8192,
+      "consumer": "hybrid"
+    },
+    {
+      "n": 100,
+      "GA": false,
+      "dir_a": true,
+      "parent_hybrid": false,
+      "unified_hybrid": true,
+      "Q_rows": 8192,
+      "consumer": "hybrid"
+    }
+  ],
+  "other_shapes_checks": 66,
+  "compile": "passed",
+  "cpu_contract": "reuse v2_vector_rechecked.json 67600 branch / 202800 FP32 bits; helpers unchanged",
+  "limits": [
+    "No GPU/OJ, no fullAC claim",
+    "Non-GA old pre_far f32 tanh changes to existing hybrid f16x2; not bit equivalent",
+    "No new CALLN/GA checks or phase boundaries"
+  ]
+}

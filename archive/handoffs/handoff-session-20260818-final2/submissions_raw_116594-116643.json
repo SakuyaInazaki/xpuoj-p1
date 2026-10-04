@@ -1,0 +1,1577 @@
+[
+ {
+  "id": 116594,
+  "status": "Accepted",
+  "displayScore": 74.42,
+  "timeUsed": 43018,
+  "memoryUsed": 3581536,
+  "cases": {
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 77,
+    "tk": 2.227,
+    "tb": 7.643,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.227,\"tb_time_ms\":7.643,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 6.016,
+    "tb": 18.097,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.345,
+    "tb": 8.435,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.345,\"tb_time_ms\":8.435,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 78,
+    "tk": 1.589,
+    "tb": 5.912,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.589,\"tb_time_ms\":5.912,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 2.386,
+    "tb": 7.685,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.386,\"tb_time_ms\":7.685,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 1.892,
+    "tb": 5.659,
+    "userError_tail": "23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.892,\"tb_time_ms\":5.659,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.186,
+    "tb": 28.821,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.186,\"tb_time_ms\":28.821,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 3.317,
+    "tb": 10.297,
+    "userError_tail": "3.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.317,\"tb_time_ms\":10.297,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.864,
+    "tb": 8.182,
+    "userError_tail": "23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.864,\"tb_time_ms\":8.182,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.736,
+    "tb": 6.69,
+    "userError_tail": "=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.736,\"tb_time_ms\":6.69,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 4.157,
+    "tb": 12.697,
+    "userError_tail": "3.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.157,\"tb_time_ms\":12.697,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.303,
+    "tb": 7.089,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.303,\"tb_time_ms\":7.089,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116600,
+  "status": "Accepted",
+  "displayScore": 74.5,
+  "timeUsed": 42952,
+  "memoryUsed": 3602860,
+  "cases": {
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 3.318,
+    "tb": 10.261,
+    "userError_tail": "3.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.318,\"tb_time_ms\":10.261,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 6.01,
+    "tb": 18.075,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.86,
+    "tb": 8.113,
+    "userError_tail": "=23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.86,\"tb_time_ms\":8.113,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 1.591,
+    "tb": 5.157,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.591,\"tb_time_ms\":5.157,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.739,
+    "tb": 6.692,
+    "userError_tail": "23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.739,\"tb_time_ms\":6.692,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 1.893,
+    "tb": 5.67,
+    "userError_tail": "=23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.893,\"tb_time_ms\":5.67,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 80,
+    "tk": 2.39,
+    "tb": 9.914,
+    "userError_tail": "=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.39,\"tb_time_ms\":9.914,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.346,
+    "tb": 8.387,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.346,\"tb_time_ms\":8.387,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 2.224,
+    "tb": 7.177,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.224,\"tb_time_ms\":7.177,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 10.112,
+    "tb": 29.666,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.112,\"tb_time_ms\":29.666,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 4.162,
+    "tb": 12.972,
+    "userError_tail": "3.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.162,\"tb_time_ms\":12.972,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.307,
+    "tb": 7.244,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.307,\"tb_time_ms\":7.244,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116605,
+  "status": "WrongAnswer",
+  "displayScore": 0,
+  "timeUsed": 160409958,
+  "memoryUsed": 3376816,
+  "cases": {
+   "1": {
+    "input": "1\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "userError_tail": "Execution error on testcase=1: Callable 'run_kernel' failed with innermost RuntimeError:"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "userError_tail": "Execution error on testcase=6: Callable 'run_kernel' failed with innermost RuntimeError:"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "userError_tail": "Execution error on testcase=2: Callable 'run_kernel' failed with innermost RuntimeError:"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "userError_tail": "Execution error on testcase=5: Callable 'run_kernel' failed with innermost RuntimeError:"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "userError_tail": "Execution error on testcase=7: Callable 'run_kernel' failed with innermost RuntimeError:"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "userError_tail": "Execution error on testcase=4: Callable 'run_kernel' failed with innermost RuntimeError:"
+   },
+   "3": {
+    "input": "3\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "userError_tail": "Execution error on testcase=3: Callable 'run_kernel' failed with innermost RuntimeError:"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "userError_tail": "Execution error on testcase=10: Callable 'run_kernel' failed with innermost RuntimeError:"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "userError_tail": "Execution error on testcase=9: Callable 'run_kernel' failed with innermost RuntimeError:"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "userError_tail": "Execution error on testcase=12: Callable 'run_kernel' failed with innermost RuntimeError:"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "userError_tail": "Execution error on testcase=8: Callable 'run_kernel' failed with innermost RuntimeError:"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "userError_tail": "Execution error on testcase=11: Callable 'run_kernel' failed with innermost RuntimeError:"
+   }
+  }
+ },
+ {
+  "id": 116607,
+  "status": "Accepted",
+  "displayScore": 74.17,
+  "timeUsed": 43610,
+  "memoryUsed": 3629916,
+  "cases": {
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.996,
+    "tb": 8.214,
+    "userError_tail": "23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.996,\"tb_time_ms\":8.214,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 4.134,
+    "tb": 12.72,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.134,\"tb_time_ms\":12.72,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 10.234,
+    "tb": 32.762,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.234,\"tb_time_ms\":32.762,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.338,
+    "tb": 7.096,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.338,\"tb_time_ms\":7.096,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.031,
+    "tb": 5.684,
+    "userError_tail": "23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.031,\"tb_time_ms\":5.684,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.435,
+    "tb": 8.344,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.435,\"tb_time_ms\":8.344,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 77,
+    "tk": 5.949,
+    "tb": 19.984,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.304,
+    "tb": 7.284,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.304,\"tb_time_ms\":7.284,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 3.37,
+    "tb": 10.398,
+    "userError_tail": "23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.37,\"tb_time_ms\":10.398,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 2.385,
+    "tb": 7.738,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.385,\"tb_time_ms\":7.738,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.803,
+    "tb": 6.71,
+    "userError_tail": "=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.803,\"tb_time_ms\":6.71,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 1.631,
+    "tb": 5.098,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.631,\"tb_time_ms\":5.098,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116612,
+  "status": "Accepted",
+  "displayScore": 73.42,
+  "timeUsed": 44539,
+  "memoryUsed": 3238400,
+  "cases": {
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.507,
+    "tb": 7.592,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.507,\"tb_time_ms\":7.592,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 3.523,
+    "tb": 10.288,
+    "userError_tail": "3.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.523,\"tb_time_ms\":10.288,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 6.033,
+    "tb": 18.178,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.112,
+    "tb": 5.653,
+    "userError_tail": "23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.112,\"tb_time_ms\":5.653,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 4.27,
+    "tb": 12.688,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.27,\"tb_time_ms\":12.688,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.429,
+    "tb": 7.19,
+    "userError_tail": "=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.429,\"tb_time_ms\":7.19,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 1.664,
+    "tb": 5.056,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.664,\"tb_time_ms\":5.056,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 10.182,
+    "tb": 32.306,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.182,\"tb_time_ms\":32.306,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.868,
+    "tb": 6.737,
+    "userError_tail": "23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.868,\"tb_time_ms\":6.737,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.084,
+    "tb": 8.177,
+    "userError_tail": "23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.084,\"tb_time_ms\":8.177,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.487,
+    "tb": 8.395,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.487,\"tb_time_ms\":8.395,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.38,
+    "tb": 7.018,
+    "userError_tail": "=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.38,\"tb_time_ms\":7.018,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116616,
+  "status": "Accepted",
+  "displayScore": 73,
+  "timeUsed": 44566,
+  "memoryUsed": 3252876,
+  "cases": {
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.368,
+    "tb": 6.976,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.368,\"tb_time_ms\":6.976,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.457,
+    "tb": 7.56,
+    "userError_tail": "=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.457,\"tb_time_ms\":7.56,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.073,
+    "tb": 8.132,
+    "userError_tail": "23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.073,\"tb_time_ms\":8.132,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.467,
+    "tb": 8.28,
+    "userError_tail": "=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.467,\"tb_time_ms\":8.28,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.39,
+    "tb": 7.008,
+    "userError_tail": "=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.39,\"tb_time_ms\":7.008,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.061,
+    "tb": 17.924,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.095,
+    "tb": 5.611,
+    "userError_tail": "23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.095,\"tb_time_ms\":5.611,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 3.49,
+    "tb": 10.11,
+    "userError_tail": "=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.49,\"tb_time_ms\":10.11,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.405,
+    "tb": 28.724,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.405,\"tb_time_ms\":28.724,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 4.267,
+    "tb": 12.696,
+    "userError_tail": "3.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.267,\"tb_time_ms\":12.696,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.853,
+    "tb": 6.555,
+    "userError_tail": "23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.853,\"tb_time_ms\":6.555,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 1.64,
+    "tb": 5.01,
+    "userError_tail": "R=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.64,\"tb_time_ms\":5.01,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116620,
+  "status": "Accepted",
+  "displayScore": 73.25,
+  "timeUsed": 44630,
+  "memoryUsed": 2318756,
+  "cases": {
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 2.362,
+    "tb": 7.631,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.362,\"tb_time_ms\":7.631,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 3.501,
+    "tb": 10.113,
+    "userError_tail": "3.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.501,\"tb_time_ms\":10.113,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.387,
+    "tb": 28.786,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.387,\"tb_time_ms\":28.786,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.476,
+    "tb": 8.313,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.476,\"tb_time_ms\":8.313,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.455,
+    "tb": 7.478,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.455,\"tb_time_ms\":7.478,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 4.266,
+    "tb": 12.561,
+    "userError_tail": "3.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.266,\"tb_time_ms\":12.561,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 1.641,
+    "tb": 5.264,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.641,\"tb_time_ms\":5.264,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.383,
+    "tb": 7.045,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.383,\"tb_time_ms\":7.045,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.863,
+    "tb": 6.622,
+    "userError_tail": "23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.863,\"tb_time_ms\":6.622,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.075,
+    "tb": 8.143,
+    "userError_tail": "23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.075,\"tb_time_ms\":8.143,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.124,
+    "tb": 17.916,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.097,
+    "tb": 5.575,
+    "userError_tail": "23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.097,\"tb_time_ms\":5.575,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116622,
+  "status": "Accepted",
+  "displayScore": 73.92,
+  "timeUsed": 44086,
+  "memoryUsed": 3578304,
+  "cases": {
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 3.01,
+    "tb": 8.167,
+    "userError_tail": "=23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.01,\"tb_time_ms\":8.167,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 77,
+    "tk": 4.187,
+    "tb": 14.059,
+    "userError_tail": "3.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.187,\"tb_time_ms\":14.059,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.434,
+    "tb": 28.738,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.434,\"tb_time_ms\":28.738,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.357,
+    "tb": 6.994,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.357,\"tb_time_ms\":6.994,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 77,
+    "tk": 2.03,
+    "tb": 7.127,
+    "userError_tail": "=23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.03,\"tb_time_ms\":7.127,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.435,
+    "tb": 8.295,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.435,\"tb_time_ms\":8.295,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.059,
+    "tb": 17.887,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.316,
+    "tb": 6.967,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.316,\"tb_time_ms\":6.967,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 3.407,
+    "tb": 10.103,
+    "userError_tail": "3.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.407,\"tb_time_ms\":10.103,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 2.407,
+    "tb": 7.625,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.407,\"tb_time_ms\":7.625,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.811,
+    "tb": 6.547,
+    "userError_tail": "23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.811,\"tb_time_ms\":6.547,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 1.633,
+    "tb": 4.916,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.633,\"tb_time_ms\":4.916,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116626,
+  "status": "Accepted",
+  "displayScore": 74,
+  "timeUsed": 43462,
+  "memoryUsed": 3592372,
+  "cases": {
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 3.345,
+    "tb": 10.243,
+    "userError_tail": "3.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.345,\"tb_time_ms\":10.243,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.127,
+    "tb": 17.868,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.871,
+    "tb": 8.111,
+    "userError_tail": "23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.871,\"tb_time_ms\":8.111,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 1.6,
+    "tb": 4.921,
+    "userError_tail": "R=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.6,\"tb_time_ms\":4.921,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.739,
+    "tb": 6.584,
+    "userError_tail": "23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.739,\"tb_time_ms\":6.584,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 1.895,
+    "tb": 5.603,
+    "userError_tail": "23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.895,\"tb_time_ms\":5.603,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.407,
+    "tb": 7.526,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.407,\"tb_time_ms\":7.526,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.366,
+    "tb": 8.722,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.366,\"tb_time_ms\":8.722,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.239,
+    "tb": 6.936,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.239,\"tb_time_ms\":6.936,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.333,
+    "tb": 28.695,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.333,\"tb_time_ms\":28.695,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 4.215,
+    "tb": 12.585,
+    "userError_tail": "3.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.215,\"tb_time_ms\":12.585,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 78,
+    "tk": 2.325,
+    "tb": 8.48,
+    "userError_tail": "=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.325,\"tb_time_ms\":8.48,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116627,
+  "status": "Accepted",
+  "displayScore": 75,
+  "timeUsed": 42753,
+  "memoryUsed": 3559516,
+  "cases": {
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 1.885,
+    "tb": 5.65,
+    "userError_tail": "=23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.885,\"tb_time_ms\":5.65,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.358,
+    "tb": 8.485,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.358,\"tb_time_ms\":8.485,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.844,
+    "tb": 8.201,
+    "userError_tail": "23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.844,\"tb_time_ms\":8.201,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.737,
+    "tb": 6.723,
+    "userError_tail": "23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.737,\"tb_time_ms\":6.723,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 4.133,
+    "tb": 12.673,
+    "userError_tail": "3.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.133,\"tb_time_ms\":12.673,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 10.111,
+    "tb": 28.926,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.111,\"tb_time_ms\":28.926,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 2.371,
+    "tb": 7.645,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.371,\"tb_time_ms\":7.645,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 83,
+    "tk": 2.21,
+    "tb": 11.282,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.21,\"tb_time_ms\":11.282,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 5.939,
+    "tb": 18.306,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.297,
+    "tb": 7.002,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.297,\"tb_time_ms\":7.002,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 1.581,
+    "tb": 5.106,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.581,\"tb_time_ms\":5.106,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 3.287,
+    "tb": 10.591,
+    "userError_tail": "3.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.287,\"tb_time_ms\":10.591,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116629,
+  "status": "Accepted",
+  "displayScore": 74.17,
+  "timeUsed": 43180,
+  "memoryUsed": 3577412,
+  "cases": {
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 77,
+    "tk": 2.305,
+    "tb": 7.754,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.305,\"tb_time_ms\":7.754,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 2.211,
+    "tb": 7.124,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.211,\"tb_time_ms\":7.124,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 77,
+    "tk": 1.587,
+    "tb": 5.458,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.587,\"tb_time_ms\":5.458,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.387,
+    "tb": 7.535,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.387,\"tb_time_ms\":7.535,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.849,
+    "tb": 8.086,
+    "userError_tail": "23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.849,\"tb_time_ms\":8.086,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 1.885,
+    "tb": 5.608,
+    "userError_tail": "23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.885,\"tb_time_ms\":5.608,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 4.172,
+    "tb": 12.7,
+    "userError_tail": "=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.172,\"tb_time_ms\":12.7,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.051,
+    "tb": 17.907,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 3.308,
+    "tb": 10.146,
+    "userError_tail": "3.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.308,\"tb_time_ms\":10.146,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.333,
+    "tb": 28.968,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.333,\"tb_time_ms\":28.968,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.356,
+    "tb": 8.317,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.356,\"tb_time_ms\":8.317,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.736,
+    "tb": 6.61,
+    "userError_tail": "=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.736,\"tb_time_ms\":6.61,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116633,
+  "status": "Accepted",
+  "displayScore": 74.33,
+  "timeUsed": 43220,
+  "memoryUsed": 3575400,
+  "cases": {
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 1.881,
+    "tb": 5.597,
+    "userError_tail": "23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.881,\"tb_time_ms\":5.597,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.366,
+    "tb": 8.267,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.366,\"tb_time_ms\":8.267,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.856,
+    "tb": 8.138,
+    "userError_tail": "23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.856,\"tb_time_ms\":8.138,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.733,
+    "tb": 6.576,
+    "userError_tail": "23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.733,\"tb_time_ms\":6.576,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 4.175,
+    "tb": 12.665,
+    "userError_tail": "3.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.175,\"tb_time_ms\":12.665,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.34,
+    "tb": 28.682,
+    "userError_tail": "3.71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.34,\"tb_time_ms\":28.682,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 2.386,
+    "tb": 7.573,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.386,\"tb_time_ms\":7.573,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.224,
+    "tb": 6.976,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.224,\"tb_time_ms\":6.976,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.055,
+    "tb": 17.86,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.304,
+    "tb": 6.988,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.304,\"tb_time_ms\":6.988,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 80,
+    "tk": 1.589,
+    "tb": 6.76,
+    "userError_tail": "=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.589,\"tb_time_ms\":6.76,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 3.311,
+    "tb": 10.06,
+    "userError_tail": "23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.311,\"tb_time_ms\":10.06,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116637,
+  "status": "Accepted",
+  "displayScore": 73.08,
+  "timeUsed": 44625,
+  "memoryUsed": 2308504,
+  "cases": {
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.368,
+    "tb": 6.957,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.368,\"tb_time_ms\":6.957,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 3.498,
+    "tb": 10.145,
+    "userError_tail": "3.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.498,\"tb_time_ms\":10.145,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.384,
+    "tb": 28.822,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.384,\"tb_time_ms\":28.822,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.474,
+    "tb": 8.27,
+    "userError_tail": "=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.474,\"tb_time_ms\":8.27,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 2.45,
+    "tb": 7.792,
+    "userError_tail": "=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.45,\"tb_time_ms\":7.792,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 4.27,
+    "tb": 12.649,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.27,\"tb_time_ms\":12.649,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 1.638,
+    "tb": 5.026,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.638,\"tb_time_ms\":5.026,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.387,
+    "tb": 7.012,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.387,\"tb_time_ms\":7.012,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.86,
+    "tb": 6.567,
+    "userError_tail": "=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.86,\"tb_time_ms\":6.567,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.078,
+    "tb": 8.104,
+    "userError_tail": "23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.078,\"tb_time_ms\":8.104,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.12,
+    "tb": 17.845,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.098,
+    "tb": 5.608,
+    "userError_tail": "23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.098,\"tb_time_ms\":5.608,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116639,
+  "status": "Accepted",
+  "displayScore": 73.83,
+  "timeUsed": 43725,
+  "memoryUsed": 3587300,
+  "cases": {
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 6.051,
+    "tb": 18.474,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 4.187,
+    "tb": 12.576,
+    "userError_tail": "3.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.187,\"tb_time_ms\":12.576,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.989,
+    "tb": 8.122,
+    "userError_tail": "23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.989,\"tb_time_ms\":8.122,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 10.293,
+    "tb": 29.722,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.293,\"tb_time_ms\":29.722,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.014,
+    "tb": 5.608,
+    "userError_tail": "23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.014,\"tb_time_ms\":5.608,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 76,
+    "tk": 2.396,
+    "tb": 7.678,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.396,\"tb_time_ms\":7.678,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.3,
+    "tb": 7.047,
+    "userError_tail": "R=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.3,\"tb_time_ms\":7.047,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 3.384,
+    "tb": 10.554,
+    "userError_tail": "3.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.384,\"tb_time_ms\":10.554,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.309,
+    "tb": 6.952,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.309,\"tb_time_ms\":6.952,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.796,
+    "tb": 6.555,
+    "userError_tail": "23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.796,\"tb_time_ms\":6.555,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.416,
+    "tb": 8.277,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.416,\"tb_time_ms\":8.277,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 1.59,
+    "tb": 5.004,
+    "userError_tail": "=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.59,\"tb_time_ms\":5.004,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ },
+ {
+  "id": 116643,
+  "status": "Accepted",
+  "displayScore": 73.5,
+  "timeUsed": 44377,
+  "memoryUsed": 2320140,
+  "cases": {
+   "2": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.402,
+    "tb": 28.717,
+    "userError_tail": ".71 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.70 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":10.402,\"tb_time_ms\":28.717,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "9": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.473,
+    "tb": 8.312,
+    "userError_tail": "23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.81 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.473,\"tb_time_ms\":8.312,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "1": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 78,
+    "tk": 6.045,
+    "tb": 22.45,
+    "userError_tail": "ted/run.py:851] *****************************************\n[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.78 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n"
+   },
+   "12": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.044,
+    "tb": 8.178,
+    "userError_tail": "23.93 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.96 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.044,\"tb_time_ms\":8.178,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "6": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.441,
+    "tb": 7.573,
+    "userError_tail": "23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.84 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.441,\"tb_time_ms\":7.573,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "10": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.856,
+    "tb": 6.998,
+    "userError_tail": "23.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.856,\"tb_time_ms\":6.998,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "3": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.349,
+    "tb": 6.977,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.349,\"tb_time_ms\":6.977,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "11": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.081,
+    "tb": 5.592,
+    "userError_tail": "23.99 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=24.03 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.081,\"tb_time_ms\":5.592,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 3.465,
+    "tb": 10.182,
+    "userError_tail": "3.79 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":3.465,\"tb_time_ms\":10.182,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "8": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.37,
+    "tb": 7.068,
+    "userError_tail": "=23.83 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.82 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":2.37,\"tb_time_ms\":7.068,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "5": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 4.225,
+    "tb": 12.607,
+    "userError_tail": "3.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.80 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":4.225,\"tb_time_ms\":12.607,\"th_time_ms\":0.0,\"pass\":true}\n"
+   },
+   "4": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 1.626,
+    "tb": 4.985,
+    "userError_tail": "23.87 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n[OK] oracle SQNR (bf16): SQNR=23.90 dB >= 22.0 dB\n[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)\n{\"schema_version\":2,\"tk_time_ms\":1.626,\"tb_time_ms\":4.985,\"th_time_ms\":0.0,\"pass\":true}\n"
+   }
+  }
+ }
+]

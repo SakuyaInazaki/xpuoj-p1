@@ -1,0 +1,120 @@
+[令牌池] 取到 submit_problem 令牌 …fd22f7（年龄 77.5s，剩余可用 222.5s）
+PoW难度5 求解1.4s  HTTP 201
+r1: SID=151219
+[令牌池] 取到 submit_problem 令牌 …b7d58d（年龄 17.6s，剩余可用 282.4s）
+PoW难度5 求解1.2s  HTTP 201
+r2: SID=151220
+[令牌池] 取到 submit_problem 令牌 …9be359（年龄 42.7s，剩余可用 257.3s）
+PoW难度5 求解1.3s  HTTP 201
+r3: SID=151222
+[令牌池] 取到 submit_problem 令牌 …c937ec（年龄 18.9s，剩余可用 281.1s）
+PoW难度5 求解1.4s  HTTP 201
+r4: SID=151225
+[令牌池] 取到 submit_problem 令牌 …b1176f（年龄 37.2s，剩余可用 262.8s）
+PoW难度5 求解0.8s  HTTP 201
+r5: SID=151226
+[令牌池] 取到 submit_problem 令牌 …937103（年龄 18.7s，剩余可用 281.3s）
+PoW难度5 求解1.0s  HTTP 201
+r6: SID=151229
+[令牌池] 取到 submit_problem 令牌 …ce0b50（年龄 27.9s，剩余可用 272.1s）
+PoW难度5 求解1.5s  HTTP 201
+r7: SID=151230
+[令牌池] 取到 submit_problem 令牌 …cc9bd1（年龄 48.3s，剩余可用 251.7s）
+PoW难度5 求解0.9s  HTTP 201
+r8: SID=151231
+[令牌池] 取到 submit_problem 令牌 …48c5dc（年龄 22.1s，剩余可用 277.9s）
+PoW难度5 求解1.3s  HTTP 201
+r9: SID=151233
+[令牌池] 取到 submit_problem 令牌 …698334（年龄 42.7s，剩余可用 257.3s）
+PoW难度5 求解0.8s  HTTP 201
+r10: SID=151236
+[令牌池] 取到 submit_problem 令牌 …2e8797（年龄 21.6s，剩余可用 278.4s）
+PoW难度5 求解1.5s  HTTP 201
+锚: SID=151238
+14:34:07 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:34:39 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:35:10 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:35:41 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:36:12 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:36:44 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:37:15 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:37:46 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:38:17 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:38:49 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:39:20 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:39:51 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:40:22 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:40:54 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:41:25 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:41:56 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:42:28 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:42:59 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:43:30 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:44:01 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:44:33 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:45:04 ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:47:13 ['Acce', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:47:45 ['Acce', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:48:16 ['Acce', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:48:47 ['Acce', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+14:50:10 ['Acce', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.14/site-packages/urllib3/connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/urllib3/connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/opt/homebrew/lib/python3.14/site-packages/urllib3/connection.py", line 776, in connect
+    self._tunnel()
+    ~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1001, in _tunnel
+    raise OSError(f"Tunnel connection failed: {code} {message.strip()}")
+OSError: Tunnel connection failed: 503 Service Unavailable
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.14/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/opt/homebrew/lib/python3.14/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/opt/homebrew/lib/python3.14/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='sd629vuj4f7uh2cscrbe0.apigateway-cn-beijing.volceapi.com', port=443): Max retries exceeded with url: /api/submission/getSubmissionDetail (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sakimi/Desktop/xpuoj-p1/scripts/run_batch.py", line 79, in <module>
+    main(sys.argv[1:])
+    ~~~~^^^^^^^^^^^^^^
+  File "/Users/sakimi/Desktop/xpuoj-p1/scripts/run_batch.py", line 39, in main
+    sts = [(c.get_detail(s).json().get('progress') or {}).get('status') or '-' if s else 'x' for s in ids]
+            ~~~~~~~~~~~~^^^
+  File "/Users/sakimi/Desktop/xpuoj-p1/scripts/xpuoj_pow.py", line 85, in get_detail
+    return self.s.post(API + "submission/getSubmissionDetail",
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       json={"submissionId": str(sid), "locale": "zh_CN"}, timeout=60)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/requests/sessions.py", line 640, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/homebrew/lib/python3.14/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/homebrew/lib/python3.14/site-packages/requests/adapters.py", line 672, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='sd629vuj4f7uh2cscrbe0.apigateway-cn-beijing.volceapi.com', port=443): Max retries exceeded with url: /api/submission/getSubmissionDetail (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable')))

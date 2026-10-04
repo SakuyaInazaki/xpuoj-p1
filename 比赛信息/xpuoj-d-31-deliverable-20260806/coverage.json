@@ -1,0 +1,239 @@
+{
+  "status": "partial",
+  "input_url": "https://xpuoj.com/d/31",
+  "pages_visited": 1,
+  "states_captured": 6,
+  "hover_exploration": {
+    "targets_observed": 1,
+    "targets_explored": 0,
+    "changed_states_captured": 0,
+    "per_page_limit": 30
+  },
+  "content_chunks": 200,
+  "content_characters": 15377,
+  "api_responses_captured": 1,
+  "api_responses_included_in_ai_content": 0,
+  "api_responses_raw_only": 1,
+  "api_responses_metadata_only": 2,
+  "sensitive_api_bodies_omitted": 0,
+  "api_projection_truncations": [],
+  "images_discovered": 2,
+  "images_captured": 2,
+  "missing_images": [],
+  "missing_content_images": [],
+  "missing_decorative_images": [],
+  "attachments_discovered": 0,
+  "attachments_captured": 0,
+  "attachment_text_projections": {
+    "projected": 0,
+    "incomplete": 0,
+    "characters": 0,
+    "per_file_character_limit": 2000000,
+    "total_character_limit": 8000000
+  },
+  "media_semantics": {
+    "records_discovered": 0,
+    "media_elements": 0,
+    "subtitle_or_caption_tracks": 0
+  },
+  "missing_attachments": [],
+  "links_captured": 15,
+  "reddit_comments": {
+    "declared": null,
+    "unique_public_bodies_captured": 0,
+    "focused_thread_pages_captured": 0,
+    "followups_discovered": 0,
+    "followups_pending": 0,
+    "declared_items_without_public_body": null
+  },
+  "iframes_seen": 1,
+  "iframe_snapshots_captured": 6,
+  "websockets": {
+    "connections_observed": 0,
+    "connections_blocked": 0,
+    "messages_observed": 0,
+    "messages_recorded": 0,
+    "client_messages_observed": 0,
+    "server_messages_observed": 0,
+    "server_messages_captured": 0,
+    "binary_frames_captured": 0,
+    "captured_bytes": 0,
+    "records_retained": 0,
+    "records_omitted": 0,
+    "record_limit": 10000,
+    "max_connections": 100,
+    "max_messages": 1000,
+    "max_frame_bytes": 1048576,
+    "max_total_bytes": 16777216
+  },
+  "failed_requests": [
+    {
+      "url": "https://static.xpuoj.com/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://static-cloudflare.xpuoj.com.cn/",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "failed_requests_omitted": 0,
+  "blocked_requests": 0,
+  "access_blocks": 0,
+  "fallbacks_used": 0,
+  "auth": {
+    "mode": "anonymous",
+    "authenticated_sso_authorized": false,
+    "chrome_cookie_selection_origins": [],
+    "chrome_cookie_selection_origin_count": 0,
+    "authenticated_sso_transit_origins": [],
+    "authenticated_network_origins": [],
+    "authenticated_sso_methods": [],
+    "authenticated_persistence_scope": "anonymous_capture_policy",
+    "authenticated_transit_origins": [],
+    "authenticated_transit_methods": [],
+    "persistence_target": "not_applicable",
+    "credential_material_persisted": false,
+    "persisted_in_output": false,
+    "forwarded_to_external_providers": false
+  },
+  "anonymous_providers": {
+    "enabled": [],
+    "attempts": 0,
+    "accepted_candidates": 0,
+    "selected_cluster": [],
+    "quorum_required": 2,
+    "quorum_met": false,
+    "agreement": []
+  },
+  "known_content_gaps": 5,
+  "known_content_gaps_omitted": 0,
+  "known_content_gap_details": [
+    {
+      "kind": "original_document_body_not_materialized",
+      "url": "https://xpuoj.com/d/31",
+      "page_url": "https://xpuoj.com/d/31",
+      "state_id": "page-001-navigation",
+      "reason": "main document used a non-identity content/transfer coding; decoded allocation could not be proven before body(); the bounded browser-decoded DOM remains available but source-stream integrity is unproven"
+    },
+    {
+      "kind": "response_body_decoded_size_unbounded",
+      "url": "https://static.xpuoj.com/",
+      "page_url": "https://xpuoj.com/d/31",
+      "state_id": "page-001-navigation",
+      "reason": "decoded body allocation cannot be bounded from the finished encoded transfer size when a non-identity content/transfer coding is present: ['gzip']"
+    },
+    {
+      "kind": "response_body_decoded_size_unbounded",
+      "url": "https://static-cloudflare.xpuoj.com.cn/",
+      "page_url": "https://xpuoj.com/d/31",
+      "state_id": "page-001-navigation",
+      "reason": "decoded body allocation cannot be bounded from the finished encoded transfer size when a non-identity content/transfer coding is present: ['zstd']"
+    },
+    {
+      "kind": "hover_target_not_explored_for_safety",
+      "url": "https://xpuoj.com/d/31",
+      "page_url": "https://xpuoj.com/d/31",
+      "state_id": "page-001-hover",
+      "reason": "a semantic hover target was not explored because its label matched the unsafe-action policy"
+    },
+    {
+      "kind": "css_pseudo_content_not_projected",
+      "url": "https://xpuoj.com/d/31",
+      "page_url": "https://xpuoj.com/d/31",
+      "state_id": "page-001-final",
+      "reason": "observed generated ::before/::after content on 45 semantic element state(s); generated text is not projected into AI-readable content"
+    }
+  ],
+  "implementation_observations": 3,
+  "implementation_observation_details": [
+    {
+      "kind": "rendered_dom_serialization_not_materialized",
+      "url": "https://xpuoj.com/d/31",
+      "page_url": "https://xpuoj.com/d/31",
+      "state_id": "page-001-navigation",
+      "reason": "unbounded live-DOM serialization was omitted; use bounded content chunks and the size-proven original response source"
+    },
+    {
+      "kind": "hover_listener_registrations_observed",
+      "url": "https://xpuoj.com/d/31",
+      "page_url": "https://xpuoj.com/d/31",
+      "state_id": "page-001-final",
+      "reason": "observed 4 hover/pointer-enter listener registration(s); registration alone does not prove that information-bearing content is hidden"
+    },
+    {
+      "kind": "decorative_css_pseudo_content_observed",
+      "url": "https://xpuoj.com/d/31",
+      "page_url": "https://xpuoj.com/d/31",
+      "state_id": "page-001-final",
+      "reason": "observed 37 generated CSS glyph/decorative value(s) with no independent semantic text"
+    }
+  ],
+  "implementation_observations_omitted": 0,
+  "network_record_budgets": {
+    "pending_responses": {
+      "retained": 0,
+      "omitted": 0,
+      "limit": 4096
+    },
+    "response_records": {
+      "retained": 116,
+      "omitted": 0,
+      "limit": 10000
+    },
+    "processed_payload_keys": {
+      "retained": 3,
+      "omitted": 0,
+      "limit": 10000
+    },
+    "failed_requests": {
+      "retained": 2,
+      "omitted": 0,
+      "limit": 4096
+    },
+    "stream_records": {
+      "retained": 0,
+      "omitted": 0,
+      "limit": 10000
+    },
+    "known_content_gaps": {
+      "retained": 5,
+      "omitted": 0,
+      "limit": 4096
+    },
+    "implementation_observations": {
+      "retained": 3,
+      "omitted": 0,
+      "limit": 4096
+    },
+    "events_after_freeze_omitted": 0
+  },
+  "document_content_failures": 1,
+  "captured_bytes_saved": 359907,
+  "max_total_bytes": 268435456,
+  "caps_hit": [],
+  "record_projection": {
+    "truncations": 0,
+    "contexts": [],
+    "per_string_character_limit": 8192
+  },
+  "warnings": [],
+  "ai_default_view": {
+    "file": "full.md",
+    "included_chunks": 155,
+    "included_characters": 6546,
+    "duplicate_chunks_sidecar_only": 17,
+    "sidecar_only_chunks": 28,
+    "sidecar_only_characters": 8630,
+    "sidecar_only_types": {
+      "form_control": 2,
+      "aria_node": 26
+    },
+    "image_assets_included": 1,
+    "image_assets_sidecar_only": 1,
+    "links_included": 15,
+    "link_records_sidecar_only": 0,
+    "exhaustive_chunk_file": "chunks.jsonl",
+    "exhaustive_asset_file": "assets.jsonl",
+    "exhaustive_link_file": "links.jsonl"
+  }
+}

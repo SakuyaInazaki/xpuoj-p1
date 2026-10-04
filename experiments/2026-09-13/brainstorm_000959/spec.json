@@ -1,0 +1,61 @@
+{
+  "run_label": "p1-structural-next-directions",
+  "provider": "deepseek",
+  "cwd": "/Users/sakimi/Desktop/xpuoj-p1",
+  "files": [
+    "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-13/brainstorm_000959/evidence-map.md",
+    "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-13/brainstorm_000959/mechanism-facts.md",
+    "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-13/brainstorm_000959/closed-directions.md"
+  ],
+  "timeout": 180,
+  "max_parallel": 4,
+  "stagger": 0.5,
+  "retries": 0,
+  "thinking": "disabled",
+  "auto_approve": false,
+  "pure": true,
+  "inherit_mcp": false,
+  "common_prompt": "研究问题：在不重复已关闭配置的前提下，哪些真正改变数据流、计算分解、缓存正确性或kernel执行图的结构方案，可能把P1榜分从72.75提升到至少75？成功门槛是12案整数分总和至少1020；候选必须保持SQNR>=22 dB、完全确定、输入只读、静态权重缓存跨测试点正确。只提出候选，不修改文件、不执行命令、不提交评测、不请求隐藏数据或答案，不利用结果缓存、评测时机或数据依赖作弊。禁止complexity-optimizer。当前成熟控制是全密度FP8核心；近均匀route剪枝已失败；所有STATE/HISTORICAL关闭配置不得原样重复。P1运行时未知；历史3.4与辅助3.6单GPU均不能作为P1功能证明。\n\n认识论契约：只把附件中能定位的内容写成 [EVIDENCE]，并给出 文件:行号/章节。无法定位时写“未找到材料支持”，绝不补造引文、数字、外部论文或结论。由证据推出但材料未直接陈述的内容标 [INFERENCE]。尚无证据、只是值得测试的结构组合标 [HYPOTHESIS]。不要声称学术新颖性已验证。\n\n严格提出2个机制不同的idea，总输出不超过1200中文字符。每个候选必须写清：它相对成熟FP8控制真正改变的结构、依赖项、最小测试、量化kill criterion；若触及历史负结果，指出改变了哪项失败前提。严格使用以下标题：\n## IDEA <lane>-<序号>\n### CLAIM\n### EVIDENCE\n### SPECULATIVE_LEAP\n### NOVELTY_GAP\n### MINIMUM_TEST\n### KILL_CRITERION\n### FEASIBILITY\n### RISK\n### CONFIDENCE",
+  "required_markers": [
+    "## IDEA",
+    "### CLAIM",
+    "### EVIDENCE",
+    "### SPECULATIVE_LEAP",
+    "### NOVELTY_GAP",
+    "### MINIMUM_TEST",
+    "### KILL_CRITERION",
+    "### FEASIBILITY",
+    "### RISK",
+    "### CONFIDENCE"
+  ],
+  "agents": [
+    {
+      "id": "assumption-breaker",
+      "track": "grounded",
+      "model": "deepseek-v4-pro",
+      "variant": null,
+      "prompt": "拆除当前实现隐藏假设，找出两个互不相同且尚未被材料充分检验的结构边界。每个idea说明拆掉哪条假设，避免参数扫，并给最便宜的反证实验。"
+    },
+    {
+      "id": "cross-domain-translator",
+      "track": "grounded",
+      "model": "deepseek-v4-flash",
+      "variant": null,
+      "prompt": "从两个不同远域迁移具体机制，逐项写源域对象到本问题对象的映射和类比失效点。外部知识没有附件支持时必须标HYPOTHESIS，不能伪造来源。"
+    },
+    {
+      "id": "mechanism-builder",
+      "track": "grounded",
+      "model": "deepseek-v4-pro",
+      "variant": null,
+      "prompt": "从第一性机制构造两个方案。分别列目标、可观测量、可控变量、反馈路径和失败机制；聚焦改变物化边界、数据复用或并行分解的结构方案，不堆流行术语。"
+    },
+    {
+      "id": "constraint-opportunist",
+      "track": "grounded",
+      "model": "deepseek-v4-flash",
+      "variant": null,
+      "prompt": "利用现有四卡H800、预热静态权重、成熟FP8核心与公开合同，找两个现在可做的结构机会。说明所需资源、最小控制、一天内能得到的信号和依赖不确定性。"
+    }
+  ]
+}

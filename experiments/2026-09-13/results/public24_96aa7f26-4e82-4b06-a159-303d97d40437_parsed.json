@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "customTestId": "96aa7f26-4e82-4b06-a159-303d97d40437",
+  "requestCount": 1,
+  "retryPerformed": false,
+  "source": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-13/candidates/legacy_mma_int4_throughput_probe.py",
+    "bytes": 9447,
+    "sha256": "81c7dc52ce4857face8346b3d7189792e0041a117ff516c45be8e1de79413eeb"
+  },
+  "request": {
+    "endpoint": "customTest/createCustomTest",
+    "action": "custom_test",
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "compileAndRunOptions": {}
+  },
+  "terminal": {
+    "state": "Finished",
+    "status": "WrongAnswer",
+    "outerCompileSuccess": true,
+    "outerCompileMessage": "",
+    "totalOccupiedTime": 4097
+  },
+  "case": {
+    "index": 0,
+    "status": "WrongAnswer",
+    "time": 3980887,
+    "memory": 903868,
+    "ojResult": {
+      "schema_version": 2,
+      "tk_time_ms": 0.0,
+      "tb_time_ms": 0.0,
+      "th_time_ms": 0.0,
+      "pass": false
+    }
+  },
+  "generatedWorkload": {
+    "executionReachedDiagnostic": true,
+    "validationPassed": true,
+    "timingReached": true,
+    "resourceExtractionReached": true,
+    "terminalMarkerExpected": true,
+    "userErrorPath": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-13/results/public24_96aa7f26-4e82-4b06-a159-303d97d40437_user_error.txt",
+    "userErrorSha256": "194eff647a5663d4a5197dff63acbda5fd78e7d8f415ad9e61aed80b23555be5"
+  },
+  "runtimeEvidence": {
+    "p1mdLines": [
+      "P1MD {\"kind\":\"legacy_mma_int4_throughput_probe\",\"purpose\":\"single_GPU_register_resident_legacy_warp_MMA_upper_bound_not_P1_candidate\",\"geometry\":{\"grid\":1056,\"warps\":4,\"lanes_per_CTA\":128,\"iterations\":2048,\"outputs_per_lane\":4},\"operands\":{\"prepacked_register_constants\":true,\"s4\":\"0x11111111\",\"s8\":\"0x01010101\",\"e4m3\":\"0x38383838\",\"unpacking\":false},\"validation\":{\"passed\":true,\"scope\":\"all_540672_GPU_outputs\",\"GPU_independent_reduction\":true,\"s4_expected\":131072,\"s8_expected\":65536,\"fp8_expected\":65536.0},\"resources\":{\"s4\":{\"n_regs\":16,\"n_spills\":0,\"shared\":0},\"s8\":{\"n_regs\":18,\"n_spills\":0,\"shared\":0},\"fp8\":{\"n_regs\":18,\"n_spills\":0,\"shared\":0}},\"timing\":{\"method\":\"do_bench_warmup5_rep10_kernel_only\",\"orders\":\"ABC_BCA_CAB\",\"groups\":[{\"group\":0,\"order\":\"s4_s8_fp8\",\"s4_ms\":0.24075144786259223,\"s8_ms\":0.06086492770607921,\"fp8_ms\":0.06945476887317804},{\"group\":1,\"order\":\"s8_fp8_s4\",\"s4_ms\":0.24082239965597788,\"s8_ms\":0.06096139129089272,\"fp8_ms\":0.06948233808462437},{\"group\":2,\"order\":\"fp8_s4_s8\",\"s4_ms\":0.24107839812835058,\"s8_ms\":0.06061356557884078,\"fp8_ms\":0.06966990885826257}],\"mean_ms\":{\"s4\":0.2408840818823069,\"s8\":0.06081329485860424,\"fp8\":0.06953567193868833},\"effective_TOPS\":{\"s4\":588.3905638781458,\"s8\":1165.320191066301,\"fp8\":1019.1454027579616},\"speedup\":{\"s4_over_s8_TOPS\":0.5049175054108963,\"s4_over_fp8_TOPS\":0.5773372104567925,\"s8_over_fp8_TOPS\":1.1434287864251444}},\"excluded\":{\"allocation\":true,\"validation\":true,\"HBM\":true,\"TMA\":true,\"quantization\":true,\"unpacking\":true,\"scales\":true},\"limitations\":\"one_geometry_no_parameter_sweep;register_resident_instruction_upper_bound;does_not_predict_end_to_end_or_P1_throughput\"}"
+    ],
+    "report": {
+      "kind": "legacy_mma_int4_throughput_probe",
+      "purpose": "single_GPU_register_resident_legacy_warp_MMA_upper_bound_not_P1_candidate",
+      "geometry": {
+        "grid": 1056,
+        "warps": 4,
+        "lanes_per_CTA": 128,
+        "iterations": 2048,
+        "outputs_per_lane": 4
+      },
+      "operands": {
+        "prepacked_register_constants": true,
+        "s4": "0x11111111",
+        "s8": "0x01010101",
+        "e4m3": "0x38383838",
+        "unpacking": false
+      },
+      "validation": {
+        "passed": true,
+        "scope": "all_540672_GPU_outputs",
+        "GPU_independent_reduction": true,
+        "s4_expected": 131072,
+        "s8_expected": 65536,
+        "fp8_expected": 65536.0
+      },
+      "resources": {
+        "s4": {
+          "n_regs": 16,
+          "n_spills": 0,
+          "shared": 0
+        },
+        "s8": {
+          "n_regs": 18,
+          "n_spills": 0,
+          "shared": 0
+        },
+        "fp8": {
+          "n_regs": 18,
+          "n_spills": 0,
+          "shared": 0
+        }
+      },
+      "timing": {
+        "method": "do_bench_warmup5_rep10_kernel_only",
+        "orders": "ABC_BCA_CAB",
+        "groups": [
+          {
+            "group": 0,
+            "order": "s4_s8_fp8",
+            "s4_ms": 0.24075144786259223,
+            "s8_ms": 0.06086492770607921,
+            "fp8_ms": 0.06945476887317804
+          },
+          {
+            "group": 1,
+            "order": "s8_fp8_s4",
+            "s4_ms": 0.24082239965597788,
+            "s8_ms": 0.06096139129089272,
+            "fp8_ms": 0.06948233808462437
+          },
+          {
+            "group": 2,
+            "order": "fp8_s4_s8",
+            "s4_ms": 0.24107839812835058,
+            "s8_ms": 0.06061356557884078,
+            "fp8_ms": 0.06966990885826257
+          }
+        ],
+        "mean_ms": {
+          "s4": 0.2408840818823069,
+          "s8": 0.06081329485860424,
+          "fp8": 0.06953567193868833
+        },
+        "effective_TOPS": {
+          "s4": 588.3905638781458,
+          "s8": 1165.320191066301,
+          "fp8": 1019.1454027579616
+        },
+        "speedup": {
+          "s4_over_s8_TOPS": 0.5049175054108963,
+          "s4_over_fp8_TOPS": 0.5773372104567925,
+          "s8_over_fp8_TOPS": 1.1434287864251444
+        }
+      },
+      "excluded": {
+        "allocation": true,
+        "validation": true,
+        "HBM": true,
+        "TMA": true,
+        "quantization": true,
+        "unpacking": true,
+        "scales": true
+      },
+      "limitations": "one_geometry_no_parameter_sweep;register_resident_instruction_upper_bound;does_not_predict_end_to_end_or_P1_throughput"
+    }
+  },
+  "artifacts": {
+    "raw": {
+      "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-13/results/public24_96aa7f26-4e82-4b06-a159-303d97d40437_raw.json",
+      "sha256": "e836a85a8a5c2f1c7076b41176483de2f2b2ff950b4c138e0cb4821e30b90889"
+    },
+    "userError": {
+      "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-13/results/public24_96aa7f26-4e82-4b06-a159-303d97d40437_user_error.txt",
+      "sha256": "194eff647a5663d4a5197dff63acbda5fd78e7d8f415ad9e61aed80b23555be5"
+    }
+  }
+}

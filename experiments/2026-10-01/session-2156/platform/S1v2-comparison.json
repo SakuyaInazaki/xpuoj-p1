@@ -1,0 +1,20 @@
+{
+  "tk_ratio_s1v2_over_R151": {
+    "1": 1.00043468811128,
+    "2": 1.0088032661393211,
+    "3": 0.9977728285077951,
+    "4": 0.9847522236340533,
+    "5": 0.99203187250996,
+    "6": 0.9607686148919135,
+    "7": 0.9601465872652315,
+    "8": 0.9277010560519902,
+    "9": 0.34789710085749287,
+    "10": 0.0336,
+    "11": 0.0,
+    "12": 0.0
+  },
+  "normal_unmodified_c1_5_c7_8_median_ratio": 0.99203187250996,
+  "c6_drop_percent": 3.9231385108086547,
+  "c6_control_adjusted_drop_percent": 3.1514368121002834,
+  "limitations": "S1v2 contains anomalous later cases; one comparison cannot establish normal performance promotion."
+}

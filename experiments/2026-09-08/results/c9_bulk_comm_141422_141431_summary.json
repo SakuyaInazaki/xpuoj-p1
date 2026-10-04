@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "experiment": "c9_bulk_communication_probe",
+  "submissions": {
+    "141422": {
+      "source": "experiments/2026-09-08/candidates/bulk_c9_comm_graphsafe.py",
+      "sha256": "a9dc6b66853183be4a9f0fee44729533292044fc49f3e9e63c24dcd614e01bf8",
+      "status": "TimeLimitExceeded",
+      "compile_success": true,
+      "total_occupied_time": 501071,
+      "sample_case": 1,
+      "sqnr_count": 0,
+      "determinism_ok_count": 0,
+      "timing_schema_count": 0,
+      "semantic_status": "invalid_due_to_missing_cta_sync_between_block_payload_put_and_fence"
+    },
+    "141431": {
+      "source": "experiments/2026-09-08/candidates/bulk_c9_comm_ctasync.py",
+      "sha256": "b1233b36bcf09298057868fba63128e63bd08bdfb589592ffe01c11cd4754fd2",
+      "status": "TimeLimitExceeded",
+      "compile_success": true,
+      "total_occupied_time": 501034,
+      "sample_case": 1,
+      "sample_record_time": 500950026.709,
+      "sample_time_limit": 500000,
+      "sqnr_count": 0,
+      "determinism_ok_count": 0,
+      "timing_schema_count": 0,
+      "semantic_status": "cta_sync_contract_fixed_but_no_c9_measurement_returned"
+    }
+  },
+  "measurement": {
+    "c9_increment_ms": null,
+    "nine_case_median_ratio": null,
+    "nine_case_sum_ratio": null,
+    "c10_cross_ratio": null,
+    "ep_budget_decision": "unknown_no_target_data"
+  },
+  "resubmitted": false,
+  "raw_detail_files": [
+    "experiments/2026-09-08/results/submissions_141422_raw.json",
+    "experiments/2026-09-08/results/submissions_141431_raw.json"
+  ]
+}

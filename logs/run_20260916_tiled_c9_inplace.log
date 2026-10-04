@@ -1,0 +1,20 @@
+[令牌池] 取到 submit_problem 令牌 …34a28c（年龄 136.6s，剩余可用 163.4s）
+PoW难度5 求解0.9s  HTTP 201
+tiled_c9_inplace: SID=144799
+[令牌池] 取到 submit_problem 令牌 …688074（年龄 25.3s，剩余可用 274.7s）
+PoW难度5 求解0.8s  HTTP 201
+锚: SID=144801
+01:55:39 ['-', '-']
+01:56:09 ['-', '-']
+01:56:39 ['-', '-']
+01:57:09 ['-', 'Acce']
+01:57:39 ['-', 'Acce']
+01:58:10 ['-', 'Acce']
+01:58:40 ['-', 'Acce']
+01:59:10 ['-', 'Acce']
+01:59:40 ['-', 'Acce']
+02:00:11 ['-', 'Acce']
+02:00:41 ['Time', 'Acce']
+tiled_c9_inplace 144799 TimeLimitExceeded  SQNR最差 23.12dB
+    首个失败 tc0: TimeLimitExceeded [23.79, 23.12]
+锚 144801 display=81.5 Σtk=29.582 SQNR最差余量+1.12dB

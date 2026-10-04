@@ -1,0 +1,7 @@
+SID 141460: WrongAnswer; score=92; displayScore=71.42
+Outer compile: success
+Testcase #9: [OK] oracle SQNR (bf16): SQNR=22.63 dB >= 22.0 dB
+Testcase #9: [DETERMINISM OK] outputs are bitwise identical (via python run_kernel)
+Testcase #9: [OK] oracle SQNR (bf16): SQNR=22.64 dB >= 22.0 dB
+Testcase #9: [DETERMINISM FAIL] run_kernel raised during determinism check: CUDA out of memory. Tried to allocate 1024.00 MiB; GPU 0 had 515.44 MiB free.
+Testcase #9 returned no valid kernel timing. The platform emitted no Python/Triton stack frames and no n_regs/shared-memory/spill report.

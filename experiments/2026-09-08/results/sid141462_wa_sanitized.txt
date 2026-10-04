@@ -1,0 +1,7 @@
+SID 141462: WrongAnswer; score=92; displayScore=72.00
+Outer compile: success; no sandbox validation or attribute-access error was reported.
+Runtime FP6_* markers captured in testcase userError/userOutput/checkerMessage/output: 0 (source-code strings excluded).
+Testcase #9: [OK] SQNR=22.63 dB; [DETERMINISM OK].
+Testcase #9: [OK] SQNR=22.64 dB; later determinism invocation raised CUDA OOM while requesting 1024.00 MiB with 515.44 MiB free.
+Testcase #9 returned no valid kernel timing. No rank boundary, last runtime marker, n_regs, n_spills, metadata.shared, or Python/Triton stack was available.
+Testcase #10: SQNR=22.63/22.65 dB; determinism 2/2; tk=13.030 ms; tb=8.208 ms; pass=true.

@@ -1,0 +1,44 @@
+{
+  "customTestId": "aa4ff079-1264-4b84-bff5-73398e324b8b",
+  "sourcePath": "experiments/2026-09-13/candidates/fp8_c4_dn_tma_store_custom_bench_noflat.py",
+  "sourceBytes": 19071,
+  "sourceSha256": "2d3956980def52da84c106fda030f03362c8e21800249def6af198dc42beb342",
+  "requestCount": 1,
+  "retryCount": 0,
+  "state": "Finished",
+  "status": "WrongAnswer",
+  "intentionalTerminalMarker": "P1MD done",
+  "outerCompileSuccess": true,
+  "totalOccupiedTimeMs": 6245,
+  "caseTimeUs": 6115150,
+  "memoryKiB": 915932,
+  "shape": {"T": 16384, "H": 2048, "E": 32, "I": 1024, "topk": 4, "M": 65536},
+  "geometry": {"grid": 132, "BM": 128, "BN": 256, "BK": 128, "GM": 32, "warps": 8, "stages": 4, "baselineFlatten": true, "candidateFlatten": false},
+  "change": "combined full-tile C descriptor.store plus candidate flatten=False; tail remains masked pointer store",
+  "mathCheck": {
+    "passed": true,
+    "fullFp8Bitwise": true,
+    "fullScaleExact": true,
+    "fullFinalBf16Exact": true,
+    "zeroRowsExactNumericF32": true,
+    "fp8BitMismatch": 0,
+    "scaleMismatch": 0,
+    "bf16FinalMismatch": 0
+  },
+  "resources": {
+    "baseline": {"nRegs": 170, "nSpills": 0, "shared": 229408},
+    "candidate": {"nRegs": 231, "nSpills": 0, "shared": 229408},
+    "gather": {"nRegs": 43, "nSpills": 0, "shared": 8192}
+  },
+  "timing": {
+    "method": "do_bench warmup=3 rep=8",
+    "groups": [
+      {"group": 0, "order": "AB", "baselineDnMs": 0.24493773864663165, "candidateDnMs": 0.29067276205335346, "candidateOverBaselineDn": 1.1867210159586845, "baselineDnGatherMs": 0.3196698960505034, "candidateDnGatherMs": 0.36555105623076944, "candidateOverBaselineDnGather": 1.1435266840798093},
+      {"group": 1, "order": "BA", "baselineDnMs": 0.24613333369294801, "candidateDnMs": 0.29154743041310993, "candidateOverBaselineDn": 1.1845101435013923, "baselineDnGatherMs": 0.321578102676492, "candidateDnGatherMs": 0.3677684734849369, "candidateOverBaselineDnGather": 1.143636554927101},
+      {"group": 2, "order": "AB", "baselineDnMs": 0.2477400011072556, "candidateDnMs": 0.2943725756236485, "candidateOverBaselineDn": 1.1882319137320256, "baselineDnGatherMs": 0.32197894861823634, "candidateDnGatherMs": 0.3690014113398159, "candidateOverBaselineDnGather": 1.1460420407091059}
+    ],
+    "means": {"baselineDnMs": 0.24627035781561177, "candidateDnMs": 0.29219758936337065, "candidateOverBaselineDn": 1.1864911065835444, "baselineDnGatherMs": 0.32107564911507724, "candidateDnGatherMs": 0.36744031368517405, "candidateOverBaselineDnGather": 1.1444041760808812}
+  },
+  "excluded": ["allocation", "random generation", "quantization", "metadata", "descriptors", "math checks"],
+  "interpretation": "All planned hard gates passed. The combined compatibility candidate was consistently slower and used 61 more registers, so the output-TMA plus noflat implementation is closed. This single-GPU store-mechanism diagnostic is not P1 end-to-end evidence."
+}

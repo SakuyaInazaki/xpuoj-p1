@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "scope": "Only c9 and c10 tk are reduced by the same stated percentage; all other case scores stay at their saved integer values and every tb stays fixed.",
+  "formula": {
+    "case_score": "floor(100 * tb_ms / (tb_ms + tk_ms))",
+    "display_exact": "sum(case_score) / 12",
+    "board_exact": "display_exact - 10",
+    "rendering": "two decimal places, matching saved SID 141454 display_score=81.33 for integer sum 976 (976/12=81.333...); case floor is applied before averaging"
+  },
+  "formula_sources": [
+    "experiments/2026-09-08/notes/p1_score_sensitivity_141390.md",
+    "experiments/2026-09-08/results/stable_c5_c7_dispatch_141408_vs_141390.json",
+    "experiments/2026-09-08/results/fp6_c9_c10_roundtrip_static_141454.json"
+  ],
+  "baselines": {
+    "141390": {
+      "source": "experiments/2026-09-08/results/stable_c5_c7_dispatch_141408_vs_141390.json",
+      "fixed_other_case_score_sum": 821,
+      "c9": {"tb_ms": 8.322, "tk_ms": 2.634, "case_score": 75},
+      "c10": {"tb_ms": 6.68, "tk_ms": 2.017, "case_score": 76},
+      "baseline": {"integer_sum": 972, "display": 81.0, "board": 71.0},
+      "predictions": [
+        {"tk_reduction_percent": 10, "c9_tk_ms": 2.3706, "c10_tk_ms": 1.8153, "c9_case_floor": 77, "c10_case_floor": 78, "integer_sum": 976, "display": 81.33, "board": 71.33},
+        {"tk_reduction_percent": 20, "c9_tk_ms": 2.1072, "c10_tk_ms": 1.6136, "c9_case_floor": 79, "c10_case_floor": 80, "integer_sum": 980, "display": 81.67, "board": 71.67},
+        {"tk_reduction_percent": 25, "c9_tk_ms": 1.9755, "c10_tk_ms": 1.51275, "c9_case_floor": 80, "c10_case_floor": 81, "integer_sum": 982, "display": 81.83, "board": 71.83},
+        {"tk_reduction_percent": 33, "c9_tk_ms": 1.76478, "c10_tk_ms": 1.35139, "c9_case_floor": 82, "c10_case_floor": 83, "integer_sum": 986, "display": 82.17, "board": 72.17},
+        {"tk_reduction_percent": 50, "c9_tk_ms": 1.317, "c10_tk_ms": 1.0085, "c9_case_floor": 86, "c10_case_floor": 86, "integer_sum": 993, "display": 82.75, "board": 72.75}
+      ],
+      "tk_to_zero_upper_bound": {"c9_case_floor": 100, "c10_case_floor": 100, "integer_sum": 1021, "display": 85.08, "board": 75.08}
+    },
+    "141454": {
+      "source": "experiments/2026-09-08/results/fp6_c9_c10_roundtrip_static_141454.json",
+      "fixed_other_case_score_sum": 824,
+      "c9": {"tb_ms": 8.581, "tk_ms": 2.63, "case_score": 76},
+      "c10": {"tb_ms": 6.575, "tk_ms": 1.993, "case_score": 76},
+      "baseline": {"integer_sum": 976, "display": 81.33, "board": 71.33},
+      "predictions": [
+        {"tk_reduction_percent": 10, "c9_tk_ms": 2.367, "c10_tk_ms": 1.7937, "c9_case_floor": 78, "c10_case_floor": 78, "integer_sum": 980, "display": 81.67, "board": 71.67},
+        {"tk_reduction_percent": 20, "c9_tk_ms": 2.104, "c10_tk_ms": 1.5944, "c9_case_floor": 80, "c10_case_floor": 80, "integer_sum": 984, "display": 82.0, "board": 72.0},
+        {"tk_reduction_percent": 25, "c9_tk_ms": 1.9725, "c10_tk_ms": 1.49475, "c9_case_floor": 81, "c10_case_floor": 81, "integer_sum": 986, "display": 82.17, "board": 72.17},
+        {"tk_reduction_percent": 33, "c9_tk_ms": 1.7621, "c10_tk_ms": 1.33531, "c9_case_floor": 82, "c10_case_floor": 83, "integer_sum": 989, "display": 82.42, "board": 72.42},
+        {"tk_reduction_percent": 50, "c9_tk_ms": 1.315, "c10_tk_ms": 0.9965, "c9_case_floor": 86, "c10_case_floor": 86, "integer_sum": 996, "display": 83.0, "board": 73.0}
+      ],
+      "tk_to_zero_upper_bound": {"c9_case_floor": 100, "c10_case_floor": 100, "integer_sum": 1024, "display": 85.33, "board": 75.33}
+    }
+  },
+  "existing_c9_c10_stage_timing": {
+    "md_ms": null,
+    "dn_ms": null,
+    "finding": "No stored c9/c10 MD or DN stage decomposition was found in the bounded 2026-09-08 notes/results evidence. The stored MD/DN stage profiles are explicitly c5/c7-only. Existing c9/c10 records contain total tk, MD/DN geometry, communication-probe totals, or MD resource metadata; none is an MD/DN elapsed-time decomposition, so no stage time is inferred.",
+    "checked_sources": [
+      "experiments/2026-09-08/notes/results_index.md",
+      "experiments/2026-09-08/notes/stable_profile_c5_c7.md",
+      "experiments/2026-09-08/notes/c9_c10_bm64_audit.md"
+    ]
+  }
+}

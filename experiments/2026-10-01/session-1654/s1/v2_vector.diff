@@ -1,0 +1,37 @@
+--- p1_s1_c6_v1.py
++++ p1_s1_c6_v2_vector.py
+@@ -7735,20 +7735,20 @@
+     q = (vals.to(tl.float32) * (1.0 / scale)).to(tl.float8e4nv)
+     tl.store(Q + t * stride_qm + offs_h * stride_qh, q, mask=h_mask)
+     tl.store(SCALE + t, scale)
+-    for j in tl.static_range(K_BRANCH):
+-        dest = tl.load(INV + t * K_BRANCH + j)
+-        e = tl.load(FLAT_IDS + t * K_BRANCH + j)
+-        w = tl.load(FLAT_W + t * K_BRANCH + j)
+-        bn = tl.load(BNORM + e)
+-        a = scale
+-        bound = (((a * a) * bn) * bn) * tl.abs(w)
+-        bbits = tl.maximum(bound, 1e-30).to(tl.int32, bitcast=True)
+-        bexp = (bbits >> 23) & 0xFF
+-        s = ((bexp + 10) << 23).to(tl.float32, bitcast=True)
+-        inv = ((244 - bexp) << 23).to(tl.float32, bitcast=True)
+-        tl.store(AH + dest, a * 0.5)
+-        tl.store(WI + dest, (w * a) * inv)
+-        tl.store(ACT_SCALE + dest, s)
++    j = tl.arange(0, K_BRANCH)
++    dest = tl.load(INV + t * K_BRANCH + j)
++    e = tl.load(FLAT_IDS + t * K_BRANCH + j)
++    w = tl.load(FLAT_W + t * K_BRANCH + j)
++    bn = tl.load(BNORM + e)
++    a = scale
++    bound = (((a * a) * bn) * bn) * tl.abs(w)
++    bbits = tl.maximum(bound, 1e-30).to(tl.int32, bitcast=True)
++    bexp = (bbits >> 23) & 0xFF
++    s = ((bexp + 10) << 23).to(tl.float32, bitcast=True)
++    inv = ((244 - bexp) << 23).to(tl.float32, bitcast=True)
++    tl.store(AH + dest, a * 0.5)
++    tl.store(WI + dest, (w * a) * inv)
++    tl.store(ACT_SCALE + dest, s)
+ 
+ def _s1_c6_gq_tok_params(x, inv_order, flat_ids, flat_weights, bnorm, k):
+     T = x.shape[0]

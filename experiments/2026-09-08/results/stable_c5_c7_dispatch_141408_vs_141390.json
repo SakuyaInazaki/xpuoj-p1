@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "experiment": "stable_c5_c7_dispatch",
+  "candidate": {
+    "sid": 141408,
+    "source": "experiments/2026-09-08/candidates/stable_c5_c7_dispatch.py",
+    "sha256": "64ad7cf0f5b9a1c39747c326310d0084e259bd96681b4cc546eede85f73c1b50",
+    "submit_time": "2026-09-08T15:19:48.000Z",
+    "status": "Accepted",
+    "display_score": 82.75,
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "sum_tk_ms": 29.75,
+    "timed_cases": {
+      "1": {
+        "testcase_hash": "f754bea298636e9b372955c460287f7482f5e022",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 1,
+        "tk_ms": 4.61,
+        "tb_ms": 18.092,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "2": {
+        "testcase_hash": "998af24ad0133d1020ce04729b266c95d33cc804",
+        "status": "Accepted",
+        "display_score": 78,
+        "sqnr_db": [
+          23.77,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "case": 2,
+        "tk_ms": 7.947,
+        "tb_ms": 28.987,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "3": {
+        "testcase_hash": "8e652a5ad8b6d8c5f4d68863d7a9a4534df5a566",
+        "status": "Accepted",
+        "display_score": 96,
+        "sqnr_db": [
+          23.87,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "case": 3,
+        "tk_ms": 1.406,
+        "tb_ms": 42.634,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "4": {
+        "testcase_hash": "bd2cdb340c6430913d8193d55c01af174943f6ba",
+        "status": "Accepted",
+        "display_score": 86,
+        "sqnr_db": [
+          23.21,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "case": 4,
+        "tk_ms": 0.838,
+        "tb_ms": 5.197,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "5": {
+        "testcase_hash": "43c373bca10cc464d7695fb539d841c4483f7263",
+        "status": "Accepted",
+        "display_score": 82,
+        "sqnr_db": [
+          23.13,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "case": 5,
+        "tk_ms": 2.799,
+        "tb_ms": 12.779,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "6": {
+        "testcase_hash": "02a001fbc5ee1f59730c926a8e484adad6f1a553",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.83,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "case": 6,
+        "tk_ms": 1.326,
+        "tb_ms": 7.627,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "7": {
+        "testcase_hash": "1cca946b6a4ec197da1c39d078eebe6243941eda",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.11,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 7,
+        "tk_ms": 2.266,
+        "tb_ms": 10.293,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "8": {
+        "testcase_hash": "04fb947ae8486f980753e51af8e84950d7e35a6a",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.83,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 8,
+        "tk_ms": 1.353,
+        "tb_ms": 7.291,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "9": {
+        "testcase_hash": "7ba0bbb010db615ade69382d5137c3709b4c058e",
+        "status": "Accepted",
+        "display_score": 76,
+        "sqnr_db": [
+          23.8,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "case": 9,
+        "tk_ms": 2.587,
+        "tb_ms": 8.518,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "10": {
+        "testcase_hash": "4443b203a8144370669c883d15e2da72e3efa1d7",
+        "status": "Accepted",
+        "display_score": 77,
+        "sqnr_db": [
+          23.79,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "case": 10,
+        "tk_ms": 1.994,
+        "tb_ms": 6.726,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "11": {
+        "testcase_hash": "b25087c1e264f71ecf9002f6485203385c64b63c",
+        "status": "Accepted",
+        "display_score": 86,
+        "sqnr_db": [
+          23.31,
+          23.31
+        ],
+        "determinism_ok_count": 2,
+        "case": 11,
+        "tk_ms": 1.004,
+        "tb_ms": 6.284,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "12": {
+        "testcase_hash": "68ec2a9d82bb248fd02b9623df46b70c0c0f36d5",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.25,
+          23.26
+        ],
+        "determinism_ok_count": 2,
+        "case": 12,
+        "tk_ms": 1.62,
+        "tb_ms": 8.147,
+        "th_ms": 0.0,
+        "passed": true
+      }
+    },
+    "extra_records": [
+      {
+        "testcase_hash": "71b497d2576cec5d476a96a1f5c72569fb962944",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 1
+      }
+    ]
+  },
+  "baseline": {
+    "sid": 141390,
+    "source": "p1/kernel.py",
+    "sha256": "dd46bdebb7be2eed2f1ebe1106be258789bde35e4ee6c9421d5756b163f426b9",
+    "submit_time": "2026-09-08T14:43:17.000Z",
+    "status": "Accepted",
+    "display_score": 81,
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "sum_tk_ms": 30.436,
+    "timed_cases": {
+      "1": {
+        "testcase_hash": "9c94da16f2153ff7950fdbe053f5b01ce915186f",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 1,
+        "tk_ms": 4.746,
+        "tb_ms": 17.908,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "2": {
+        "testcase_hash": "99ecaeb79d6e79df4bee6e97166d2a5b6bba5b95",
+        "status": "Accepted",
+        "display_score": 78,
+        "sqnr_db": [
+          23.77,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "case": 2,
+        "tk_ms": 8.193,
+        "tb_ms": 29.295,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "3": {
+        "testcase_hash": "e86670deed3648b4ea4798f652cb89a9a45d797c",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.87,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "case": 3,
+        "tk_ms": 1.421,
+        "tb_ms": 6.956,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "4": {
+        "testcase_hash": "ac5ce9342923e304b47949899ff334bdbbf5e2eb",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.21,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "case": 4,
+        "tk_ms": 0.852,
+        "tb_ms": 4.917,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "5": {
+        "testcase_hash": "7bf71590097081ad430cb8182a6c82c82b7421b0",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.8,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "case": 5,
+        "tk_ms": 2.88,
+        "tb_ms": 12.733,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "6": {
+        "testcase_hash": "9d46cb783993afcebbfc6a42efce0bd7c6b078db",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.83,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "case": 6,
+        "tk_ms": 1.348,
+        "tb_ms": 7.518,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "7": {
+        "testcase_hash": "4217beeb4c55f99b20b17046a1f82f3a2a4eb125",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 7,
+        "tk_ms": 2.328,
+        "tb_ms": 10.164,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "8": {
+        "testcase_hash": "fab83e1e9472469655646242ca233c97f95b4824",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.83,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 8,
+        "tk_ms": 1.362,
+        "tb_ms": 6.975,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "9": {
+        "testcase_hash": "d702c5ada22fea520828e4422f157e567f869dda",
+        "status": "Accepted",
+        "display_score": 75,
+        "sqnr_db": [
+          23.8,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "case": 9,
+        "tk_ms": 2.634,
+        "tb_ms": 8.322,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "10": {
+        "testcase_hash": "49307dee0de3d409c385dd0d75c9e8dde6e009f1",
+        "status": "Accepted",
+        "display_score": 76,
+        "sqnr_db": [
+          23.79,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "case": 10,
+        "tk_ms": 2.017,
+        "tb_ms": 6.68,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "11": {
+        "testcase_hash": "dba299454bc56b7c40fcdbbe50f4a9db80e8b13e",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.31,
+          23.31
+        ],
+        "determinism_ok_count": 2,
+        "case": 11,
+        "tk_ms": 1.009,
+        "tb_ms": 5.61,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "12": {
+        "testcase_hash": "25ed40aaa61f79f1f989df67aa4933ccd79314e5",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.25,
+          23.26
+        ],
+        "determinism_ok_count": 2,
+        "case": 12,
+        "tk_ms": 1.646,
+        "tb_ms": 8.156,
+        "th_ms": 0.0,
+        "passed": true
+      }
+    },
+    "extra_records": [
+      {
+        "testcase_hash": "4e0b210ca3501ff9b779a94d7199361eac60afec",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "case": 1
+      }
+    ]
+  },
+  "comparison": {
+    "target_cases": [
+      5,
+      7
+    ],
+    "untouched_cases": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "raw_target_tk_ratio": {
+      "5": 0.971875,
+      "7": 0.9733676975945018
+    },
+    "untouched_median_tk_ratio": 0.9839418282248847,
+    "untouched_sum_tk_ratio": 0.9784762961788489,
+    "untouched_candidate_sum_tk_ms": 24.685000000000002,
+    "untouched_baseline_sum_tk_ms": 25.228,
+    "median_corrected_target_tk_ratio": {
+      "5": 0.9877362381812202,
+      "7": 0.9892532969662855
+    },
+    "sum_corrected_target_tk_ratio": {
+      "5": 0.9932534940247114,
+      "7": 0.9947790267334046
+    },
+    "correctness": "12/12 Accepted; target cases each have two SQNR passes and two determinism passes",
+    "display_score_caveat": "case 3 tb_time_ms=42.634 is anomalous and inflates display score 82.75",
+    "decision": "awaiting_root_profile_decision"
+  },
+  "raw_detail_files": [
+    "experiments/2026-09-08/results/submissions_141408_raw.json",
+    "experiments/2026-09-08/results/submissions_141389_141390_raw.json"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "experiment": "fp6_c9_c10_packed_md_resource_error",
+  "submission": {
+    "id": 141469,
+    "source": "experiments/2026-09-08/candidates/fp6_c9_c10_packed_md_resource_error.py",
+    "sha256": "24deca3622039d4fe4f8f7faf00dbee3331fd64a239f1b574461a080f10bf3d3",
+    "status": "WrongAnswer",
+    "score": 83,
+    "display_score": 68.42,
+    "submit_time": "2026-09-08T18:06:31.000Z",
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "total_occupied_time": 116960
+  },
+  "runtime_resource_result": {
+    "cases": [9, 10],
+    "marker": "FP6_MD_RESOURCE",
+    "n_regs": 255,
+    "n_spills": 180,
+    "metadata_shared": 131088,
+    "same_values_on_both_cases": true,
+    "attribute_access_succeeded": true,
+    "sandbox_rejection_observed": false,
+    "source_text_occurrences_excluded": true,
+    "location": "fp6_tma_md_host cold-report path after the normal launch returned, immediately before the intentional RuntimeError"
+  },
+  "target_execution": {
+    "c9": {
+      "status": "WrongAnswer",
+      "sqnr_db": [],
+      "determinism_ok_count": 0,
+      "tk_ms": 0.0,
+      "tb_ms": 0.0
+    },
+    "c10": {
+      "status": "WrongAnswer",
+      "sqnr_db": [],
+      "determinism_ok_count": 0,
+      "tk_ms": 0.0,
+      "tb_ms": 0.0
+    }
+  },
+  "failure_boundary": "The requested intentional RuntimeError was emitted with public compiled-kernel resource attributes. It is not a JIT, API, binding, OOM, out-of-range, or timeout failure.",
+  "resubmitted": false,
+  "raw_detail_file": "experiments/2026-09-08/results/submissions_141469_raw.json",
+  "sanitized_log_file": "experiments/2026-09-08/results/sid141469_resource_sanitized.txt"
+}

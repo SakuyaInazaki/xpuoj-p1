@@ -1,0 +1,19 @@
+{
+  "start": "2026-10-01T22:28:17.214558",
+  "sha": "ac338895e390139faaaebcaad98fba9ae1d5a3d55e378b2965f90da5431f2ea8",
+  "pool": {
+    "browser_online": false,
+    "fresh": {
+      "submit_problem": 1,
+      "custom_test": 0
+    },
+    "need": {
+      "submit_problem": 1,
+      "custom_test": 1
+    },
+    "target": {
+      "submit_problem": 2,
+      "custom_test": 1
+    }
+  }
+}

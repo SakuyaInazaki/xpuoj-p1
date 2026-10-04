@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-01T06:51:56.353607+00:00",
+  "profiler_warning_submission_count": 21,
+  "profiler_warning_sids": [
+    149635,
+    149707,
+    149710,
+    149747,
+    149751,
+    149753,
+    149754,
+    149756,
+    149758,
+    149759,
+    149765,
+    149766,
+    149959,
+    149970,
+    149972,
+    150002,
+    151056,
+    151078,
+    151081,
+    151082,
+    152644
+  ],
+  "log_examples": {
+    "152644": [
+      "  exitcode  : 255 (pid: 720992)",
+      "Running kernel, testcase=1, warmup=1, iters=2, testdata_groups=2",
+      "/opt/venvs/python3.10-torch/lib/python3.10/site-packages/torch/profiler/profiler.py:224: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True."
+    ],
+    "152641": [
+      "  File \"/judge/1/working/.kernel_cache/kernel_f6f777cbdb67e223.py\", line 4274, in run_kernel",
+      "  File \"/judge/1/working/.kernel_cache/kernel_f6f777cbdb67e223.py\", line 4243, in _run_replicated",
+      "  File \"/judge/1/working/.kernel_cache/kernel_f6f777cbdb67e223.py\", line 4857, in _gather_branch_sum_f8_padded_dispatch_r3",
+      "  File \"/judge/1/working/.kernel_cache/kernel_f6f777cbdb67e223.py\", line 4853, in _gather_branch_sum_f8_rebuild",
+      "    _getitem_(_gather_branch_sum_f8_rebuild_kernel, grid)(down, c_scale, inv_pad, inv_order, flat_ids, output, T, H, _getattr_(down, 'stride')(0), _getattr_(down, 'stride')(1), _getattr_(output, 'stride')(0), _getattr_(output, 'stride')(1), K_BRANCH=k, NCHUNK=H // 256, BLOCK_T=block_t, BLOCK_H=block_h, num_warps=8, num_stages=1)"
+    ],
+    "151885": [
+      "  File \"/judge/1/working/.kernel_cache/kernel_fffe411087aa1c46.py\", line 4162, in run_kernel",
+      "  File \"/judge/1/working/.kernel_cache/kernel_fffe411087aa1c46.py\", line 4011, in _run_replicated",
+      "  File \"/judge/1/working/.kernel_cache/kernel_fffe411087aa1c46.py\", line 3767, in _fgs_tma1_intq_host_pre",
+      "    _getitem_(_fgs_t1i_mdq_tma_pre_kernel, (132,))(a_desc, ah, wi, b_desc, b_s_int, act, act_desc, expert_ids, counts, split_cum, tile_num, tile_cum, num_tiles, M, I, K, _getattr_(a_q, 'stride')(0), _getattr_(a_q, 'stride')(1), _getattr_(act, 'stride')(0), _getattr_(act, 'stride')(1), BLOCK_M=128, BLOCK_N=128, BLOCK_K=128, GROUP_M=8 if K <= 1024 else 32, num_warps=8, num_stages=4, maxnreg=232)"
+    ]
+  },
+  "limits": [
+    "A profiler warning proves use on that execution path, not its use/configuration on every case.",
+    "The warning alone does not prove a collection bug or explain zero tk.",
+    "Transformed host tracebacks do not disclose the exact source seen by Triton JIT.",
+    "The judge's CUDA, CUPTI, PyTorch versions and aggregation rules remain unverified."
+  ]
+}

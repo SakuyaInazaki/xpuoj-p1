@@ -1,0 +1,20 @@
+--- experiments/2026-09-27/candidates/v866_c9c10_pair_ep2_halfweights.py
++++ experiments/2026-09-29/candidates/ep2_v866_metadata_fix.py
+@@ -7177,7 +7177,7 @@
+         b_desc = TensorDescriptor(gu_q_half, gu_q_half.shape, gu_q_half.stride(), [128, 128])
+         _fgs_tma1_kernel_gq_tiled[(132,)](
+             xq2, xs2, gu_bnorm_half, b_desc, gu_s_half, ws2, order_md, act, act_s,
+-            meta_expert_ids, counts, meta_split_cum,
++            meta_expert_ids, counts, meta_tile_split,
+             meta_tile_num, meta_tile_num_cum, num_tiles_total,
+             n_f, I, H,
+             xq2.stride(0), xq2.stride(1),
+@@ -7188,7 +7188,7 @@
+         )
+         down, dscl = _dn_tma2_f8_host_tiled(
+             act, act_s, dn_q_half, dn_s_half,
+-            meta_expert_ids, counts, meta_split_cum,
++            meta_expert_ids, counts, meta_tile_split,
+             meta_tile_num, meta_tile_num_cum, num_tiles_total,
+         )
+ 

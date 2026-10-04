@@ -1,0 +1,27 @@
+{
+  "id": "edea0c78-e34a-4bdb-b31d-82636ed70f0c",
+  "problemId": 24,
+  "language": "triton-h800",
+  "mode": "GeneratedWorkload",
+  "sourcePath": "experiments/2026-09-13/candidates/fp8_c4_dn_tma_padded_custom_bench.py",
+  "sourceBytes": 23955,
+  "sourceSha256": "b09efe6476054104502f3a42fc19d8b70bf6f45d13e3a3a79e8d8bad75b85d65",
+  "state": "Finished",
+  "createdAt": 1789233074494,
+  "startedAt": 1789233075236,
+  "finishedAt": 1789233086318,
+  "expiresAt": 1789319486318,
+  "progress": {
+    "status": "WrongAnswer",
+    "compile": {"success": true, "message": ""},
+    "totalOccupiedTime": 11126,
+    "case": {
+      "status": "WrongAnswer",
+      "time": 10996828,
+      "memory": 921572,
+      "checkerMessage": "SPJ FAIL: payload pass=false.\n",
+      "userErrorPath": "experiments/2026-09-13/results/public24_edea0c78-e34a-4bdb-b31d-82636ed70f0c_user_error.txt"
+    }
+  },
+  "note": "Terminal API-detail projection. Full submitted source is referenced by immutable path, byte count and SHA; exact userError is stored separately."
+}

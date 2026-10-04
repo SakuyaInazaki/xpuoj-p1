@@ -1,0 +1,605 @@
+{
+  "method": "Contiguous account P1 cohort; severe = accepted testcase/pass=true and tk < 50% of v926 per-case reference",
+  "scope_note": "Post-hoc observational association; first source SHA is not proof of a cold compiler/cache or new worker. No randomized experiment.",
+  "cohort_path": "reports/2026-09-30-timing-cohort-readonly.json",
+  "checked_at": "2026-09-29T21:36:18.323569+00:00",
+  "complete_to_lower_bound": true,
+  "sid_range": [
+    149486,
+    151808
+  ],
+  "submissions": 187,
+  "statuses": {
+    "TimeLimitExceeded": 7,
+    "Accepted": 125,
+    "WrongAnswer": 34,
+    "Canceled": 21
+  },
+  "severe_any_submission": 9,
+  "severe_full_accepted": 7,
+  "severe_testcases_by_case": {
+    "11": 6,
+    "12": 8,
+    "10": 5
+  },
+  "first_sha_in_cohort": {
+    "accepted": 58,
+    "severe": 7
+  },
+  "repeated_sha_in_cohort": {
+    "accepted": 67,
+    "severe": 0
+  },
+  "accepted_by_day_cst": {
+    "2026-09-27": {
+      "accepted": 76,
+      "severe": 5
+    },
+    "2026-09-29": {
+      "accepted": 43,
+      "severe": 1
+    },
+    "2026-09-30": {
+      "accepted": 6,
+      "severe": 1
+    }
+  },
+  "severe_rows": [
+    {
+      "sid": 149493,
+      "submit_time_cst": "2026-09-27T03:43:51+08:00",
+      "status": "Accepted",
+      "raw": 85.17,
+      "sha256": "c23394ec00deb6d76e0cb9416dbad05fb5a0182219c2a6bbf7935967dc64a471",
+      "first_sha_in_cohort": true,
+      "severe_cases": [
+        11,
+        12
+      ],
+      "tb_ge2x_cases": [
+        5
+      ],
+      "failed_zero_cases": [],
+      "c1_tk": 4.611,
+      "c1_tb": 18.004,
+      "c2_tk": 7.83,
+      "c2_tb": 28.882,
+      "c3_tk": 1.37,
+      "c3_tb": 7.002,
+      "c4_tk": 0.8,
+      "c4_tb": 5.026,
+      "c5_tk": 2.797,
+      "c5_tb": 48.349,
+      "c6_tk": 1.283,
+      "c6_tb": 7.852,
+      "c7_tk": 2.213,
+      "c7_tb": 10.275,
+      "c8_tk": 1.262,
+      "c8_tb": 7.162,
+      "c9_tk": 2.441,
+      "c9_tb": 8.406,
+      "c10_tk": 1.899,
+      "c10_tb": 6.752,
+      "c11_tk": 0.325,
+      "c11_tb": 7.007,
+      "c12_tk": 0.0,
+      "c12_tb": 8.208
+    },
+    {
+      "sid": 149520,
+      "submit_time_cst": "2026-09-27T04:28:08+08:00",
+      "status": "Accepted",
+      "raw": 84.83,
+      "sha256": "a6442ca8d4a717f2e52b4769b697c623c125ab0fd62ce1bf7d859c25d6dcca07",
+      "first_sha_in_cohort": true,
+      "severe_cases": [
+        10,
+        11,
+        12
+      ],
+      "tb_ge2x_cases": [],
+      "failed_zero_cases": [],
+      "c1_tk": 4.601,
+      "c1_tb": 18.582,
+      "c2_tk": 7.889,
+      "c2_tb": 30.74,
+      "c3_tk": 1.359,
+      "c3_tb": 7.055,
+      "c4_tk": 0.798,
+      "c4_tb": 5.064,
+      "c5_tk": 2.75,
+      "c5_tb": 12.709,
+      "c6_tk": 1.256,
+      "c6_tb": 7.586,
+      "c7_tk": 2.102,
+      "c7_tb": 10.248,
+      "c8_tk": 1.167,
+      "c8_tb": 7.195,
+      "c9_tk": 2.45,
+      "c9_tb": 8.537,
+      "c10_tk": 0.68,
+      "c10_tb": 6.788,
+      "c11_tk": 0.309,
+      "c11_tb": 5.721,
+      "c12_tk": 0.47,
+      "c12_tb": 8.177
+    },
+    {
+      "sid": 149526,
+      "submit_time_cst": "2026-09-27T04:39:08+08:00",
+      "status": "Accepted",
+      "raw": 84.92,
+      "sha256": "fc7f81eb7109b0d4eb3af5aecf88088c76509f105826baa24933b5a6cbb06cc5",
+      "first_sha_in_cohort": true,
+      "severe_cases": [
+        10,
+        11,
+        12
+      ],
+      "tb_ge2x_cases": [],
+      "failed_zero_cases": [],
+      "c1_tk": 4.633,
+      "c1_tb": 18.612,
+      "c2_tk": 7.86,
+      "c2_tb": 28.939,
+      "c3_tk": 1.343,
+      "c3_tb": 7.115,
+      "c4_tk": 0.8,
+      "c4_tb": 5.005,
+      "c5_tk": 2.746,
+      "c5_tb": 12.673,
+      "c6_tk": 1.26,
+      "c6_tb": 7.615,
+      "c7_tk": 2.103,
+      "c7_tb": 10.449,
+      "c8_tk": 1.158,
+      "c8_tb": 7.202,
+      "c9_tk": 2.439,
+      "c9_tb": 8.523,
+      "c10_tk": 0.686,
+      "c10_tb": 6.75,
+      "c11_tk": 0.311,
+      "c11_tb": 5.63,
+      "c12_tk": 0.47,
+      "c12_tb": 8.183
+    },
+    {
+      "sid": 149530,
+      "submit_time_cst": "2026-09-27T04:54:59+08:00",
+      "status": "Accepted",
+      "raw": 85,
+      "sha256": "b74482e04b4d1a4a226dc616670e57af72598d8f8bd1d2391376b0d870590fa3",
+      "first_sha_in_cohort": true,
+      "severe_cases": [
+        10,
+        11,
+        12
+      ],
+      "tb_ge2x_cases": [],
+      "failed_zero_cases": [],
+      "c1_tk": 4.626,
+      "c1_tb": 19.358,
+      "c2_tk": 7.836,
+      "c2_tb": 29.015,
+      "c3_tk": 1.346,
+      "c3_tb": 7.102,
+      "c4_tk": 0.79,
+      "c4_tb": 5.054,
+      "c5_tk": 2.764,
+      "c5_tb": 12.692,
+      "c6_tk": 1.257,
+      "c6_tb": 8.05,
+      "c7_tk": 2.098,
+      "c7_tb": 10.292,
+      "c8_tk": 1.162,
+      "c8_tb": 7.281,
+      "c9_tk": 2.459,
+      "c9_tb": 8.424,
+      "c10_tk": 0.678,
+      "c10_tb": 6.755,
+      "c11_tk": 0.31,
+      "c11_tb": 5.675,
+      "c12_tk": 0.469,
+      "c12_tb": 8.16
+    },
+    {
+      "sid": 149609,
+      "submit_time_cst": "2026-09-27T11:21:35+08:00",
+      "status": "Accepted",
+      "raw": 83.5,
+      "sha256": "965def0ea019519a0c598e2f66ae5874c5bc0e9a48f1b6f9656baf2d93bc39a6",
+      "first_sha_in_cohort": true,
+      "severe_cases": [
+        10
+      ],
+      "tb_ge2x_cases": [],
+      "failed_zero_cases": [],
+      "c1_tk": 4.994,
+      "c1_tb": 18.062,
+      "c2_tk": 8.51,
+      "c2_tb": 29.306,
+      "c3_tk": 1.353,
+      "c3_tb": 7.029,
+      "c4_tk": 0.79,
+      "c4_tb": 5.083,
+      "c5_tk": 2.753,
+      "c5_tb": 12.755,
+      "c6_tk": 1.255,
+      "c6_tb": 7.586,
+      "c7_tk": 2.098,
+      "c7_tb": 10.313,
+      "c8_tk": 1.161,
+      "c8_tb": 7.201,
+      "c9_tk": 2.419,
+      "c9_tb": 9.325,
+      "c10_tk": 0.671,
+      "c10_tb": 6.719,
+      "c11_tk": 0.776,
+      "c11_tb": 5.702,
+      "c12_tk": 1.381,
+      "c12_tb": 8.164
+    },
+    {
+      "sid": 150941,
+      "submit_time_cst": "2026-09-29T02:22:54+08:00",
+      "status": "Accepted",
+      "raw": 84.5,
+      "sha256": "1526ea9559af7da41743504d8a69a550d3f4801a0c0d34d135f63552d79f3e83",
+      "first_sha_in_cohort": true,
+      "severe_cases": [
+        11,
+        12
+      ],
+      "tb_ge2x_cases": [],
+      "failed_zero_cases": [],
+      "c1_tk": 4.606,
+      "c1_tb": 17.71,
+      "c2_tk": 7.853,
+      "c2_tb": 28.605,
+      "c3_tk": 1.353,
+      "c3_tb": 6.937,
+      "c4_tk": 0.783,
+      "c4_tb": 4.948,
+      "c5_tk": 2.749,
+      "c5_tb": 12.171,
+      "c6_tk": 1.226,
+      "c6_tb": 8.019,
+      "c7_tk": 2.099,
+      "c7_tb": 10.269,
+      "c8_tk": 1.148,
+      "c8_tb": 7.162,
+      "c9_tk": 2.411,
+      "c9_tb": 7.75,
+      "c10_tk": 1.875,
+      "c10_tb": 6.731,
+      "c11_tk": 0.096,
+      "c11_tb": 5.671,
+      "c12_tk": 0.0,
+      "c12_tb": 8.565
+    },
+    {
+      "sid": 151064,
+      "submit_time_cst": "2026-09-29T12:11:02+08:00",
+      "status": "WrongAnswer",
+      "raw": 71.67,
+      "sha256": "1f02f5e2bec991bb12566f818188dc315be5a0e53f7915b136f900b0ce5290d8",
+      "first_sha_in_cohort": true,
+      "severe_cases": [
+        11,
+        12
+      ],
+      "tb_ge2x_cases": [],
+      "failed_zero_cases": [
+        9,
+        10
+      ],
+      "c1_tk": 4.684,
+      "c1_tb": 17.66,
+      "c2_tk": 7.829,
+      "c2_tb": 28.6,
+      "c3_tk": 1.336,
+      "c3_tb": 6.937,
+      "c4_tk": 0.787,
+      "c4_tb": 4.937,
+      "c5_tk": 2.752,
+      "c5_tb": 12.593,
+      "c6_tk": 1.228,
+      "c6_tb": 7.521,
+      "c7_tk": 2.097,
+      "c7_tb": 10.282,
+      "c8_tk": 1.146,
+      "c8_tb": 7.172,
+      "c9_tk": 0.0,
+      "c9_tb": 0.0,
+      "c10_tk": 0.0,
+      "c10_tb": 0.0,
+      "c11_tk": 0.096,
+      "c11_tb": 5.751,
+      "c12_tk": 0.0,
+      "c12_tb": 7.722
+    },
+    {
+      "sid": 151787,
+      "submit_time_cst": "2026-09-30T04:12:00+08:00",
+      "status": "WrongAnswer",
+      "raw": 77.33,
+      "sha256": "f04c4ccec648c19fc789f960bc0f8b4e8024d309f0a39303627afdb42a164e33",
+      "first_sha_in_cohort": true,
+      "severe_cases": [
+        10,
+        12
+      ],
+      "tb_ge2x_cases": [],
+      "failed_zero_cases": [
+        11
+      ],
+      "c1_tk": 4.62,
+      "c1_tb": 17.744,
+      "c2_tk": 7.845,
+      "c2_tb": 28.744,
+      "c3_tk": 1.357,
+      "c3_tb": 6.947,
+      "c4_tk": 0.791,
+      "c4_tb": 5.08,
+      "c5_tk": 2.76,
+      "c5_tb": 12.119,
+      "c6_tk": 1.235,
+      "c6_tb": 7.479,
+      "c7_tk": 2.098,
+      "c7_tb": 10.254,
+      "c8_tk": 1.143,
+      "c8_tb": 7.156,
+      "c9_tk": 2.415,
+      "c9_tb": 8.217,
+      "c10_tk": 0.67,
+      "c10_tb": 6.711,
+      "c11_tk": 0.0,
+      "c11_tb": 5.653,
+      "c12_tk": 0.0,
+      "c12_tb": 7.686
+    },
+    {
+      "sid": 151793,
+      "submit_time_cst": "2026-09-30T04:17:54+08:00",
+      "status": "Accepted",
+      "raw": 83.42,
+      "sha256": "d5accd04aaf81c71c28330af298188f8ba7870561752f959fbbc686ad2ba394a",
+      "first_sha_in_cohort": true,
+      "severe_cases": [
+        12
+      ],
+      "tb_ge2x_cases": [],
+      "failed_zero_cases": [],
+      "c1_tk": 4.628,
+      "c1_tb": 17.648,
+      "c2_tk": 7.826,
+      "c2_tb": 28.678,
+      "c3_tk": 1.344,
+      "c3_tb": 7.055,
+      "c4_tk": 0.78,
+      "c4_tb": 4.927,
+      "c5_tk": 2.751,
+      "c5_tb": 12.146,
+      "c6_tk": 1.23,
+      "c6_tb": 7.499,
+      "c7_tk": 2.1,
+      "c7_tb": 10.322,
+      "c8_tk": 1.157,
+      "c8_tb": 7.194,
+      "c9_tk": 2.399,
+      "c9_tb": 7.746,
+      "c10_tk": 1.857,
+      "c10_tb": 6.715,
+      "c11_tk": 0.891,
+      "c11_tb": 5.68,
+      "c12_tk": 0.0,
+      "c12_tb": 8.175
+    }
+  ],
+  "matched_exact_source": [
+    {
+      "sha256": "a6442ca8d4a717f2e52b4769b697c623c125ab0fd62ce1bf7d859c25d6dcca07",
+      "low_sid": 149520,
+      "normal_sid": 149522,
+      "low_tk_c10_c11_c12": [
+        0.68,
+        0.309,
+        0.47
+      ],
+      "normal_tk_c10_c11_c12": [
+        1.879,
+        0.885,
+        1.484
+      ]
+    },
+    {
+      "sha256": "b74482e04b4d1a4a226dc616670e57af72598d8f8bd1d2391376b0d870590fa3",
+      "low_sid": 149530,
+      "normal_sid": 149534,
+      "low_tk_c10_c11_c12": [
+        0.678,
+        0.31,
+        0.469
+      ],
+      "normal_tk_c10_c11_c12": [
+        1.895,
+        0.885,
+        1.489
+      ]
+    },
+    {
+      "sha256": "1526ea9559af7da41743504d8a69a550d3f4801a0c0d34d135f63552d79f3e83",
+      "low_sid": 150941,
+      "normal_sid": 150945,
+      "low_tk_c10_c11_c12": [
+        1.875,
+        0.096,
+        0.0
+      ],
+      "normal_tk_c10_c11_c12": [
+        1.892,
+        0.87,
+        1.473
+      ]
+    },
+    {
+      "sha256": "d5accd04aaf81c71c28330af298188f8ba7870561752f959fbbc686ad2ba394a",
+      "low_sid": 151793,
+      "normal_sid": 151804,
+      "low_tk_c10_c11_c12": [
+        1.857,
+        0.891,
+        0.0
+      ],
+      "normal_tk_c10_c11_c12": [
+        1.896,
+        1.014,
+        1.479
+      ]
+    }
+  ],
+  "failed_zero_not_counted": [
+    {
+      "sid": 149635,
+      "cases": [
+        1
+      ]
+    },
+    {
+      "sid": 149674,
+      "cases": [
+        11
+      ]
+    },
+    {
+      "sid": 149676,
+      "cases": [
+        11
+      ]
+    },
+    {
+      "sid": 149925,
+      "cases": [
+        11,
+        12,
+        4,
+        7,
+        5,
+        6,
+        8,
+        3
+      ]
+    },
+    {
+      "sid": 149951,
+      "cases": [
+        1
+      ]
+    },
+    {
+      "sid": 150961,
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "sid": 150966,
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "sid": 150967,
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "sid": 150969,
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "sid": 150973,
+      "cases": [
+        9,
+        10
+      ]
+    },
+    {
+      "sid": 151045,
+      "cases": [
+        10,
+        9
+      ]
+    },
+    {
+      "sid": 151056,
+      "cases": [
+        1
+      ]
+    },
+    {
+      "sid": 151064,
+      "cases": [
+        10,
+        9
+      ]
+    },
+    {
+      "sid": 151076,
+      "cases": [
+        10,
+        9
+      ]
+    },
+    {
+      "sid": 151086,
+      "cases": [
+        10,
+        9
+      ]
+    },
+    {
+      "sid": 151787,
+      "cases": [
+        11
+      ]
+    }
+  ],
+  "best_149493_conditional_models": {
+    "normal_source_sids": [
+      149499,
+      149505,
+      149508,
+      149510,
+      149513,
+      149515,
+      149517,
+      149519,
+      149521,
+      149524,
+      149529
+    ],
+    "raw": {
+      "observed": 85.16666666666667,
+      "replace_tk11_12": 83.25,
+      "replace_all_tb": 83.91666666666667,
+      "replace_both": 81.91666666666667
+    },
+    "normal_tk11": 0.899,
+    "normal_tk12": 1.497
+  },
+  "v926_zero_tk_conditional_raw": {
+    "12": 83.16666666666667,
+    "11_12": 84.33333333333333,
+    "10_11_12": 86.16666666666667,
+    "9_10_11_12": 88.25,
+    "1_2_10_11_12": 89.75
+  }
+}

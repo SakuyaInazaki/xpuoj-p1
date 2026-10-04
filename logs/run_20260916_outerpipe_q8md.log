@@ -1,0 +1,13 @@
+[令牌池] 取到 submit_problem 令牌 …ac14d9（年龄 131.8s，剩余可用 168.2s）
+PoW难度5 求解1.3s  HTTP 201
+outerpipe_q8md: SID=144771
+[令牌池] 取到 submit_problem 令牌 …6261de（年龄 108.4s，剩余可用 191.6s）
+PoW难度5 求解1.7s  HTTP 201
+锚: SID=144772
+01:09:31 ['-', '-']
+01:10:01 ['-', '-']
+01:10:32 ['Acce', '-']
+01:11:02 ['Acce', 'Acce']
+outerpipe_q8md 144771 display=81.08 Σtk=30.261 SQNR最差余量+1.12dB
+锚 144772 display=82.42 Σtk=29.673 SQNR最差余量+1.12dB
+outerpipe_q8md: 机器项+1.41%  净残差 c1-0.42 c2+0.04   ⇒ raw +0.005

@@ -1,0 +1,168 @@
+{
+  "sha256": "3f95092adf1225f59b5e29a5bc7ad56000ca65dfeda02dd882ab6ded17c9db9a",
+  "parent": "befd19dcc7a0824ae49c93c91151e051ee6d3d4c8e8da17e2b1fdf40e9a02b68",
+  "only_change": "two complete-shape predicates c6 to c5+c6",
+  "inverse_ast": "passed",
+  "helper_ast": "unchanged",
+  "bindings": [
+    {
+      "callee": "_s1_c6_gq_tok_params_kernel",
+      "line": 7769
+    },
+    {
+      "callee": "_s1_c6_mdq_g_pre_kernel",
+      "line": 7849
+    },
+    {
+      "callee": "_s1_c6_gq_tok_params",
+      "line": 6455
+    },
+    {
+      "callee": "_s1_c6_gq_tok_params",
+      "line": 6463
+    },
+    {
+      "callee": "_s1_c6_mdq_g_pre_host",
+      "line": 6599
+    }
+  ],
+  "selected_predicate_table": [
+    {
+      "shape": [
+        8192,
+        3584,
+        64,
+        2560,
+        8
+      ],
+      "n": 1,
+      "hybrid": false
+    },
+    {
+      "shape": [
+        8192,
+        3584,
+        64,
+        2560,
+        8
+      ],
+      "n": 2,
+      "hybrid": false
+    },
+    {
+      "shape": [
+        8192,
+        3584,
+        64,
+        2560,
+        8
+      ],
+      "n": 3,
+      "hybrid": true
+    },
+    {
+      "shape": [
+        8192,
+        3584,
+        64,
+        2560,
+        8
+      ],
+      "n": 5,
+      "hybrid": true
+    },
+    {
+      "shape": [
+        8192,
+        3584,
+        64,
+        2560,
+        8
+      ],
+      "n": 6,
+      "hybrid": true
+    },
+    {
+      "shape": [
+        8192,
+        3584,
+        64,
+        2560,
+        8
+      ],
+      "n": 100,
+      "hybrid": true
+    },
+    {
+      "shape": [
+        8192,
+        3584,
+        64,
+        1024,
+        8
+      ],
+      "n": 1,
+      "hybrid": false
+    },
+    {
+      "shape": [
+        8192,
+        3584,
+        64,
+        1024,
+        8
+      ],
+      "n": 2,
+      "hybrid": false
+    },
+    {
+      "shape": [
+        8192,
+        3584,
+        64,
+        1024,
+        8
+      ],
+      "n": 3,
+      "hybrid": true
+    },
+    {
+      "shape": [
+        8192,
+        3584,
+        64,
+        1024,
+        8
+      ],
+      "n": 5,
+      "hybrid": true
+    },
+    {
+      "shape": [
+        8192,
+        3584,
+        64,
+        1024,
+        8
+      ],
+      "n": 6,
+      "hybrid": true
+    },
+    {
+      "shape": [
+        8192,
+        3584,
+        64,
+        1024,
+        8
+      ],
+      "n": 100,
+      "hybrid": true
+    }
+  ],
+  "other_shape_checks": 60,
+  "stages": "original c5 MDg and pre_far outer2/launch3 equal target",
+  "cpu_contract": "reused expanded_checks.json actual c5 T8192/E64/k8 FP32/INV mappings",
+  "compile": "passed",
+  "limits": "no GPU/OJ/fullAC; >=6 oldA numerical and store path change"
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "customTestId": "dd535374-7eba-488f-bb1b-c1afc5fb86d9",
+  "requestCount": 1,
+  "retryPerformed": false,
+  "source": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/candidates/fp8_c2_md_cta2_custom_bench.py",
+    "bytes": 27151,
+    "sha256": "3e9eb215ba0f7b9223389b1ce19964ee946211a8f34201412d5a15da0ffb3012"
+  },
+  "request": {
+    "endpoint": "customTest/createCustomTest",
+    "action": "custom_test",
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "compileAndRunOptions": {}
+  },
+  "terminal": {
+    "state": "Finished",
+    "status": "WrongAnswer",
+    "outerCompileSuccess": true,
+    "outerCompileMessage": "",
+    "totalOccupiedTime": 4780
+  },
+  "case": {
+    "index": 0,
+    "status": "WrongAnswer",
+    "time": 4670467,
+    "memory": 911084,
+    "ojResult": {
+      "schema_version": 2,
+      "tk_time_ms": 0.0,
+      "tb_time_ms": 0.0,
+      "th_time_ms": 0.0,
+      "pass": false
+    }
+  },
+  "generatedWorkload": {
+    "executionReachedDiagnostic": false,
+    "mathComparisonReached": false,
+    "timingReached": false,
+    "resourceExtractionReached": false,
+    "p1mdLines": [],
+    "failureStage": "Triton NVIDIA GPU CTA planning during active_c2_md_kernel compilation",
+    "failureSignature": "PlanCTA.cpp:212 CTAPlanner::markTiled assertion: CTA tiling is already determined",
+    "observedKernel": "active_c2_md_kernel",
+    "observedModuleMaxNReg": 168,
+    "userErrorPath": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_dd535374-7eba-488f-bb1b-c1afc5fb86d9_user_error.json",
+    "userErrorOmittedLength": 7370
+  },
+  "interpretation": {
+    "candidateVsBaselinePass": null,
+    "fullValueComparisonCount": 0,
+    "expectedFullValueComparisonCount": 469762048,
+    "sqnrDb": null,
+    "scaleMaxRelativeError": null,
+    "finiteGate": null,
+    "numCtas1Ms": null,
+    "numCtas2Ms": null,
+    "numCtas1Resources": null,
+    "numCtas2Resources": null,
+    "conclusion": "No candidate comparison, timing, or resource evidence: compiler aborted before diagnostic execution."
+  },
+  "artifacts": {
+    "raw": {
+      "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_dd535374-7eba-488f-bb1b-c1afc5fb86d9_raw.json",
+      "sha256": "66e0e6ad6cb52c272c39e6897a3c0ec26905471284732687f39126e4c60762d0"
+    },
+    "userError": {
+      "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_dd535374-7eba-488f-bb1b-c1afc5fb86d9_user_error.json",
+      "sha256": "2a1988da19b9132bba82d9341a95dfb5a218512b3812e8983df812794fbec947"
+    }
+  }
+}

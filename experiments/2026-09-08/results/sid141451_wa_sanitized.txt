@@ -1,0 +1,23 @@
+SID: 141451
+submitTime: 2026-09-08T17:01:11.000Z
+status: WrongAnswer
+compile.success: true
+totalOccupiedTime: 103992
+
+Cases 1-8, 11, and 12: Accepted with two SQNR and two determinism checks each.
+
+Case 9:
+[OK] oracle SQNR (bf16): SQNR=22.63 dB >= 22.0 dB
+[DETERMINISM FAIL] run_kernel raised during determinism check: Callable 'run_kernel' failed with innermost OutOfMemoryError:
+  File "/judge/1/working/.kernel_cache/<redacted>.py", line 2188, in _get_full_fp8_weights_lowmem
+    gate_list = [torch.empty_like(expert_gate_proj) for _ in range(world_size)]
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1024.00 MiB. GPU 0 had 515.44 MiB free.
+{"schema_version":2,"tk_time_ms":0.0,"tb_time_ms":8.395,"th_time_ms":0.0,"pass":false}
+
+Case 10:
+[OK] oracle SQNR (bf16): SQNR=22.64 dB >= 22.0 dB
+[DETERMINISM FAIL] run_kernel raised during determinism check: Callable 'run_kernel' failed with innermost OutOfMemoryError:
+  File "/judge/1/working/.kernel_cache/<redacted>.py", line 2620, in _get_full_weights
+    up_full = torch.cat(up_list, dim=0).contiguous()
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.00 GiB. GPU 0 had 2.66 GiB free.
+{"schema_version":2,"tk_time_ms":0.0,"tb_time_ms":6.759,"th_time_ms":0.0,"pass":false}

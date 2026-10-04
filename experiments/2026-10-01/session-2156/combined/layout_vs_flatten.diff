@@ -1,0 +1,20 @@
+--- p1_c356_unified_c4_flatten.py
++++ p1_c356_unified_c4_layout.py
+@@ -7905,7 +7905,7 @@
+     num_block_n = tl.cdiv(I, BLOCK_N)
+     total_tiles = tl.load(num_tiles)
+ 
+-    for tile_id in tl.range(pid, total_tiles * num_block_n, num_pid, flatten=True):
++    for tile_id in tl.range(pid, total_tiles * num_block_n, num_pid, num_stages=2):
+         pid_m = tile_id // num_block_n
+         pid_n = tile_id % num_block_n
+ 
+@@ -7995,7 +7995,7 @@
+     num_block_n = tl.cdiv(I, BLOCK_N)
+     total_tiles = tl.load(num_tiles)
+ 
+-    for tile_id in tl.range(pid, total_tiles * num_block_n, num_pid, flatten=True):
++    for tile_id in tl.range(pid, total_tiles * num_block_n, num_pid, num_stages=2):
+         pid_m = tile_id // num_block_n
+         pid_n = tile_id % num_block_n
+ 

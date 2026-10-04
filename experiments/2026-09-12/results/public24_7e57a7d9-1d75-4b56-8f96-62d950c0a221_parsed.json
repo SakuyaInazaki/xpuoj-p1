@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "customTestId": "7e57a7d9-1d75-4b56-8f96-62d950c0a221",
+  "requestCount": 1,
+  "retryPerformed": false,
+  "source": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/candidates/fp8_c2_md_bm64_s2_r128_custom_bench.py",
+    "bytes": 29854,
+    "sha256": "ee83ef2ba38980ca011208b68b54fc008183604d8593fa2be490573e8a04afc0"
+  },
+  "request": {
+    "endpoint": "customTest/createCustomTest",
+    "action": "custom_test",
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "compileAndRunOptions": {}
+  },
+  "terminal": {
+    "state": "Finished",
+    "status": "WrongAnswer",
+    "outerCompileSuccess": true,
+    "outerCompileMessage": "",
+    "totalOccupiedTime": 5581
+  },
+  "case": {
+    "index": 0,
+    "status": "WrongAnswer",
+    "time": 5463484,
+    "memory": 915124
+  },
+  "generatedWorkload": {
+    "executionReachedDiagnostic": false,
+    "mathComparisonReached": false,
+    "timingReached": false,
+    "resourceExtractionReached": false,
+    "p1mdLines": [],
+    "failureStage": "Triton compilation of full_compare_partial_kernel",
+    "failureSignature": "'tt.atomic_rmw' op failed to verify that mask type matches value type",
+    "failingExpression": "tl.atomic_or(STATUS, 1, mask=mask & (value_finite == 0))",
+    "userErrorPath": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_7e57a7d9-1d75-4b56-8f96-62d950c0a221_user_error.txt",
+    "userOutputOmittedLength": 37933
+  },
+  "interpretation": {
+    "candidateVsBaselinePass": null,
+    "fullValueComparisonCount": 0,
+    "expectedFullValueComparisonCount": 469762048,
+    "sqnrDb": null,
+    "scaleMaxRelativeError": null,
+    "finiteGate": null,
+    "baselineMs": null,
+    "candidateMs": null,
+    "baselineResources": null,
+    "candidateResources": null,
+    "conclusion": "No correctness, timing, or resource evidence: full comparison kernel failed Triton verification before diagnostic execution."
+  },
+  "artifacts": {
+    "raw": {
+      "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_7e57a7d9-1d75-4b56-8f96-62d950c0a221_raw.json",
+      "sha256": "e1e3bff7ae3a2292d362d4a6ed534d36a54e108e7452b4e3587a48361c25e240"
+    },
+    "userError": {
+      "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_7e57a7d9-1d75-4b56-8f96-62d950c0a221_user_error.txt",
+      "sha256": "77ad60edf5b6ddf7742eb22bb02f0555d93ef7ec8d346a4434c47550d5db8c87"
+    }
+  }
+}

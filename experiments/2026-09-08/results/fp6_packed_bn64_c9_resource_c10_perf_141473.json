@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "experiment": "fp6_packed_bn64_c9_resource_c10_perf",
+  "submission": {
+    "id": 141473,
+    "source": "experiments/2026-09-08/candidates/fp6_packed_bn64_c9_resource_c10_perf.py",
+    "sha256": "9d90cc4a570ed649238b389acc512601fccb64969c6fc6eee1cde01c68c06dde",
+    "status": "WrongAnswer",
+    "score": 92,
+    "display_score": 71.75,
+    "submit_time": "2026-09-08T18:29:46.000Z",
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "total_occupied_time": 115910,
+    "sample_records": [
+      {
+        "testcase_hash": "fa0fc4e7bc16720dd0b3e69d8e774b7088884c95",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 1,
+        "tk_ms": 4.747,
+        "tb_ms": 17.922,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      }
+    ],
+    "cases": {
+      "1": {
+        "testcase_hash": "15cf8218edc68606f57f4ef7fb1dc7bf40b61ee0",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 1,
+        "tk_ms": 4.747,
+        "tb_ms": 17.922,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "2": {
+        "testcase_hash": "303e2ddb10b08ae6e7ffd4b10ee08a47465a33d2",
+        "status": "Accepted",
+        "display_score": 77,
+        "sqnr_db": [
+          23.77,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 2,
+        "tk_ms": 8.195,
+        "tb_ms": 28.719,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "3": {
+        "testcase_hash": "2c97592c0cb35b92a3fbb1d8e3e1e93045661391",
+        "status": "Accepted",
+        "display_score": 82,
+        "sqnr_db": [
+          23.87,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 3,
+        "tk_ms": 1.426,
+        "tb_ms": 6.946,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "4": {
+        "testcase_hash": "30881fa6fe4d2fd62b2110c6a00711da807635c3",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.21,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 4,
+        "tk_ms": 0.853,
+        "tb_ms": 4.927,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "5": {
+        "testcase_hash": "ed25ced38d18be643084abdfa7d976f88357264e",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.13,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 5,
+        "tk_ms": 2.873,
+        "tb_ms": 12.625,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "6": {
+        "testcase_hash": "9b9b6e318ea92f254621e6aa0e120a42e5281034",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.83,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 6,
+        "tk_ms": 1.348,
+        "tb_ms": 7.763,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "7": {
+        "testcase_hash": "1c26e6a2247cdb71456e5d9d014dd2fc94ed90c1",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.11,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 7,
+        "tk_ms": 2.316,
+        "tb_ms": 10.11,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "8": {
+        "testcase_hash": "09cb7c4fd0f6e43b834e6f5957dd2035fb23c5e2",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.83,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 8,
+        "tk_ms": 1.373,
+        "tb_ms": 7.055,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "9": {
+        "testcase_hash": "2386732d5c2ff036f01064f60452178df094dcfd",
+        "status": "WrongAnswer",
+        "display_score": null,
+        "sqnr_db": [],
+        "determinism_ok_count": 0,
+        "determinism_fail_count": 0,
+        "case": 9,
+        "tk_ms": 0.0,
+        "tb_ms": 0.0,
+        "th_ms": 0.0,
+        "passed": false,
+        "runtime_resource_marker": "RuntimeError: FP6_MD_RESOURCE regs=255 spills=10 shared=90128"
+      },
+      "10": {
+        "testcase_hash": "df7114ae1c9c14a27a12f3a360cfb72e6e049901",
+        "status": "Accepted",
+        "display_score": 42,
+        "sqnr_db": [
+          22.63,
+          22.64
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 10,
+        "tk_ms": 8.926,
+        "tb_ms": 6.629,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "11": {
+        "testcase_hash": "fbe12414b5cee606cc5aa787faf22e9140acc866",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.35,
+          23.27
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 11,
+        "tk_ms": 1.012,
+        "tb_ms": 5.612,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      },
+      "12": {
+        "testcase_hash": "5e210780383db4cf7471f5d813fecd59d793588f",
+        "status": "Accepted",
+        "display_score": 82,
+        "sqnr_db": [
+          23.3,
+          23.27
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 12,
+        "tk_ms": 1.644,
+        "tb_ms": 7.609,
+        "th_ms": 0.0,
+        "passed": true,
+        "runtime_resource_marker": null
+      }
+    }
+  },
+  "submission_attempts": [
+    {
+      "result": "no_submission_created",
+      "error_category": "INTERNAL_SERVER_ERROR",
+      "verification": "submissionCount remained 2587, newest account record remained SID 141470, and inflight was empty"
+    },
+    {
+      "result": "created",
+      "submission_id": 141473,
+      "note": "Root authorized a fresh-pool-token retry because the first request did not create a submission."
+    }
+  ],
+  "c9_resource": {
+    "n_regs": 255,
+    "n_spills": 10,
+    "local_size_bytes_per_thread": 40,
+    "metadata_shared": 90128,
+    "source_text_occurrences_excluded": true,
+    "attribute_access_succeeded": true,
+    "interpretation": "Triton v3.4.0 obtains n_spills as CU_FUNC_ATTRIBUTE_LOCAL_SIZE_BYTES divided by 4. It is not a spill-instruction count.",
+    "execution_boundary": "Intentional RuntimeError after the normal launch returned; no c9 SQNR, determinism, or valid timing."
+  },
+  "c10_result": {
+    "status": "Accepted",
+    "sqnr_db": [
+      22.63,
+      22.64
+    ],
+    "margin_over_22_db": [
+      0.63,
+      0.64
+    ],
+    "determinism_ok_count": 2,
+    "determinism_fail_count": 0,
+    "tk_ms": 8.926,
+    "tb_ms": 6.629
+  },
+  "resource_comparison_vs_old_packed": {
+    "old": {
+      "n_regs": 255,
+      "n_spills": 180,
+      "local_size_bytes_per_thread": 720,
+      "metadata_shared": 131088
+    },
+    "bn64": {
+      "n_regs": 255,
+      "n_spills": 10,
+      "local_size_bytes_per_thread": 40,
+      "metadata_shared": 90128
+    },
+    "causality_boundary": "Resource and performance changes are recorded together but are not treated as proof of a single cause."
+  },
+  "comparison_vs_141454": {
+    "untouched_10_cases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "untouched_median_tk_ratio": 0.9996960486322188,
+    "untouched_sum_tk_ratio": 1.0008538715311468,
+    "untouched_candidate_sum_tk_ms": 25.787,
+    "untouched_reference_sum_tk_ms": 25.765,
+    "c10_reference_tk_ms": 1.993,
+    "c10_raw_ratio": 4.478675363773206,
+    "c10_raw_delta_ms": 6.933,
+    "c10_median_corrected_tk_ms": 8.928713894800852,
+    "c10_median_corrected_ratio": 4.480037077170523,
+    "c10_median_corrected_delta_ms": 6.935713894800852,
+    "c10_sum_corrected_tk_ms": 8.918384845076979,
+    "c10_sum_corrected_ratio": 4.474854412983933,
+    "c10_sum_corrected_delta_ms": 6.925384845076978
+  },
+  "comparison_vs_141460": {
+    "untouched_10_cases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "untouched_median_tk_ratio": 1.0010039731436597,
+    "untouched_sum_tk_ratio": 1.0003103301136584,
+    "untouched_candidate_sum_tk_ms": 25.787,
+    "untouched_reference_sum_tk_ms": 25.779,
+    "c10_reference_tk_ms": 13.141,
+    "c10_raw_ratio": 0.6792481546305457,
+    "c10_raw_delta_ms": -4.215,
+    "c10_median_corrected_tk_ms": 8.917047523765403,
+    "c10_median_corrected_ratio": 0.6785668916951071,
+    "c10_median_corrected_delta_ms": -4.223952476234597,
+    "c10_sum_corrected_tk_ms": 8.923230852755264,
+    "c10_sum_corrected_ratio": 0.6790374288680666,
+    "c10_sum_corrected_delta_ms": -4.217769147244736
+  },
+  "comparison_vs_141462": {
+    "untouched_10_cases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "untouched_median_tk_ratio": 1.0190993002001592,
+    "untouched_sum_tk_ratio": 1.0236592433805725,
+    "untouched_candidate_sum_tk_ms": 25.787,
+    "untouched_reference_sum_tk_ms": 25.191,
+    "c10_reference_tk_ms": 13.03,
+    "c10_raw_ratio": 0.6850345356868764,
+    "c10_raw_delta_ms": -4.103999999999999,
+    "c10_median_corrected_tk_ms": 8.758714678978647,
+    "c10_median_corrected_ratio": 0.6721960613183919,
+    "c10_median_corrected_delta_ms": -4.271285321021352,
+    "c10_sum_corrected_tk_ms": 8.71969853026719,
+    "c10_sum_corrected_ratio": 0.6692017291072286,
+    "c10_sum_corrected_delta_ms": -4.31030146973281
+  },
+  "scoreboard_after_submission": {
+    "p1_score": 72.75,
+    "best_submission_id": 141408,
+    "submission_count": 2588,
+    "inflight_submission_ids": []
+  },
+  "resubmitted": false,
+  "raw_detail_file": "experiments/2026-09-08/results/submissions_141473_raw.json",
+  "sanitized_log_file": "experiments/2026-09-08/results/sid141473_resource_sanitized.txt"
+}

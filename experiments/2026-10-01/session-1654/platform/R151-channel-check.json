@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-01T17:17:06.403709",
+  "pool": {
+    "browser_online": true,
+    "fresh": {
+      "submit_problem": 0,
+      "custom_test": 0
+    },
+    "need": {
+      "submit_problem": 3,
+      "custom_test": 1
+    },
+    "target": {
+      "submit_problem": 2,
+      "custom_test": 1
+    }
+  },
+  "credit": {
+    "api_token": {
+      "type": "api_token",
+      "state": "available",
+      "available": 1,
+      "capacity": 10,
+      "refillIntervalSeconds": 1800,
+      "nextCreditAt": "2026-10-01T09:46:49.116Z",
+      "fullyRefilledAt": "2026-10-01T13:46:49.116Z"
+    },
+    "custom_test": {
+      "type": "custom_test",
+      "state": "full",
+      "available": 3,
+      "capacity": 3,
+      "refillIntervalSeconds": 600,
+      "nextCreditAt": null,
+      "fullyRefilledAt": null
+    }
+  }
+}

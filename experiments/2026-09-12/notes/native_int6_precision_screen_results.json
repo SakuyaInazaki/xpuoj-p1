@@ -1,0 +1,248 @@
+{
+  "experiment": "native INT8 A + signed-6-bit GU precision screen",
+  "code_sha256": "9ccdc8e759999c60179d54708f76dcc9e3d5efc81f6c8f0d8a94d1a76824ec5c",
+  "fp8_helper": "experiments/2026-09-08/notes/fp6_e4m3_cpu_verify.py",
+  "constants": {
+    "K": 4096,
+    "I": [
+      1536,
+      2048
+    ],
+    "M": 8,
+    "O": 256,
+    "experts": 8,
+    "seeds_per_shape": [
+      2026091201,
+      2026091202
+    ],
+    "sqnr_target_db": 22.0
+  },
+  "method": {
+    "source": "NumPy Gaussian values rounded to BF16; float32 forward reference",
+    "baseline": "per-row FP8 A/GU, power-of-two-bound FP8 ACT, per-row FP8 DN",
+    "native": "per-row INT8 A and signed-6-bit GU stored in int8; same FP8 ACT/DN",
+    "native_act_bound": "native_A_scale * (127/448) before squaring",
+    "terminal": "each expert DN output quantized per row per one 256-column block to FP8, dequantized, then branch-summed",
+    "md_int_accumulation": "float32 matmul of integer values; K*127*31=16125952 < 2^24",
+    "route": "fixed positive weights [1..8] normalized to sum to one; applied before ACT quantization"
+  },
+  "summary": {
+    "minimum_baseline_sqnr_db": 22.885865658299775,
+    "minimum_native_sqnr_db": 23.054926971771415,
+    "minimum_native_margin_over_22db": 1.0549269717714154,
+    "all_native_pass_22db": true
+  },
+  "cases": [
+    {
+      "shape": {
+        "M": 8,
+        "K": 4096,
+        "I": 1536,
+        "O": 256,
+        "experts": 8
+      },
+      "seed": 2026091201,
+      "route_weights": [
+        0.02777777798473835,
+        0.0555555559694767,
+        0.0833333358168602,
+        0.1111111119389534,
+        0.1388888955116272,
+        0.1666666716337204,
+        0.1944444477558136,
+        0.2222222238779068
+      ],
+      "baseline_fp8_A_GU_ACT_DN": {
+        "signal_rms": 44971.36260504591,
+        "error_rms": 3124.366953199504,
+        "relative_rms": 0.06947458943236337,
+        "sqnr_db": 23.163480221068923,
+        "passes_22db": true,
+        "margin_over_22db": 1.163480221068923
+      },
+      "native_int8_A_int6_GU_fp8_ACT_DN": {
+        "signal_rms": 44971.36260504591,
+        "error_rms": 3137.802330038755,
+        "relative_rms": 0.06977334348518684,
+        "sqnr_db": 23.12620930926457,
+        "passes_22db": true,
+        "margin_over_22db": 1.1262093092645706
+      },
+      "native_sqnr_delta_vs_baseline_db": -0.03727091180435238,
+      "timing_seconds": {
+        "total": 0.9046024577692151,
+        "experts": [
+          0.12026937492191792,
+          0.080379375256598,
+          0.0823602918535471,
+          0.08229729067534208,
+          0.08081437507644296,
+          0.08191183302551508,
+          0.08120587468147278,
+          0.08127650013193488
+        ]
+      },
+      "sampled_peak_rss_mib": 468.15625
+    },
+    {
+      "shape": {
+        "M": 8,
+        "K": 4096,
+        "I": 1536,
+        "O": 256,
+        "experts": 8
+      },
+      "seed": 2026091202,
+      "route_weights": [
+        0.02777777798473835,
+        0.0555555559694767,
+        0.0833333358168602,
+        0.1111111119389534,
+        0.1388888955116272,
+        0.1666666716337204,
+        0.1944444477558136,
+        0.2222222238779068
+      ],
+      "baseline_fp8_A_GU_ACT_DN": {
+        "signal_rms": 44389.54120274808,
+        "error_rms": 3184.104946235284,
+        "relative_rms": 0.07173097220563662,
+        "sqnr_db": 22.885865658299775,
+        "passes_22db": true,
+        "margin_over_22db": 0.8858656582997746
+      },
+      "native_int8_A_int6_GU_fp8_ACT_DN": {
+        "signal_rms": 44389.54120274808,
+        "error_rms": 3122.7290809739548,
+        "relative_rms": 0.07034830719945878,
+        "sqnr_db": 23.054926971771415,
+        "passes_22db": true,
+        "margin_over_22db": 1.0549269717714154
+      },
+      "native_sqnr_delta_vs_baseline_db": 0.16906131347164077,
+      "timing_seconds": {
+        "total": 0.8541237083263695,
+        "experts": [
+          0.08114645816385746,
+          0.08077583415433764,
+          0.08234804216772318,
+          0.08101370790973306,
+          0.08175250003114343,
+          0.080506999976933,
+          0.08127666683867574,
+          0.08126883301883936
+        ]
+      },
+      "sampled_peak_rss_mib": 468.171875
+    },
+    {
+      "shape": {
+        "M": 8,
+        "K": 4096,
+        "I": 2048,
+        "O": 256,
+        "experts": 8
+      },
+      "seed": 2026091201,
+      "route_weights": [
+        0.02777777798473835,
+        0.0555555559694767,
+        0.0833333358168602,
+        0.1111111119389534,
+        0.1388888955116272,
+        0.1666666716337204,
+        0.1944444477558136,
+        0.2222222238779068
+      ],
+      "baseline_fp8_A_GU_ACT_DN": {
+        "signal_rms": 52950.44605713787,
+        "error_rms": 3754.7433011911367,
+        "relative_rms": 0.0709105131454315,
+        "sqnr_db": 22.985787436657343,
+        "passes_22db": true,
+        "margin_over_22db": 0.9857874366573434
+      },
+      "native_int8_A_int6_GU_fp8_ACT_DN": {
+        "signal_rms": 52950.44605713787,
+        "error_rms": 3568.5663863572804,
+        "relative_rms": 0.06739445372200462,
+        "sqnr_db": 23.427516851797883,
+        "passes_22db": true,
+        "margin_over_22db": 1.4275168517978827
+      },
+      "native_sqnr_delta_vs_baseline_db": 0.4417294151405393,
+      "timing_seconds": {
+        "total": 1.1290005831979215,
+        "experts": [
+          0.15411979192867875,
+          0.10807579196989536,
+          0.11283341702073812,
+          0.10830487497150898,
+          0.10903125023469329,
+          0.11321141570806503,
+          0.10884279198944569,
+          0.10796745819970965
+        ]
+      },
+      "sampled_peak_rss_mib": 786.953125
+    },
+    {
+      "shape": {
+        "M": 8,
+        "K": 4096,
+        "I": 2048,
+        "O": 256,
+        "experts": 8
+      },
+      "seed": 2026091202,
+      "route_weights": [
+        0.02777777798473835,
+        0.0555555559694767,
+        0.0833333358168602,
+        0.1111111119389534,
+        0.1388888955116272,
+        0.1666666716337204,
+        0.1944444477558136,
+        0.2222222238779068
+      ],
+      "baseline_fp8_A_GU_ACT_DN": {
+        "signal_rms": 52457.69992183847,
+        "error_rms": 3706.513669665412,
+        "relative_rms": 0.07065718998713413,
+        "sqnr_db": 23.01687276608696,
+        "passes_22db": true,
+        "margin_over_22db": 1.0168727660869585
+      },
+      "native_int8_A_int6_GU_fp8_ACT_DN": {
+        "signal_rms": 52457.69992183847,
+        "error_rms": 3573.330484725056,
+        "relative_rms": 0.06811832181070249,
+        "sqnr_db": 23.334721200486225,
+        "passes_22db": true,
+        "margin_over_22db": 1.334721200486225
+      },
+      "native_sqnr_delta_vs_baseline_db": 0.31784843439926647,
+      "timing_seconds": {
+        "total": 1.066787791904062,
+        "experts": [
+          0.1097372081130743,
+          0.10897737462073565,
+          0.10854287538677454,
+          0.10768374986946583,
+          0.10894845798611641,
+          0.10795658314600587,
+          0.1067396248690784,
+          0.107936582993716
+        ]
+      },
+      "sampled_peak_rss_mib": 783.296875
+    }
+  ],
+  "limitations": [
+    "CPU mathematical simulation only",
+    "does not prove GPU compilation",
+    "does not prove platform/judge precision",
+    "does not measure or prove GPU speed",
+    "does not reproduce GPU instruction-level rounding or accumulation order"
+  ]
+}

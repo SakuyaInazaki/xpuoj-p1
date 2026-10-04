@@ -1,0 +1,29 @@
+{
+  "customTestId": "de45e5a9-16ed-475f-ab49-b733daa621d0",
+  "sourcePath": "experiments/2026-09-13/candidates/fp8_c4_dn_tma_store_custom_bench.py",
+  "sourceBytes": 18913,
+  "sourceSha256": "5d69abb6c04b715cb0479cc93338cabde1cb52b63a7e417f841a52de602756aa",
+  "requestCount": 1,
+  "retryCount": 0,
+  "state": "Finished",
+  "status": "WrongAnswer",
+  "outerCompileSuccess": true,
+  "totalOccupiedTimeMs": 4792,
+  "caseTimeUs": 4621762,
+  "memoryKiB": 902032,
+  "diagnostic": {
+    "stage": "candidate_dn_kernel JIT/MLIR verification",
+    "location": "flattened tl.range containing the full-tile descriptor-store conditional",
+    "error": "'scf.if' op region control flow edge from Region #1 to parent results: source has 1 operands, but target successor needs 5",
+    "smemLimitExceeded": false
+  },
+  "evidenceReached": {
+    "p1md": false,
+    "mathCheck": false,
+    "zeroRowCheck": false,
+    "resources": false,
+    "timingGroups": 0
+  },
+  "interpretation": "The run exposes a compiler lowering/verifier failure for this control-flow form. It provides no correctness, resource, DN timing, DN-plus-gather timing, or P1 end-to-end evidence. Per the frozen experiment rule it was not modified or retried.",
+  "auditLimitation": "The unreached zero-row check bitcasts FP8 to uint8 and would treat negative zero (bit 128) as nonzero. Baseline/candidate full-output bitwise comparison remains a valid planned gate, but zero_rows_exact could not have been claimed from this source even if reached without first using an FP32 numeric-zero test."
+}

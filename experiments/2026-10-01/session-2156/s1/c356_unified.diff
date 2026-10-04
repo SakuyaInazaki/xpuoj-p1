@@ -1,0 +1,20 @@
+--- p1_s1_c56_unified.py
++++ p1_s1_c356_unified.py
+@@ -6450,7 +6450,7 @@
+         if use_case2_plain_fp8:
+             fp8_tokens_q, fp8_tokens_s = _gq1p_tm(x, inv_order, k)
+         elif _GA[0] or (E == 256 and _FL[0]):
+-            _hybrid = bool(_GA[0] and (T, H, E, I, k) in ((8192, 3584, 64, 2560, 8), (8192, 3584, 64, 1024, 8)))
++            _hybrid = bool(_GA[0] and (T, H, E, I, k) in ((16384, 2048, 32, 2048, 4), (8192, 3584, 64, 2560, 8), (8192, 3584, 64, 1024, 8)))
+             if _hybrid:
+                 fp8_tokens_q, fp8_tokens_s, _hybrid_ah, _hybrid_wi, _hybrid_scl = _s1_c6_gq_tok_params(
+                     x, inv_order, flat_ids, flat_weights, _gu_bnorm(gu_q, gu_s), k
+@@ -6458,7 +6458,7 @@
+             else:
+                 fp8_tokens_q, fp8_tokens_s = _gq1p_tok(x)
+         elif _dir_a:
+-            if (T, H, E, I, k) in ((8192, 3584, 64, 2560, 8), (8192, 3584, 64, 1024, 8)):
++            if (T, H, E, I, k) in ((16384, 2048, 32, 2048, 4), (8192, 3584, 64, 2560, 8), (8192, 3584, 64, 1024, 8)):
+                 _hybrid = True
+                 fp8_tokens_q, fp8_tokens_s, _hybrid_ah, _hybrid_wi, _hybrid_scl = _s1_c6_gq_tok_params(
+                     x, inv_order, flat_ids, flat_weights, _gu_bnorm(gu_q, gu_s), k

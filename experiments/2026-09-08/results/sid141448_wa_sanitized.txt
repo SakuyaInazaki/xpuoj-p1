@@ -1,0 +1,21 @@
+SID: 141448
+submitTime: 2026-09-08T16:55:49.000Z
+status: WrongAnswer
+compile.success: true
+totalOccupiedTime: 112842
+
+Cases 1-8, 11, and 12: Accepted with two SQNR and two determinism checks each.
+
+Case 9 error:
+Execution error on testcase=9: Callable 'run_kernel' failed with innermost TensorGuardError:
+  File "/judge/1/working/.kernel_cache/<redacted>.py", line 3888, in _get_fp6_roundtrip_weights
+    key = (lowmem,) + tuple(((id(w), _getattr_(w, 'data_ptr')(), tuple(_getattr_(w, 'shape'))) for w in _getiter_((gate, up, down))))
+triton_sandbox.core.tensor_guard.TensorGuardError: torch.Tensor attribute/method 'data_ptr' is not allowed in the sandbox
+{"schema_version":2,"tk_time_ms":0.0,"tb_time_ms":0.0,"th_time_ms":0.0,"pass":false}
+
+Case 10 error:
+Execution error on testcase=10: Callable 'run_kernel' failed with innermost TensorGuardError:
+  File "/judge/1/working/.kernel_cache/<redacted>.py", line 3888, in _get_fp6_roundtrip_weights
+    key = (lowmem,) + tuple(((id(w), _getattr_(w, 'data_ptr')(), tuple(_getattr_(w, 'shape'))) for w in _getiter_((gate, up, down))))
+triton_sandbox.core.tensor_guard.TensorGuardError: torch.Tensor attribute/method 'data_ptr' is not allowed in the sandbox
+{"schema_version":2,"tk_time_ms":0.0,"tb_time_ms":0.0,"th_time_ms":0.0,"pass":false}

@@ -1,0 +1,48 @@
+{
+  "rank": 4,
+  "totalScore": 250.75,
+  "problemScores": [
+    {
+      "order": 1,
+      "score": 79.75,
+      "submissionCount": 3535,
+      "firstAcceptedAt": "2026-08-15T14:14:16.000Z",
+      "submissionId": 153151,
+      "customInfo": {
+        "accepted": true,
+        "hasAccepted": true,
+        "totalAttempts": 3535,
+        "wrongAttempts": 8,
+        "weight": 1
+      }
+    },
+    {
+      "order": 2,
+      "score": 100.5,
+      "submissionCount": 200,
+      "firstAcceptedAt": "2026-08-22T16:17:55.000Z",
+      "submissionId": 150946,
+      "customInfo": {
+        "weight": 1,
+        "accepted": true,
+        "hasAccepted": true,
+        "totalAttempts": 200,
+        "wrongAttempts": 1
+      }
+    },
+    {
+      "order": 3,
+      "score": 70.5,
+      "submissionCount": 2340,
+      "firstAcceptedAt": "2026-08-19T04:13:19.000Z",
+      "submissionId": 151896,
+      "customInfo": {
+        "weight": 1,
+        "accepted": true,
+        "hasAccepted": true,
+        "totalAttempts": 2340,
+        "wrongAttempts": 10
+      }
+    }
+  ]
+}

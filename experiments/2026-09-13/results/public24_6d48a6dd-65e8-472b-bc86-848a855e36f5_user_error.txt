@@ -1,0 +1,6 @@
+Generated custom workload failed: Compilation failed: Module compilation failed: at 3:24:
+def mma_s4_kernel(OUT, ITER: tl.constexpr):
+    pid = tl.program_id(0)
+    lane = tl.arange(0, LANES_PER_CTA)
+                        ^
+NameError("Cannot access global variable LANES_PER_CTA from within @jit'ed function. Triton kernels can only access global variables that are instanstiated as constexpr (`x = triton.language.constexpr(42)`). Note that this is different from annotating a variable as constexpr (`x: triton.language.constexpr = 42`), which is not supported.  Alternatively, set the envvar TRITON_ALLOW_NON_CONSTEXPR_GLOBALS=1, but we do not promise to support this forever.")

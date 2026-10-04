@@ -1,0 +1,13 @@
+{
+  "production_sha256": "08dd08eb51b1602648d31f0694912466d5de4be48b36d3604465216f8f9089f9",
+  "persistent_schedule_scenarios": 120,
+  "tile_visits_checked": 273840,
+  "valid_row_mappings_checked_across_scenarios": 3384912,
+  "fp32_scale_bit_comparisons": 40000,
+  "limitations": [
+    "CPU contracts only; no generated Triton, PTX, GPU timings or SQNR.",
+    "Scale test covers producer-order DSCL vs branch-order INV/INV_PAD/expert reconstruction; assumes identical FP32 operation order.",
+    "Does not prove FMA contraction, TMA ordering, compiler lowering or physical cache-key behavior.",
+    "Retains existing scale floor semantics, including its known tiny-input algebra boundary."
+  ]
+}

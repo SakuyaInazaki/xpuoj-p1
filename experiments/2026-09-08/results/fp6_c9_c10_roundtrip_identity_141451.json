@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "experiment": "fp6_c9_c10_roundtrip_identity",
+  "submission": {
+    "id": 141451,
+    "source": "experiments/2026-09-08/candidates/fp6_c9_c10_roundtrip_identity.py",
+    "sha256": "4e45083f641e5ec4b56cab391de5fcf12b4093ab6bb0bd9bc52b56561e2a0fce",
+    "status": "WrongAnswer",
+    "score": 83,
+    "display_score": 68.5,
+    "submit_time": "2026-09-08T17:01:11.000Z",
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "total_occupied_time": 103992,
+    "sample_records": [
+      {
+        "testcase_hash": "75b2aacfe71c47ada858577f8a3f481d50e9f597",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 1
+      }
+    ],
+    "cases": {
+      "1": {
+        "testcase_hash": "5ac5fc4cfc01c471c857216f0a33524a20bf917d",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 1,
+        "tk_ms": 4.612,
+        "tb_ms": 18.307,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "2": {
+        "testcase_hash": "77d623a5d8459a732503ea6039135f6fed38b78b",
+        "status": "Accepted",
+        "display_score": 78,
+        "sqnr_db": [
+          23.77,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 2,
+        "tk_ms": 7.952,
+        "tb_ms": 28.887,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "3": {
+        "testcase_hash": "ba370529634ff5b9ba47cea4ab90a73e0db7e2e3",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.87,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 3,
+        "tk_ms": 1.411,
+        "tb_ms": 7.003,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "4": {
+        "testcase_hash": "8f17163ff64a436dcd1275f1af5e904d5c136e51",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.21,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 4,
+        "tk_ms": 0.841,
+        "tb_ms": 4.998,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "5": {
+        "testcase_hash": "81d8146bb4919c60bc4af44cde94464198d9ec20",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.13,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 5,
+        "tk_ms": 2.819,
+        "tb_ms": 12.681,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "6": {
+        "testcase_hash": "f8d5132a18512f1ded2d553b05dddbf3e41d2b96",
+        "status": "Accepted",
+        "display_score": 85,
+        "sqnr_db": [
+          23.83,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 6,
+        "tk_ms": 1.325,
+        "tb_ms": 7.545,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "7": {
+        "testcase_hash": "8e8520fa15008e4b483226def238dbd8fd6a1a11",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.11,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 7,
+        "tk_ms": 2.267,
+        "tb_ms": 10.295,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "8": {
+        "testcase_hash": "17d8e3fab8430f4d7fe73de9d1b80d3f87d57192",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.83,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 8,
+        "tk_ms": 1.35,
+        "tb_ms": 7.21,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "9": {
+        "testcase_hash": "235f8c9f0aa331e303c4ff72922fc2db3f64b17e",
+        "status": "WrongAnswer",
+        "display_score": null,
+        "sqnr_db": [
+          22.63
+        ],
+        "determinism_ok_count": 0,
+        "determinism_fail_count": 1,
+        "case": 9,
+        "tk_ms": 0.0,
+        "tb_ms": 8.395,
+        "th_ms": 0.0,
+        "passed": false,
+        "error": "OutOfMemoryError during determinism re-invocation"
+      },
+      "10": {
+        "testcase_hash": "bc31a8a574059ef90c5572475c942d56ca2b7108",
+        "status": "WrongAnswer",
+        "display_score": null,
+        "sqnr_db": [
+          22.64
+        ],
+        "determinism_ok_count": 0,
+        "determinism_fail_count": 1,
+        "case": 10,
+        "tk_ms": 0.0,
+        "tb_ms": 6.759,
+        "th_ms": 0.0,
+        "passed": false,
+        "error": "OutOfMemoryError during determinism re-invocation"
+      },
+      "11": {
+        "testcase_hash": "c1ed95ef73d30bcb308577fc801924e6a304cd67",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.35,
+          23.27
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 11,
+        "tk_ms": 1.011,
+        "tb_ms": 5.657,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "12": {
+        "testcase_hash": "0730b586639edbf9fa0dd819b424a65cba4eca05",
+        "status": "Accepted",
+        "display_score": 82,
+        "sqnr_db": [
+          23.3,
+          23.27
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 12,
+        "tk_ms": 1.639,
+        "tb_ms": 7.645,
+        "th_ms": 0.0,
+        "passed": true
+      }
+    }
+  },
+  "target_summary": {
+    "c9_first_sqnr_db": 22.63,
+    "c10_first_sqnr_db": 22.64,
+    "c9_first_margin_over_22_db": 0.629999999999999,
+    "c10_first_margin_over_22_db": 0.6400000000000006,
+    "second_sqnr_available": false,
+    "determinism_validated": false,
+    "failure": "Both targets passed the first oracle check, then raised OutOfMemoryError during determinism re-invocation before a second SQNR result.",
+    "accuracy_evidence": "single invocation only"
+  },
+  "scoreboard_after_submission": {
+    "p1_score": 72.75,
+    "best_submission_id": 141408,
+    "submission_count": 2579,
+    "inflight_submission_ids": []
+  },
+  "resubmitted": false,
+  "raw_detail_file": "experiments/2026-09-08/results/submissions_141451_raw.json",
+  "sanitized_log_file": "experiments/2026-09-08/results/sid141451_wa_sanitized.txt"
+}

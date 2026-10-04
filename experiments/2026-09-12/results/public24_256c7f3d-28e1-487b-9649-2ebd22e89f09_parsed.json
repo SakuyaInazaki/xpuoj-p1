@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "customTestId": "256c7f3d-28e1-487b-9649-2ebd22e89f09",
+  "requestCount": 1,
+  "retryPerformed": false,
+  "source": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/candidates/native_int6_md_custom_bench_packed.py",
+    "bytes": 31653,
+    "sha256": "4077d317ac20b4446b26645c744b33a34dfef1fb6cbf1b4bd8aa10ec36107d57"
+  },
+  "request": {
+    "endpoint": "customTest/createCustomTest",
+    "action": "custom_test",
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "compileAndRunOptions": {}
+  },
+  "terminal": {
+    "state": "Finished",
+    "progressType": "Finished",
+    "status": "WrongAnswer",
+    "outerCompileSuccess": true,
+    "outerCompileMessage": "",
+    "totalOccupiedTime": 7892,
+    "createdAtUnixMs": 1789209629635,
+    "finishedAtUnixMs": 1789209638204
+  },
+  "case": {
+    "index": 0,
+    "status": "WrongAnswer",
+    "time": 7770496,
+    "memory": 925632,
+    "ojResult": {
+      "schema_version": 2,
+      "tk_time_ms": 0.0,
+      "tb_time_ms": 0.0,
+      "th_time_ms": 0.0,
+      "pass": false
+    }
+  },
+  "generatedWorkload": {
+    "executionReachedDiagnostic": true,
+    "intentionalTerminalMarkerObserved": true,
+    "terminalMarker": "P1MD done",
+    "userErrorPath": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_256c7f3d-28e1-487b-9649-2ebd22e89f09_user_error.txt",
+    "userErrorSha256": "ef432d5aefa2b65d11aee9cced998f36a78a1037fe837d9bd97e44f6b92debe9"
+  },
+  "runtimeEvidence": {
+    "p1mdLines": [
+      "P1MD {\"kind\":\"native_int8_a_int6_gu_packed_md_custom\",\"shape\":{\"T\":4096,\"H\":4096,\"E\":256,\"I\":1536,\"topk\":8,\"M\":32768},\"triton_version\":\"unavailable_dunder_blocked\",\"device_name\":\"unavailable_torch_cuda_blocked\",\"geometry\":{\"grid\":132,\"BM\":128,\"BN\":128,\"BK\":128,\"GM\":32,\"warps\":8,\"fp8_native_stages\":4,\"packed_stages\":2},\"route\":{\"kind\":\"analytic_grouped_nonrandom\",\"counts\":\"112_144_alternating\",\"total_tiles\":384},\"quantization\":{\"baseline\":\"A_GU_row_amax_over_448_FP8\",\"native\":\"A_row_amax_over_127_INT8_GU_row_amax_over_31_signed6_in_INT8\",\"packed\":\"signed6_twos_complement_low4x4_in_int16_high2x4_in_uint8_0.75B_per_value\",\"native_act_bound_factor\":\"127_over_448_squared\",\"source_weights\":\"BF16_Gaussian_torch_randn_once_then_real_row_quant\"},\"math_check\":{\"kind\":\"3_rows_x_3_corresponding_N128_segments_scalar_reduction\",\"comparisons_per_native_path\":384,\"unpacked_bitwise_passed\":true,\"packed_bitwise_passed\":true},\"resources\":{\"fp8\":{\"n_regs\":170,\"n_spills\":0,\"shared\":196640},\"native\":{\"n_regs\":173,\"n_spills\":0,\"shared\":196640},\"packed\":{\"n_regs\":255,\"n_spills\":78,\"shared\":90112}},\"timing\":{\"method\":\"do_bench_warmup5_rep10\",\"scope\":\"MD_kernel_only_not_end_to_end\",\"setup_excluded\":true,\"groups\":[{\"group\":0,\"order\":\"fp8_native_packed\",\"fp8_ms\":1.2349165678024292,\"native_ms\":1.3101119995117188,\"packed_ms\":7.096384048461914,\"native_over_fp8\":1.0608911028241381,\"packed_over_fp8\":5.7464481678224955,\"packed_over_native\":5.416623961239001},{\"group\":1,\"order\":\"native_packed_fp8\",\"fp8_ms\":1.2387474434716361,\"native_ms\":1.3121919972555978,\"packed_ms\":7.137216091156006,\"native_over_fp8\":1.0592893686045726,\"packed_over_fp8\":5.76163941146364,\"packed_over_native\":5.4391553264181125},{\"group\":2,\"order\":\"packed_fp8_native\",\"fp8_ms\":1.2345325776508875,\"native_ms\":1.3133576938084193,\"packed_ms\":7.121503829956055,\"native_over_fp8\":1.0638501709752552,\"packed_over_fp8\":5.768583153558495,\"packed_over_native\":5.422364267959186}]},\"limitations\":\"custom_single_GPU_analytic_nonrandom_route_no_P1_integration_pack_excluded\"}"
+    ],
+    "diagnostic": {
+      "kind": "native_int8_a_int6_gu_packed_md_custom",
+      "shape": {
+        "T": 4096,
+        "H": 4096,
+        "E": 256,
+        "I": 1536,
+        "topk": 8,
+        "M": 32768
+      },
+      "triton_version": "unavailable_dunder_blocked",
+      "device_name": "unavailable_torch_cuda_blocked",
+      "geometry": {
+        "grid": 132,
+        "BM": 128,
+        "BN": 128,
+        "BK": 128,
+        "GM": 32,
+        "warps": 8,
+        "fp8_native_stages": 4,
+        "packed_stages": 2
+      },
+      "route": {
+        "kind": "analytic_grouped_nonrandom",
+        "counts": "112_144_alternating",
+        "total_tiles": 384
+      },
+      "quantization": {
+        "baseline": "A_GU_row_amax_over_448_FP8",
+        "native": "A_row_amax_over_127_INT8_GU_row_amax_over_31_signed6_in_INT8",
+        "packed": "signed6_twos_complement_low4x4_in_int16_high2x4_in_uint8_0.75B_per_value",
+        "native_act_bound_factor": "127_over_448_squared",
+        "source_weights": "BF16_Gaussian_torch_randn_once_then_real_row_quant"
+      },
+      "math_check": {
+        "kind": "3_rows_x_3_corresponding_N128_segments_scalar_reduction",
+        "comparisons_per_native_path": 384,
+        "unpacked_bitwise_passed": true,
+        "packed_bitwise_passed": true
+      },
+      "resources": {
+        "fp8": {
+          "n_regs": 170,
+          "n_spills": 0,
+          "shared": 196640
+        },
+        "native": {
+          "n_regs": 173,
+          "n_spills": 0,
+          "shared": 196640
+        },
+        "packed": {
+          "n_regs": 255,
+          "n_spills": 78,
+          "shared": 90112
+        }
+      },
+      "timing": {
+        "method": "do_bench_warmup5_rep10",
+        "scope": "MD_kernel_only_not_end_to_end",
+        "setup_excluded": true,
+        "groups": [
+          {
+            "group": 0,
+            "order": "fp8_native_packed",
+            "fp8_ms": 1.2349165678024292,
+            "native_ms": 1.3101119995117188,
+            "packed_ms": 7.096384048461914,
+            "native_over_fp8": 1.0608911028241381,
+            "packed_over_fp8": 5.7464481678224955,
+            "packed_over_native": 5.416623961239001
+          },
+          {
+            "group": 1,
+            "order": "native_packed_fp8",
+            "fp8_ms": 1.2387474434716361,
+            "native_ms": 1.3121919972555978,
+            "packed_ms": 7.137216091156006,
+            "native_over_fp8": 1.0592893686045726,
+            "packed_over_fp8": 5.76163941146364,
+            "packed_over_native": 5.4391553264181125
+          },
+          {
+            "group": 2,
+            "order": "packed_fp8_native",
+            "fp8_ms": 1.2345325776508875,
+            "native_ms": 1.3133576938084193,
+            "packed_ms": 7.121503829956055,
+            "native_over_fp8": 1.0638501709752552,
+            "packed_over_fp8": 5.768583153558495,
+            "packed_over_native": 5.422364267959186
+          }
+        ]
+      },
+      "limitations": "custom_single_GPU_analytic_nonrandom_route_no_P1_integration_pack_excluded"
+    },
+    "mathCheck": {
+      "kind": "3_rows_x_3_corresponding_N128_segments_scalar_reduction",
+      "comparisons_per_native_path": 384,
+      "unpacked_bitwise_passed": true,
+      "packed_bitwise_passed": true
+    },
+    "timingGroups": [
+      {
+        "group": 0,
+        "order": "fp8_native_packed",
+        "fp8_ms": 1.2349165678024292,
+        "native_ms": 1.3101119995117188,
+        "packed_ms": 7.096384048461914,
+        "native_over_fp8": 1.0608911028241381,
+        "packed_over_fp8": 5.7464481678224955,
+        "packed_over_native": 5.416623961239001
+      },
+      {
+        "group": 1,
+        "order": "native_packed_fp8",
+        "fp8_ms": 1.2387474434716361,
+        "native_ms": 1.3121919972555978,
+        "packed_ms": 7.137216091156006,
+        "native_over_fp8": 1.0592893686045726,
+        "packed_over_fp8": 5.76163941146364,
+        "packed_over_native": 5.4391553264181125
+      },
+      {
+        "group": 2,
+        "order": "packed_fp8_native",
+        "fp8_ms": 1.2345325776508875,
+        "native_ms": 1.3133576938084193,
+        "packed_ms": 7.121503829956055,
+        "native_over_fp8": 1.0638501709752552,
+        "packed_over_fp8": 5.768583153558495,
+        "packed_over_native": 5.422364267959186
+      }
+    ],
+    "timingMean": {
+      "fp8_ms": 1.236065529641651,
+      "native_ms": 1.311887230191912,
+      "packed_ms": 7.118367989857991,
+      "native_over_fp8": 1.0613435474679886,
+      "packed_over_fp8": 5.7588902442815435,
+      "packed_over_native": 5.4260478518721
+    },
+    "resources": {
+      "fp8": {
+        "n_regs": 170,
+        "n_spills": 0,
+        "shared": 196640
+      },
+      "native": {
+        "n_regs": 173,
+        "n_spills": 0,
+        "shared": 196640
+      },
+      "packed": {
+        "n_regs": 255,
+        "n_spills": 78,
+        "shared": 90112
+      }
+    },
+    "reportedTritonVersion": "unavailable_dunder_blocked",
+    "reportedDeviceName": "unavailable_torch_cuda_blocked",
+    "note": "Executed P1MD evidence. WrongAnswer is the deliberate terminal marker; timing excludes packing and all setup."
+  },
+  "observedEnvironmentMetadata": {
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "gpuModelFromRuntime": null,
+    "tritonVersionFromRuntime": null
+  },
+  "rawResult": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_256c7f3d-28e1-487b-9649-2ebd22e89f09_raw.json",
+    "sha256": "dddf970962b990cb932bc121db3a0d2feee2a461f61b8ebbfa88978ec44a0355"
+  }
+}

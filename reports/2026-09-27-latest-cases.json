@@ -1,0 +1,629 @@
+{
+  "checked_at": "2026-09-26T18:58:18.939999+00:00",
+  "read_only": true,
+  "submissions": {
+    "146307": {
+      "displayScore": 83.5,
+      "cases": {
+        "12": {
+          "tk": 1.594,
+          "tb": 8.107,
+          "score": 100,
+          "sqnr": 23.25,
+          "status": "Accepted"
+        },
+        "4": {
+          "tk": 0.845,
+          "tb": 4.912,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        },
+        "1": {
+          "tk": 4.745,
+          "tb": 20.714,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "9": {
+          "tk": 2.511,
+          "tb": 8.313,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "3": {
+          "tk": 1.421,
+          "tb": 28.622,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        },
+        "6": {
+          "tk": 1.354,
+          "tb": 48.157,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "10": {
+          "tk": 1.966,
+          "tb": 6.625,
+          "score": 100,
+          "sqnr": 23.11,
+          "status": "Accepted"
+        },
+        "7": {
+          "tk": 2.327,
+          "tb": 10.112,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "8": {
+          "tk": 1.368,
+          "tb": 7.022,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "2": {
+          "tk": 8.073,
+          "tb": 28.788,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "5": {
+          "tk": 2.884,
+          "tb": 12.619,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "11": {
+          "tk": 0.978,
+          "tb": 5.623,
+          "score": 100,
+          "sqnr": 23.31,
+          "status": "Accepted"
+        }
+      }
+    },
+    "146910": {
+      "displayScore": 81.5,
+      "cases": {
+        "10": {
+          "tk": 1.97,
+          "tb": 6.623,
+          "score": 100,
+          "sqnr": 23.11,
+          "status": "Accepted"
+        },
+        "11": {
+          "tk": 0.975,
+          "tb": 5.614,
+          "score": 100,
+          "sqnr": 23.31,
+          "status": "Accepted"
+        },
+        "9": {
+          "tk": 2.56,
+          "tb": 8.318,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "6": {
+          "tk": 1.345,
+          "tb": 7.608,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "7": {
+          "tk": 2.327,
+          "tb": 10.143,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "4": {
+          "tk": 0.848,
+          "tb": 4.92,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        },
+        "8": {
+          "tk": 1.364,
+          "tb": 7.175,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "3": {
+          "tk": 1.43,
+          "tb": 9.062,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        },
+        "1": {
+          "tk": 4.727,
+          "tb": 17.902,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "2": {
+          "tk": 8.122,
+          "tb": 28.776,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "5": {
+          "tk": 2.882,
+          "tb": 12.615,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "12": {
+          "tk": 1.588,
+          "tb": 8.13,
+          "score": 100,
+          "sqnr": 23.25,
+          "status": "Accepted"
+        }
+      }
+    },
+    "146911": {
+      "displayScore": 81.5,
+      "cases": {
+        "1": {
+          "tk": 4.621,
+          "tb": 18.004,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "8": {
+          "tk": 1.336,
+          "tb": 7.242,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "4": {
+          "tk": 0.834,
+          "tb": 4.998,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        },
+        "7": {
+          "tk": 2.287,
+          "tb": 10.276,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "12": {
+          "tk": 1.557,
+          "tb": 8.16,
+          "score": 100,
+          "sqnr": 23.25,
+          "status": "Accepted"
+        },
+        "2": {
+          "tk": 7.842,
+          "tb": 28.906,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "6": {
+          "tk": 1.314,
+          "tb": 7.602,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "5": {
+          "tk": 2.837,
+          "tb": 12.603,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "10": {
+          "tk": 1.943,
+          "tb": 6.691,
+          "score": 100,
+          "sqnr": 23.11,
+          "status": "Accepted"
+        },
+        "11": {
+          "tk": 0.96,
+          "tb": 5.678,
+          "score": 100,
+          "sqnr": 23.31,
+          "status": "Accepted"
+        },
+        "9": {
+          "tk": 2.494,
+          "tb": 8.386,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "3": {
+          "tk": 1.406,
+          "tb": 7.06,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        }
+      }
+    },
+    "146912": {
+      "displayScore": 81.5,
+      "cases": {
+        "5": {
+          "tk": 2.896,
+          "tb": 12.65,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "6": {
+          "tk": 1.345,
+          "tb": 7.641,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "10": {
+          "tk": 1.956,
+          "tb": 6.577,
+          "score": 100,
+          "sqnr": 23.11,
+          "status": "Accepted"
+        },
+        "8": {
+          "tk": 1.363,
+          "tb": 7.074,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "2": {
+          "tk": 8.081,
+          "tb": 28.842,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "3": {
+          "tk": 1.424,
+          "tb": 6.984,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        },
+        "9": {
+          "tk": 2.5,
+          "tb": 8.333,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "11": {
+          "tk": 0.97,
+          "tb": 5.593,
+          "score": 100,
+          "sqnr": 23.31,
+          "status": "Accepted"
+        },
+        "1": {
+          "tk": 4.756,
+          "tb": 17.894,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "7": {
+          "tk": 2.328,
+          "tb": 10.086,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "4": {
+          "tk": 0.842,
+          "tb": 5.649,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        },
+        "12": {
+          "tk": 1.586,
+          "tb": 8.112,
+          "score": 100,
+          "sqnr": 23.25,
+          "status": "Accepted"
+        }
+      }
+    },
+    "146913": {
+      "displayScore": 82.33,
+      "cases": {
+        "1": {
+          "tk": 4.61,
+          "tb": 18.441,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "8": {
+          "tk": 1.338,
+          "tb": 7.806,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "4": {
+          "tk": 0.835,
+          "tb": 5.208,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        },
+        "7": {
+          "tk": 2.289,
+          "tb": 10.312,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "12": {
+          "tk": 1.575,
+          "tb": 8.18,
+          "score": 100,
+          "sqnr": 23.25,
+          "status": "Accepted"
+        },
+        "2": {
+          "tk": 7.816,
+          "tb": 28.853,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "6": {
+          "tk": 1.319,
+          "tb": 7.685,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "5": {
+          "tk": 2.836,
+          "tb": 13.64,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "10": {
+          "tk": 1.946,
+          "tb": 6.718,
+          "score": 100,
+          "sqnr": 23.11,
+          "status": "Accepted"
+        },
+        "11": {
+          "tk": 0.965,
+          "tb": 5.708,
+          "score": 100,
+          "sqnr": 23.31,
+          "status": "Accepted"
+        },
+        "9": {
+          "tk": 2.514,
+          "tb": 8.437,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "3": {
+          "tk": 1.393,
+          "tb": 11.695,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        }
+      }
+    },
+    "146914": {
+      "displayScore": 81.25,
+      "cases": {
+        "11": {
+          "tk": 0.971,
+          "tb": 5.623,
+          "score": 100,
+          "sqnr": 23.31,
+          "status": "Accepted"
+        },
+        "7": {
+          "tk": 2.34,
+          "tb": 10.19,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "6": {
+          "tk": 1.345,
+          "tb": 7.641,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "8": {
+          "tk": 1.37,
+          "tb": 7.002,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "1": {
+          "tk": 4.76,
+          "tb": 17.865,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "4": {
+          "tk": 0.838,
+          "tb": 4.916,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        },
+        "2": {
+          "tk": 8.092,
+          "tb": 28.74,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "12": {
+          "tk": 1.589,
+          "tb": 8.142,
+          "score": 100,
+          "sqnr": 23.25,
+          "status": "Accepted"
+        },
+        "3": {
+          "tk": 1.426,
+          "tb": 6.995,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        },
+        "9": {
+          "tk": 2.503,
+          "tb": 8.313,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "10": {
+          "tk": 1.964,
+          "tb": 6.666,
+          "score": 100,
+          "sqnr": 23.11,
+          "status": "Accepted"
+        },
+        "5": {
+          "tk": 2.892,
+          "tb": 12.691,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        }
+      }
+    },
+    "146915": {
+      "displayScore": 81.67,
+      "cases": {
+        "1": {
+          "tk": 4.598,
+          "tb": 18.066,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "8": {
+          "tk": 1.34,
+          "tb": 7.21,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "4": {
+          "tk": 0.823,
+          "tb": 5.079,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        },
+        "7": {
+          "tk": 2.282,
+          "tb": 10.312,
+          "score": 100,
+          "sqnr": 23.12,
+          "status": "Accepted"
+        },
+        "12": {
+          "tk": 1.555,
+          "tb": 8.135,
+          "score": 100,
+          "sqnr": 23.25,
+          "status": "Accepted"
+        },
+        "2": {
+          "tk": 7.814,
+          "tb": 28.84,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "6": {
+          "tk": 1.319,
+          "tb": 7.551,
+          "score": 100,
+          "sqnr": 23.14,
+          "status": "Accepted"
+        },
+        "5": {
+          "tk": 2.817,
+          "tb": 12.698,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "10": {
+          "tk": 1.937,
+          "tb": 6.789,
+          "score": 100,
+          "sqnr": 23.11,
+          "status": "Accepted"
+        },
+        "11": {
+          "tk": 0.96,
+          "tb": 5.674,
+          "score": 100,
+          "sqnr": 23.31,
+          "status": "Accepted"
+        },
+        "9": {
+          "tk": 2.503,
+          "tb": 8.434,
+          "score": 100,
+          "sqnr": 23.13,
+          "status": "Accepted"
+        },
+        "3": {
+          "tk": 1.403,
+          "tb": 7.472,
+          "score": 100,
+          "sqnr": 23.19,
+          "status": "Accepted"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4260 @@
+{
+  "checked_at": "2026-09-27T05:27:44.193081+00:00",
+  "submissions": {
+    "149493": {
+      "status": "Accepted",
+      "displayScore": 85.17,
+      "source_sha256": "c23394ec00deb6d76e0cb9416dbad05fb5a0182219c2a6bbf7935967dc64a471",
+      "submitTime": "2026-09-26T19:43:51.000Z",
+      "cases": {
+        "5": {
+          "status": "Accepted",
+          "displayScore": 94,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.797,
+            "tb_time_ms": 48.349,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.441,
+            "tb_time_ms": 8.406,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.611,
+            "tb_time_ms": 18.004,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.8,
+            "tb_time_ms": 5.026,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.899,
+            "tb_time_ms": 6.752,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 95,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.325,
+            "tb_time_ms": 7.007,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.262,
+            "tb_time_ms": 7.162,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.83,
+            "tb_time_ms": 28.882,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.283,
+            "tb_time_ms": 7.852,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.213,
+            "tb_time_ms": 10.275,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.37,
+            "tb_time_ms": 7.002,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 100,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.0,
+            "tb_time_ms": 8.208,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149522": {
+      "status": "Accepted",
+      "displayScore": 82.17,
+      "source_sha256": "a6442ca8d4a717f2e52b4769b697c623c125ab0fd62ce1bf7d859c25d6dcca07",
+      "submitTime": "2026-09-26T20:34:07.000Z",
+      "cases": {
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.472,
+            "tb_time_ms": 8.473,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.798,
+            "tb_time_ms": 5.135,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 80,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.603,
+            "tb_time_ms": 18.525,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.879,
+            "tb_time_ms": 6.742,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.761,
+            "tb_time_ms": 12.702,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.9,
+            "tb_time_ms": 28.962,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.265,
+            "tb_time_ms": 7.542,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.885,
+            "tb_time_ms": 5.659,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.185,
+            "tb_time_ms": 10.286,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.249,
+            "tb_time_ms": 7.226,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.484,
+            "tb_time_ms": 8.223,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.35,
+            "tb_time_ms": 7.062,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149524": {
+      "status": "Accepted",
+      "displayScore": 82,
+      "source_sha256": "5cfd6a80d066d8a729ff1b6741541c1c70df7df75eeffe40c67440d4fe962a3c",
+      "submitTime": "2026-09-26T20:36:04.000Z",
+      "cases": {
+        "1": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.602,
+            "tb_time_ms": 18.094,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.261,
+            "tb_time_ms": 7.211,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.797,
+            "tb_time_ms": 4.989,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.215,
+            "tb_time_ms": 10.282,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.499,
+            "tb_time_ms": 8.143,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.855,
+            "tb_time_ms": 28.953,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.281,
+            "tb_time_ms": 7.575,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.774,
+            "tb_time_ms": 12.788,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.898,
+            "tb_time_ms": 6.715,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.899,
+            "tb_time_ms": 5.647,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.484,
+            "tb_time_ms": 8.472,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.368,
+            "tb_time_ms": 7.112,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149600": {
+      "status": "Accepted",
+      "displayScore": 82.17,
+      "source_sha256": "4d8ac8af6e517a98c6d99f2aff96b9a60f0bf0344996d4c7e9a9bda849d2213a",
+      "submitTime": "2026-09-27T03:07:29.000Z",
+      "cases": {
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.482,
+            "tb_time_ms": 8.174,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.247,
+            "tb_time_ms": 7.198,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.791,
+            "tb_time_ms": 5.168,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.181,
+            "tb_time_ms": 10.768,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.26,
+            "tb_time_ms": 7.638,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.748,
+            "tb_time_ms": 12.815,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.883,
+            "tb_time_ms": 6.698,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.472,
+            "tb_time_ms": 8.425,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.884,
+            "tb_time_ms": 5.673,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.622,
+            "tb_time_ms": 18.084,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.359,
+            "tb_time_ms": 7.021,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.845,
+            "tb_time_ms": 28.79,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149601": {
+      "status": "Accepted",
+      "displayScore": 82.33,
+      "source_sha256": "a6442ca8d4a717f2e52b4769b697c623c125ab0fd62ce1bf7d859c25d6dcca07",
+      "submitTime": "2026-09-27T03:09:29.000Z",
+      "cases": {
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.472,
+            "tb_time_ms": 8.482,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 87,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.782,
+            "tb_time_ms": 5.239,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.599,
+            "tb_time_ms": 18.097,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.895,
+            "tb_time_ms": 6.72,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.747,
+            "tb_time_ms": 12.704,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.819,
+            "tb_time_ms": 29.776,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.265,
+            "tb_time_ms": 7.564,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.887,
+            "tb_time_ms": 5.682,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.179,
+            "tb_time_ms": 10.282,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.246,
+            "tb_time_ms": 7.209,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.482,
+            "tb_time_ms": 8.157,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.359,
+            "tb_time_ms": 7.235,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149603": {
+      "status": "Accepted",
+      "displayScore": 82.42,
+      "source_sha256": "d1f1e0697c3e99a86f3d34bea6509755be6f70470a2373ec0bd355819c671f9e",
+      "submitTime": "2026-09-27T03:11:57.000Z",
+      "cases": {
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.785,
+            "tb_time_ms": 5.073,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.885,
+            "tb_time_ms": 5.677,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 80,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.626,
+            "tb_time_ms": 19.485,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.262,
+            "tb_time_ms": 7.594,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.927,
+            "tb_time_ms": 28.98,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.241,
+            "tb_time_ms": 7.241,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.183,
+            "tb_time_ms": 10.291,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.774,
+            "tb_time_ms": 13.55,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.349,
+            "tb_time_ms": 7.107,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.487,
+            "tb_time_ms": 8.164,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.872,
+            "tb_time_ms": 7.265,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.465,
+            "tb_time_ms": 8.506,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149604": {
+      "status": "Accepted",
+      "displayScore": 82.42,
+      "source_sha256": "d1f1e0697c3e99a86f3d34bea6509755be6f70470a2373ec0bd355819c671f9e",
+      "submitTime": "2026-09-27T03:14:17.000Z",
+      "cases": {
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.795,
+            "tb_time_ms": 5.005,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.885,
+            "tb_time_ms": 5.651,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.656,
+            "tb_time_ms": 24.004,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.262,
+            "tb_time_ms": 7.611,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.821,
+            "tb_time_ms": 28.993,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.249,
+            "tb_time_ms": 7.209,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.187,
+            "tb_time_ms": 10.288,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.762,
+            "tb_time_ms": 12.604,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.372,
+            "tb_time_ms": 6.997,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.487,
+            "tb_time_ms": 8.164,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.866,
+            "tb_time_ms": 6.735,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.454,
+            "tb_time_ms": 8.367,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149606": {
+      "status": "Accepted",
+      "displayScore": 82.17,
+      "source_sha256": "a6442ca8d4a717f2e52b4769b697c623c125ab0fd62ce1bf7d859c25d6dcca07",
+      "submitTime": "2026-09-27T03:16:11.000Z",
+      "cases": {
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.459,
+            "tb_time_ms": 8.495,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.784,
+            "tb_time_ms": 5.073,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.628,
+            "tb_time_ms": 18.026,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.897,
+            "tb_time_ms": 6.815,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.749,
+            "tb_time_ms": 12.646,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.849,
+            "tb_time_ms": 28.803,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.261,
+            "tb_time_ms": 7.652,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.887,
+            "tb_time_ms": 5.684,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.185,
+            "tb_time_ms": 10.277,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.242,
+            "tb_time_ms": 7.171,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.487,
+            "tb_time_ms": 8.174,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.376,
+            "tb_time_ms": 7.393,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149609": {
+      "status": "Accepted",
+      "displayScore": 83.5,
+      "source_sha256": "965def0ea019519a0c598e2f66ae5874c5bc0e9a48f1b6f9656baf2d93bc39a6",
+      "submitTime": "2026-09-27T03:21:35.000Z",
+      "cases": {
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.753,
+            "tb_time_ms": 12.755,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.419,
+            "tb_time_ms": 9.325,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.381,
+            "tb_time_ms": 8.164,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.255,
+            "tb_time_ms": 7.586,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.79,
+            "tb_time_ms": 5.083,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.161,
+            "tb_time_ms": 7.201,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 8.51,
+            "tb_time_ms": 29.306,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.353,
+            "tb_time_ms": 7.029,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 90,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.671,
+            "tb_time_ms": 6.719,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.098,
+            "tb_time_ms": 10.313,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.994,
+            "tb_time_ms": 18.062,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 88,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.776,
+            "tb_time_ms": 5.702,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149612": {
+      "status": "Accepted",
+      "displayScore": 81.92,
+      "source_sha256": "6f7b6c9112adf5b1e9a8a42791196c8401194199f856ce0e452eaaa2b947fe1c",
+      "submitTime": "2026-09-27T03:25:22.000Z",
+      "cases": {
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.354,
+            "tb_time_ms": 7.025,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.483,
+            "tb_time_ms": 8.167,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.262,
+            "tb_time_ms": 7.593,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.802,
+            "tb_time_ms": 5.034,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 5.021,
+            "tb_time_ms": 18.037,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.752,
+            "tb_time_ms": 12.732,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.885,
+            "tb_time_ms": 5.663,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.186,
+            "tb_time_ms": 10.277,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.452,
+            "tb_time_ms": 8.43,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.248,
+            "tb_time_ms": 7.234,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 8.523,
+            "tb_time_ms": 28.982,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.87,
+            "tb_time_ms": 6.792,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149614": {
+      "status": "Accepted",
+      "displayScore": 82.33,
+      "source_sha256": "c1ee369f4d0430a1123187158883ed0ad97d250d4c61b4c68f2ac10f181fabb0",
+      "submitTime": "2026-09-27T03:28:23.000Z",
+      "cases": {
+        "1": {
+          "status": "Accepted",
+          "displayScore": 80,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.604,
+            "tb_time_ms": 18.616,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.849,
+            "tb_time_ms": 28.902,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.917,
+            "tb_time_ms": 5.69,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.768,
+            "tb_time_ms": 12.782,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.258,
+            "tb_time_ms": 8.062,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.176,
+            "tb_time_ms": 10.293,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 88,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.779,
+            "tb_time_ms": 5.721,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.567,
+            "tb_time_ms": 8.214,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.247,
+            "tb_time_ms": 7.207,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.345,
+            "tb_time_ms": 7.023,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.887,
+            "tb_time_ms": 6.7,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.447,
+            "tb_time_ms": 8.456,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149630": {
+      "status": "Accepted",
+      "displayScore": 82.33,
+      "source_sha256": "87f33377bc2e14481edbe7287ee4e5ba7d64015b67894cafa610ddc4cc8cfa6d",
+      "submitTime": "2026-09-27T04:00:37.000Z",
+      "cases": {
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.891,
+            "tb_time_ms": 6.725,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.242,
+            "tb_time_ms": 7.224,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.18,
+            "tb_time_ms": 10.32,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.887,
+            "tb_time_ms": 5.672,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 87,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.786,
+            "tb_time_ms": 5.636,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.481,
+            "tb_time_ms": 8.183,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.739,
+            "tb_time_ms": 12.749,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.449,
+            "tb_time_ms": 8.528,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.817,
+            "tb_time_ms": 28.872,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.351,
+            "tb_time_ms": 7.829,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.265,
+            "tb_time_ms": 7.607,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.706,
+            "tb_time_ms": 18.064,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149636": {
+      "status": "Accepted",
+      "displayScore": 82.08,
+      "source_sha256": "ffb93da83ba36bc10985917a54dc0f489c057d6d1d465eda686948d588884a0d",
+      "submitTime": "2026-09-27T04:11:11.000Z",
+      "cases": {
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.756,
+            "tb_time_ms": 12.689,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.464,
+            "tb_time_ms": 8.464,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.24,
+            "tb_time_ms": 7.235,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 8.014,
+            "tb_time_ms": 28.913,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.483,
+            "tb_time_ms": 8.2,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.87,
+            "tb_time_ms": 6.737,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.354,
+            "tb_time_ms": 7.02,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.182,
+            "tb_time_ms": 10.305,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.883,
+            "tb_time_ms": 5.668,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.793,
+            "tb_time_ms": 5.045,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.268,
+            "tb_time_ms": 7.623,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.722,
+            "tb_time_ms": 18.028,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149639": {
+      "status": "Accepted",
+      "displayScore": 83.5,
+      "source_sha256": "e4fa1704f87f1b089b17d649f00cdae33d0fd7d9ec34f7d1f4689d76e6944f6f",
+      "submitTime": "2026-09-27T04:15:18.000Z",
+      "cases": {
+        "3": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.354,
+            "tb_time_ms": 7.114,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.756,
+            "tb_time_ms": 12.872,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.102,
+            "tb_time_ms": 11.185,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.853,
+            "tb_time_ms": 6.709,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.256,
+            "tb_time_ms": 8.15,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.615,
+            "tb_time_ms": 27.027,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 89,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.792,
+            "tb_time_ms": 6.676,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.416,
+            "tb_time_ms": 8.568,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 87,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.781,
+            "tb_time_ms": 5.643,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.868,
+            "tb_time_ms": 29.024,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.373,
+            "tb_time_ms": 8.169,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.161,
+            "tb_time_ms": 7.228,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149643": {
+      "status": "Accepted",
+      "displayScore": 82.08,
+      "source_sha256": "9dea5de442157955804a923d57eeb40f6b4e67430a6dffb8e2e90e46626d898d",
+      "submitTime": "2026-09-27T04:23:58.000Z",
+      "cases": {
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.489,
+            "tb_time_ms": 8.206,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.587,
+            "tb_time_ms": 18.123,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.759,
+            "tb_time_ms": 12.699,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.877,
+            "tb_time_ms": 6.717,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.168,
+            "tb_time_ms": 10.323,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.26,
+            "tb_time_ms": 7.59,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.789,
+            "tb_time_ms": 5.057,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.808,
+            "tb_time_ms": 28.832,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.881,
+            "tb_time_ms": 5.681,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.232,
+            "tb_time_ms": 7.246,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.353,
+            "tb_time_ms": 7.014,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.449,
+            "tb_time_ms": 8.462,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149647": {
+      "status": "TimeLimitExceeded",
+      "displayScore": 0,
+      "source_sha256": "5678ed2e5e0e84bf28f8dddc2c4341ac464d9ee1b73a9a3003643a7a24330ae1",
+      "submitTime": "2026-09-27T04:27:13.000Z",
+      "cases": {}
+    },
+    "149653": {
+      "status": "Accepted",
+      "displayScore": 82,
+      "source_sha256": "c9757429e12909e4b69ed406de2305cb69100ccfbb0dea8e6956308195753ee8",
+      "submitTime": "2026-09-27T04:37:44.000Z",
+      "cases": {
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.488,
+            "tb_time_ms": 8.143,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.849,
+            "tb_time_ms": 5.042,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.848,
+            "tb_time_ms": 28.847,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.357,
+            "tb_time_ms": 7.005,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.239,
+            "tb_time_ms": 7.164,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.888,
+            "tb_time_ms": 6.747,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.774,
+            "tb_time_ms": 12.761,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.881,
+            "tb_time_ms": 5.657,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.65,
+            "tb_time_ms": 18.082,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.459,
+            "tb_time_ms": 8.423,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.18,
+            "tb_time_ms": 10.27,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.26,
+            "tb_time_ms": 7.594,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149659": {
+      "status": "Accepted",
+      "displayScore": 82.25,
+      "source_sha256": "d0303f0ded4b948f21356d56948d0253667f74ac83c686835683c1ff7fe0c772",
+      "submitTime": "2026-09-27T04:44:32.000Z",
+      "cases": {
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.759,
+            "tb_time_ms": 12.735,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.887,
+            "tb_time_ms": 28.941,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.882,
+            "tb_time_ms": 6.78,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.18,
+            "tb_time_ms": 10.399,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 87,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.784,
+            "tb_time_ms": 5.669,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.348,
+            "tb_time_ms": 7.036,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.792,
+            "tb_time_ms": 5.072,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.665,
+            "tb_time_ms": 18.072,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.387,
+            "tb_time_ms": 8.164,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.263,
+            "tb_time_ms": 7.616,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.249,
+            "tb_time_ms": 7.252,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.437,
+            "tb_time_ms": 8.48,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    },
+    "149665": {
+      "status": "Accepted",
+      "displayScore": 82.08,
+      "source_sha256": "d1f1e0697c3e99a86f3d34bea6509755be6f70470a2373ec0bd355819c671f9e",
+      "submitTime": "2026-09-27T04:47:31.000Z",
+      "cases": {
+        "4": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.795,
+            "tb_time_ms": 5.102,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "11": {
+          "status": "Accepted",
+          "displayScore": 86,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 0.887,
+            "tb_time_ms": 5.664,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "1": {
+          "status": "Accepted",
+          "displayScore": 79,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 4.606,
+            "tb_time_ms": 18.306,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "6": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.258,
+            "tb_time_ms": 7.551,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "2": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 7.919,
+            "tb_time_ms": 28.892,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "8": {
+          "status": "Accepted",
+          "displayScore": 85,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.248,
+            "tb_time_ms": 7.267,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "7": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.187,
+            "tb_time_ms": 10.264,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "5": {
+          "status": "Accepted",
+          "displayScore": 82,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.76,
+            "tb_time_ms": 12.695,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "3": {
+          "status": "Accepted",
+          "displayScore": 83,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.365,
+            "tb_time_ms": 7.059,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "12": {
+          "status": "Accepted",
+          "displayScore": 84,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.481,
+            "tb_time_ms": 8.163,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "10": {
+          "status": "Accepted",
+          "displayScore": 78,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 1.874,
+            "tb_time_ms": 6.665,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.11,
+            23.14
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        },
+        "9": {
+          "status": "Accepted",
+          "displayScore": 77,
+          "metrics": {
+            "schema_version": 2,
+            "tk_time_ms": 2.43,
+            "tb_time_ms": 8.455,
+            "th_time_ms": 0.0,
+            "pass": true
+          },
+          "sqnr_db": [
+            23.13,
+            23.13
+          ],
+          "determinism_lines": [
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)",
+            "[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)"
+          ]
+        }
+      }
+    }
+  }
+}

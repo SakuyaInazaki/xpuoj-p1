@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-01T22:52:44.769580",
+  "language": "triton-dist",
+  "requiredFlags": [
+    "custom-test"
+  ],
+  "response": {
+    "available": false
+  }
+}

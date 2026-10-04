@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "checked_at_local": "2026-09-09T00:30:02+08:00",
+  "contest_id": 13,
+  "problem_order": 1,
+  "scoreboard": {
+    "account_total_score": 236.59000000000003,
+    "p1_score": 72.75,
+    "best_submission_id": 141408,
+    "best_submission_display_score": 82.75,
+    "p1_submission_count": 2576,
+    "inflight_submission_ids": []
+  },
+  "best_score_caveat": "SID 141408 displayScore 82.75 contains case 3 tb_time_ms 42.634 and is not evidence of a stable speed improvement.",
+  "public_visibility_check": {
+    "contest_announcements_endpoint_status": 201,
+    "matching_announcement_text_count": 0,
+    "matched_terms": [
+      "TLE",
+      "TimeLimit",
+      "超时",
+      "样例",
+      "sample"
+    ],
+    "other_accounts_public_sample_tle_evidence": null,
+    "boundary": "The naturally visible contest announcements contained no matching text. No naturally visible per-submission detail entry for other accounts was available, so no user enumeration or hidden endpoint probing was performed."
+  },
+  "submission_141431": {
+    "status": "TimeLimitExceeded",
+    "compile_success": true,
+    "sample_case": 1,
+    "sqnr_count": 0,
+    "determinism_ok_count": 0,
+    "timing_schema_count": 0,
+    "c9_measurement_available": false,
+    "route_status": "frozen"
+  }
+}

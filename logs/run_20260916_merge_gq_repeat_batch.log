@@ -1,0 +1,13 @@
+[令牌池] 取到 submit_problem 令牌 …cceb67（年龄 140.0s，剩余可用 160.0s）
+PoW难度5 求解2.0s  HTTP 201
+merge_gq_repeat: SID=144858
+[令牌池] 取到 submit_problem 令牌 …25f860（年龄 32.8s，剩余可用 267.2s）
+PoW难度5 求解1.5s  HTTP 201
+锚: SID=144859
+04:31:19 ['-', '-']
+04:31:49 ['-', '-']
+04:32:19 ['Acce', '-']
+04:32:49 ['Acce', 'Acce']
+merge_gq_repeat 144858 display=81.25 Σtk=30.232 SQNR最差余量+1.11dB
+锚 144859 display=81.67 Σtk=29.634 SQNR最差余量+1.12dB
+merge_gq_repeat: 机器项+1.35%  净残差 c9+0.33 c10-0.21   ⇒ raw -0.002

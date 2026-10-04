@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-01 22:00 Asia/Shanghai",
+  "production_sha": "f9ca009609bc2a50c320cfe5e912961a99cbd0f53c58510482f43438784e7c6a",
+  "s2_sha": "ac338895e390139faaaebcaad98fba9ae1d5a3d55e378b2965f90da5431f2ea8",
+  "exact_source_matches": [
+    "experiments/2026-10-01/session-1654/s2/p1_s2_c4_layout_only.py"
+  ],
+  "ACT_pad_source_matches": [
+    "experiments/2026-10-01/session-1654/s2/check_contract.py",
+    "experiments/2026-10-01/session-1654/s2/build_s2.py",
+    "experiments/2026-10-01/session-1654/s2/p1_s2_c4_layout_only.py"
+  ],
+  "exact_SHA_audits": [],
+  "post_153193_audits": [
+    {
+      "sid": "153250",
+      "status": "Accepted",
+      "sha": "c0d5478c0674bd2c78afc6d4daccc78196246c112d8873afb13134418ccd838c",
+      "score": 82.17,
+      "evidence": "experiments/2026-10-01/session-2156/platform/153250-audit.json"
+    },
+    {
+      "sid": "153278",
+      "status": "Accepted",
+      "sha": "f7d20c671b56c00283dac332a23f8ab7edc2712da7e84781bc2ba15831a7cd31",
+      "score": 81.92,
+      "evidence": "experiments/2026-10-01/session-2156/platform/153278-audit.json"
+    },
+    {
+      "sid": "153322",
+      "status": "Accepted",
+      "sha": "098daaed628572a1c9cabed10897f8caf4cf7dcfe8ce8889daa66c2c5e5df06e",
+      "score": 82.08,
+      "evidence": "experiments/2026-10-01/session-2156/platform/153322-audit.json"
+    }
+  ],
+  "c4_sid153151": {
+    "tb": "4.996",
+    "tk": "0.781",
+    "q": 86,
+    "tk_thresholds": {
+      "87": "0.7465287356321839080459770109",
+      "88": "0.6812727272727272727272727255",
+      "89": "0.6174831460674157303370786494"
+    }
+  }
+}

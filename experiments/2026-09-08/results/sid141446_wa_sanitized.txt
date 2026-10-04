@@ -1,0 +1,21 @@
+SID: 141446
+submitTime: 2026-09-08T16:49:57.000Z
+status: WrongAnswer
+progressType: Finished
+compile.success: true
+compile.message: ""
+totalOccupiedTime: 57462
+
+Only returned testcase record:
+classification: progress.samples[0] (not progress.subtasks[0].testcases)
+testcaseHash: 295f9479db28e9bf50516c672a50d893c76cb448
+input: "1\n"
+status: WrongAnswer
+time: 57329715.63
+memory: 1531112
+SQNR count: 0
+determinism OK count: 0
+
+Error:
+Execution error on testcase=1: Language validation failed: Restricted binding name errors: Line 6239: "_fp6_roundtrip_" is an invalid variable name because it starts with "_"
+{"schema_version":2,"tk_time_ms":0.0,"tb_time_ms":0.0,"th_time_ms":0.0,"pass":false}

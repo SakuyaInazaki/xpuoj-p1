@@ -1,0 +1,198 @@
+{
+  "kernel_path": "/Users/sakimi/Desktop/xpuoj-p1/p1/kernel.py",
+  "sha256": "5cfd6a80d066d8a729ff1b6741541c1c70df7df75eeffe40c67440d4fe962a3c",
+  "lines": 6724,
+  "function_definitions": 170,
+  "effective_definitions": 160,
+  "jit_definitions_last_binding": 80,
+  "duplicated_names": {
+    "_prepare_moe_metadata": [
+      278,
+      4118
+    ],
+    "_linear_bf16_kernel": [
+      331,
+      4171
+    ],
+    "_swiglu_weighted_kernel": [
+      370,
+      4210
+    ],
+    "_ceil_div": [
+      476,
+      4250
+    ],
+    "_linear_bf16": [
+      480,
+      4254
+    ],
+    "_swiglu_weighted": [
+      511,
+      4299
+    ],
+    "_get_static_cache": [
+      2096,
+      4320
+    ],
+    "_run_kernel_a2a": [
+      2117,
+      4338
+    ],
+    "_get_full_weights": [
+      4461,
+      4491
+    ],
+    "_fgs_tma2_int_kernel": [
+      4938,
+      5178
+    ]
+  },
+  "known12": [
+    [
+      16384,
+      4096,
+      8,
+      8192,
+      2
+    ],
+    [
+      16384,
+      4096,
+      8,
+      14336,
+      2
+    ],
+    [
+      16384,
+      2048,
+      32,
+      2048,
+      4
+    ],
+    [
+      16384,
+      2048,
+      32,
+      1024,
+      4
+    ],
+    [
+      8192,
+      3584,
+      64,
+      2560,
+      8
+    ],
+    [
+      8192,
+      3584,
+      64,
+      1024,
+      8
+    ],
+    [
+      16384,
+      4096,
+      96,
+      2048,
+      3
+    ],
+    [
+      16384,
+      4096,
+      96,
+      1024,
+      3
+    ],
+    [
+      4096,
+      4096,
+      256,
+      2048,
+      8
+    ],
+    [
+      4096,
+      4096,
+      256,
+      1536,
+      8
+    ],
+    [
+      65536,
+      1024,
+      32,
+      1024,
+      2
+    ],
+    [
+      65536,
+      1024,
+      32,
+      2048,
+      2
+    ]
+  ],
+  "effective_locations": {
+    "_prepare_moe_metadata": {
+      "line": 4118,
+      "end_line": 4162
+    },
+    "_sort_scatter_kernel": {
+      "line": 694,
+      "end_line": 712
+    },
+    "_counting_sort_order": {
+      "line": 750,
+      "end_line": 807
+    },
+    "_get_full_fp8_weights": {
+      "line": 3714,
+      "end_line": 3731
+    },
+    "_get_full_weights": {
+      "line": 4491,
+      "end_line": 4516
+    },
+    "_dn_tma2_f8_kernel": {
+      "line": 4520,
+      "end_line": 4574
+    },
+    "_dn_tma2_f8_host": {
+      "line": 4578,
+      "end_line": 4595
+    },
+    "_gather_branch_sum_f8_kernel": {
+      "line": 4678,
+      "end_line": 4712
+    },
+    "_gather_branch_sum_f8": {
+      "line": 4715,
+      "end_line": 4736
+    },
+    "_fgs_tma2_int_pm_q8_kernel": {
+      "line": 5057,
+      "end_line": 5174
+    },
+    "_fgs_t1i_mdq_tma_kernel": {
+      "line": 5569,
+      "end_line": 5741
+    },
+    "_fgs_t1i_mdq_kernel_g": {
+      "line": 5745,
+      "end_line": 5841
+    },
+    "_fgs_tma1_intq_host": {
+      "line": 5844,
+      "end_line": 5890
+    },
+    "_run_replicated": {
+      "line": 6024,
+      "end_line": 6470
+    },
+    "run_kernel": {
+      "line": 6472,
+      "end_line": 6724
+    }
+  }
+}

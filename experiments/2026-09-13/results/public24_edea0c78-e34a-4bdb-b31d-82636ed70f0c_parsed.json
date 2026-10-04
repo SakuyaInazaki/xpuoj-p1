@@ -1,0 +1,27 @@
+{
+  "customTestId": "edea0c78-e34a-4bdb-b31d-82636ed70f0c",
+  "sourcePath": "experiments/2026-09-13/candidates/fp8_c4_dn_tma_padded_custom_bench.py",
+  "sourceBytes": 23955,
+  "sourceSha256": "b09efe6476054104502f3a42fc19d8b70bf6f45d13e3a3a79e8d8bad75b85d65",
+  "requestCount": 1,
+  "retryCount": 0,
+  "state": "Finished",
+  "status": "WrongAnswer",
+  "intentionalTerminalMarker": "P1MD done",
+  "outerCompileSuccess": true,
+  "totalOccupiedTimeMs": 11126,
+  "caseTimeUs": 10996828,
+  "memoryKiB": 921572,
+  "mathCheck": {"passed": true, "fullFp8Bitwise": true, "fullScaleExact": true, "fullFinalBf16Exact": true, "zeroRowsExact": true, "padRowAnalyticExact": true, "fp8BitMismatch": 0, "scaleMismatch": 0, "bf16FinalMismatch": 0},
+  "resources": {"baseline": {"nRegs": 170, "nSpills": 0, "shared": 229408}, "candidate": {"nRegs": 172, "nSpills": 0, "shared": 230432}, "rowmap": {"nRegs": 16, "nSpills": 0, "shared": 0}, "baselineGather": {"nRegs": 43, "nSpills": 0, "shared": 8192}, "paddedGather": {"nRegs": 43, "nSpills": 0, "shared": 8192}},
+  "timing": {
+    "groups": [
+      {"group": 0, "order": "AB", "baselineDnMs": 0.24416145343672147, "candidateDnMs": 0.23732266761362553, "candidateOverBaselineDn": 0.9719907228318153, "baselineDnGatherMs": 0.31827705471139206, "candidateRowmapDnPaddedGatherMs": 0.3177903137708965, "candidateComboOverBaseline": 0.9984707005004274},
+      {"group": 1, "order": "BA", "baselineDnMs": 0.24489066687723002, "candidateDnMs": 0.23710608741511469, "candidateOverBaselineDn": 0.9682120206483086, "baselineDnGatherMs": 0.321598314925244, "candidateRowmapDnPaddedGatherMs": 0.3189675807952881, "candidateComboOverBaseline": 0.9918198136996849},
+      {"group": 2, "order": "AB", "baselineDnMs": 0.24716800202926, "candidateDnMs": 0.24002666771411896, "candidateOverBaselineDn": 0.9711073672299392, "baselineDnGatherMs": 0.3280033688796194, "candidateRowmapDnPaddedGatherMs": 0.3209795571035809, "candidateComboOverBaseline": 0.9785861596482068}
+    ],
+    "means": {"baselineDnMs": 0.24540670744773715, "candidateDnMs": 0.23815180758095308, "candidateOverBaselineDn": 0.9704372388911615, "baselineDnGatherMs": 0.3226262461720852, "candidateRowmapDnPaddedGatherMs": 0.3192458172232551, "candidateComboOverBaseline": 0.9895221514401313}
+  },
+  "scope": "single-GPU c4 mechanism diagnostic; main candidate comparison includes rowmap, DN and padded gather; not P1 end-to-end",
+  "interpretation": "All hard gates passed. DN-only improved 2.80-3.18%; the taxed main comparison improved 0.15-2.14% across groups (mean ratio 0.98952). Performance disposition is reserved for root and must not be generalized or parameter-swept from this record."
+}

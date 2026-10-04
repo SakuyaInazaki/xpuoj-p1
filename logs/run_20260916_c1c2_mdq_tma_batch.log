@@ -1,0 +1,13 @@
+[令牌池] 取到 submit_problem 令牌 …b3b7fe（年龄 31.4s，剩余可用 268.6s）
+PoW难度5 求解1.0s  HTTP 201
+c1c2_mdq_tma: SID=144937
+[令牌池] 取到 submit_problem 令牌 …452162（年龄 32.3s，剩余可用 267.7s）
+PoW难度5 求解1.2s  HTTP 201
+锚: SID=144938
+10:53:31 ['-', '-']
+10:54:02 ['Wron', '-']
+10:54:32 ['Wron', '-']
+10:55:02 ['Wron', 'Acce']
+c1c2_mdq_tma 144937 WrongAnswer  SQNR最差 23.79dB
+    首个失败 tc0: WrongAnswer [23.79]
+锚 144938 display=81.42 Σtk=29.588 SQNR最差余量+1.12dB

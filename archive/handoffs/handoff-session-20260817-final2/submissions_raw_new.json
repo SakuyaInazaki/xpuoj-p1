@@ -1,0 +1,2440 @@
+[
+ {
+  "id": 115818,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 70.92,
+  "timeUsed": 50115,
+  "memoryUsed": 3608760,
+  "cases": {
+   "06a13c405054e7aead482d14b59ee67a4df40bf8": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.117,
+    "tb": 7.57,
+    "pass": true
+   },
+   "2ef8262604d313fa6261341a413eb9553585a25a": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.222,
+    "tb": 8.152,
+    "pass": true
+   },
+   "39eaa292a4dad9ff625979ddb73810cac4465258": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 6.596,
+    "tb": 18.057,
+    "pass": true
+   },
+   "40261561e2b239f1aacfabc287c360ba35f98bcf": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.224,
+    "tb": 5.606,
+    "pass": true
+   },
+   "6068bbf55d184b80107d1ba26c35b040cccc864d": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 12.054,
+    "tb": 28.867,
+    "pass": true
+   },
+   "737e4b58eb947ff18a29d2553e9d91e1ff16bfce": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 1.963,
+    "tb": 4.987,
+    "pass": true
+   },
+   "89002023d703dc9145c2b93191e729631f5575b1": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.701,
+    "tb": 6.988,
+    "pass": true
+   },
+   "a3562cabda7c524cf34da18c14dd6224070e8892": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 4.88,
+    "tb": 12.601,
+    "pass": true
+   },
+   "b751ab100891785b55adcc8d0702aa294505af2a": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.738,
+    "tb": 7.109,
+    "pass": true
+   },
+   "b7b2b68b1392b680f3e0f0d5b55af9ea0e596abd": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 68,
+    "tk": 3.061,
+    "tb": 6.559,
+    "pass": true
+   },
+   "df21a25a28358d22b19d15e34e1c1e20403f5fac": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 3.685,
+    "tb": 8.261,
+    "pass": true
+   },
+   "e9feb2d1e03fe0888ed5259910ec2d3c1634d070": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.874,
+    "tb": 10.133,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115819,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 71.08,
+  "timeUsed": 49629,
+  "memoryUsed": 3589000,
+  "cases": {
+   "05e6da47bb4becdfffbb4fdf8f6dd0eb37fe1f21": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.732,
+    "tb": 7.212,
+    "pass": true
+   },
+   "28d0afdbc74f5d0860babd1da242671fa1e87a32": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.84,
+    "tb": 10.326,
+    "pass": true
+   },
+   "430be8e43cfc3fd295cd9f21d72f28b2d43953c9": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 4.79,
+    "tb": 12.749,
+    "pass": true
+   },
+   "475aa8fd5a3e9449e457c42c7219094fbe913ee5": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 68,
+    "tk": 3.071,
+    "tb": 6.727,
+    "pass": true
+   },
+   "5036681003f8007627faad97ada15d9b85b58a0c": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 3.678,
+    "tb": 8.462,
+    "pass": true
+   },
+   "55d22421ba950b241fb699729222204f1bec454d": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.678,
+    "tb": 7.058,
+    "pass": true
+   },
+   "839e33f9931a64a039f566765ecab3f29ae6fc53": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.209,
+    "tb": 5.658,
+    "pass": true
+   },
+   "899fdc6be48e28a3933e55a7c3adfde4109eae6e": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.217,
+    "tb": 8.207,
+    "pass": true
+   },
+   "9498da4fe33add059c05ac34327f2b36e24a78d9": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 11.934,
+    "tb": 28.838,
+    "pass": true
+   },
+   "9c65d6f46a9f96ba6b6014bb77fc32a67399e856": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.09,
+    "tb": 7.686,
+    "pass": true
+   },
+   "b5dcb386ffdbc8a540bddbe162ff0c4d086c000d": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 6.427,
+    "tb": 18.033,
+    "pass": true
+   },
+   "b7d3868153087214c5fcbae8ef3c882b3abbcfcd": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 1.963,
+    "tb": 5.078,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115823,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 71.25,
+  "timeUsed": 49588,
+  "memoryUsed": 3590972,
+  "cases": {
+   "0f765d1b82ad961a8e1a889cbd23f0e22d733be7": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.682,
+    "tb": 7.018,
+    "pass": true
+   },
+   "30813a38247ea0ef6e74eda2bee1a201e3542d94": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.087,
+    "tb": 7.754,
+    "pass": true
+   },
+   "404df368a7d7ee6dbe8134787cc5976dc1b4cd01": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 3.69,
+    "tb": 8.427,
+    "pass": true
+   },
+   "5275fbf0e170edc81bbb5e7ad64d4ab38d2e4032": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 11.92,
+    "tb": 28.796,
+    "pass": true
+   },
+   "53109d22eaece8aae99b047fb360150458bc0bf9": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.208,
+    "tb": 5.668,
+    "pass": true
+   },
+   "62567fe7f01afc32a9d131992893c26db6973b26": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.211,
+    "tb": 8.153,
+    "pass": true
+   },
+   "79811b4eb65ac938d676fa1a886c6817acd5501d": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 1.957,
+    "tb": 5.767,
+    "pass": true
+   },
+   "7ac36687bc791d6988e98ee9335a9b8b74601c2b": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 6.407,
+    "tb": 18.105,
+    "pass": true
+   },
+   "bb9251d708ddea2ab64055b32e2b91a34990ecac": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.835,
+    "tb": 10.313,
+    "pass": true
+   },
+   "eb20ccdf110fe55cc9ab0c48e613f56c6547bff7": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 4.794,
+    "tb": 12.669,
+    "pass": true
+   },
+   "f24e5fe022f2fb527d81048bc1e1eddc7d044650": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.727,
+    "tb": 7.213,
+    "pass": true
+   },
+   "f391d844dea2c29f4910c5417d713c9bb9202c2f": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 68,
+    "tk": 3.07,
+    "tb": 6.688,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115825,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 71.42,
+  "timeUsed": 48912,
+  "memoryUsed": 3587796,
+  "cases": {
+   "0cbb36936b277a11d59a746951b137c727919e4b": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.085,
+    "tb": 7.614,
+    "pass": true
+   },
+   "260338bb71ee74822af8ef24ab029aad65b28ec7": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 1.959,
+    "tb": 5.072,
+    "pass": true
+   },
+   "26f83347f72dbf5a8f3f2f5f2c53f7fbd86b78c2": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.206,
+    "tb": 5.66,
+    "pass": true
+   },
+   "38d1da0324da9b6f326b63de93466d5bc67d50a5": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.634,
+    "tb": 6.996,
+    "pass": true
+   },
+   "494ea8e6109237a1eb9eb77cf6e8fd40f3a424f7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.797,
+    "tb": 10.246,
+    "pass": true
+   },
+   "4a2d651f36f7e1365866e6e27ce462f1addb5796": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 11.624,
+    "tb": 28.917,
+    "pass": true
+   },
+   "4b50aeacbde43a5e9c76c8d50818f4407023543c": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.659,
+    "tb": 8.557,
+    "pass": true
+   },
+   "5198f29d96b8659f81034165c130bd3c36aead22": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 68,
+    "tk": 3.041,
+    "tb": 6.701,
+    "pass": true
+   },
+   "6dc2c2281b162e3f8b622ef8a4dde780b3376300": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 4.723,
+    "tb": 12.691,
+    "pass": true
+   },
+   "8ff845c687a09ac5dc457615af6753c44662c242": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.151,
+    "tb": 8.177,
+    "pass": true
+   },
+   "c7a515eef574069c079d2ceff8a664081af21f5f": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.327,
+    "tb": 18.055,
+    "pass": true
+   },
+   "e7369a075446cbbc630f23a65985f35d37fbe087": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.706,
+    "tb": 7.209,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115830,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 71.17,
+  "timeUsed": 49689,
+  "memoryUsed": 3591000,
+  "cases": {
+   "1e572f1e579dc9a4baa0da5559c5df700feed79c": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.873,
+    "tb": 10.303,
+    "pass": true
+   },
+   "23b7acd10c75d859770c2d2e6f999e5ffc3dcda4": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.318,
+    "tb": 18.049,
+    "pass": true
+   },
+   "3b0e4911221e131f3e4f680cb2a7d0a7339800e8": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.287,
+    "tb": 8.183,
+    "pass": true
+   },
+   "4412e7ce2fa1c01e560965ace7d2d7f1543e94f7": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.108,
+    "tb": 7.593,
+    "pass": true
+   },
+   "4a896d3d0f37def8e4fe8c4ee9338ef1b32b72ee": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.79,
+    "tb": 7.199,
+    "pass": true
+   },
+   "61eebb2754fdac6ca17645418508d01ee251b4d9": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 4.736,
+    "tb": 12.853,
+    "pass": true
+   },
+   "72da1eb9b8a0f202f3bda5cb114d4bedc3dc6a08": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 1.976,
+    "tb": 5.098,
+    "pass": true
+   },
+   "7585950fa36e83bd4f0abe3ac0977da6bf8c6072": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 11.726,
+    "tb": 28.868,
+    "pass": true
+   },
+   "a32d3642ee9ab68bb8948e748d29fce3895fff57": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.363,
+    "tb": 5.672,
+    "pass": true
+   },
+   "a9395b9ae0b0ee01e64cdb19f47c28951ce69585": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.679,
+    "tb": 7.043,
+    "pass": true
+   },
+   "d038909f19cfe54d974106c5ad6bd80bb4fe9403": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 3.725,
+    "tb": 8.405,
+    "pass": true
+   },
+   "f6fbf95c1488768241cfd8096cc09dded971cffc": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 68,
+    "tk": 3.108,
+    "tb": 6.73,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115833,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 71.58,
+  "timeUsed": 48902,
+  "memoryUsed": 3573908,
+  "cases": {
+   "0ef86e0d5420317597cf2cab7212cdf2a29c540b": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 68,
+    "tk": 3.039,
+    "tb": 6.682,
+    "pass": true
+   },
+   "3adb6dcd138f01a50f12f5c431b558d5eb6a269d": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 1.956,
+    "tb": 5.065,
+    "pass": true
+   },
+   "649cf7094c4ccc080cdd41bf98ac94fbe46aebf4": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 3.681,
+    "tb": 8.586,
+    "pass": true
+   },
+   "66397864adfb0f615446f2254e9e16bbfa5e0125": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.134,
+    "tb": 8.154,
+    "pass": true
+   },
+   "6c9a3ed88cf57d004710c489d7ee03d09bcb2998": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 3.773,
+    "tb": 10.614,
+    "pass": true
+   },
+   "80c315640176567cead30e1c12b82ec2fdacdb85": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.299,
+    "tb": 18.051,
+    "pass": true
+   },
+   "871329b69f7cc6660c7a0935dbf83e386fc799a0": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.208,
+    "tb": 5.665,
+    "pass": true
+   },
+   "8f7a53fe46d63a46030e6cd18c9db0c75c1e649c": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.631,
+    "tb": 7.033,
+    "pass": true
+   },
+   "a9991e365d6c34a497e16666159d241e384f33a8": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 11.69,
+    "tb": 29.002,
+    "pass": true
+   },
+   "add6aa415b9b24ebbaf542b078979ed335717646": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.697,
+    "tb": 7.588,
+    "pass": true
+   },
+   "bf93586e9bab9fd32ee6ff9d850d718d7a013273": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.085,
+    "tb": 7.555,
+    "pass": true
+   },
+   "e55c52774b8373305b2ead39820447ba8041bb9b": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 4.709,
+    "tb": 13.332,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115834,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 71.83,
+  "timeUsed": 47532,
+  "memoryUsed": 3607312,
+  "cases": {
+   "2c353f37c8e4a1e24f3bd6eee5500f271d19e7bc": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.474,
+    "tb": 8.257,
+    "pass": true
+   },
+   "36dba3c5e0f403067bc898fc8c4c56711830fd02": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.246,
+    "tb": 17.894,
+    "pass": true
+   },
+   "44a5bac2b32281641896770c2d5ecfcf95ba347a": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 3.54,
+    "tb": 10.154,
+    "pass": true
+   },
+   "46d44a65f906e2c4624e2d6290ee7235ff152e8e": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.224,
+    "tb": 5.598,
+    "pass": true
+   },
+   "4a8b2ecca78f12cfb3cd11a3cdb18aefd305eafa": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.124,
+    "tb": 7.616,
+    "pass": true
+   },
+   "6a4e219dd03bd6a0e9beb2f791e1c7305757d185": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.457,
+    "tb": 6.944,
+    "pass": true
+   },
+   "7e8787cf9dbf259286a3c842f1140b8966e64025": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.432,
+    "tb": 7.033,
+    "pass": true
+   },
+   "84d64937f1b17440d8855b8af0072592677dad17": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.868,
+    "tb": 6.545,
+    "pass": true
+   },
+   "97e59b1b676bd75eec7b43e1dcfb1a23aca84a7d": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 4.462,
+    "tb": 12.683,
+    "pass": true
+   },
+   "a42b9c63aae8daf493058b8b6aa6626eb56dd961": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.972,
+    "tb": 8.166,
+    "pass": true
+   },
+   "dd6f5f237bff21f7e59abd73cd6ef739ca6044fc": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 1.968,
+    "tb": 5.046,
+    "pass": true
+   },
+   "e20abba5b9b2c22b4b60c0e6cbe74d1802961a9f": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 11.765,
+    "tb": 28.688,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115835,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 71.17,
+  "timeUsed": 49799,
+  "memoryUsed": 2312812,
+  "cases": {
+   "1113e80f9349cd2b94b4cb1762aa648a375c2d87": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.82,
+    "tb": 7.17,
+    "pass": true
+   },
+   "1cacedc6cd3edcd46ca13231a14e6e19c3d3611f": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.335,
+    "tb": 8.231,
+    "pass": true
+   },
+   "3faddab17148c70b153e859bc84401307336cc36": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.653,
+    "tb": 7.08,
+    "pass": true
+   },
+   "4a2b28947dea77d0cc6f79f2d462d984f1713d8f": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 3.128,
+    "tb": 7.207,
+    "pass": true
+   },
+   "4eb84ebcfea71201a1831c0723178084aae514bb": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 3.748,
+    "tb": 8.595,
+    "pass": true
+   },
+   "56e9f1d49d8026afd520036dc6fab603421e6c85": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.299,
+    "tb": 18.134,
+    "pass": true
+   },
+   "7d0818f833858eb070b6f9e3430d56352e1e2fe6": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.373,
+    "tb": 5.687,
+    "pass": true
+   },
+   "827f8c84f8e77ab741f646786ae5471d55d22c12": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 4.751,
+    "tb": 12.706,
+    "pass": true
+   },
+   "850d90b846819cc03661b10aa9349ccca1875e39": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.914,
+    "tb": 10.204,
+    "pass": true
+   },
+   "9e029988a55c60632f2e623688cd0d09bdbca5cd": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.103,
+    "tb": 7.676,
+    "pass": true
+   },
+   "c43ee39c0fc70458b35c2c2eb5b9bf93c11396cc": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 11.703,
+    "tb": 28.892,
+    "pass": true
+   },
+   "d6b6ff9c48d6334343fadc58da8906186e09c978": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 1.972,
+    "tb": 5.117,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115836,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 72,
+  "timeUsed": 49734,
+  "memoryUsed": 3611040,
+  "cases": {
+   "0384b3252964c3213bd40f953df1071066c8670c": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.059,
+    "tb": 7.545,
+    "pass": true
+   },
+   "14f0f1b5a59d5b9b80fe078c13a634a448822e35": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 1.952,
+    "tb": 4.951,
+    "pass": true
+   },
+   "2e1096c4113f92e9b2522a2b36b75a8a0f479ea1": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.646,
+    "tb": 7.009,
+    "pass": true
+   },
+   "4f62d6d24e87160a81c502721800737d73dd21e7": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 11.77,
+    "tb": 28.737,
+    "pass": true
+   },
+   "5035f55152967195b51907d1233e240dd69824b9": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 86,
+    "tk": 6.434,
+    "tb": 40.526,
+    "pass": true
+   },
+   "abb3855074c4986591c8c5488f588ae64a4b9ad8": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 4.783,
+    "tb": 12.612,
+    "pass": true
+   },
+   "ad4d7457949a93854e74f7fab0704055b3591afb": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.785,
+    "tb": 6.978,
+    "pass": true
+   },
+   "ae9117a6abd6790cc79f0efc6ce1aeda1fc1af99": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 3.885,
+    "tb": 10.541,
+    "pass": true
+   },
+   "b980c4a475fd62c0e4cb3860be8ab8542ca925df": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.324,
+    "tb": 5.599,
+    "pass": true
+   },
+   "e1a15445d06b283f07b21034164ad2b72c5265ef": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.268,
+    "tb": 8.108,
+    "pass": true
+   },
+   "f34cf38d964dc7497ebb6a29f4d433a413f3d17c": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 68,
+    "tk": 3.104,
+    "tb": 6.666,
+    "pass": true
+   },
+   "f47aadb22280433c91590c1b67825952595b70e4": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 3.724,
+    "tb": 8.405,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115839,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 71,
+  "timeUsed": 48864,
+  "memoryUsed": 3428204,
+  "cases": {
+   "1d7012c63885f2c1515138d986da261a253ed678": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 68,
+    "tk": 3.151,
+    "tb": 6.721,
+    "pass": true
+   },
+   "34977fb01b491caa78b6e1e2b0088aeb95c1be24": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.407,
+    "tb": 5.702,
+    "pass": true
+   },
+   "55dd7cfe36d8f3090562cf049e29c9c2eacb9532": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 4.784,
+    "tb": 12.678,
+    "pass": true
+   },
+   "57ac6b116e6046514157ecfcb6a6c990c5d59911": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.943,
+    "tb": 10.286,
+    "pass": true
+   },
+   "6e06d8c070571f4657d61534f40b6979774c3773": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.858,
+    "tb": 7.223,
+    "pass": true
+   },
+   "6ee221b3dce88e47eca003b6e19920ee080ea7bb": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.136,
+    "tb": 7.601,
+    "pass": true
+   },
+   "80c976b5501c0f489fcd6e7b22eea547066b1743": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.007,
+    "tb": 5.098,
+    "pass": true
+   },
+   "91cb0a2748080a062ee083cdf3e20e0c60879fbc": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.689,
+    "tb": 6.994,
+    "pass": true
+   },
+   "a0e56cdb73ccb5cd4858560752cb0ba5075834b8": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.327,
+    "tb": 18.238,
+    "pass": true
+   },
+   "f2b508712fd25648f6ec46fc30f1c190e742f270": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 3.775,
+    "tb": 8.437,
+    "pass": true
+   },
+   "f7ccaada3374596348dec6e2a2dd56680cce88dd": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.433,
+    "tb": 28.925,
+    "pass": true
+   },
+   "ff1d16b113ec4bf7fcbcba4f6ecd88716be1fefc": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.354,
+    "tb": 8.151,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115841,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 72.17,
+  "timeUsed": 46168,
+  "memoryUsed": 3582524,
+  "cases": {
+   "1465dbae88805350b1681b857c11a462247bc601": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.157,
+    "tb": 28.891,
+    "pass": true
+   },
+   "1f4a293a28e3a63a3256d8d561a1afad5be5aa8d": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 3.595,
+    "tb": 10.339,
+    "pass": true
+   },
+   "227577d58ccc956a123a6011a8cd9954348e732b": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.919,
+    "tb": 6.719,
+    "pass": true
+   },
+   "2dde3c91ab6dd05749e0c5d87946c9952117b8d8": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 4.394,
+    "tb": 12.686,
+    "pass": true
+   },
+   "33338ac5fc6c14171833f2459d751ee407dcc472": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.505,
+    "tb": 7.297,
+    "pass": true
+   },
+   "374dae93e8b1dc428383a9cbb3186249aa97b76e": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.085,
+    "tb": 7.572,
+    "pass": true
+   },
+   "6a62f9bdd1cd70f422e78c95b2908abef549e707": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.098,
+    "tb": 8.218,
+    "pass": true
+   },
+   "b4d221e44a3b7781cfeb68e128fdb1b257fb270c": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.451,
+    "tb": 7.038,
+    "pass": true
+   },
+   "bb4d6dbd22c17f5b16f994dba317b29d20965559": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.344,
+    "tb": 5.712,
+    "pass": true
+   },
+   "cafa2660b8a847dbfab2ef8a9c033452bf81082b": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.135,
+    "tb": 18.035,
+    "pass": true
+   },
+   "f3a52924039bb1aa275e92b3e1299567d2812832": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.524,
+    "tb": 8.404,
+    "pass": true
+   },
+   "ff25d361747caa3196c72cbeea6e4208ba65fd9d": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 1.961,
+    "tb": 5.014,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115843,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 71.75,
+  "timeUsed": 47225,
+  "memoryUsed": 3324228,
+  "cases": {
+   "28a407eb956af5e74b0fdee4e97d77fbf386c3fc": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 4.49,
+    "tb": 12.58,
+    "pass": true
+   },
+   "292123b646bd7c3e3d7b0c01968125f32029cc72": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.489,
+    "tb": 7.02,
+    "pass": true
+   },
+   "6c8d48735fe233a9e9a3f9fd34c1b7a2c3447fab": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.254,
+    "tb": 18.42,
+    "pass": true
+   },
+   "76d30b6e02469bc9d3dc9a35ecac1aedd15041e3": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.963,
+    "tb": 6.598,
+    "pass": true
+   },
+   "7a2e95570067d363db4d2e247868205c9c79347b": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 3.589,
+    "tb": 8.268,
+    "pass": true
+   },
+   "7cef29c4bdb68a853f2fa5d9a772d53fff45ae7b": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.433,
+    "tb": 28.747,
+    "pass": true
+   },
+   "9e5be096ee7589755a0e501274ed10d0829f1866": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.157,
+    "tb": 8.134,
+    "pass": true
+   },
+   "c1bb4c17dd2b9e5b79f49e4ec7af5e48461627f1": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.573,
+    "tb": 7.957,
+    "pass": true
+   },
+   "cca141a7a5e3d56a72547f9b3f6cfc4c5417e1ea": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.161,
+    "tb": 7.611,
+    "pass": true
+   },
+   "cd2f0c8ec7d6e2bac421417771c31f7f8b80b5db": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.008,
+    "tb": 4.931,
+    "pass": true
+   },
+   "d22a8a15484ef14c78a15c0a9e739414f8d5cb3d": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 3.684,
+    "tb": 10.14,
+    "pass": true
+   },
+   "f8c960c805bd0e163c8725fb752732687c3e8d7b": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.424,
+    "tb": 5.587,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115848,
+  "status": "TimeLimitExceeded",
+  "score": 0,
+  "displayScore": 0,
+  "timeUsed": 473340389,
+  "memoryUsed": 2192656,
+  "cases": {
+   "0e2614e3538c52d4a5f24bf75e5d6fb720a723f5": {
+    "input": "8\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "1275b79c3dfa4ca3f0969e3f550f3a2e4a9a75c7": {
+    "input": "2\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "41dec2b532a629750380d1838d9707b99c15d569": {
+    "input": "3\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "7035c2dcd10edc40f8ecd189b62b45853f7fdcff": {
+    "input": "12\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "8fc1d22d3ad4ca06e3247d0fa3c4f21ff3fe7f2c": {
+    "input": "4\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "a2e855ff034a595ee70d236b204095ce66aed55e": {
+    "input": "1\n",
+    "status": "TimeLimitExceeded",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "a339e0b1c36c09d1cf9fcf1b815f96513ea15bd4": {
+    "input": "9\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "a80aa67bfb91f78633c6bd9f402556e90f017f85": {
+    "input": "7\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "afca70c511484f13b48e04f036999c874600870c": {
+    "input": "6\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "d93a040e367e18dd4e2004cd9057ac6d8a50cdf4": {
+    "input": "11\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "f1a9fc5a769c61e46ec27977138810590dfaadcc": {
+    "input": "10\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "f593e62f60a461765060646dd7aaee89c63a0082": {
+    "input": "5\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   }
+  }
+ },
+ {
+  "id": 115850,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 72.58,
+  "timeUsed": 45801,
+  "memoryUsed": 2311160,
+  "cases": {
+   "06ff6d7ada19756041c8a1277b5c03f6836cefca": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 1.764,
+    "tb": 5.505,
+    "pass": true
+   },
+   "0fa847c8d774b3ef98c784cdb2d841c050b842e0": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.579,
+    "tb": 8.506,
+    "pass": true
+   },
+   "2ca22b7eaa0cb6f6e3ebcd4535a530ef4b5b9fbe": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.677,
+    "tb": 7.567,
+    "pass": true
+   },
+   "5178b6da568e45524a1bec6f3874a55b65f792c9": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 4.437,
+    "tb": 12.744,
+    "pass": true
+   },
+   "63c5fc4295a92bf8896e49cfece073add45e39f5": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.201,
+    "tb": 28.863,
+    "pass": true
+   },
+   "68dead506509529c6ff25000b8ca7c1e28456f5d": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.479,
+    "tb": 7.042,
+    "pass": true
+   },
+   "836e6609fb0165ce9bc95bf1c23b82112d47d400": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.569,
+    "tb": 7.197,
+    "pass": true
+   },
+   "94f20dfabffad89a0df1b8c77df88acf6df830aa": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.157,
+    "tb": 8.165,
+    "pass": true
+   },
+   "985654c598f93f2a1df6d076ec6baed96864475b": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.179,
+    "tb": 5.687,
+    "pass": true
+   },
+   "c6189046fea2fd0b908802dae82a95e191fb68af": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.962,
+    "tb": 6.745,
+    "pass": true
+   },
+   "d58603375e13d936a71373653fd073800515ad16": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.14,
+    "tb": 18.187,
+    "pass": true
+   },
+   "f2c516ef560ae648bfb2a140d0f497287cc2bd9b": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 3.657,
+    "tb": 10.314,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115854,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 72.92,
+  "timeUsed": 45372,
+  "memoryUsed": 3510864,
+  "cases": {
+   "2200986d1be4a804bc96fdb0a9803a68b556eda7": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.635,
+    "tb": 7.61,
+    "pass": true
+   },
+   "2d71c89a4f52cd77f41ab8b46926b0921c2fa229": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 4.403,
+    "tb": 12.67,
+    "pass": true
+   },
+   "4ab21608d79bdde9626166cdd68ead91fbb64038": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.511,
+    "tb": 7.154,
+    "pass": true
+   },
+   "5915ca9abfb4d2fcbf294ca58547acad9f651037": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.54,
+    "tb": 8.395,
+    "pass": true
+   },
+   "7df12128d645da9832ebd61d541a14473625f004": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 1.73,
+    "tb": 5.073,
+    "pass": true
+   },
+   "89338897c66460713f96755dadbbdd439ba291e2": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.111,
+    "tb": 8.151,
+    "pass": true
+   },
+   "8c197086b6a2af7e44fd13abeadb4a448d4833ac": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.458,
+    "tb": 7.73,
+    "pass": true
+   },
+   "99666811cdbdef45cba144a8f227827493663f03": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 3.606,
+    "tb": 10.277,
+    "pass": true
+   },
+   "b5b3e9bb4a71a19f62fc49d59254f15cdf440050": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.927,
+    "tb": 6.711,
+    "pass": true
+   },
+   "dee8e8ad0bd2d813ce65a00bca05a2d8edee6f21": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.184,
+    "tb": 28.788,
+    "pass": true
+   },
+   "eebee1419c6774000dea0374b37c39cd762233d7": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.131,
+    "tb": 5.647,
+    "pass": true
+   },
+   "fa92d89ffceccf1ac5b23cde402859d12e53189b": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.136,
+    "tb": 18.049,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115856,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 72.33,
+  "timeUsed": 48199,
+  "memoryUsed": 3588368,
+  "cases": {
+   "2bc2c1f3faf8846239f611814b24d9841ea806de": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.454,
+    "tb": 7.242,
+    "pass": true
+   },
+   "31f356f1967e97a04d6c702ba4f54809bb880964": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.132,
+    "tb": 18.032,
+    "pass": true
+   },
+   "542889959b962e78fc5bd8203c3fb9f4a61f0b50": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.511,
+    "tb": 7.208,
+    "pass": true
+   },
+   "66012be6de9bfe0fcd1ec50a8310b9f49a2411eb": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 68,
+    "tk": 13.014,
+    "tb": 28.882,
+    "pass": true
+   },
+   "8c9d5ce6c609f0ea27e2bd5a82aa7f3f70b45da7": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.919,
+    "tb": 6.726,
+    "pass": true
+   },
+   "adc9753954e9604d66ade0d668165b1f57978b2b": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.553,
+    "tb": 8.451,
+    "pass": true
+   },
+   "b92f547d515f309597e4cf0bf6cbd38ca86096be": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.639,
+    "tb": 7.569,
+    "pass": true
+   },
+   "cb5f8c51d3dc67603e8bd9a5bb8baab8af992763": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.121,
+    "tb": 8.168,
+    "pass": true
+   },
+   "cecb96973af1bc161005f39049a10744390d9473": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 4.403,
+    "tb": 12.703,
+    "pass": true
+   },
+   "d195b25a870d8750e7836e184e7e410ed78d86b1": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 3.598,
+    "tb": 10.234,
+    "pass": true
+   },
+   "da83685b2c0e1e13a2962e4ffa24799c3a5bd137": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 1.725,
+    "tb": 5.025,
+    "pass": true
+   },
+   "e8f388610e63595b05b071143890fc645b73cc47": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.13,
+    "tb": 5.663,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115859,
+  "status": "TimeLimitExceeded",
+  "score": 0,
+  "displayScore": 0,
+  "timeUsed": 473638073,
+  "memoryUsed": 3439476,
+  "cases": {
+   "08211484bc82e185c40c80078af23c4ce5401adc": {
+    "input": "6\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "3a8fbecb85ecf01bee4d8dbf02cab19eb224c6f6": {
+    "input": "7\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "57807b85cd37e852ace8d371866460429218b311": {
+    "input": "9\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "84b3d0d1a43ee90210777d46f0d1d98c635f3875": {
+    "input": "8\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "871e97c560626bfc517ca8f048f761b6cc1d609b": {
+    "input": "5\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "8b9e3cec17fadae5837664c10c3e4762109ad52d": {
+    "input": "12\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "90b092e9d1e85850b998a7cd3541a438f26a1aa2": {
+    "input": "11\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "b08d2cfc4675f20e8089c27c0941bbd2836883fd": {
+    "input": "3\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "b4d6f251fde770a094baeb6f36d6c6eacf8eb288": {
+    "input": "2\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "c7d4715f2748c25b41d067293c86979cc9803f19": {
+    "input": "10\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "e74260aa9841c8696c036fbbd8f6cd10b2338c9e": {
+    "input": "4\n",
+    "status": "WrongAnswer",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   },
+   "fdf30d3e616c1d83390c8fe7d3ba59f1066a7a8c": {
+    "input": "1\n",
+    "status": "TimeLimitExceeded",
+    "displayScore": null,
+    "tk": 0.0,
+    "tb": 0.0,
+    "pass": false
+   }
+  }
+ },
+ {
+  "id": 115860,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 72.75,
+  "timeUsed": 45777,
+  "memoryUsed": 3602780,
+  "cases": {
+   "0eb48e1c52e6fb90f751dd0e5485d973d8748447": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.531,
+    "tb": 8.283,
+    "pass": true
+   },
+   "14401448899547bd80f06af364e078adeae368fa": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.512,
+    "tb": 7.096,
+    "pass": true
+   },
+   "562b0968f0bca0d04522ee25e4dd92ecb45f7a23": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.461,
+    "tb": 7.72,
+    "pass": true
+   },
+   "62584fc286a5699a945f6e52c28fe5b0d42b6e2c": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.651,
+    "tb": 7.597,
+    "pass": true
+   },
+   "807cbc424efce385f6b3bbbbcfb86f5c3491ef06": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.924,
+    "tb": 6.63,
+    "pass": true
+   },
+   "870f8eef252986f397f0d7c7674152514e706220": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 4.463,
+    "tb": 12.637,
+    "pass": true
+   },
+   "974f6e315dd732a8a45eb0bd4cfd256e65b29db9": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.378,
+    "tb": 29.353,
+    "pass": true
+   },
+   "9ade392bfeea51310adac4e4520899fa97cbe880": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 1.731,
+    "tb": 5.338,
+    "pass": true
+   },
+   "a81c3907b48a1ed343cf0a1579992cbb34ed981e": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.124,
+    "tb": 5.605,
+    "pass": true
+   },
+   "bbde1b5fefd43e238ce7540b8c871e3d21110533": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 3.628,
+    "tb": 10.098,
+    "pass": true
+   },
+   "c1a38d71ddc7321f02d0b2c801030b97fa799ff4": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.117,
+    "tb": 8.237,
+    "pass": true
+   },
+   "c2c80ac504c2fdfd663068432e93512a916873bd": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.257,
+    "tb": 18.191,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115861,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 69.17,
+  "timeUsed": 52889,
+  "memoryUsed": 3259640,
+  "cases": {
+   "0a7af3b37af2fac0bfa43435a54463c2900bc910": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.409,
+    "tb": 8.125,
+    "pass": true
+   },
+   "3fc7ab6286219f32790b6a2fb97fa17c63f50d81": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 68,
+    "tk": 8.07,
+    "tb": 17.858,
+    "pass": true
+   },
+   "457dd76aef177229105126fe0dfeae0139d7f315": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 1.969,
+    "tb": 4.967,
+    "pass": true
+   },
+   "482b08042647b01c1833274ad23dc5d30f04413b": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.489,
+    "tb": 28.739,
+    "pass": true
+   },
+   "6997b228d1542c859a660a76d9687f2e81adf971": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.331,
+    "tb": 5.615,
+    "pass": true
+   },
+   "7f657671d76a52f60673b6762195584b4a0bcb09": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.995,
+    "tb": 6.979,
+    "pass": true
+   },
+   "9a8a7938ba5fe26dac94d1af3d559f4971c75eb6": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 66,
+    "tk": 4.175,
+    "tb": 8.333,
+    "pass": true
+   },
+   "b2d9d814891d1ec1da815a854acf052f506be178": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.128,
+    "tb": 7.594,
+    "pass": true
+   },
+   "d68f2525f866bf5952e36c7d3f85b40faadc246d": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 65,
+    "tk": 3.415,
+    "tb": 6.591,
+    "pass": true
+   },
+   "e045b3980550b024802deecb06807b0ecf4ec980": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 5.578,
+    "tb": 12.949,
+    "pass": true
+   },
+   "f1a1396f32c3dc59efa3b33afef96dff9dc448a2": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 4.489,
+    "tb": 10.159,
+    "pass": true
+   },
+   "fb2bccf5ba3eda8cf61ce9bbd55f17fde7d078a0": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.841,
+    "tb": 6.955,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115866,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 72.67,
+  "timeUsed": 46065,
+  "memoryUsed": 3569324,
+  "cases": {
+   "0fbd9d591f5e321a155737f48b85ce699f9e4faa": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.268,
+    "tb": 17.901,
+    "pass": true
+   },
+   "1f47c1161d3e100929150a65bac5d0fb0d28ec7f": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.544,
+    "tb": 8.279,
+    "pass": true
+   },
+   "23f01ef6a629eb1ed6c6097234751325611837ce": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.512,
+    "tb": 7.028,
+    "pass": true
+   },
+   "3c9b8fb1c331287367130f774b6147f40875c0e9": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 3.635,
+    "tb": 10.136,
+    "pass": true
+   },
+   "58496b54c23a64bc9fd920fc8ec933323f2b5288": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 2.928,
+    "tb": 7.165,
+    "pass": true
+   },
+   "7212c13d4d50986efe3a8c10b2fc652abc819636": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 4.475,
+    "tb": 12.775,
+    "pass": true
+   },
+   "77b4dee7500c43dd3477123fa90f2a6cc3825b89": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.573,
+    "tb": 29.409,
+    "pass": true
+   },
+   "a444f1669eb8f96c12822d037e1dfc168efbff4c": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 1.738,
+    "tb": 4.952,
+    "pass": true
+   },
+   "b0bf693e641983d7ac785eb3010e97074a6a3594": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.651,
+    "tb": 7.652,
+    "pass": true
+   },
+   "da390fa20243e5a8293dff4a98d2cf12c4a300e5": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.125,
+    "tb": 8.118,
+    "pass": true
+   },
+   "db56e30456a57bd7e72f2e7663a049e153481109": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.14,
+    "tb": 5.602,
+    "pass": true
+   },
+   "eabc169ce179bafe497a5892ba33a9e00b6c8a1e": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.476,
+    "tb": 6.974,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115876,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 72.5,
+  "timeUsed": 45779,
+  "memoryUsed": 3528076,
+  "cases": {
+   "00127f7f23d2f35cf37b8ec6d68d7c48a569c08a": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.25,
+    "tb": 17.903,
+    "pass": true
+   },
+   "26522cbdc814eb1982c2412f559e58986bdf9136": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 10.353,
+    "tb": 28.742,
+    "pass": true
+   },
+   "26d6ac98d2cdc6a2cd487f7f0e8e451076ff3f13": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 1.733,
+    "tb": 4.937,
+    "pass": true
+   },
+   "76ecddb6a191e8c20c717c7ebf77389ab2d870ad": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.132,
+    "tb": 5.658,
+    "pass": true
+   },
+   "7729eb06d654d8dc8328070751c236a0ffedda69": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.65,
+    "tb": 7.564,
+    "pass": true
+   },
+   "a1d946a394961e43b15e92dbf52e90f92b2dfaa6": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.121,
+    "tb": 8.138,
+    "pass": true
+   },
+   "a26e59b2c9386d853c01990dc28f05dc3967da37": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.921,
+    "tb": 6.717,
+    "pass": true
+   },
+   "a5b1ec4be3a0cae2349f8964c00478ae8af2a0cd": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 4.471,
+    "tb": 12.606,
+    "pass": true
+   },
+   "a8559f994070d629f7a03a55dd027322a5df6949": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.519,
+    "tb": 7.126,
+    "pass": true
+   },
+   "c20f2f7f46d63fcc47c096c0df29be4d0f36f690": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.536,
+    "tb": 8.284,
+    "pass": true
+   },
+   "dfdec1737514d5f62ac38637f6489d140df44811": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.467,
+    "tb": 6.968,
+    "pass": true
+   },
+   "e40066bf1a079e3b072783920260f0259bd295af": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 3.626,
+    "tb": 10.16,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115878,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 72.75,
+  "timeUsed": 46599,
+  "memoryUsed": 3575624,
+  "cases": {
+   "1438cda0bc4d7018914c3f40e610385eee9892f9": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.132,
+    "tb": 5.675,
+    "pass": true
+   },
+   "228fa6e20ea6b31bc7075601fef65e2d907c37e7": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 3.599,
+    "tb": 10.378,
+    "pass": true
+   },
+   "26703bb95755ba4c81bcc54500ce6bc71a0f69f5": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 2.93,
+    "tb": 6.698,
+    "pass": true
+   },
+   "2e9b871fd2930e2bc26eb7e8e1bac94948c63639": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 70,
+    "tk": 3.54,
+    "tb": 8.508,
+    "pass": true
+   },
+   "35df3484bd90c350e9c1a288982fd63e073d2de1": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 11.42,
+    "tb": 28.878,
+    "pass": true
+   },
+   "3eb5649a7d685436891cdab8ddabebf0fdd1a831": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 1.734,
+    "tb": 5.085,
+    "pass": true
+   },
+   "59f158a2de5a645605eb2bd4a17566ca58e83da1": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.458,
+    "tb": 7.068,
+    "pass": true
+   },
+   "6040b043c94b8cbef5e3496ef7035446cf02a002": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 75,
+    "tk": 2.639,
+    "tb": 7.988,
+    "pass": true
+   },
+   "7e1e698214ea124f5a5e3b0a2e6661b0ed415b71": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 3.111,
+    "tb": 8.208,
+    "pass": true
+   },
+   "8e55fe45bf445373cf5979e06093e4d348881dc1": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 4.398,
+    "tb": 12.7,
+    "pass": true
+   },
+   "98035c84f4d0e5a0cc6a0b1dfa5f786d687e1815": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.131,
+    "tb": 18.033,
+    "pass": true
+   },
+   "a6001ccebba8ed502ddabe4f0c7c6d9aba77af22": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 2.507,
+    "tb": 7.193,
+    "pass": true
+   }
+  }
+ },
+ {
+  "id": 115879,
+  "status": "Accepted",
+  "score": 100,
+  "displayScore": 71.58,
+  "timeUsed": 48664,
+  "memoryUsed": 3440360,
+  "cases": {
+   "1a3e0df534b6d4b35823369d3b823a55c7cbf93c": {
+    "input": "1\n",
+    "status": "Accepted",
+    "displayScore": 74,
+    "tk": 6.265,
+    "tb": 17.886,
+    "pass": true
+   },
+   "22a1cb2e7babdd8dcb08382673e18238d7f4ddbe": {
+    "input": "2\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 12.726,
+    "tb": 28.916,
+    "pass": true
+   },
+   "3136992a67dbae5eb8a203584311d782641dc1cc": {
+    "input": "3\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.501,
+    "tb": 6.995,
+    "pass": true
+   },
+   "3a175cf50e6f73afb0d81b67c127a8deff224449": {
+    "input": "7\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 3.695,
+    "tb": 10.24,
+    "pass": true
+   },
+   "3fa4bf4c62df2d049b83c1a8374f12073427db53": {
+    "input": "11\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 2.186,
+    "tb": 5.606,
+    "pass": true
+   },
+   "5228aa7eca4eaa828776679b5472348fb156704d": {
+    "input": "10\n",
+    "status": "Accepted",
+    "displayScore": 68,
+    "tk": 2.977,
+    "tb": 6.603,
+    "pass": true
+   },
+   "5597faf8bc3d77c2f63ae3183af7a3462d15a8c6": {
+    "input": "5\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 4.512,
+    "tb": 12.543,
+    "pass": true
+   },
+   "74a7810bbe8e0c1245ff163f5ef88abca45bea37": {
+    "input": "4\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 1.77,
+    "tb": 4.981,
+    "pass": true
+   },
+   "83abf187e606e3ea398445bdf647f1b59b7ff448": {
+    "input": "12\n",
+    "status": "Accepted",
+    "displayScore": 71,
+    "tk": 3.177,
+    "tb": 8.135,
+    "pass": true
+   },
+   "864a586c2b27eeadcc66601e3b7284880e2041de": {
+    "input": "6\n",
+    "status": "Accepted",
+    "displayScore": 73,
+    "tk": 2.692,
+    "tb": 7.634,
+    "pass": true
+   },
+   "a4f10806fc1734ecccd5bbc08b9ce195e0491294": {
+    "input": "8\n",
+    "status": "Accepted",
+    "displayScore": 72,
+    "tk": 2.581,
+    "tb": 6.975,
+    "pass": true
+   },
+   "e3ffb58b50d033c7969e5da27c07936cf674f758": {
+    "input": "9\n",
+    "status": "Accepted",
+    "displayScore": 69,
+    "tk": 3.582,
+    "tb": 8.282,
+    "pass": true
+   }
+  }
+ }
+]

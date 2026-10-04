@@ -1,0 +1,8 @@
+nohup: 忽略输入
+submitted submissionId=115672
+{"id": 115672, "status": "Pending", "score": null, "displayScore": null, "timeUsed": null, "memoryUsed": null}
+{"id": 115672, "status": "Pending", "score": null, "displayScore": null, "timeUsed": null, "memoryUsed": null}
+{"id": 115672, "status": "Pending", "score": null, "displayScore": null, "timeUsed": null, "memoryUsed": null}
+{"id": 115672, "status": "Pending", "score": null, "displayScore": null, "timeUsed": null, "memoryUsed": null}
+{"id": 115672, "status": "Pending", "score": null, "displayScore": null, "timeUsed": null, "memoryUsed": null}
+{"id": 115672, "status": "WrongAnswer", "score": 0, "displayScore": 0, "timeUsed": 41535842, "memoryUsed": 2017364}

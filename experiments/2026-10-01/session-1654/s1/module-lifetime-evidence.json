@@ -1,0 +1,101 @@
+{
+  "multi_case_launcher_evidence": [
+    {
+      "sid": "149972",
+      "case_logs": [
+        {
+          "case": "1",
+          "launcher_pids": [
+            "2832785"
+          ],
+          "has_case6": false
+        },
+        {
+          "case": "4",
+          "launcher_pids": [
+            "2834206"
+          ],
+          "has_case6": false
+        },
+        {
+          "case": "11",
+          "launcher_pids": [
+            "2836577"
+          ],
+          "has_case6": false
+        },
+        {
+          "case": "12",
+          "launcher_pids": [
+            "2836916"
+          ],
+          "has_case6": false
+        },
+        {
+          "case": "5",
+          "launcher_pids": [
+            "2834545"
+          ],
+          "has_case6": false
+        },
+        {
+          "case": "2",
+          "launcher_pids": [
+            "2833531"
+          ],
+          "has_case6": false
+        },
+        {
+          "case": "1",
+          "launcher_pids": [
+            "2833195"
+          ],
+          "has_case6": false
+        },
+        {
+          "case": "7",
+          "launcher_pids": [
+            "2835221"
+          ],
+          "has_case6": false
+        },
+        {
+          "case": "6",
+          "launcher_pids": [
+            "2834884"
+          ],
+          "has_case6": true
+        },
+        {
+          "case": "8",
+          "launcher_pids": [
+            "2835560"
+          ],
+          "has_case6": false
+        },
+        {
+          "case": "10",
+          "launcher_pids": [
+            "2836240"
+          ],
+          "has_case6": false
+        },
+        {
+          "case": "3",
+          "launcher_pids": [
+            "2833869"
+          ],
+          "has_case6": false
+        },
+        {
+          "case": "9",
+          "launcher_pids": [
+            "2835899"
+          ],
+          "has_case6": false
+        }
+      ]
+    }
+  ],
+  "limits": "Separate historical case launchers do not establish current normal AC module lifetime or measurement call ordinals."
+}

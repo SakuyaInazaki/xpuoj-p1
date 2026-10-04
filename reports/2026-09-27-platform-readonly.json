@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-09-26T18:57:29.808373+00:00",
+  "read_only": true,
+  "scoreboard": {
+    "rank": 4,
+    "totalScore": 241.15999999999997,
+    "problemScores": [
+      {
+        "problemOrder": null,
+        "score": 73.5,
+        "submissionId": 146307,
+        "submissionCount": 3260
+      },
+      {
+        "problemOrder": null,
+        "score": 100.33,
+        "submissionId": 146904,
+        "submissionCount": 167
+      },
+      {
+        "problemOrder": null,
+        "score": 67.33,
+        "submissionId": 146634,
+        "submissionCount": 1884
+      }
+    ]
+  },
+  "recent": [
+    {
+      "id": 146915,
+      "status": "Accepted",
+      "displayScore": 81.67,
+      "submitTime": "2026-09-20T05:33:58.000Z",
+      "timeUsed": 29351
+    },
+    {
+      "id": 146914,
+      "status": "Accepted",
+      "displayScore": 81.25,
+      "submitTime": "2026-09-20T05:33:40.000Z",
+      "timeUsed": 30090
+    },
+    {
+      "id": 146913,
+      "status": "Accepted",
+      "displayScore": 82.33,
+      "submitTime": "2026-09-20T05:32:15.000Z",
+      "timeUsed": 29436
+    },
+    {
+      "id": 146912,
+      "status": "Accepted",
+      "displayScore": 81.5,
+      "submitTime": "2026-09-20T05:31:59.000Z",
+      "timeUsed": 30047
+    },
+    {
+      "id": 146911,
+      "status": "Accepted",
+      "displayScore": 81.5,
+      "submitTime": "2026-09-20T05:31:14.000Z",
+      "timeUsed": 29431
+    }
+  ],
+  "distributed_custom": {
+    "available": false,
+    "reason": null
+  }
+}

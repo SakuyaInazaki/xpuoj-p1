@@ -1,0 +1,45 @@
+{
+  "data": {
+    "id": "de45e5a9-16ed-475f-ab49-b733daa621d0",
+    "userId": 2080,
+    "problemId": 24,
+    "language": "triton-h800",
+    "mode": "GeneratedWorkload",
+    "profile": false,
+    "state": "Finished",
+    "content": {
+      "language": "triton-h800",
+      "codeSha256": "5d69abb6c04b715cb0479cc93338cabde1cb52b63a7e417f841a52de602756aa",
+      "codeBytes": 18913,
+      "sourcePath": "experiments/2026-09-13/candidates/fp8_c4_dn_tma_store_custom_bench.py",
+      "compileAndRunOptions": {},
+      "note": "The API returned the full source in content.code; archived by immutable path, size and SHA instead of duplicating it here."
+    },
+    "progress": {
+      "progressType": "Finished",
+      "status": "WrongAnswer",
+      "compile": {"success": true, "message": ""},
+      "totalOccupiedTime": 4792,
+      "cases": [
+        {
+          "result": {
+            "testcaseInfo": {"timeLimit": 15000, "memoryLimit": 4096, "inputFile": null, "outputFile": null},
+            "status": "WrongAnswer",
+            "time": 4621762,
+            "memory": 902032,
+            "userOutput": "OJCHAL/OJRESULT protocol output; pass=false",
+            "userError": {
+              "data": "/judge/1/working/.kernel_cache/kernel_e6e8bda5e264ca8c.py:121:69: error: 'scf.if' op region control flow edge from Region #1 to parent results: source has 1 operands, but target successor needs 5\n    for tile_id in tl.range(pid, total_tiles * num_block_n, num_pid, flatten=True):\n                                                                    ^\n",
+              "omittedLength": 4855
+            },
+            "checkerMessage": "SPJ FAIL: payload pass=false.\n"
+          }
+        }
+      ]
+    },
+    "createdAt": 1789232022521,
+    "startedAt": 1789232023304,
+    "finishedAt": 1789232028036,
+    "expiresAt": 1789318428036
+  }
+}

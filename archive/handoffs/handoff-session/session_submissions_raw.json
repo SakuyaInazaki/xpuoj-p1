@@ -1,0 +1,3554 @@
+[
+  {
+    "id": 114627,
+    "file": "submit_c128_packe8_nometa96.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 48.08,
+    "timeUsed": 124675,
+    "memoryUsed": 2379160,
+    "submitTime": "2026-08-16T13:53:28.000Z",
+    "cases": {
+      "8": {
+        "tk": 9.445,
+        "tb": 7.022,
+        "pass": true,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.341,
+        "tb": 7.583,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.294,
+        "tb": 4.919,
+        "pass": true,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.749,
+        "tb": 12.628,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.707,
+        "tb": 5.611,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.943,
+        "tb": 8.291,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.672,
+        "tb": 6.538,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.461,
+        "tb": 10.087,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.609,
+        "tb": 8.125,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.599,
+        "tb": 6.859,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.859,
+        "tb": 17.927,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 22.996,
+        "tb": 28.716,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114629,
+    "file": "submit_c128_packe8_case2_nometa.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 49.67,
+    "timeUsed": 125180,
+    "memoryUsed": 2375492,
+    "submitTime": "2026-08-16T13:55:53.000Z",
+    "cases": {
+      "11": {
+        "tk": 4.58,
+        "tb": 5.591,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.049,
+        "tb": 7.598,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.947,
+        "tb": 8.115,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 18.872,
+        "tb": 12.579,
+        "pass": true,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.004,
+        "tb": 9.326,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.766,
+        "tb": 6.571,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.508,
+        "tb": 17.899,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.425,
+        "tb": 7.036,
+        "pass": true,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.437,
+        "tb": 6.873,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.279,
+        "tb": 4.96,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.15,
+        "tb": 28.72,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.163,
+        "tb": 11.861,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114631,
+    "file": "submit_fastag_k4gt.log",
+    "status": "WrongAnswer",
+    "score": 0,
+    "displayScore": 0,
+    "timeUsed": 35775340,
+    "memoryUsed": 1507092,
+    "submitTime": "2026-08-16T13:58:47.000Z",
+    "cases": {
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  {
+    "id": 114635,
+    "file": "submit_fastag_k4gt_v2.log",
+    "status": "WrongAnswer",
+    "score": 67,
+    "displayScore": 33.08,
+    "timeUsed": 7409915,
+    "memoryUsed": 3449400,
+    "submitTime": "2026-08-16T13:59:59.000Z",
+    "cases": {
+      "4": {
+        "tk": 5.276,
+        "tb": 4.919,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 6.559,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 9.478,
+        "tb": 6.863,
+        "pass": true,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.224,
+        "tb": 6.046,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 7.69,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 10.801,
+        "tb": 10.058,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 7.63,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 6.745,
+        "tb": 7.619,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.139,
+        "tb": 28.749,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.481,
+        "tb": 17.943,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 12.657,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 9.676,
+        "tb": 7.459,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114651,
+    "file": "submit_directag_k4gt.log",
+    "status": "WrongAnswer",
+    "score": 67,
+    "displayScore": 33.92,
+    "timeUsed": 7669711,
+    "memoryUsed": 3626972,
+    "submitTime": "2026-08-16T14:16:09.000Z",
+    "cases": {
+      "9": {
+        "tk": 0.0,
+        "tb": 7.815,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 25.161,
+        "tb": 28.814,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.162,
+        "tb": 18.351,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.86,
+        "tb": 10.121,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.509,
+        "tb": 7.635,
+        "pass": true,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 6.727,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 4.591,
+        "tb": 5.084,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 6.695,
+        "tb": 7.711,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.286,
+        "tb": 6.951,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 12.69,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 4.177,
+        "tb": 6.127,
+        "pass": true,
+        "score": 59,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 7.887,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  {
+    "id": 114658,
+    "file": "submit_directag_k4gt_v2.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 50.67,
+    "timeUsed": 119558,
+    "memoryUsed": 3642944,
+    "submitTime": "2026-08-16T14:18:57.000Z",
+    "cases": {
+      "7": {
+        "tk": 11.742,
+        "tb": 10.162,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.492,
+        "tb": 7.641,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 6.732,
+        "tb": 8.659,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 17.457,
+        "tb": 17.912,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.47,
+        "tb": 6.63,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.684,
+        "tb": 7.161,
+        "pass": true,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.229,
+        "tb": 6.867,
+        "pass": true,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 13.85,
+        "tb": 12.609,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.082,
+        "tb": 28.74,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.024,
+        "tb": 8.278,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 4.597,
+        "tb": 4.948,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.199,
+        "tb": 5.598,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114663,
+    "file": "submit_c128_packe8e96_nometa.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 47.83,
+    "timeUsed": 139578,
+    "memoryUsed": 2364412,
+    "submitTime": "2026-08-16T14:23:19.000Z",
+    "cases": {
+      "5": {
+        "tk": 11.35,
+        "tb": 12.545,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.093,
+        "tb": 28.897,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.35,
+        "tb": 6.867,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 26.237,
+        "tb": 5.563,
+        "pass": true,
+        "score": 17,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.778,
+        "tb": 8.128,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.562,
+        "tb": 5.612,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.344,
+        "tb": 18.437,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.07,
+        "tb": 6.631,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.148,
+        "tb": 8.34,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.222,
+        "tb": 6.999,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.757,
+        "tb": 7.918,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.667,
+        "tb": 10.137,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114668,
+    "file": "submit_directag_v2_case2pack.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 51.58,
+    "timeUsed": 114200,
+    "memoryUsed": 3624228,
+    "submitTime": "2026-08-16T14:25:48.000Z",
+    "cases": {
+      "6": {
+        "tk": 7.869,
+        "tb": 7.536,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 6.689,
+        "tb": 8.166,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.621,
+        "tb": 10.301,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.215,
+        "tb": 6.979,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 18.186,
+        "tb": 18.088,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.172,
+        "tb": 5.647,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.193,
+        "tb": 6.689,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 4.574,
+        "tb": 4.998,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.186,
+        "tb": 8.362,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 22.798,
+        "tb": 28.785,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.632,
+        "tb": 7.192,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.065,
+        "tb": 13.512,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114673,
+    "file": "submit_directag_c64_case2pack.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 48.83,
+    "timeUsed": 125473,
+    "memoryUsed": 3457120,
+    "submitTime": "2026-08-16T14:29:10.000Z",
+    "cases": {
+      "1": {
+        "tk": 15.532,
+        "tb": 18.082,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.924,
+        "tb": 5.647,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.995,
+        "tb": 7.176,
+        "pass": true,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.274,
+        "tb": 5.04,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.932,
+        "tb": 10.278,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.684,
+        "tb": 12.729,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.821,
+        "tb": 7.635,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.376,
+        "tb": 6.963,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 13.961,
+        "tb": 8.185,
+        "pass": true,
+        "score": 36,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.334,
+        "tb": 28.901,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.307,
+        "tb": 6.733,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.333,
+        "tb": 8.456,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114676,
+    "file": "submit_directag_c256_case2pack.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 48.5,
+    "timeUsed": 125609,
+    "memoryUsed": 3436024,
+    "submitTime": "2026-08-16T14:30:38.000Z",
+    "cases": {
+      "1": {
+        "tk": 15.693,
+        "tb": 18.55,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.669,
+        "tb": 7.217,
+        "pass": true,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 22.748,
+        "tb": 28.778,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.204,
+        "tb": 12.597,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.96,
+        "tb": 10.293,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.707,
+        "tb": 8.431,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.665,
+        "tb": 5.736,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 12.774,
+        "tb": 6.704,
+        "pass": true,
+        "score": 34,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.405,
+        "tb": 8.185,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.699,
+        "tb": 7.551,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.805,
+        "tb": 6.986,
+        "pass": true,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.28,
+        "tb": 5.1,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114677,
+    "file": "submit_directag_v2_case2pack_e96pack.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 49.42,
+    "timeUsed": 123396,
+    "memoryUsed": 2372896,
+    "submitTime": "2026-08-16T14:32:17.000Z",
+    "cases": {
+      "3": {
+        "tk": 8.499,
+        "tb": 7.032,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.117,
+        "tb": 10.244,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.409,
+        "tb": 8.191,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.823,
+        "tb": 6.685,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.337,
+        "tb": 7.182,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.665,
+        "tb": 28.741,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.55,
+        "tb": 5.662,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.622,
+        "tb": 5.472,
+        "pass": true,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.718,
+        "tb": 8.437,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.955,
+        "tb": 12.666,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.07,
+        "tb": 7.598,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.631,
+        "tb": 18.088,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114679,
+    "file": "submit_directag_v2_packe8.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 49.17,
+    "timeUsed": 122580,
+    "memoryUsed": 2357868,
+    "submitTime": "2026-08-16T14:33:40.000Z",
+    "cases": {
+      "8": {
+        "tk": 9.894,
+        "tb": 7.201,
+        "pass": true,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.113,
+        "tb": 6.991,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.906,
+        "tb": 10.234,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.658,
+        "tb": 12.681,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.178,
+        "tb": 7.586,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.284,
+        "tb": 5.05,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.953,
+        "tb": 8.389,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.906,
+        "tb": 6.711,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.245,
+        "tb": 28.715,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 7.237,
+        "tb": 5.682,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.409,
+        "tb": 8.17,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.797,
+        "tb": 18.086,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114681,
+    "file": "submit_directag_v2_case2pack_diag.log",
+    "status": "WrongAnswer",
+    "score": 0,
+    "displayScore": 0,
+    "timeUsed": 82760162,
+    "memoryUsed": 3467128,
+    "submitTime": "2026-08-16T14:37:35.000Z",
+    "cases": {
+      "5": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "6": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "12": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "3": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "10": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "9": {
+        "tk": 0.0,
+        "tb": 0.0,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      }
+    }
+  },
+  {
+    "id": 114684,
+    "file": "submit_sorted_dispatch.log",
+    "status": "WrongAnswer",
+    "score": 58,
+    "displayScore": 31.83,
+    "timeUsed": 91654343,
+    "memoryUsed": 3541676,
+    "submitTime": "2026-08-16T14:44:48.000Z",
+    "cases": {
+      "3": {
+        "tk": 0.0,
+        "tb": 6.833,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "7": {
+        "tk": 0.0,
+        "tb": 10.106,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "1": {
+        "tk": 0.0,
+        "tb": 17.875,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "4": {
+        "tk": 4.608,
+        "tb": 5.075,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 5.876,
+        "tb": 7.717,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 0.0,
+        "tb": 28.893,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 4.167,
+        "tb": 5.609,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 0.0,
+        "tb": 7.188,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "10": {
+        "tk": 4.86,
+        "tb": 6.519,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 6.696,
+        "tb": 7.852,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 9.941,
+        "tb": 12.038,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.486,
+        "tb": 7.414,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114692,
+    "file": "submit_sorted_dispatch_v2.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 50.17,
+    "timeUsed": 117626,
+    "memoryUsed": 2357392,
+    "submitTime": "2026-08-16T14:47:25.000Z",
+    "cases": {
+      "6": {
+        "tk": 6.844,
+        "tb": 7.602,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.345,
+        "tb": 6.822,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.575,
+        "tb": 8.258,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.925,
+        "tb": 7.159,
+        "pass": true,
+        "score": 41,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.048,
+        "tb": 8.129,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.254,
+        "tb": 5.694,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.451,
+        "tb": 17.918,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.84,
+        "tb": 6.558,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.23,
+        "tb": 12.76,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.23,
+        "tb": 28.824,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.262,
+        "tb": 4.92,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.622,
+        "tb": 10.123,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114693,
+    "file": "submit_sorted_dispatch_e32only.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 49.17,
+    "timeUsed": 120325,
+    "memoryUsed": 2370724,
+    "submitTime": "2026-08-16T14:49:15.000Z",
+    "cases": {
+      "6": {
+        "tk": 6.815,
+        "tb": 7.467,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.757,
+        "tb": 6.855,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.81,
+        "tb": 12.577,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.582,
+        "tb": 6.653,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.131,
+        "tb": 8.316,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.025,
+        "tb": 10.13,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.003,
+        "tb": 28.756,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.241,
+        "tb": 7.045,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.223,
+        "tb": 5.614,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.689,
+        "tb": 9.127,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 7.086,
+        "tb": 4.924,
+        "pass": true,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.963,
+        "tb": 17.898,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114694,
+    "file": "submit_sorted_e8case1_e32.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 49.67,
+    "timeUsed": 119548,
+    "memoryUsed": 2382484,
+    "submitTime": "2026-08-16T14:50:55.000Z",
+    "cases": {
+      "3": {
+        "tk": 7.98,
+        "tb": 6.85,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.039,
+        "tb": 28.674,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.353,
+        "tb": 6.555,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.369,
+        "tb": 17.878,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 10.146,
+        "tb": 7.014,
+        "pass": true,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.984,
+        "tb": 8.26,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.585,
+        "tb": 5.585,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.671,
+        "tb": 10.135,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.403,
+        "tb": 4.939,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.937,
+        "tb": 8.103,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.664,
+        "tb": 7.563,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.417,
+        "tb": 12.548,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114697,
+    "file": "submit_sorted_e96only_c4.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 52.17,
+    "timeUsed": 111410,
+    "memoryUsed": 3619836,
+    "submitTime": "2026-08-16T14:52:31.000Z",
+    "cases": {
+      "10": {
+        "tk": 5.66,
+        "tb": 6.718,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.766,
+        "tb": 18.062,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 9.261,
+        "tb": 7.028,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.192,
+        "tb": 8.457,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.951,
+        "tb": 12.714,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.606,
+        "tb": 7.147,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 4.585,
+        "tb": 5.032,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 6.696,
+        "tb": 8.178,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 22.885,
+        "tb": 28.86,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.06,
+        "tb": 10.334,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.181,
+        "tb": 5.665,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.567,
+        "tb": 7.632,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114701,
+    "file": "submit_sorted_hybrid_v1.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 50.75,
+    "timeUsed": 116938,
+    "memoryUsed": 3485796,
+    "submitTime": "2026-08-16T14:55:06.000Z",
+    "cases": {
+      "5": {
+        "tk": 11.148,
+        "tb": 14.153,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.09,
+        "tb": 10.148,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.287,
+        "tb": 6.587,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.051,
+        "tb": 7.036,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.966,
+        "tb": 8.272,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.345,
+        "tb": 28.66,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.28,
+        "tb": 4.922,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.707,
+        "tb": 7.598,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.368,
+        "tb": 6.878,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.711,
+        "tb": 17.888,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.557,
+        "tb": 5.614,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.428,
+        "tb": 8.206,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114702,
+    "file": "submit_sorted_e32_c4.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 49.33,
+    "timeUsed": 121987,
+    "memoryUsed": 3435388,
+    "submitTime": "2026-08-16T14:56:45.000Z",
+    "cases": {
+      "7": {
+        "tk": 11.054,
+        "tb": 10.31,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.921,
+        "tb": 7.179,
+        "pass": true,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.313,
+        "tb": 8.203,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.363,
+        "tb": 8.4,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.032,
+        "tb": 12.625,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.96,
+        "tb": 5.662,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.669,
+        "tb": 7.811,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.237,
+        "tb": 18.046,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.278,
+        "tb": 4.985,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 10.156,
+        "tb": 6.934,
+        "pass": true,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.402,
+        "tb": 28.93,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.602,
+        "tb": 6.699,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114704,
+    "file": "submit_sorted_e96c4_e32c8.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 47.25,
+    "timeUsed": 130471,
+    "memoryUsed": 3441140,
+    "submitTime": "2026-08-16T14:58:26.000Z",
+    "cases": {
+      "11": {
+        "tk": 6.148,
+        "tb": 5.648,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.939,
+        "tb": 7.544,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.837,
+        "tb": 7.224,
+        "pass": true,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.847,
+        "tb": 6.702,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 10.566,
+        "tb": 5.033,
+        "pass": true,
+        "score": 32,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 12.018,
+        "tb": 8.166,
+        "pass": true,
+        "score": 40,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.643,
+        "tb": 18.032,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.429,
+        "tb": 6.957,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 25.143,
+        "tb": 28.944,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.829,
+        "tb": 10.294,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.725,
+        "tb": 8.444,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.347,
+        "tb": 13.063,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114706,
+    "file": "submit_sorted_v3_hybrid.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 52.5,
+    "timeUsed": 110654,
+    "memoryUsed": 3564736,
+    "submitTime": "2026-08-16T15:00:53.000Z",
+    "cases": {
+      "5": {
+        "tk": 10.423,
+        "tb": 12.906,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.534,
+        "tb": 18.045,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.095,
+        "tb": 28.772,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 6.671,
+        "tb": 8.145,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.935,
+        "tb": 7.029,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.97,
+        "tb": 10.268,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 4.598,
+        "tb": 5.046,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.872,
+        "tb": 7.566,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 5.399,
+        "tb": 8.454,
+        "pass": true,
+        "score": 61,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.162,
+        "tb": 5.648,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.684,
+        "tb": 6.699,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.311,
+        "tb": 7.242,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114711,
+    "file": "submit_sorted_v3_e96c2.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 49.67,
+    "timeUsed": 119704,
+    "memoryUsed": 3468868,
+    "submitTime": "2026-08-16T15:03:22.000Z",
+    "cases": {
+      "4": {
+        "tk": 5.704,
+        "tb": 4.969,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.089,
+        "tb": 6.696,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.946,
+        "tb": 6.983,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.084,
+        "tb": 18.044,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.061,
+        "tb": 8.407,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 22.937,
+        "tb": 28.767,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.864,
+        "tb": 8.164,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.73,
+        "tb": 5.686,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.438,
+        "tb": 10.276,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.894,
+        "tb": 12.652,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.908,
+        "tb": 7.209,
+        "pass": true,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.049,
+        "tb": 7.575,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114712,
+    "file": "submit_sorted_v3_e8c64.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 49.67,
+    "timeUsed": 119519,
+    "memoryUsed": 3210440,
+    "submitTime": "2026-08-16T15:05:01.000Z",
+    "cases": {
+      "4": {
+        "tk": 5.281,
+        "tb": 5.011,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 10.547,
+        "tb": 6.976,
+        "pass": true,
+        "score": 39,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.937,
+        "tb": 8.462,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 22.824,
+        "tb": 28.867,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.557,
+        "tb": 8.15,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.044,
+        "tb": 12.651,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.617,
+        "tb": 10.235,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.766,
+        "tb": 6.751,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.402,
+        "tb": 5.675,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.041,
+        "tb": 7.674,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.764,
+        "tb": 7.233,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 14.739,
+        "tb": 19.547,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114713,
+    "file": "submit_sorted_v3_e8c128.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 52.33,
+    "timeUsed": 110690,
+    "memoryUsed": 3570312,
+    "submitTime": "2026-08-16T15:06:36.000Z",
+    "cases": {
+      "3": {
+        "tk": 7.741,
+        "tb": 6.859,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.175,
+        "tb": 5.596,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.744,
+        "tb": 18.409,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 4.593,
+        "tb": 4.908,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.391,
+        "tb": 12.822,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 6.687,
+        "tb": 8.136,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.286,
+        "tb": 10.089,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.32,
+        "tb": 7.578,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.615,
+        "tb": 6.932,
+        "pass": true,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.02,
+        "tb": 28.743,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 4.691,
+        "tb": 6.586,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 5.427,
+        "tb": 8.29,
+        "pass": true,
+        "score": 60,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114718,
+    "file": "submit_sorted_v4_e32pack.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 51.67,
+    "timeUsed": 114442,
+    "memoryUsed": 3601364,
+    "submitTime": "2026-08-16T15:09:29.000Z",
+    "cases": {
+      "9": {
+        "tk": 5.466,
+        "tb": 8.447,
+        "pass": true,
+        "score": 60,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.072,
+        "tb": 10.257,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.618,
+        "tb": 18.072,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.03,
+        "tb": 12.718,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 6.765,
+        "tb": 8.15,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.14,
+        "tb": 7.54,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.352,
+        "tb": 6.705,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.199,
+        "tb": 5.651,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.699,
+        "tb": 28.856,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.141,
+        "tb": 7.002,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.28,
+        "tb": 5.029,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.68,
+        "tb": 7.261,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114721,
+    "file": "submit_sorted_v4_e8c64_e32pack.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 50.33,
+    "timeUsed": 118067,
+    "memoryUsed": 3216212,
+    "submitTime": "2026-08-16T15:11:13.000Z",
+    "cases": {
+      "5": {
+        "tk": 11.678,
+        "tb": 12.672,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.704,
+        "tb": 8.154,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.527,
+        "tb": 7.49,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.101,
+        "tb": 18.022,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.772,
+        "tb": 7.553,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.836,
+        "tb": 5.655,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 8.017,
+        "tb": 8.516,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 22.929,
+        "tb": 28.914,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.57,
+        "tb": 4.999,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.787,
+        "tb": 10.285,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.374,
+        "tb": 7.519,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.772,
+        "tb": 7.196,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114727,
+    "file": "submit_sorted_select_ag.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 48.42,
+    "timeUsed": 125929,
+    "memoryUsed": 3211300,
+    "submitTime": "2026-08-16T15:13:18.000Z",
+    "cases": {
+      "10": {
+        "tk": 7.488,
+        "tb": 6.612,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.948,
+        "tb": 10.511,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.416,
+        "tb": 4.946,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.609,
+        "tb": 12.601,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 6.124,
+        "tb": 5.656,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.176,
+        "tb": 7.531,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.467,
+        "tb": 28.67,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.895,
+        "tb": 8.274,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 8.383,
+        "tb": 8.172,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.604,
+        "tb": 20.483,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.873,
+        "tb": 6.995,
+        "pass": true,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.946,
+        "tb": 7.363,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114728,
+    "file": "submit_sorted_v3_e8c64_e32c16.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 49.75,
+    "timeUsed": 120935,
+    "memoryUsed": 3495956,
+    "submitTime": "2026-08-16T15:14:56.000Z",
+    "cases": {
+      "9": {
+        "tk": 7.68,
+        "tb": 8.233,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.266,
+        "tb": 4.866,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.489,
+        "tb": 28.664,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.996,
+        "tb": 6.857,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.913,
+        "tb": 17.837,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.311,
+        "tb": 12.563,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.797,
+        "tb": 7.585,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.172,
+        "tb": 6.938,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.87,
+        "tb": 6.548,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 13.401,
+        "tb": 10.123,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.61,
+        "tb": 5.56,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.43,
+        "tb": 8.082,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114730,
+    "file": "submit_sorted_select_ag_e8c64.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 47.42,
+    "timeUsed": 158092,
+    "memoryUsed": 2381264,
+    "submitTime": "2026-08-16T15:17:16.000Z",
+    "cases": {
+      "10": {
+        "tk": 6.32,
+        "tb": 6.569,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.98,
+        "tb": 7.067,
+        "pass": true,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.155,
+        "tb": 7.833,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 6.114,
+        "tb": 5.601,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.676,
+        "tb": 28.291,
+        "pass": true,
+        "score": 64,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 8.823,
+        "tb": 6.83,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 45.779,
+        "tb": 8.158,
+        "pass": true,
+        "score": 15,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.441,
+        "tb": 12.541,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.428,
+        "tb": 28.724,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 6.29,
+        "tb": 4.906,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.811,
+        "tb": 8.287,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.275,
+        "tb": 11.245,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114732,
+    "file": "submit_sorted_e8both_c64.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 47.83,
+    "timeUsed": 133999,
+    "memoryUsed": 2362460,
+    "submitTime": "2026-08-16T15:19:26.000Z",
+    "cases": {
+      "12": {
+        "tk": 7.415,
+        "tb": 8.219,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.851,
+        "tb": 7.007,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.089,
+        "tb": 6.688,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.857,
+        "tb": 7.164,
+        "pass": true,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 22.758,
+        "tb": 28.902,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 12.965,
+        "tb": 12.541,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 20.648,
+        "tb": 5.045,
+        "pass": true,
+        "score": 19,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.565,
+        "tb": 8.485,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.985,
+        "tb": 8.356,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.556,
+        "tb": 5.659,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.652,
+        "tb": 18.069,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.658,
+        "tb": 10.31,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114734,
+    "file": "submit_sorted_e8both_c64_selectsort.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 51,
+    "timeUsed": 121044,
+    "memoryUsed": 2362712,
+    "submitTime": "2026-08-16T15:21:07.000Z",
+    "cases": {
+      "7": {
+        "tk": 11.219,
+        "tb": 10.51,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 24.504,
+        "tb": 28.769,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.839,
+        "tb": 7.168,
+        "pass": true,
+        "score": 44,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.213,
+        "tb": 8.388,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.433,
+        "tb": 12.625,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.611,
+        "tb": 11.486,
+        "pass": true,
+        "score": 67,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.982,
+        "tb": 6.94,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.327,
+        "tb": 4.992,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.426,
+        "tb": 8.155,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 9.94,
+        "tb": 7.544,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.446,
+        "tb": 6.725,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 16.104,
+        "tb": 18.07,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114741,
+    "file": "submit_directag_routes.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 52.33,
+    "timeUsed": 111687,
+    "memoryUsed": 3591128,
+    "submitTime": "2026-08-16T15:25:40.000Z",
+    "cases": {
+      "5": {
+        "tk": 10.659,
+        "tb": 12.582,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.937,
+        "tb": 6.84,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.495,
+        "tb": 7.122,
+        "pass": true,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 5.451,
+        "tb": 8.323,
+        "pass": true,
+        "score": 60,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.542,
+        "tb": 7.55,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.433,
+        "tb": 10.094,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.925,
+        "tb": 29.401,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 5.99,
+        "tb": 6.575,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.898,
+        "tb": 18.009,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 4.606,
+        "tb": 4.922,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 5.961,
+        "tb": 8.138,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 3.79,
+        "tb": 5.622,
+        "pass": true,
+        "score": 59,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114743,
+    "file": "submit_directag_routes_onebarrier.log",
+    "status": "WrongAnswer",
+    "score": 92,
+    "displayScore": 48.08,
+    "timeUsed": 1963360,
+    "memoryUsed": 3644676,
+    "submitTime": "2026-08-16T15:28:38.000Z",
+    "cases": {
+      "7": {
+        "tk": 11.531,
+        "tb": 10.417,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.607,
+        "tb": 7.858,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 0.0,
+        "tb": 12.723,
+        "pass": false,
+        "score": null,
+        "status": "WrongAnswer"
+      },
+      "11": {
+        "tk": 3.778,
+        "tb": 6.279,
+        "pass": true,
+        "score": 62,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 4.598,
+        "tb": 5.002,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 6.926,
+        "tb": 6.996,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 5.882,
+        "tb": 7.848,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.409,
+        "tb": 6.741,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 28.382,
+        "tb": 28.822,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.477,
+        "tb": 18.108,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 5.908,
+        "tb": 8.372,
+        "pass": true,
+        "score": 58,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.377,
+        "tb": 7.259,
+        "pass": true,
+        "score": 43,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114752,
+    "file": "submit_directag_routes_nonpack.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 51.5,
+    "timeUsed": 114070,
+    "memoryUsed": 3554580,
+    "submitTime": "2026-08-16T15:31:23.000Z",
+    "cases": {
+      "8": {
+        "tk": 9.553,
+        "tb": 7.177,
+        "pass": true,
+        "score": 42,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.606,
+        "tb": 18.115,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 6.639,
+        "tb": 8.163,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.765,
+        "tb": 12.638,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.442,
+        "tb": 6.952,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 6.634,
+        "tb": 6.811,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.204,
+        "tb": 28.829,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 6.391,
+        "tb": 8.44,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 7.342,
+        "tb": 7.598,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.764,
+        "tb": 10.272,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 4.587,
+        "tb": 5.024,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.143,
+        "tb": 5.672,
+        "pass": true,
+        "score": 57,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114755,
+    "file": "submit_directag_routes_selectsort.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 48.25,
+    "timeUsed": 130185,
+    "memoryUsed": 3468768,
+    "submitTime": "2026-08-16T15:33:50.000Z",
+    "cases": {
+      "12": {
+        "tk": 9.41,
+        "tb": 8.152,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 8.675,
+        "tb": 7.662,
+        "pass": true,
+        "score": 46,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 10.371,
+        "tb": 13.213,
+        "pass": true,
+        "score": 56,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 11.312,
+        "tb": 10.31,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "3": {
+        "tk": 7.789,
+        "tb": 6.977,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.473,
+        "tb": 6.676,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 5.816,
+        "tb": 5.68,
+        "pass": true,
+        "score": 49,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 13.646,
+        "tb": 6.072,
+        "pass": true,
+        "score": 30,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 7.287,
+        "tb": 8.44,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 9.749,
+        "tb": 10.022,
+        "pass": true,
+        "score": 50,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 22.84,
+        "tb": 28.994,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.817,
+        "tb": 18.082,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      }
+    }
+  },
+  {
+    "id": 114758,
+    "file": "submit_directag_routes_case6.log",
+    "status": "Accepted",
+    "score": 100,
+    "displayScore": 49.75,
+    "timeUsed": 119643,
+    "memoryUsed": 2371368,
+    "submitTime": "2026-08-16T15:35:58.000Z",
+    "cases": {
+      "3": {
+        "tk": 7.83,
+        "tb": 6.972,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "12": {
+        "tk": 7.44,
+        "tb": 8.108,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "2": {
+        "tk": 23.06,
+        "tb": 28.757,
+        "pass": true,
+        "score": 55,
+        "status": "Accepted"
+      },
+      "10": {
+        "tk": 7.457,
+        "tb": 6.698,
+        "pass": true,
+        "score": 47,
+        "status": "Accepted"
+      },
+      "5": {
+        "tk": 11.851,
+        "tb": 12.782,
+        "pass": true,
+        "score": 51,
+        "status": "Accepted"
+      },
+      "6": {
+        "tk": 6.842,
+        "tb": 7.502,
+        "pass": true,
+        "score": 52,
+        "status": "Accepted"
+      },
+      "8": {
+        "tk": 8.778,
+        "tb": 7.321,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      },
+      "1": {
+        "tk": 15.517,
+        "tb": 18.01,
+        "pass": true,
+        "score": 53,
+        "status": "Accepted"
+      },
+      "7": {
+        "tk": 10.713,
+        "tb": 10.254,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "4": {
+        "tk": 5.279,
+        "tb": 5.006,
+        "pass": true,
+        "score": 48,
+        "status": "Accepted"
+      },
+      "11": {
+        "tk": 4.699,
+        "tb": 5.653,
+        "pass": true,
+        "score": 54,
+        "status": "Accepted"
+      },
+      "9": {
+        "tk": 10.177,
+        "tb": 8.398,
+        "pass": true,
+        "score": 45,
+        "status": "Accepted"
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "cpu_only": true,
+  "row_scalar_hoist": {
+    "scenarios": 20,
+    "branch_scalar_tuples_bit_equal": 6205,
+    "scope": "FP32 CPU arithmetic and sorted-row ownership only; excludes GPU FMA/lowering"
+  },
+  "tile_interleaved_gu": {
+    "coordinate_checks": 80000,
+    "shapes": [
+      "E256/I1536/H4096",
+      "E256/I2048/H4096"
+    ],
+    "scope": "Bijective packed coordinates and descriptor tile extent; excludes TMA and MMA"
+  },
+  "static_dn_clamp_counterexample": {
+    "acc_times_bscale": 2.0,
+    "C": 4.0,
+    "a_scale": 1e-14,
+    "q": 0.5,
+    "stored_scale": 1e-12,
+    "expected": 2e-14,
+    "reconstructed": 5e-13,
+    "ratio": 25.0,
+    "claim": "Exposes an algebraic clamp mismatch, not a measured OJ failure"
+  }
+}

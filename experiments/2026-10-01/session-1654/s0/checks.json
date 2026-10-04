@@ -1,0 +1,26 @@
+{
+  "sha256": "c56ddab9bb8d6c22e052a287911bf8ea1207db67e5cceb85e5171a41908c6198",
+  "changed_existing": [
+    "_run_replicated"
+  ],
+  "new_helpers": {
+    "_s0_c11_tma_pre_consti_host": 7778,
+    "_s0_c11_tma_pre_consti_kernel": 7714
+  },
+  "calls": [
+    {
+      "name": "_s0_c11_tma_pre_consti_kernel",
+      "line": 7788,
+      "positional": 21
+    },
+    {
+      "name": "_s0_c11_tma_pre_consti_host",
+      "line": 6585,
+      "positional": 12
+    }
+  ],
+  "semantic_change": "I annotation only; M/counts/num_tiles remain runtime",
+  "kernel_and_host_ast": "exact after name/I annotation normalization",
+  "compile": "passed",
+  "limits": "No GPU/OJ test or speed claim"
+}

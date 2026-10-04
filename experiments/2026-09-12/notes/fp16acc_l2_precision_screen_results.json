@@ -1,0 +1,379 @@
+{
+  "experiment": "L2-normalized FP8 A/GU with FP16 accumulation proxy",
+  "code_sha256": "093694156a4a9575d189190ce1c9ebc8fb4a70fe4d3542eec48f69b95e140a8c",
+  "fp8_helper": "experiments/2026-09-08/notes/fp6_e4m3_cpu_verify.py",
+  "constants": {
+    "K": 4096,
+    "I": [
+      1536,
+      2048
+    ],
+    "M": 8,
+    "O": 256,
+    "experts": 8,
+    "seeds_per_shape": [
+      2026091201,
+      2026091202
+    ],
+    "sqnr_target_db": 22.0,
+    "l2_target": 128.0,
+    "fp16_partial_k": 32
+  },
+  "method": {
+    "source": "NumPy Gaussian values rounded to BF16; float32 forward reference",
+    "baseline": "per-row FP8 A/GU, power-of-two-bound FP8 ACT, per-row FP8 DN",
+    "l2_quantization": "for original BF16 A/GU rows, scale=max(row_l2/128, 1e-12), then E4M3FN(x/scale)",
+    "l2_f32_control": "float32 dot accumulation of L2-normalized FP8 A/GU, then float32 dequantization and SiLU",
+    "l2_f16_accumulation_proxy": "ordered K=32 float32 partial dots, each rounded to float16 and added to a float16 running accumulator; final accumulator converted to float32 before dequantization and SiLU",
+    "act_bound": "uses original BF16 A row amax/448 independently of the L2 A dequantization scale; BNORM is measured from each path's actually dequantized GU",
+    "terminal": "each expert DN output quantized per row per one 256-column block to FP8, dequantized, then branch-summed",
+    "route": "fixed positive weights [1..8] normalized to sum to one; applied before ACT quantization"
+  },
+  "summary": {
+    "minimum_baseline_sqnr_db": 22.885865658299775,
+    "minimum_l2_f32acc_sqnr_db": 23.087723193291968,
+    "minimum_l2_f16acc_proxy_sqnr_db": 23.006886221147603,
+    "minimum_l2_f32acc_margin_over_22db": 1.0877231932919678,
+    "minimum_l2_f16acc_proxy_margin_over_22db": 1.006886221147603,
+    "all_l2_f32acc_pass_22db": true,
+    "all_l2_f16acc_proxy_pass_22db": true,
+    "all_paths_finite": true
+  },
+  "cases": [
+    {
+      "shape": {
+        "M": 8,
+        "K": 4096,
+        "I": 1536,
+        "O": 256,
+        "experts": 8
+      },
+      "seed": 2026091201,
+      "route_weights": [
+        0.02777777798473835,
+        0.0555555559694767,
+        0.0833333358168602,
+        0.1111111119389534,
+        0.1388888955116272,
+        0.1666666716337204,
+        0.1944444477558136,
+        0.2222222238779068
+      ],
+      "baseline_fp8_A_GU_ACT_DN": {
+        "finite": true,
+        "signal_rms": 44971.36260504591,
+        "error_rms": 3124.366953199504,
+        "relative_rms": 0.06947458943236337,
+        "sqnr_db": 23.163480221068923,
+        "passes_22db": true,
+        "margin_over_22db": 1.163480221068923
+      },
+      "l2_fp8_A_GU_f32acc_fp8_ACT_DN": {
+        "finite": true,
+        "signal_rms": 44971.36260504591,
+        "error_rms": 3086.763541171693,
+        "relative_rms": 0.06863842593075775,
+        "sqnr_db": 23.268653692413274,
+        "passes_22db": true,
+        "margin_over_22db": 1.2686536924132739
+      },
+      "l2_fp8_A_GU_f16acc_proxy_fp8_ACT_DN": {
+        "finite": true,
+        "signal_rms": 44971.36260504591,
+        "error_rms": 3112.764082832441,
+        "relative_rms": 0.06921658367725732,
+        "sqnr_db": 23.19579679969081,
+        "passes_22db": true,
+        "margin_over_22db": 1.195796799690811
+      },
+      "sqnr_delta_vs_baseline_db": {
+        "l2_f32acc": 0.10517347134435084,
+        "l2_f16acc_proxy": 0.03231657862188797
+      },
+      "finite": {
+        "reference": true,
+        "baseline": true,
+        "l2_f32acc": true,
+        "l2_f16acc_proxy": true,
+        "l2_f16acc_running": true
+      },
+      "max_abs_accumulator": {
+        "baseline_fp8_f32_final": 4412758.0,
+        "l2_fp8_f32_final": 1124.1402587890625,
+        "l2_fp8_f16_final": 1125.0,
+        "l2_fp8_f16_running": 1179.0
+      },
+      "normalized_quant_row_l2_max": {
+        "A": 128.093017578125,
+        "GU_across_experts": 128.55303955078125
+      },
+      "timing_seconds": {
+        "total": 0.8805342502892017,
+        "experts": [
+          0.12372508272528648,
+          0.08272312488406897,
+          0.08271975023671985,
+          0.08190633310005069,
+          0.08191245933994651,
+          0.08423908287659287,
+          0.08251350000500679,
+          0.0819871248677373
+        ]
+      },
+      "sampled_peak_rss_mib": 516.96875
+    },
+    {
+      "shape": {
+        "M": 8,
+        "K": 4096,
+        "I": 1536,
+        "O": 256,
+        "experts": 8
+      },
+      "seed": 2026091202,
+      "route_weights": [
+        0.02777777798473835,
+        0.0555555559694767,
+        0.0833333358168602,
+        0.1111111119389534,
+        0.1388888955116272,
+        0.1666666716337204,
+        0.1944444477558136,
+        0.2222222238779068
+      ],
+      "baseline_fp8_A_GU_ACT_DN": {
+        "finite": true,
+        "signal_rms": 44389.54120274808,
+        "error_rms": 3184.104946235284,
+        "relative_rms": 0.07173097220563662,
+        "sqnr_db": 22.885865658299775,
+        "passes_22db": true,
+        "margin_over_22db": 0.8858656582997746
+      },
+      "l2_fp8_A_GU_f32acc_fp8_ACT_DN": {
+        "finite": true,
+        "signal_rms": 44389.54120274808,
+        "error_rms": 3093.039378279014,
+        "relative_rms": 0.06967946264980836,
+        "sqnr_db": 23.137904143108585,
+        "passes_22db": true,
+        "margin_over_22db": 1.1379041431085852
+      },
+      "l2_fp8_A_GU_f16acc_proxy_fp8_ACT_DN": {
+        "finite": true,
+        "signal_rms": 44389.54120274808,
+        "error_rms": 3140.0484217539997,
+        "relative_rms": 0.07073847434943989,
+        "sqnr_db": 23.006886221147603,
+        "passes_22db": true,
+        "margin_over_22db": 1.006886221147603
+      },
+      "sqnr_delta_vs_baseline_db": {
+        "l2_f32acc": 0.25203848480881064,
+        "l2_f16acc_proxy": 0.12102056284782847
+      },
+      "finite": {
+        "reference": true,
+        "baseline": true,
+        "l2_f32acc": true,
+        "l2_f16acc_proxy": true,
+        "l2_f16acc_running": true
+      },
+      "max_abs_accumulator": {
+        "baseline_fp8_f32_final": 4665583.5,
+        "l2_fp8_f32_final": 1130.458740234375,
+        "l2_fp8_f16_final": 1130.0,
+        "l2_fp8_f16_running": 1140.0
+      },
+      "normalized_quant_row_l2_max": {
+        "A": 128.13035583496094,
+        "GU_across_experts": 128.6115264892578
+      },
+      "timing_seconds": {
+        "total": 0.8108816668391228,
+        "experts": [
+          0.08253962500020862,
+          0.08234370918944478,
+          0.08162091672420502,
+          0.08164850017055869,
+          0.08152287499979138,
+          0.08158729178830981,
+          0.08152945805341005,
+          0.08216812508180737
+        ]
+      },
+      "sampled_peak_rss_mib": 516.984375
+    },
+    {
+      "shape": {
+        "M": 8,
+        "K": 4096,
+        "I": 2048,
+        "O": 256,
+        "experts": 8
+      },
+      "seed": 2026091201,
+      "route_weights": [
+        0.02777777798473835,
+        0.0555555559694767,
+        0.0833333358168602,
+        0.1111111119389534,
+        0.1388888955116272,
+        0.1666666716337204,
+        0.1944444477558136,
+        0.2222222238779068
+      ],
+      "baseline_fp8_A_GU_ACT_DN": {
+        "finite": true,
+        "signal_rms": 52950.44605713787,
+        "error_rms": 3754.7433011911367,
+        "relative_rms": 0.0709105131454315,
+        "sqnr_db": 22.985787436657343,
+        "passes_22db": true,
+        "margin_over_22db": 0.9857874366573434
+      },
+      "l2_fp8_A_GU_f32acc_fp8_ACT_DN": {
+        "finite": true,
+        "signal_rms": 52950.44605713787,
+        "error_rms": 3586.786908270543,
+        "relative_rms": 0.06773855888579496,
+        "sqnr_db": 23.383280941133513,
+        "passes_22db": true,
+        "margin_over_22db": 1.3832809411335134
+      },
+      "l2_fp8_A_GU_f16acc_proxy_fp8_ACT_DN": {
+        "finite": true,
+        "signal_rms": 52950.44605713787,
+        "error_rms": 3573.8185516446147,
+        "relative_rms": 0.06749364392111393,
+        "sqnr_db": 23.414742481145645,
+        "passes_22db": true,
+        "margin_over_22db": 1.4147424811456446
+      },
+      "sqnr_delta_vs_baseline_db": {
+        "l2_f32acc": 0.39749350447617005,
+        "l2_f16acc_proxy": 0.42895504448830124
+      },
+      "finite": {
+        "reference": true,
+        "baseline": true,
+        "l2_f32acc": true,
+        "l2_f16acc_proxy": true,
+        "l2_f16acc_running": true
+      },
+      "max_abs_accumulator": {
+        "baseline_fp8_f32_final": 4412758.0,
+        "l2_fp8_f32_final": 1124.1402587890625,
+        "l2_fp8_f16_final": 1125.0,
+        "l2_fp8_f16_running": 1179.0
+      },
+      "normalized_quant_row_l2_max": {
+        "A": 128.093017578125,
+        "GU_across_experts": 128.55303955078125
+      },
+      "timing_seconds": {
+        "total": 1.1028491659089923,
+        "experts": [
+          0.18480187468230724,
+          0.1084124157205224,
+          0.10819691605865955,
+          0.10795058403164148,
+          0.1081418339163065,
+          0.1085277502425015,
+          0.10844229208305478,
+          0.10890287533402443
+        ]
+      },
+      "sampled_peak_rss_mib": 917.78125
+    },
+    {
+      "shape": {
+        "M": 8,
+        "K": 4096,
+        "I": 2048,
+        "O": 256,
+        "experts": 8
+      },
+      "seed": 2026091202,
+      "route_weights": [
+        0.02777777798473835,
+        0.0555555559694767,
+        0.0833333358168602,
+        0.1111111119389534,
+        0.1388888955116272,
+        0.1666666716337204,
+        0.1944444477558136,
+        0.2222222238779068
+      ],
+      "baseline_fp8_A_GU_ACT_DN": {
+        "finite": true,
+        "signal_rms": 52457.69992183847,
+        "error_rms": 3706.513669665412,
+        "relative_rms": 0.07065718998713413,
+        "sqnr_db": 23.01687276608696,
+        "passes_22db": true,
+        "margin_over_22db": 1.0168727660869585
+      },
+      "l2_fp8_A_GU_f32acc_fp8_ACT_DN": {
+        "finite": true,
+        "signal_rms": 52457.69992183847,
+        "error_rms": 3676.40277110775,
+        "relative_rms": 0.07008318657862543,
+        "sqnr_db": 23.087723193291968,
+        "passes_22db": true,
+        "margin_over_22db": 1.0877231932919678
+      },
+      "l2_fp8_A_GU_f16acc_proxy_fp8_ACT_DN": {
+        "finite": true,
+        "signal_rms": 52457.69992183847,
+        "error_rms": 3681.5009557471108,
+        "relative_rms": 0.07018037316223387,
+        "sqnr_db": 23.075686537781827,
+        "passes_22db": true,
+        "margin_over_22db": 1.0756865377818272
+      },
+      "sqnr_delta_vs_baseline_db": {
+        "l2_f32acc": 0.07085042720500923,
+        "l2_f16acc_proxy": 0.05881377169486868
+      },
+      "finite": {
+        "reference": true,
+        "baseline": true,
+        "l2_f32acc": true,
+        "l2_f16acc_proxy": true,
+        "l2_f16acc_running": true
+      },
+      "max_abs_accumulator": {
+        "baseline_fp8_f32_final": 4665583.5,
+        "l2_fp8_f32_final": 1130.458740234375,
+        "l2_fp8_f16_final": 1130.0,
+        "l2_fp8_f16_running": 1140.0
+      },
+      "normalized_quant_row_l2_max": {
+        "A": 128.13035583496094,
+        "GU_across_experts": 128.6115264892578
+      },
+      "timing_seconds": {
+        "total": 1.0253792912699282,
+        "experts": [
+          0.10838925000280142,
+          0.10762416664510965,
+          0.10881637502461672,
+          0.10851391730830073,
+          0.10827645799145103,
+          0.10837008291855454,
+          0.10871504107490182,
+          0.10919650038704276
+        ]
+      },
+      "sampled_peak_rss_mib": 917.796875
+    }
+  ],
+  "limitations": [
+    "CPU mathematical simulation only",
+    "does not prove GPU compilation",
+    "does not prove platform/judge precision",
+    "does not measure or prove GPU speed",
+    "K32 partial-dot float16 accumulation is a CPU rounding proxy and does not prove exact GPU instruction-level accumulation or scheduling"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "customTestId": "6d48a6dd-65e8-472b-bc86-848a855e36f5",
+  "requestCount": 1,
+  "retryPerformed": false,
+  "source": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-13/candidates/legacy_mma_int4_throughput_probe.py",
+    "bytes": 9047,
+    "sha256": "61adf9b7d0383c428879e22c554aa43cacafb15af9b7867e7df56ab8596676c9"
+  },
+  "request": {
+    "endpoint": "customTest/createCustomTest",
+    "action": "custom_test",
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "compileAndRunOptions": {}
+  },
+  "terminal": {
+    "state": "Finished",
+    "status": "WrongAnswer",
+    "outerCompileSuccess": true,
+    "outerCompileMessage": "",
+    "totalOccupiedTime": 3156
+  },
+  "case": {
+    "index": 0,
+    "status": "WrongAnswer",
+    "time": 3046714,
+    "memory": 857728,
+    "ojResult": {
+      "schema_version": 2,
+      "tk_time_ms": 0.0,
+      "tb_time_ms": 0.0,
+      "th_time_ms": 0.0,
+      "pass": false
+    }
+  },
+  "generatedWorkload": {
+    "executionReachedDiagnostic": false,
+    "validationReached": false,
+    "timingReached": false,
+    "resourceExtractionReached": false,
+    "p1mdLines": [],
+    "failureStage": "Triton JIT compilation of mma_s4_kernel",
+    "failureSignature": "Cannot access global variable LANES_PER_CTA from within @jit function",
+    "failingExpression": "tl.arange(0, LANES_PER_CTA)",
+    "userErrorPath": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-13/results/public24_6d48a6dd-65e8-472b-bc86-848a855e36f5_user_error.txt",
+    "userErrorSha256": "77048f91d4e442970b8dba67ebabda721556d8145e211adaf6c254956e171512"
+  },
+  "interpretation": {
+    "s4Validation": null,
+    "s8Validation": null,
+    "fp8Validation": null,
+    "timingGroups": null,
+    "effectiveTOPS": null,
+    "ratios": null,
+    "resources": null,
+    "conclusion": "No instruction execution evidence; compilation failed before validation and benchmark."
+  },
+  "artifacts": {
+    "raw": {
+      "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-13/results/public24_6d48a6dd-65e8-472b-bc86-848a855e36f5_raw.json",
+      "sha256": "c03e76f199b85a856f3c23bc024b2372c9d2304796def8fc9c5ff3917de255d1"
+    },
+    "userError": {
+      "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-13/results/public24_6d48a6dd-65e8-472b-bc86-848a855e36f5_user_error.txt",
+      "sha256": "77048f91d4e442970b8dba67ebabda721556d8145e211adaf6c254956e171512"
+    }
+  }
+}

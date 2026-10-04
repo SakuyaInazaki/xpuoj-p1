@@ -1,0 +1,88 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "assets.jsonl",
+      "sha256": "ef39ca0a1fef94513abcc453c5c2d011255c71b803d9de4efd74d01ee05078c2",
+      "size": 1078
+    },
+    {
+      "path": "chunks.jsonl",
+      "sha256": "8e459834775ddeac883356664275934448bafab45a3e0efa5788f9a05450f71e",
+      "size": 123393
+    },
+    {
+      "path": "coverage.json",
+      "sha256": "517be9a02bb3beb561c57a07269ee6f77b4a0302f5b43b8c4ca5ece507c1ee8b",
+      "size": 7537
+    },
+    {
+      "path": "full.md",
+      "sha256": "9e883ea4ec5e7e54509b461408ea19be3f968f4cd6ccec8cfa1955f8cf954a4a",
+      "size": 17245
+    },
+    {
+      "path": "images/ce197bedd20e36a8e1fed2af4313d82cfb18b80aec76efa7055cf7bfdc845ab9.png",
+      "sha256": "ce197bedd20e36a8e1fed2af4313d82cfb18b80aec76efa7055cf7bfdc845ab9",
+      "size": 679
+    },
+    {
+      "path": "images/dedd6ffb3f00cdf6da4832ca8e9441b8d37112b7c06e2ae1e4245b3497d6366f.jpg",
+      "sha256": "dedd6ffb3f00cdf6da4832ca8e9441b8d37112b7c06e2ae1e4245b3497d6366f",
+      "size": 135263
+    },
+    {
+      "path": "links.jsonl",
+      "sha256": "122a452900dc9be83ec85a99f7693183bd42c738e0ee635a547185687618dec0",
+      "size": 5801
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "3e8385baf9425958551144556c02b6e6728391f50dc0b42b234b4f4e89cd429f",
+      "size": 5143
+    },
+    {
+      "path": "providers.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "raw/pages/001-final.html",
+      "sha256": "020bc82554ded4006e1ec4da5069517609b61623d4dcb56f4332653857bc2087",
+      "size": 161
+    },
+    {
+      "path": "raw/pages/001-initial.html",
+      "sha256": "020bc82554ded4006e1ec4da5069517609b61623d4dcb56f4332653857bc2087",
+      "size": 161
+    },
+    {
+      "path": "raw/pages/001-original.html",
+      "sha256": "6e8158371e245b774bfd285a1f7ff92bb3c2f24d2bddc7d8c7efa9f72e88cf46",
+      "size": 107
+    },
+    {
+      "path": "raw/responses/67e9eeed7c2708ac32f25e9c8702cee391848a97cd050743b19960fb8c8a5129.json",
+      "sha256": "67e9eeed7c2708ac32f25e9c8702cee391848a97cd050743b19960fb8c8a5129",
+      "size": 13080
+    },
+    {
+      "path": "responses.jsonl",
+      "sha256": "9fcf7654c24132ab084f885edba62ada5761eb2d9c4cc7755eb43be42523f9b1",
+      "size": 45091
+    },
+    {
+      "path": "screenshots/page-001.png",
+      "sha256": "c8072f007a6866c0515555ded897fc4a88204a4ff88eb1b919b714493562c2b6",
+      "size": 210456
+    },
+    {
+      "path": "streams.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    }
+  ],
+  "generated_at": "2026-08-06T09:19:53.141392+00:00",
+  "schema": "agent-web-fetch/fixity-manifest",
+  "schema_version": "1.0"
+}

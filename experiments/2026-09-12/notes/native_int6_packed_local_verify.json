@@ -1,0 +1,25 @@
+{
+  "candidate": "experiments/2026-09-12/candidates/native_int6_md_custom_bench_packed.py",
+  "candidate_sha256": "4077d317ac20b4446b26645c744b33a34dfef1fb6cbf1b4bd8aa10ec36107d57",
+  "candidate_bytes": 31653,
+  "swar": {
+    "exhaustive_slot_codes": 256,
+    "random_seed": 9122026,
+    "random_groups": 10000,
+    "passed": true
+  },
+  "syntax": {
+    "py_compile_passed": true,
+    "historical_strict_sandbox_findings": []
+  },
+  "jit_free_globals": {
+    "jit_count": 8,
+    "ordinary_python_numeric_globals": [],
+    "allowed_only": ["tl", "range"]
+  },
+  "independent_review": {
+    "compiler_agent": "PASS",
+    "platform_static_review": "PASS"
+  },
+  "reproduce": "python3 experiments/2026-09-12/notes/native_int6_packed_local_verify.py"
+}

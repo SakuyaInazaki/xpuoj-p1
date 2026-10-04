@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "customTestId": "5cf47dd4-dd6b-49b5-b8c7-757640849c90",
+  "requestCount": 1,
+  "retryPerformed": false,
+  "source": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/candidates/fp8_c2_md_dn_stage_custom_bench.py",
+    "bytes": 27854,
+    "sha256": "9a341ca7ccd524917b3314b3300ada7757b443563fb8a94b7ae387699dd3fa9d"
+  },
+  "request": {
+    "endpoint": "customTest/createCustomTest",
+    "action": "custom_test",
+    "problemId": 24,
+    "mode": "GeneratedWorkload",
+    "language": "triton-h800",
+    "compileAndRunOptions": {}
+  },
+  "terminal": {
+    "state": "Finished",
+    "progressType": "Finished",
+    "status": "WrongAnswer",
+    "outerCompileSuccess": true,
+    "outerCompileMessage": "",
+    "totalOccupiedTime": 6056,
+    "createdAtUnixMs": 1789223413282,
+    "finishedAtUnixMs": 1789223420033
+  },
+  "case": {
+    "index": 0,
+    "status": "WrongAnswer",
+    "time": 5937788,
+    "memory": 921500,
+    "ojResult": {
+      "schema_version": 2,
+      "tk_time_ms": 0.0,
+      "tb_time_ms": 0.0,
+      "th_time_ms": 0.0,
+      "pass": false
+    }
+  },
+  "generatedWorkload": {
+    "executionReachedDiagnostic": true,
+    "mathGatePassed": false,
+    "failureReason": "dn_scale_rel 0.002116517163813114 exceeded threshold 0.001",
+    "timingReached": false,
+    "userErrorPath": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_5cf47dd4-dd6b-49b5-b8c7-757640849c90_user_error.txt",
+    "userErrorSha256": "41fa44faa89f88cd57ba7f569504f4f7858efd1dfeefe59c64fa2d005a12d67d"
+  },
+  "runtimeEvidence": {
+    "p1mdLines": [
+      "P1MD {\"math_check_passed\":false,\"status\":0,\"md_sqnr_db\":40.43047332763672,\"dn_sqnr_db\":35.395111083984375,\"md_rel\":0.009516479447484016,\"dn_rel\":0.01699199713766575,\"dn_scale_rel\":0.002116517163813114,\"threshold_db\":35.0}"
+    ],
+    "mathGate": {
+      "math_check_passed": false,
+      "status": 0,
+      "md_sqnr_db": 40.43047332763672,
+      "dn_sqnr_db": 35.395111083984375,
+      "md_rel": 0.009516479447484016,
+      "dn_rel": 0.01699199713766575,
+      "dn_scale_rel": 0.002116517163813114,
+      "threshold_db": 35.0
+    },
+    "timingGroups": null,
+    "resources": null,
+    "note": "The diagnostic stopped at its explicit math gate before stage timing and resource reporting."
+  },
+  "rawResult": {
+    "path": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-09-12/results/public24_5cf47dd4-dd6b-49b5-b8c7-757640849c90_raw.json",
+    "sha256": "43af785aa2178086bfd53b6c7899cca8f7ded914139e7ed1c71f7e67db10f058"
+  }
+}

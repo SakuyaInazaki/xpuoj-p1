@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "experiment": "fp6_c9_c10_roundtrip_static",
+  "submission": {
+    "id": 141454,
+    "source": "experiments/2026-09-08/candidates/fp6_c9_c10_roundtrip_static.py",
+    "sha256": "6b6384ecc21d77f963da6897001842a272538cfa98560c2f6d8a96ff3e919897",
+    "status": "Accepted",
+    "score": 100,
+    "display_score": 81.33,
+    "submit_time": "2026-09-08T17:10:16.000Z",
+    "compile": {
+      "message": "",
+      "success": true
+    },
+    "total_occupied_time": 104430,
+    "sum_tk_ms": 30.387999999999998,
+    "sample_records": [
+      {
+        "testcase_hash": "27cea15dc53f1be9402668a49cf01965e8747e9e",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 1,
+        "tk_ms": 4.747,
+        "tb_ms": 17.966,
+        "th_ms": 0.0,
+        "passed": true
+      }
+    ],
+    "cases": {
+      "1": {
+        "testcase_hash": "973dd6759bff1039ca4319a62b217c3bdf52d3ef",
+        "status": "Accepted",
+        "display_score": 79,
+        "sqnr_db": [
+          23.79,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 1,
+        "tk_ms": 4.747,
+        "tb_ms": 17.966,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "2": {
+        "testcase_hash": "2ed5ef5ee8c3f70a00c61dd19bdd784745a82bfc",
+        "status": "Accepted",
+        "display_score": 77,
+        "sqnr_db": [
+          23.77,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 2,
+        "tk_ms": 8.176,
+        "tb_ms": 28.856,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "3": {
+        "testcase_hash": "da80a8af9d5ae359cead6644a96e6f6cc745636a",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.87,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 3,
+        "tk_ms": 1.427,
+        "tb_ms": 7.04,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "4": {
+        "testcase_hash": "e7ee87133e65c02642b916e5744b1afafebfc7c6",
+        "status": "Accepted",
+        "display_score": 89,
+        "sqnr_db": [
+          23.21,
+          23.19
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 4,
+        "tk_ms": 0.855,
+        "tb_ms": 7.079,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "5": {
+        "testcase_hash": "eede9b4fee449703fbffd1e86f98263f3e885c43",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.13,
+          23.13
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 5,
+        "tk_ms": 2.877,
+        "tb_ms": 12.72,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "6": {
+        "testcase_hash": "95aac6e6121284cedad2ae67b9f7f8321ff190f3",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.83,
+          23.14
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 6,
+        "tk_ms": 1.349,
+        "tb_ms": 7.549,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "7": {
+        "testcase_hash": "2eb0a1adcc0cccce5c285f166e5c773342147e18",
+        "status": "Accepted",
+        "display_score": 81,
+        "sqnr_db": [
+          23.11,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 7,
+        "tk_ms": 2.315,
+        "tb_ms": 10.118,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "8": {
+        "testcase_hash": "345ef3b2699ae8bb07514c6a02ac4a0858e207e2",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.83,
+          23.12
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 8,
+        "tk_ms": 1.367,
+        "tb_ms": 7.11,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "9": {
+        "testcase_hash": "fc47a9502f21ead64d8947dcc77d73808a70a8ca",
+        "status": "Accepted",
+        "display_score": 76,
+        "sqnr_db": [
+          22.63,
+          22.64
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 9,
+        "tk_ms": 2.63,
+        "tb_ms": 8.581,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "10": {
+        "testcase_hash": "5de5f678792c3a3c8c35a42aa05b03bd9eefe534",
+        "status": "Accepted",
+        "display_score": 76,
+        "sqnr_db": [
+          22.63,
+          22.65
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 10,
+        "tk_ms": 1.993,
+        "tb_ms": 6.575,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "11": {
+        "testcase_hash": "86ce5144bf6d26bcf95dab0d1785eee86aaea3e0",
+        "status": "Accepted",
+        "display_score": 84,
+        "sqnr_db": [
+          23.31,
+          23.31
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 11,
+        "tk_ms": 1.007,
+        "tb_ms": 5.622,
+        "th_ms": 0.0,
+        "passed": true
+      },
+      "12": {
+        "testcase_hash": "ee49532d2dc4081f4a8c583b3bbc66c581681e80",
+        "status": "Accepted",
+        "display_score": 83,
+        "sqnr_db": [
+          23.25,
+          23.26
+        ],
+        "determinism_ok_count": 2,
+        "determinism_fail_count": 0,
+        "case": 12,
+        "tk_ms": 1.645,
+        "tb_ms": 8.18,
+        "th_ms": 0.0,
+        "passed": true
+      }
+    }
+  },
+  "target_summary": {
+    "c9_sqnr_db": [
+      22.63,
+      22.64
+    ],
+    "c10_sqnr_db": [
+      22.63,
+      22.65
+    ],
+    "c9_margin_over_22_db": [
+      0.629999999999999,
+      0.6400000000000006
+    ],
+    "c10_margin_over_22_db": [
+      0.629999999999999,
+      0.6499999999999986
+    ],
+    "c9_determinism_ok_count": 2,
+    "c10_determinism_ok_count": 2,
+    "all_12_cases_accepted": true
+  },
+  "comparison_vs_141408": {
+    "untouched_cases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "untouched_median_tk_ratio": 1.0188158979398625,
+    "untouched_sum_tk_ratio": 1.023679923715682,
+    "untouched_candidate_sum_tk_ms": 25.765,
+    "untouched_baseline_sum_tk_ms": 25.169,
+    "targets": {
+      "c9": {
+        "raw_tk_ratio_vs_141408": 1.0166215693853884,
+        "median_machine_corrected_ratio": 0.9978461971795776,
+        "sum_machine_corrected_ratio": 0.9931049206233589
+      },
+      "c10": {
+        "raw_tk_ratio_vs_141408": 0.9994984954864594,
+        "median_machine_corrected_ratio": 0.9810393590319265,
+        "sum_machine_corrected_ratio": 0.976377940341498
+      }
+    },
+    "interpretation_boundary": "Precision/stable-path diagnostic only; do not claim compression speedup from these timings."
+  },
+  "cache_boundary": "Reuses static FP8 weights by shape within one testcase. It does not handle new weights in a later testcase with the same shape and is not a production baseline.",
+  "scoreboard_after_submission": {
+    "p1_score": 72.75,
+    "best_submission_id": 141408,
+    "submission_count": 2581,
+    "inflight_submission_ids": []
+  },
+  "resubmitted": false,
+  "raw_detail_file": "experiments/2026-09-08/results/submissions_141454_raw.json"
+}

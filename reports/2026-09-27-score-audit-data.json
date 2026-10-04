@@ -1,0 +1,81 @@
+{
+  "kernel_sha256": "5cfd6a80d066d8a729ff1b6741541c1c70df7df75eeffe40c67440d4fe962a3c",
+  "exact_v842_sids": [
+    "146862",
+    "146866",
+    "146868",
+    "146871",
+    "146874",
+    "146877",
+    "146888",
+    "146911",
+    "146913",
+    "146915"
+  ],
+  "tb_reference_sids": [
+    "146862",
+    "146866",
+    "146868",
+    "146871",
+    "146874",
+    "146877",
+    "146888",
+    "146911",
+    "146913",
+    "146915",
+    "146863",
+    "146867",
+    "146869",
+    "146872",
+    "146875",
+    "146878",
+    "146889",
+    "146894",
+    "146900",
+    "146903"
+  ],
+  "formula_checks": {
+    "distinct_submissions": 24,
+    "accepted_case_comparisons": 193,
+    "case_mismatches": [],
+    "full_display_comparisons": 9,
+    "display_mismatches": [],
+    "th_values": [
+      0.0
+    ]
+  },
+  "representative_tk_sum_ms": 29.6851,
+  "standardized_integer_sum": 977,
+  "uniform_targets": [
+    {
+      "board": 75,
+      "required_integer_sum": 1020,
+      "tb_p25_reduction_pct": 22.315285137345015,
+      "tb_median_reduction_pct": 21.94739687775899,
+      "tb_p75_reduction_pct": 21.59578545372402,
+      "observed_own_vector_min_pct": 18.96641036522951,
+      "observed_own_vector_median_pct": 21.558022327774403,
+      "observed_own_vector_max_pct": 23.46653924502677
+    },
+    {
+      "board": 77,
+      "required_integer_sum": 1044,
+      "tb_p25_reduction_pct": 35.4029259758048,
+      "tb_median_reduction_pct": 34.994302289443596,
+      "tb_p75_reduction_pct": 34.73243781438114,
+      "observed_own_vector_min_pct": 30.69860279441109,
+      "observed_own_vector_median_pct": 34.529094300798,
+      "observed_own_vector_max_pct": 36.6728304443566
+    },
+    {
+      "board": 80,
+      "required_integer_sum": 1080,
+      "tb_p25_reduction_pct": 52.5887735724447,
+      "tb_median_reduction_pct": 52.35058604957325,
+      "tb_p75_reduction_pct": 52.12364627083751,
+      "observed_own_vector_min_pct": 49.335794574282176,
+      "observed_own_vector_median_pct": 51.527177811723924,
+      "observed_own_vector_max_pct": 53.106872223673875
+    }
+  ]
+}

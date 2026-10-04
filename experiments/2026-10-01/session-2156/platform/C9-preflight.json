@@ -1,0 +1,19 @@
+{
+  "start": "2026-10-01T23:45:55.515859",
+  "sha256": "df5c5f77eadccd9466719d32f8755c381c7686e1dad6d660789d8ba75cac1318",
+  "pool": {
+    "browser_online": true,
+    "fresh": {
+      "submit_problem": 2,
+      "custom_test": 0
+    },
+    "need": {
+      "custom_test": 1
+    },
+    "target": {
+      "submit_problem": 2,
+      "custom_test": 1
+    }
+  },
+  "visible_inflight": 3
+}

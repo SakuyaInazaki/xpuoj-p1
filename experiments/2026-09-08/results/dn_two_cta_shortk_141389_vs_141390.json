@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-09-08T14:50:09.342154+00:00",
+  "raw_detail_file": "experiments/2026-09-08/results/submissions_141389_141390_raw.json",
+  "submissions": {
+    "141389": {
+      "role": "candidate_dn_two_cta_shortk",
+      "source": "experiments/2026-09-08/candidates/dn_two_cta_shortk.py",
+      "sha256": "38424c0e98a5ebd0a0b0bb40cb5045fcc9bdf2958cc3905e6b3ecf629a30a851",
+      "submit_time": "2026-09-08T14:43:05.000Z",
+      "status": "TimeLimitExceeded",
+      "score": 0,
+      "display_score": 0,
+      "time_used": 0,
+      "total_occupied_time": 416652,
+      "cases": {
+        "1": {
+          "testcase_hash": "a9fb8709beb5fbb170d293623665a99e5261f0c7",
+          "status": "TimeLimitExceeded",
+          "display_score": null,
+          "judge_time": 416567619.227,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "case": 1
+        }
+      },
+      "extra_records": []
+    },
+    "141390": {
+      "role": "frozen_baseline_v760a",
+      "source": "p1/kernel.py",
+      "sha256": "dd46bdebb7be2eed2f1ebe1106be258789bde35e4ee6c9421d5756b163f426b9",
+      "submit_time": "2026-09-08T14:43:17.000Z",
+      "status": "Accepted",
+      "score": 100,
+      "display_score": 81,
+      "time_used": 30436,
+      "total_occupied_time": 102982,
+      "cases": {
+        "1": {
+          "testcase_hash": "9c94da16f2153ff7950fdbe053f5b01ce915186f",
+          "status": "Accepted",
+          "display_score": 79,
+          "judge_time": 4746,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "tk_ms": 4.746,
+          "tb_ms": 17.908,
+          "th_ms": 0.0,
+          "pass": true,
+          "case": 1
+        },
+        "2": {
+          "testcase_hash": "99ecaeb79d6e79df4bee6e97166d2a5b6bba5b95",
+          "status": "Accepted",
+          "display_score": 78,
+          "judge_time": 8193,
+          "sqnr_db": [
+            23.77,
+            23.14
+          ],
+          "tk_ms": 8.193,
+          "tb_ms": 29.295,
+          "th_ms": 0.0,
+          "pass": true,
+          "case": 2
+        },
+        "3": {
+          "testcase_hash": "e86670deed3648b4ea4798f652cb89a9a45d797c",
+          "status": "Accepted",
+          "display_score": 83,
+          "judge_time": 1421,
+          "sqnr_db": [
+            23.87,
+            23.19
+          ],
+          "tk_ms": 1.421,
+          "tb_ms": 6.956,
+          "th_ms": 0.0,
+          "pass": true,
+          "case": 3
+        },
+        "4": {
+          "testcase_hash": "ac5ce9342923e304b47949899ff334bdbbf5e2eb",
+          "status": "Accepted",
+          "display_score": 85,
+          "judge_time": 852,
+          "sqnr_db": [
+            23.21,
+            23.19
+          ],
+          "tk_ms": 0.852,
+          "tb_ms": 4.917,
+          "th_ms": 0.0,
+          "pass": true,
+          "case": 4
+        },
+        "5": {
+          "testcase_hash": "7bf71590097081ad430cb8182a6c82c82b7421b0",
+          "status": "Accepted",
+          "display_score": 81,
+          "judge_time": 2880,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "tk_ms": 2.88,
+          "tb_ms": 12.733,
+          "th_ms": 0.0,
+          "pass": true,
+          "case": 5
+        },
+        "6": {
+          "testcase_hash": "9d46cb783993afcebbfc6a42efce0bd7c6b078db",
+          "status": "Accepted",
+          "display_score": 84,
+          "judge_time": 1348,
+          "sqnr_db": [
+            23.83,
+            23.14
+          ],
+          "tk_ms": 1.348,
+          "tb_ms": 7.518,
+          "th_ms": 0.0,
+          "pass": true,
+          "case": 6
+        },
+        "7": {
+          "testcase_hash": "4217beeb4c55f99b20b17046a1f82f3a2a4eb125",
+          "status": "Accepted",
+          "display_score": 81,
+          "judge_time": 2328,
+          "sqnr_db": [
+            23.79,
+            23.12
+          ],
+          "tk_ms": 2.328,
+          "tb_ms": 10.164,
+          "th_ms": 0.0,
+          "pass": true,
+          "case": 7
+        },
+        "8": {
+          "testcase_hash": "fab83e1e9472469655646242ca233c97f95b4824",
+          "status": "Accepted",
+          "display_score": 83,
+          "judge_time": 1362,
+          "sqnr_db": [
+            23.83,
+            23.12
+          ],
+          "tk_ms": 1.362,
+          "tb_ms": 6.975,
+          "th_ms": 0.0,
+          "pass": true,
+          "case": 8
+        },
+        "9": {
+          "testcase_hash": "d702c5ada22fea520828e4422f157e567f869dda",
+          "status": "Accepted",
+          "display_score": 75,
+          "judge_time": 2634,
+          "sqnr_db": [
+            23.8,
+            23.13
+          ],
+          "tk_ms": 2.634,
+          "tb_ms": 8.322,
+          "th_ms": 0.0,
+          "pass": true,
+          "case": 9
+        },
+        "10": {
+          "testcase_hash": "49307dee0de3d409c385dd0d75c9e8dde6e009f1",
+          "status": "Accepted",
+          "display_score": 76,
+          "judge_time": 2017,
+          "sqnr_db": [
+            23.79,
+            23.14
+          ],
+          "tk_ms": 2.017,
+          "tb_ms": 6.68,
+          "th_ms": 0.0,
+          "pass": true,
+          "case": 10
+        },
+        "11": {
+          "testcase_hash": "dba299454bc56b7c40fcdbbe50f4a9db80e8b13e",
+          "status": "Accepted",
+          "display_score": 84,
+          "judge_time": 1009,
+          "sqnr_db": [
+            23.31,
+            23.31
+          ],
+          "tk_ms": 1.009,
+          "tb_ms": 5.61,
+          "th_ms": 0.0,
+          "pass": true,
+          "case": 11
+        },
+        "12": {
+          "testcase_hash": "25ed40aaa61f79f1f989df67aa4933ccd79314e5",
+          "status": "Accepted",
+          "display_score": 83,
+          "judge_time": 1646,
+          "sqnr_db": [
+            23.25,
+            23.26
+          ],
+          "tk_ms": 1.646,
+          "tb_ms": 8.156,
+          "th_ms": 0.0,
+          "pass": true,
+          "case": 12
+        }
+      },
+      "extra_records": [],
+      "sum_tk_ms": 30.436
+    }
+  },
+  "comparison": {
+    "status": "inconclusive_candidate_tle_before_timed_cases",
+    "target_cases": [
+      4,
+      6,
+      8,
+      11
+    ],
+    "untouched_cases": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      12
+    ],
+    "target_raw_ratios": null,
+    "untouched_median_tk_ratio": null,
+    "untouched_sum_tk_ratio": null,
+    "reason": "Candidate returned only an untimed TLE record for unchanged case 1; no target-case or timed candidate result exists.",
+    "resubmitted": false
+  }
+}

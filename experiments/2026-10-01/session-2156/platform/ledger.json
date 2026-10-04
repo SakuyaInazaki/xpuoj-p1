@@ -1,0 +1,136 @@
+{
+  "at": "2026-10-01T23:36:03.782986",
+  "actual_formal_submissions": 7,
+  "budget": 8,
+  "automatic_eighth_authorized": false,
+  "submissions": [
+    {
+      "name": "R151",
+      "sid": 153507,
+      "sha256": "f9ca009609bc2a50c320cfe5e912961a99cbd0f53c58510482f43438784e7c6a",
+      "channel": "web",
+      "start_at": "2026-10-01T21:59:24.060670",
+      "submitted_at": "2026-10-01T21:59:27.551847",
+      "source": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-10-01/session-2156/platform/R151-f9ca009609bc.py",
+      "status": "Accepted",
+      "raw": 81.92,
+      "net": 71.92,
+      "full_ac_audit": true,
+      "zero_cases": [],
+      "low_cases": [],
+      "audit_path": "experiments/2026-10-01/session-2156/platform/153507-audit.json"
+    },
+    {
+      "name": "S1v2",
+      "sid": 153526,
+      "sha256": "d11bf076b18ff243984aa346b551c3c1bcbe8c0ba65a9bc2c18ad927c8ad3497",
+      "channel": "web",
+      "start_at": "2026-10-01T22:11:34.622611",
+      "submitted_at": "2026-10-01T22:11:35.796998",
+      "source": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-10-01/session-2156/platform/S1v2-d11bf076b18f.py",
+      "status": "Accepted",
+      "raw": 87.75,
+      "net": 77.75,
+      "full_ac_audit": true,
+      "zero_cases": [
+        11,
+        12
+      ],
+      "low_cases": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "audit_path": "experiments/2026-10-01/session-2156/platform/153526-audit.json"
+    },
+    {
+      "name": "S2",
+      "sid": 153550,
+      "sha256": "ac338895e390139faaaebcaad98fba9ae1d5a3d55e378b2965f90da5431f2ea8",
+      "channel": "web",
+      "start_at": "2026-10-01T22:28:17.214558",
+      "submitted_at": "2026-10-01T22:28:18.766158",
+      "source": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-10-01/session-2156/platform/S2-ac338895e390.py",
+      "status": "Accepted",
+      "raw": 82,
+      "net": 72,
+      "full_ac_audit": true,
+      "zero_cases": [],
+      "low_cases": [],
+      "audit_path": "experiments/2026-10-01/session-2156/platform/153550-audit.json"
+    },
+    {
+      "name": "C56U",
+      "sid": 153620,
+      "sha256": "3f95092adf1225f59b5e29a5bc7ad56000ca65dfeda02dd882ab6ded17c9db9a",
+      "channel": "web",
+      "start_at": "2026-10-01T23:02:09.358505",
+      "submitted_at": "2026-10-01T23:02:11.042961",
+      "source": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-10-01/session-2156/platform/C56U-3f95092adf12.py",
+      "status": "Accepted",
+      "raw": 87.75,
+      "net": 77.75,
+      "full_ac_audit": true,
+      "zero_cases": [
+        11,
+        12
+      ],
+      "low_cases": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "audit_path": "experiments/2026-10-01/session-2156/platform/153620-audit.json"
+    },
+    {
+      "name": "S2b",
+      "sid": 153681,
+      "sha256": "c82b6ee4286c9583851c33c0f715102a0946eaa0247e277060d9453ad3218c4b",
+      "channel": "web",
+      "start_at": "2026-10-01T23:29:04.133318",
+      "submitted_at": "2026-10-01T23:29:05.528373",
+      "source": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-10-01/session-2156/platform/S2b-c82b6ee4286c.py",
+      "status": "Pending",
+      "raw": null,
+      "net": null,
+      "full_ac_audit": false,
+      "zero_cases": [],
+      "low_cases": [],
+      "audit_path": "experiments/2026-10-01/session-2156/platform/153681-audit.json"
+    },
+    {
+      "name": "C356U",
+      "sid": 153682,
+      "sha256": "75c702478afa8c7d282064fad23d6a542556f30593cae8cb41a201c38da0ea7a",
+      "channel": "web",
+      "start_at": "2026-10-01T23:29:44.730624",
+      "submitted_at": "2026-10-01T23:29:47.004859",
+      "source": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-10-01/session-2156/platform/C356U-75c702478afa.py",
+      "status": "Pending",
+      "raw": null,
+      "net": null,
+      "full_ac_audit": false,
+      "zero_cases": [],
+      "low_cases": [],
+      "audit_path": "experiments/2026-10-01/session-2156/platform/153682-audit.json"
+    },
+    {
+      "name": "E1",
+      "sid": 153686,
+      "sha256": "0328320d02ba2425fe9904b0817cebea28ebfbbd780efc0729e9e642ca7a987b",
+      "channel": "web",
+      "start_at": "2026-10-01T23:30:42.853456",
+      "submitted_at": "2026-10-01T23:30:44.813729",
+      "source": "/Users/sakimi/Desktop/xpuoj-p1/experiments/2026-10-01/session-2156/platform/E1-0328320d02ba.py",
+      "status": "Pending",
+      "raw": null,
+      "net": null,
+      "full_ac_audit": false,
+      "zero_cases": [],
+      "low_cases": [],
+      "audit_path": "experiments/2026-10-01/session-2156/platform/153686-audit.json"
+    }
+  ]
+}

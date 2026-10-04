@@ -1,0 +1,149 @@
+{
+  "scope": "CPU integer placement/capacity only; no GPU, floating-point or performance validation",
+  "ep2": [
+    {
+      "T": 1,
+      "mode": "random",
+      "branches_checked": 32,
+      "max_owner_rows": 8,
+      "capacity": 16
+    },
+    {
+      "T": 1,
+      "mode": "lower",
+      "branches_checked": 32,
+      "max_owner_rows": 16,
+      "capacity": 16
+    },
+    {
+      "T": 1,
+      "mode": "upper",
+      "branches_checked": 32,
+      "max_owner_rows": 16,
+      "capacity": 16
+    },
+    {
+      "T": 17,
+      "mode": "random",
+      "branches_checked": 544,
+      "max_owner_rows": 146,
+      "capacity": 272
+    },
+    {
+      "T": 17,
+      "mode": "lower",
+      "branches_checked": 544,
+      "max_owner_rows": 272,
+      "capacity": 272
+    },
+    {
+      "T": 17,
+      "mode": "upper",
+      "branches_checked": 544,
+      "max_owner_rows": 272,
+      "capacity": 272
+    },
+    {
+      "T": 4096,
+      "mode": "random",
+      "branches_checked": 131072,
+      "max_owner_rows": 33020,
+      "capacity": 65536
+    },
+    {
+      "T": 4096,
+      "mode": "lower",
+      "branches_checked": 131072,
+      "max_owner_rows": 65536,
+      "capacity": 65536
+    },
+    {
+      "T": 4096,
+      "mode": "upper",
+      "branches_checked": 131072,
+      "max_owner_rows": 65536,
+      "capacity": 65536
+    }
+  ],
+  "pair_dn": [
+    {
+      "T": 17,
+      "E": 8,
+      "mode": "random",
+      "groups_used": 15,
+      "tokens_checked": 17,
+      "padded_pair_rows": {
+        "32": 480,
+        "64": 960,
+        "128": 1920
+      },
+      "padded_expert_branch_rows": 1024
+    },
+    {
+      "T": 17,
+      "E": 8,
+      "mode": "single_pair",
+      "groups_used": 1,
+      "tokens_checked": 17,
+      "padded_pair_rows": {
+        "32": 32,
+        "64": 64,
+        "128": 128
+      },
+      "padded_expert_branch_rows": 256
+    },
+    {
+      "T": 16384,
+      "E": 8,
+      "mode": "random",
+      "groups_used": 28,
+      "tokens_checked": 16384,
+      "padded_pair_rows": {
+        "32": 16800,
+        "64": 17216,
+        "128": 17920
+      },
+      "padded_expert_branch_rows": 33280
+    },
+    {
+      "T": 16384,
+      "E": 8,
+      "mode": "single_pair",
+      "groups_used": 1,
+      "tokens_checked": 16384,
+      "padded_pair_rows": {
+        "32": 16384,
+        "64": 16384,
+        "128": 16384
+      },
+      "padded_expert_branch_rows": 32768
+    },
+    {
+      "T": 65536,
+      "E": 32,
+      "mode": "random",
+      "groups_used": 496,
+      "tokens_checked": 65536,
+      "padded_pair_rows": {
+        "32": 73440,
+        "64": 83200,
+        "128": 102912
+      },
+      "padded_expert_branch_rows": 133120
+    },
+    {
+      "T": 65536,
+      "E": 32,
+      "mode": "single_pair",
+      "groups_used": 1,
+      "tokens_checked": 65536,
+      "padded_pair_rows": {
+        "32": 65536,
+        "64": 65536,
+        "128": 65536
+      },
+      "padded_expert_branch_rows": 131072
+    }
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-09-30T15:07:08.197573+00:00",
+  "production_sha256": "08dd08eb51b1602648d31f0694912466d5de4be48b36d3604465216f8f9089f9",
+  "production_matches_frozen_v12": true,
+  "production_changed_in_this_task": false,
+  "local_markdown_links_checked": 62,
+  "broken_links": [],
+  "complete_ac_score_formulas_checked": 186,
+  "cpu_contracts": {
+    "production_sha256": "08dd08eb51b1602648d31f0694912466d5de4be48b36d3604465216f8f9089f9",
+    "persistent_schedule_scenarios": 120,
+    "tile_visits_checked": 273840,
+    "valid_row_mappings_checked_across_scenarios": 3384912,
+    "fp32_scale_bit_comparisons": 40000,
+    "limitations": [
+      "CPU contracts only; no generated Triton, PTX, GPU timings or SQNR.",
+      "Scale test covers producer-order DSCL vs branch-order INV/INV_PAD/expert reconstruction; assumes identical FP32 operation order.",
+      "Does not prove FMA contraction, TMA ordering, compiler lowering or physical cache-key behavior.",
+      "Retains existing scale floor semantics, including its known tiny-input algebra boundary."
+    ]
+  },
+  "scripts_syntax_checked": [
+    "reports/refresh_strategy_evidence_20260930.py",
+    "reports/analyze_strategy_20260930.py",
+    "reports/prove_sprint_directions_20260930.py"
+  ],
+  "platform_delivery_snapshot": "reports/2026-09-30-sprint-delivery-platform-readonly.json",
+  "formal_submissions_in_this_task": 0,
+  "custom_submissions_in_this_task": 0,
+  "file_sha256": {
+    "README.md": "c82effdd4861a6c9473c11e819569ad6f94e101186474a8f48b35b2105f057a6",
+    "p1/README.md": "1e50c45133c9649f6186d1dbff89c58067a68c5ac75dbf67058141a36da99f6c",
+    "docs/STATE.md": "8118c6510aeb80eea7c7e331e513cbd851c5a1eab9602876f87f5e81e21d1fc1",
+    "docs/CODE_MAP.md": "059a4de1955feb20182ad2f11bbb8f3293e62a89dcbc4b049f2746f9d4752639",
+    "docs/SUBMISSION.md": "0e8618026623e355adc3c03749bd3f2c35824bf3b2b4b9a11ecc0dde9014f4a8",
+    "docs/OPTIMIZATION_GUIDE_FINAL_SPRINT_2026-09-30.md": "4b7f6e1d1fa4164e241ae638e3a7662153bd2b1d320ac54fe31169503922afa7",
+    "reports/refresh_strategy_evidence_20260930.py": "b12de2ef1d1e0186e8d2e21636b22f46e59b4959a63cfa3437a4567e4329a194",
+    "reports/analyze_strategy_20260930.py": "6848d9d358ab2904344ca9de9ec613aa0babcc8bdce57ca4c3e8114e4f7e97c8",
+    "reports/prove_sprint_directions_20260930.py": "fc1c3869a097fe525df09b62c92a9efa73fcb55747322e9785edbf4302c7ddf1"
+  },
+  "limitations": [
+    "R1/R2/R3 are direction hypotheses, not GPU-tested implementations.",
+    "No claim of stable timing-anomaly reproduction."
+  ]
+}

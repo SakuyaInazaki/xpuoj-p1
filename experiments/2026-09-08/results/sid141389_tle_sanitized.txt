@@ -1,0 +1,32 @@
+SID: 141389
+submitTime: 2026-09-08T14:43:05.000Z
+status: TimeLimitExceeded
+progressType: Finished
+compile.success: true
+compile.message: ""
+totalOccupiedTime: 416652
+
+Only returned testcase record:
+classification: progress.samples[0] (not progress.subtasks[0].testcases)
+testcaseHash: a9fb8709beb5fbb170d293623665a99e5261f0c7
+input: "1\n"
+output: "1\n"
+status: TimeLimitExceeded
+time: 416567619.227
+memory: 3740900
+testcaseInfo.inputFile: null
+testcaseInfo.outputFile: null
+testcaseInfo.timeLimit: 500000
+
+userError (complete; no omitted tail):
+Found NVSHMEM_HOME from Python nvidia-nvshmem-cu12: /opt/venvs/python3.10-torch/lib/python3.10/site-packages/nvidia/nvshmem
+[run-triton-dist] OJ_JUDGE_TASK_ID=<redacted> tc=1
+[run-triton-dist] per-rank logs: /opt/oj-cache/run-logs/20260908_144307_tc1_315483
+W0908 14:43:08.300000 315530 torch/distributed/run.py:851]
+W0908 14:43:08.300000 315530 torch/distributed/run.py:851] *****************************************
+W0908 14:43:08.300000 315530 torch/distributed/run.py:851] Setting OMP_NUM_THREADS environment variable for each process to be 1, by default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+W0908 14:43:08.300000 315530 torch/distributed/run.py:851] *****************************************
+[OK] oracle SQNR (bf16): SQNR=23.79 dB >= 22.0 dB
+[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)
+[OK] oracle SQNR (bf16): SQNR=23.12 dB >= 22.0 dB
+[DETERMINISM OK] outputs are bitwise identical (via python run_kernel)
