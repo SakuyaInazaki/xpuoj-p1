@@ -1,3 +1,4 @@
 [submodule "work/repo"]
 	path = work/repo
 	url = https://github.com/ByteDance-Seed/Triton-distributed.git
+	ignore = untracked
